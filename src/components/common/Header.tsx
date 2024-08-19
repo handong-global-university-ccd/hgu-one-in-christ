@@ -24,7 +24,7 @@ const Header = () => {
   const location = useLocation();
 
   return (
-    <header className="w-full h-16 flex items-center bg-primary-myBlack ">
+    <header className="w-full h-16 flex items-center border-b">
       <div className="w-full m-0 mx-auto flex items-center justify-between xl:max-w-myXl">
         <div>
           <Link to="/">
