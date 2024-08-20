@@ -8,7 +8,7 @@ export default {
       },
       colors: {
         primary: {
-          myBlack: "#000000",
+          myBlack: "#141414",
           myWhite: "#ffffff",
           myOrange: "#fd8424",
           myRed: "#df3933",
@@ -23,6 +23,7 @@ export default {
       },
       fontFamily: {
         Pretendard_Bold: ["Pretendard-Bold"],
+        Organetto_ExtBold: ["Organetto-ExtBold"],
       },
     },
   },
