@@ -17,3 +17,11 @@
       format("truetype");
   font-display: swap;
 }
+
+@font-face {
+  font-family: "Organetto-ExtBold";
+  src: url("/fonts/organetto-extbold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
