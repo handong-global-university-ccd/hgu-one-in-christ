@@ -4,7 +4,6 @@ interface Props extends React.ButtonHTMLAttributes<HTMLButtonElement> {
 }
 
 const Button = ({ children, focus }: Props) => {
-  console.log(focus);
   return (
     <button
       className={`border-solid border font-Pretendard_Bold active:border-white rounded text-white text-sm px-2.5 ${
