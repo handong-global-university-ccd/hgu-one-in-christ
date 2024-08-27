@@ -1,23 +1,24 @@
 import { Link, useLocation } from "react-router-dom";
 import logo from "../../assets/header/logo.png";
 import Button from "../header/Button";
+import { PATHS } from "../../constants/paths";
 
 const Header = () => {
   const button_list = [
     {
       id: 1,
       name: "ABOUT",
-      link: "/",
+      link: PATHS.HOME,
     },
     {
       id: 2,
       name: "WORKS",
-      link: "/works",
+      link: PATHS.WORKS,
     },
     {
       id: 3,
       name: "DESIGNERS",
-      link: "/designers",
+      link: PATHS.DESIGNERS,
     },
   ];
 
@@ -27,7 +28,7 @@ const Header = () => {
     <header className="w-full h-16 flex items-center border-b">
       <div className="w-full m-0 mx-auto flex items-center justify-between xl:max-w-Xl">
         <div>
-          <Link to="/">
+          <Link to={PATHS.HOME}>
             <img src={logo} alt="one in christ" className="w-logo" />
           </Link>
         </div>
