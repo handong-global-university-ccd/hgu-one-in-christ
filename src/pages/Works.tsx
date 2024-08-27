@@ -11,28 +11,28 @@ const Works = () => {
       name: "COMMUNICATION DESIGN",
       imgSrc: communication_icon,
       imgSize: "w-[35.27px] h-[30.23px]",
-      color: "text-primary-myOrange",
+      color: "text-primary-orange",
     },
     {
       id: 2,
       name: "SERVICE DESIGN",
       imgSrc: service_icon,
       imgSize: "w-[36.17px] h-[36.17px]",
-      color: "text-primary-myRed",
+      color: "text-primary-red",
     },
     {
       id: 3,
       name: "UXUI DESIGN",
       imgSrc: uxui_icon,
       imgSize: "w-[41.69px] h-[26.8px]",
-      color: "text-primary-myPurple",
+      color: "text-primary-purple",
     },
     {
       id: 4,
       name: "PRODUCT DESIGN",
       imgSrc: product_icon,
       imgSize: "w-[29px] h-[38px]",
-      color: "text-primary-myBlue",
+      color: "text-primary-blue",
     },
   ];
 

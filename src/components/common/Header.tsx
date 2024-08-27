@@ -25,7 +25,7 @@ const Header = () => {
 
   return (
     <header className="w-full h-16 flex items-center border-b">
-      <div className="w-full m-0 mx-auto flex items-center justify-between xl:max-w-myXl">
+      <div className="w-full m-0 mx-auto flex items-center justify-between xl:max-w-Xl">
         <div>
           <Link to="/">
             <img src={logo} alt="one in christ" className="w-logo" />
