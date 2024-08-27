@@ -3,9 +3,6 @@ export default {
   content: ["./src/**/*.{html,js,jsx,ts,tsx}", "./index.html"],
   theme: {
     extend: {
-      width: {
-        logo: "13.625rem",
-      },
       colors: {
         primary: {
           black: "#141414",

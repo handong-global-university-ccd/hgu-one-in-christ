@@ -29,7 +29,7 @@ const Header = () => {
       <div className="w-full m-0 mx-auto flex items-center justify-between xl:max-w-Xl">
         <div>
           <Link to={PATHS.HOME}>
-            <img src={logo} alt="one in christ" className="w-logo" />
+            <img src={logo} alt="one in christ" className="w-[13.625rem]" />
           </Link>
         </div>
         <div className="flex items-center gap-x-12">
