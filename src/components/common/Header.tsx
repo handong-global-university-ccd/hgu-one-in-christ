@@ -25,8 +25,8 @@ const Header = () => {
   const location = useLocation();
 
   return (
-    <header className="w-full h-16 flex items-center border-b">
-      <div className="w-full m-0 mx-auto flex items-center justify-between xl:max-w-Xl">
+    <header className="w-full h-16 flex justify-center items-center border-b">
+      <div className="w-full flex items-center justify-between xl:max-w-Xl">
         <div>
           <Link to={PATHS.HOME}>
             <img src={logo} alt="one in christ" className="w-[13.625rem]" />
