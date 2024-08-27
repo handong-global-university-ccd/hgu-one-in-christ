@@ -3,23 +3,20 @@ export default {
   content: ["./src/**/*.{html,js,jsx,ts,tsx}", "./index.html"],
   theme: {
     extend: {
-      width: {
-        logo: "13.625rem",
-      },
       colors: {
         primary: {
-          myBlack: "#141414",
-          myWhite: "#ffffff",
-          myOrange: "#fd8424",
-          myRed: "#df3933",
-          myPurple: "#8a5ce3",
-          myBlue: "#2e7ccb",
+          black: "#141414",
+          white: "#ffffff",
+          orange: "#fd8424",
+          red: "#df3933",
+          purple: "#8a5ce3",
+          blue: "#2e7ccb",
         },
       },
       maxWidth: {
-        myXl: "1240px",
-        myLg: "930px",
-        mySm: "320px",
+        Xl: "1240px",
+        Lg: "930px",
+        Sm: "320px",
       },
       fontFamily: {
         Pretendard_Bold: ["Pretendard-Bold"],

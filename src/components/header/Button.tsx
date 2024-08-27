@@ -7,7 +7,7 @@ const Button = ({ children, focus }: Props) => {
   return (
     <button
       className={`border-solid border font-Pretendard_Bold active:border-white rounded text-white text-sm px-2.5 ${
-        focus ? "border-white" : "border-primary-myBlack"
+        focus ? "border-white" : "border-primary-black"
       }`}
     >
       {children}

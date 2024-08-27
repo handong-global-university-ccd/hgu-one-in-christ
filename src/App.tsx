@@ -3,18 +3,19 @@ import Home from "./pages/Home";
 import Layout from "./components/layout/Layout";
 import Works from "./pages/Works";
 import Designers from "./pages/Designers";
+import { PATHS } from "./constants/paths";
 
 const routeList = [
   {
-    path: "/",
+    path: PATHS.HOME,
     element: <Home />,
   },
   {
-    path: "/works",
+    path: PATHS.WORKS,
     element: <Works />,
   },
   {
-    path: "/designers",
+    path: PATHS.DESIGNERS,
     element: <Designers />,
   },
 ];
