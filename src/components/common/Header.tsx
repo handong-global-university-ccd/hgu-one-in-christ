@@ -3,25 +3,25 @@ import logo from "../../assets/header/logo.png";
 import Button from "../header/Button";
 import { PATHS } from "../../constants/paths";
 
-const Header = () => {
-  const button_list = [
-    {
-      id: 1,
-      name: "ABOUT",
-      link: PATHS.HOME,
-    },
-    {
-      id: 2,
-      name: "WORKS",
-      link: PATHS.WORKS,
-    },
-    {
-      id: 3,
-      name: "DESIGNERS",
-      link: PATHS.DESIGNERS,
-    },
-  ];
+const button_list = [
+  {
+    id: 1,
+    name: "ABOUT",
+    link: PATHS.HOME,
+  },
+  {
+    id: 2,
+    name: "WORKS",
+    link: PATHS.WORKS,
+  },
+  {
+    id: 3,
+    name: "DESIGNERS",
+    link: PATHS.DESIGNERS,
+  },
+];
 
+const Header = () => {
   const location = useLocation();
 
   return (
