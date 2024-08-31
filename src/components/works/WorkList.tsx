@@ -10,7 +10,7 @@ const WorkList = ({ category }: Props) => {
   const works: Work[] = WORKS[category] || [];
 
   return (
-    <div className="w-full grid grid-cols-4 gap-0">
+    <div className="w-full grid grid-cols-4 gap-0 mt-[42px]">
       {works.map((item) => (
         <div
           className={`flex flex-col m-[0.5px] outline outline-1 outline-solid outline-primary-white
