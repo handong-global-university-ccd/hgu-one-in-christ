@@ -51,10 +51,12 @@ const Works = () => {
       <div className="w-full flex justify-between">
         {category_list.map((item) => (
           <WorksCategoryButton
+            key={item.id}
             categoryName={item.work}
             color={item.color}
             imgSrc={item.imgSrc}
             imgSize={item.imgSize}
+            category={category}
             setCategory={setCategory}
           />
         ))}
