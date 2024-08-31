@@ -17,3 +17,27 @@
   font-style: normal;
   font-display: swap;
 }
+
+@font-face {
+  font-family: "TT-Firs-Neue-Medium";
+  src: url("/fonts/tt_firs_neue_medium.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "TT-Firs-Neue-Regular";
+  src: url("/fonts/tt_firs_neue_regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "TT-Firs-Neue-light";
+  src: url("/fonts/tt_firs_neue_light.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}

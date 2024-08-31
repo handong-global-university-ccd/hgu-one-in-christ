@@ -21,6 +21,9 @@ export default {
       fontFamily: {
         Pretendard_Bold: ["Pretendard-Bold"],
         Organetto_ExtBold: ["Organetto-ExtBold"],
+        TT_Firs: ["TT-Firs-Neue-Medium"],
+        TT_Firs_Regular: ["TT-Firs-Neue-Regular"],
+        TT_Firs_Light: ["TT-Firs-Neue-light"],
       },
     },
   },
