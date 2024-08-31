@@ -1,3 +1,4 @@
+import React from "react";
 import { WORKS } from "../../constants/works";
 import { WorkCategory } from "../../models/category.model";
 import { Work } from "../../models/work.model";
@@ -11,17 +12,28 @@ const WorkList = ({ category }: Props) => {
 
   return (
     <div className="w-full grid grid-cols-4 gap-0 mt-[42px]">
-      {works.map((item) => (
+      {works.map((work) => (
         <div
-          className={`flex flex-col m-[0.5px] outline outline-1 outline-solid outline-primary-white
+          className={`m-[0.5px] outline outline-1 outline-solid outline-primary-white
 					`}
-          key={item.id}
+          key={work.id}
         >
-          <div className={`w-[288px] h-[216px]`}></div>
-          <p className="text-primary-white ">{item.title}</p>
-          {item.designer.map((item) => (
-            <p className="text-primary-white ">{item.name}</p>
-          ))}
+          <div className="flex flex-col items-center">
+            <div className={`w-[288px] h-[216px] my-[10px] bg-gray-600`}></div>
+            <div className={`w-[288px] mb-[29px]`}>
+              <p className="text-primary-white ">{work.title}</p>
+              <div className="flex">
+                {work.designer.map((item, index, designer) => (
+                  <React.Fragment key={index}>
+                    <p className="text-primary-white">{item.name}</p>
+                    {index !== designer.length - 1 && (
+                      <p className="text-primary-white whitespace-pre">, </p>
+                    )}
+                  </React.Fragment>
+                ))}
+              </div>
+            </div>
+          </div>
         </div>
       ))}
     </div>
