@@ -25,7 +25,7 @@ const Header = () => {
   const location = useLocation();
 
   return (
-    <header className="w-full h-16 flex justify-center items-center border-b">
+    <header className="sticky top-0 w-full h-16 flex justify-center items-center border-b backdrop-blur-sm">
       <div className="w-full flex items-center justify-between xl:max-w-Xl">
         <div>
           <Link to={PATHS.HOME}>

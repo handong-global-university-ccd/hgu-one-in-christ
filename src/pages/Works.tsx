@@ -47,19 +47,23 @@ const Works = () => {
 
   return (
     <div className="flex flex-col items-center">
-      <p className="text-white font-Organetto_ExtBold text-2xl py-9">WORKS</p>
-      <div className="w-full flex justify-between">
-        {category_list.map((item) => (
-          <WorksCategoryButton
-            key={item.id}
-            categoryName={item.work}
-            color={item.color}
-            imgSrc={item.imgSrc}
-            imgSize={item.imgSize}
-            category={category}
-            setCategory={setCategory}
-          />
-        ))}
+      <div
+        className={`sticky top-16 flex flex-col items-center backdrop-blur-sm`}
+      >
+        <p className="text-white font-Organetto_ExtBold text-2xl py-9">WORKS</p>
+        <div className="w-full flex justify-between">
+          {category_list.map((item) => (
+            <WorksCategoryButton
+              key={item.id}
+              categoryName={item.work}
+              color={item.color}
+              imgSrc={item.imgSrc}
+              imgSize={item.imgSize}
+              category={category}
+              setCategory={setCategory}
+            />
+          ))}
+        </div>
       </div>
       <WorkList category={category} />
     </div>
