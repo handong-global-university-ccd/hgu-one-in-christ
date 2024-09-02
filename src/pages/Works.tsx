@@ -6,6 +6,7 @@ import product_icon from "../assets/works/icons/product_icon.png";
 import { useState } from "react";
 import WorkList from "../components/works/WorkList";
 import { WorkCategory } from "../models/category.model";
+import PageInfo from "../components/common/PageInfo";
 
 const category_list = [
   {
@@ -50,7 +51,7 @@ const Works = () => {
       <div
         className={`sticky top-16 flex flex-col items-center backdrop-blur-sm`}
       >
-        <p className="text-white font-Organetto_ExtBold text-2xl py-9">WORKS</p>
+        <PageInfo>WORKS</PageInfo>
         <div className="w-full flex justify-between">
           {category_list.map((item) => (
             <WorksCategoryButton
