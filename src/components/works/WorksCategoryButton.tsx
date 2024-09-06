@@ -20,12 +20,12 @@ const WorksCategoryButton = ({
   return (
     <button
       className={
-        "w-[310px] h-[48px] relative flex items-center justify-center border-t overflow-hidden duration-300 transition-all group"
+        "w-[288px] h-[48px] relative flex items-center justify-center overflow-hidden duration-300 transition-all group"
       }
       onClick={() => setCategory(categoryName as WorkCategory)}
     >
       <div
-        className={`absolute w-[310px] h-[48px] flex justify-center items-center 
+        className={`absolute w-[288px] h-[48px] flex justify-center items-center 
 				bg-primary-white
 				font-Organetto_ExtBold text-[15px] ${color}
 				duration-300 transition-all transform ${
@@ -47,7 +47,7 @@ const WorksCategoryButton = ({
         </p>
       </div>
       <div
-        className={`absolute w-[310px] h-[48px] flex justify-center items-center duration-300 transition-all transform translate-y-0 ${
+        className={`absolute w-[288px] h-[48px] flex justify-center items-center duration-300 transition-all transform translate-y-0 ${
           category === categoryName
             ? "opacity-0 translate-y-full"
             : "opacity-100"
