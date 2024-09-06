@@ -11,10 +11,10 @@ const WorkList = ({ category }: Props) => {
   const works: Work[] = WORKS[category] || [];
 
   return (
-    <div className="w-full grid grid-cols-4 gap-0 mt-[42px]">
+    <div className="grid grid-cols-4 gap-[22px] mt-[42px]">
       {works.map((work) => (
         <div
-          className={`m-[0.5px] outline outline-1 outline-solid outline-primary-white group
+          className={`group
 					`}
           key={work.id}
         >
