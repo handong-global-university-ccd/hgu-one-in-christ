@@ -48,10 +48,10 @@ const Works = () => {
 
   return (
     <div className="flex flex-col items-center">
+      <PageInfo>WORKS</PageInfo>
       <div
         className={`sticky top-16 flex flex-col items-center backdrop-blur-sm`}
       >
-        <PageInfo>WORKS</PageInfo>
         <div className="w-full flex justify-between">
           {category_list.map((item) => (
             <WorksCategoryButton
