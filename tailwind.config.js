@@ -20,6 +20,7 @@ export default {
       },
       fontFamily: {
         Pretendard_Bold: ["Pretendard-Bold"],
+        Pretendard_Regular: ["Pretendard-Regular"],
         Organetto_ExtBold: ["Organetto-ExtBold"],
         TT_Firs: ["TT-Firs-Neue-Medium"],
         TT_Firs_Regular: ["TT-Firs-Neue-Regular"],
