@@ -1,9 +1,10 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { PATHS } from "./constants/paths";
 import Home from "./pages/Home";
 import Layout from "./components/layout/Layout";
 import Works from "./pages/Works";
 import Designers from "./pages/Designers";
-import { PATHS } from "./constants/paths";
+import Designer from "./pages/Designer";
 
 const routeList = [
   {
@@ -17,6 +18,10 @@ const routeList = [
   {
     path: PATHS.DESIGNERS,
     element: <Designers />,
+  },
+  {
+    path: PATHS.DESIGNER_DETAIL,
+    element: <Designer />,
   },
 ];
 
