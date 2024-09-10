@@ -6,9 +6,11 @@ interface Props extends React.ButtonHTMLAttributes<HTMLButtonElement> {
 const Button = ({ children, focus }: Props) => {
   return (
     <button
-      className={`border-solid border font-Pretendard_Bold active:border-white rounded text-white text-sm px-2.5 ${
-        focus ? "border-white" : "border-none"
-      }`}
+      className={`rounded font-Pretendard_Bold text-white text-sm px-2.5 
+				${focus && "pointer-events-none"}
+				hover:bg-primary-white hover:text-primary-black
+				${focus ? "text-primary-white" : "text-primary-white/40"}  
+				`}
     >
       {children}
     </button>
