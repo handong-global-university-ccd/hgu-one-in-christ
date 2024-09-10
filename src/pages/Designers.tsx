@@ -8,11 +8,7 @@ const Designers = () => {
       <PageInfo>DESIGNERS</PageInfo>
       <div className="w-full mt-16">
         {DESIGNERS.map((designer) => (
-          <Container
-            nameKo={designer.nameKo}
-            nameEng={designer.nameEng}
-            img={designer.img}
-          />
+          <Container designer={designer} />
         ))}
       </div>
     </div>

@@ -59,7 +59,7 @@ const WorkList = ({ category }: Props) => {
               <div className="flex">
                 {work.designer.map((item, index, designer) => (
                   <React.Fragment key={index}>
-                    <p className="text-primary-white">{item.name}</p>
+                    <p className="text-primary-white">{item.nameKo}</p>
                     {index !== designer.length - 1 && (
                       <p className="text-primary-white whitespace-pre">, </p>
                     )}
