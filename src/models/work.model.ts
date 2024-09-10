@@ -14,9 +14,11 @@ export interface Work {
   title: string;
   gridImg: string;
   mainImg: string;
+  pagination: number;
 }
 
 export interface DesignerWork {
-  category: Work[];
+  work: Work[];
+  category: string;
   worksId: number;
 }

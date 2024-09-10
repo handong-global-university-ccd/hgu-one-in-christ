@@ -6,8 +6,11 @@ export interface Designer {
   nameEng: string;
   studentId: number;
   img: string;
+  email: string;
   description: string;
   works: DesignerWork[];
 }
 
 export type DesignerWorksInfo = Pick<Designer, "nameKo" | "studentId">;
+
+export type DesingerDetailInfo = Omit<Designer, "studentId">;

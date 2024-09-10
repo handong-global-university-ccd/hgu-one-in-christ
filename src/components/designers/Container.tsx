@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom";
 import { PATHS } from "../../constants/paths";
-import { Designer } from "../../models/designer.model";
+import { DesingerDetailInfo } from "../../models/designer.model";
 
 interface Props {
-  designer: Omit<Designer, "studentId">;
+  designer: DesingerDetailInfo;
 }
 
 const Container = ({ designer }: Props) => {
