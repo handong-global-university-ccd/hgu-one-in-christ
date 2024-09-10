@@ -5,6 +5,7 @@ import Layout from "./components/layout/Layout";
 import Works from "./pages/Works";
 import Designers from "./pages/Designers";
 import Designer from "./pages/Designer";
+import Work from "./pages/Work";
 
 const routeList = [
   {
@@ -14,6 +15,10 @@ const routeList = [
   {
     path: PATHS.WORKS,
     element: <Works />,
+  },
+  {
+    path: PATHS.WORKS_DETAIL,
+    element: <Work />,
   },
   {
     path: PATHS.DESIGNERS,
