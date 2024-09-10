@@ -1,9 +1,11 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { PATHS } from "./constants/paths";
 import Home from "./pages/Home";
 import Layout from "./components/layout/Layout";
 import Works from "./pages/Works";
 import Designers from "./pages/Designers";
-import { PATHS } from "./constants/paths";
+import Designer from "./pages/Designer";
+import Work from "./pages/Work";
 
 const routeList = [
   {
@@ -15,8 +17,16 @@ const routeList = [
     element: <Works />,
   },
   {
+    path: PATHS.WORKS_DETAIL,
+    element: <Work />,
+  },
+  {
     path: PATHS.DESIGNERS,
     element: <Designers />,
+  },
+  {
+    path: PATHS.DESIGNER_DETAIL,
+    element: <Designer />,
   },
 ];
 

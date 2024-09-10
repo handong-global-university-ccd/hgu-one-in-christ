@@ -1,13 +1,16 @@
+import { Link } from "react-router-dom";
+import { PATHS } from "../../constants/paths";
+import { DesingerDetailInfo } from "../../models/designer.model";
+
 interface Props {
-  nameKo: string;
-  nameEng: string;
-  img: string;
+  designer: DesingerDetailInfo;
 }
 
-const Container = ({ nameKo, nameEng, img }: Props) => {
+const Container = ({ designer }: Props) => {
   return (
-    <div
-      className="h-[69px] border-b
+    <Link to={`${PATHS.DESIGNERS}/${designer.id}`}>
+      <div
+        className="h-[69px] border-b
 									flex items-center 
 								text-primary-white text-[18px] 
 									xl:px-6 xl:gap-[220px]
@@ -15,13 +18,14 @@ const Container = ({ nameKo, nameEng, img }: Props) => {
 									cursor-pointer
 									group
 									"
-    >
-      <p className="font-Pretendard_Regular">{nameKo}</p>
-      <p className="font-TT_Firs_Light">{nameEng}</p>
-      <div className="hidden w-[303px] h-[430px] group-hover:block absolute top-[393px] right-[400px] bg-primary-blue">
-        {nameKo}
+      >
+        <p className="font-Pretendard_Regular">{designer.nameKo}</p>
+        <p className="font-TT_Firs_Light">{designer.nameEng}</p>
+        <div className="hidden w-[303px] h-[430px] group-hover:block absolute top-[393px] right-[400px] bg-primary-blue">
+          {designer.nameKo}
+        </div>
       </div>
-    </div>
+    </Link>
   );
 };
 
