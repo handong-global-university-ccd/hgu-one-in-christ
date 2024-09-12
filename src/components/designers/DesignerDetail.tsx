@@ -20,7 +20,9 @@ const DesignerDetail = ({ designer }: Props) => {
       <p className={`font-Pretendard_Regular text-[17px] mb-[22px]`}>
         {designer?.email}
       </p>
-      <p className={`w-[569px] font-Pretendard_Regular text-[21px]`}>
+      <p
+        className={`w-[569px] leading-[37px] font-Pretendard_Regular text-[21px]`}
+      >
         {designer?.description}
       </p>
     </div>
