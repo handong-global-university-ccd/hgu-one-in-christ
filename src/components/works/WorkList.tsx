@@ -13,7 +13,7 @@ const WorkList = ({ category }: Props) => {
   const works: Work[] = WORKS[category] || [];
 
   return (
-    <div className="grid grid-cols-4 gap-[22px] mt-[42px]">
+    <div className="grid grid-cols-4 gap-[22px] mt-[42px] xl:mb-[206px]">
       {works.map((work) => (
         <Link to={`${PATHS.WORKS}/${work.pagination}`}>
           <div
