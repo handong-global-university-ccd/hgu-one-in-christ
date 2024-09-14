@@ -15,7 +15,7 @@ const WorkList = ({ category }: Props) => {
   return (
     <div className="grid grid-cols-4 gap-[22px] mt-[42px] xl:mb-[206px]">
       {works.map((work) => (
-        <Link to={`${PATHS.WORKS}/${work.pagination}`}>
+        <Link to={`${PATHS.WORKS}/${category}/${work.id}`}>
           <div
             className={`group
 						`}
@@ -30,10 +30,10 @@ const WorkList = ({ category }: Props) => {
                   category === "COMMUNICATION"
                     ? "border-primary-orange"
                     : category === "SERVICE"
-                    ? "border-primary-red"
-                    : category === "UXUI"
-                    ? "border-primary-purple"
-                    : "border-primary-blue"
+                      ? "border-primary-red"
+                      : category === "UXUI"
+                        ? "border-primary-purple"
+                        : "border-primary-blue"
                 }`}
               >
                 <div
@@ -42,10 +42,10 @@ const WorkList = ({ category }: Props) => {
                       category === "COMMUNICATION"
                         ? "bg-primary-orange"
                         : category === "SERVICE"
-                        ? "bg-primary-red"
-                        : category === "UXUI"
-                        ? "bg-primary-purple"
-                        : "bg-primary-blue"
+                          ? "bg-primary-red"
+                          : category === "UXUI"
+                            ? "bg-primary-purple"
+                            : "bg-primary-blue"
                     }`}
                 >
                   <p

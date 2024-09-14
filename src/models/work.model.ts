@@ -14,7 +14,6 @@ export interface Work {
   title: string;
   gridImg: string;
   mainImg: string;
-  pagination: number;
 }
 
 export interface DesignerWork {
