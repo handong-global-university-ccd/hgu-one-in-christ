@@ -25,6 +25,7 @@ export default {
         TT_Firs: ["TT-Firs-Neue-Medium"],
         TT_Firs_Regular: ["TT-Firs-Neue-Regular"],
         TT_Firs_Light: ["TT-Firs-Neue-light"],
+        Menda_Medium: ["Menda-Medium"],
       },
     },
   },

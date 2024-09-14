@@ -49,3 +49,11 @@
   font-style: normal;
   font-display: swap;
 }
+
+@font-face {
+  font-family: "Menda-Medium";
+  src: url("/fonts/menda-medium.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
