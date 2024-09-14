@@ -10,7 +10,6 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       title: "하마hamma",
       gridImg: "",
       mainImg: "",
-      pagination: 1,
     },
     {
       id: 2,
@@ -19,7 +18,6 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       title: "To:Gather",
       gridImg: "",
       mainImg: "",
-      pagination: 2,
     },
     {
       id: 3,
@@ -28,7 +26,6 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       title: "",
       gridImg: "",
       mainImg: "",
-      pagination: 3,
     },
     {
       id: 4,
@@ -37,7 +34,6 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       title: "",
       gridImg: "",
       mainImg: "",
-      pagination: 4,
     },
     {
       id: 5,
@@ -46,7 +42,6 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       title: "",
       gridImg: "",
       mainImg: "",
-      pagination: 5,
     },
     {
       id: 6,
@@ -55,7 +50,6 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       title: "",
       gridImg: "",
       mainImg: "",
-      pagination: 6,
     },
     {
       id: 7,
@@ -64,7 +58,6 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       title: "",
       gridImg: "",
       mainImg: "",
-      pagination: 7,
     },
     {
       id: 8,
@@ -73,7 +66,6 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       title: "",
       gridImg: "",
       mainImg: "",
-      pagination: 8,
     },
     {
       id: 9,
@@ -82,7 +74,6 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       title: "",
       gridImg: "",
       mainImg: "",
-      pagination: 9,
     },
     {
       id: 10,
@@ -91,7 +82,6 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       title: "",
       gridImg: "",
       mainImg: "",
-      pagination: 10,
     },
     {
       id: 11,
@@ -100,7 +90,6 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       title: "",
       gridImg: "",
       mainImg: "",
-      pagination: 11,
     },
     {
       id: 12,
@@ -109,7 +98,6 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       title: "",
       gridImg: "",
       mainImg: "",
-      pagination: 12,
     },
     {
       id: 13,
@@ -118,7 +106,6 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       title: "",
       gridImg: "",
       mainImg: "",
-      pagination: 13,
     },
     {
       id: 14,
@@ -127,7 +114,6 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       title: "",
       gridImg: "",
       mainImg: "",
-      pagination: 14,
     },
     {
       id: 15,
@@ -136,7 +122,6 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       title: "",
       gridImg: "",
       mainImg: "",
-      pagination: 15,
     },
     {
       id: 16,
@@ -145,7 +130,6 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       title: "",
       gridImg: "",
       mainImg: "",
-      pagination: 16,
     },
     {
       id: 17,
@@ -154,7 +138,6 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       title: "",
       gridImg: "",
       mainImg: "",
-      pagination: 17,
     },
     {
       id: 18,
@@ -163,7 +146,6 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       title: "",
       gridImg: "",
       mainImg: "",
-      pagination: 18,
     },
     {
       id: 19,
@@ -172,7 +154,6 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       title: "",
       gridImg: "",
       mainImg: "",
-      pagination: 19,
     },
     {
       id: 20,
@@ -181,7 +162,6 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       title: "",
       gridImg: "",
       mainImg: "",
-      pagination: 20,
     },
     {
       id: 21,
@@ -190,7 +170,6 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       title: "",
       gridImg: "",
       mainImg: "",
-      pagination: 21,
     },
     {
       id: 22,
@@ -199,7 +178,6 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       title: "",
       gridImg: "",
       mainImg: "",
-      pagination: 22,
     },
     {
       id: 23,
@@ -208,7 +186,6 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       title: "",
       gridImg: "",
       mainImg: "",
-      pagination: 23,
     },
     {
       id: 24,
@@ -217,7 +194,6 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       title: "",
       gridImg: "",
       mainImg: "",
-      pagination: 24,
     },
     {
       id: 25,
@@ -226,7 +202,6 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       title: "",
       gridImg: "",
       mainImg: "",
-      pagination: 25,
     },
     {
       id: 26,
@@ -235,7 +210,6 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       title: "",
       gridImg: "",
       mainImg: "",
-      pagination: 26,
     },
     {
       id: 27,
@@ -244,7 +218,6 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       title: "",
       gridImg: "",
       mainImg: "",
-      pagination: 27,
     },
     {
       id: 28,
@@ -253,7 +226,6 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       title: "",
       gridImg: "",
       mainImg: "",
-      pagination: 28,
     },
     {
       id: 29,
@@ -262,7 +234,6 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       title: "",
       gridImg: "",
       mainImg: "",
-      pagination: 29,
     },
     {
       id: 30,
@@ -271,7 +242,6 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       title: "",
       gridImg: "",
       mainImg: "",
-      pagination: 30,
     },
     {
       id: 31,
@@ -280,7 +250,6 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       title: "",
       gridImg: "",
       mainImg: "",
-      pagination: 31,
     },
     {
       id: 32,
@@ -289,7 +258,6 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       title: "",
       gridImg: "",
       mainImg: "",
-      pagination: 32,
     },
     {
       id: 33,
@@ -298,7 +266,6 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       title: "",
       gridImg: "",
       mainImg: "",
-      pagination: 33,
     },
     {
       id: 34,
@@ -307,7 +274,6 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       title: "",
       gridImg: "",
       mainImg: "",
-      pagination: 34,
     },
     {
       id: 35,
@@ -316,7 +282,6 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       title: "",
       gridImg: "",
       mainImg: "",
-      pagination: 35,
     },
     {
       id: 36,
@@ -325,7 +290,6 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       title: "",
       gridImg: "",
       mainImg: "",
-      pagination: 36,
     },
     {
       id: 37,
@@ -334,7 +298,6 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       title: "",
       gridImg: "",
       mainImg: "",
-      pagination: 37,
     },
     {
       id: 38,
@@ -343,7 +306,6 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       title: "",
       gridImg: "",
       mainImg: "",
-      pagination: 38,
     },
     {
       id: 39,
@@ -352,7 +314,6 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       title: "",
       gridImg: "",
       mainImg: "",
-      pagination: 39,
     },
     {
       id: 40,
@@ -361,7 +322,6 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       title: "",
       gridImg: "",
       mainImg: "",
-      pagination: 40,
     },
     {
       id: 41,
@@ -370,7 +330,6 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       title: "",
       gridImg: "",
       mainImg: "",
-      pagination: 41,
     },
     {
       id: 42,
@@ -379,7 +338,6 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       title: "",
       gridImg: "",
       mainImg: "",
-      pagination: 42,
     },
   ],
   SERVICE: [
@@ -395,7 +353,6 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       title: "예시 타이틀1",
       gridImg: "",
       mainImg: "",
-      pagination: 43,
     },
     {
       id: 2,
@@ -409,7 +366,6 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       title: "예시 타이틀2",
       gridImg: "",
       mainImg: "",
-      pagination: 44,
     },
     {
       id: 3,
@@ -423,7 +379,6 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       title: "",
       gridImg: "",
       mainImg: "",
-      pagination: 45,
     },
     {
       id: 4,
@@ -437,7 +392,6 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       title: "",
       gridImg: "",
       mainImg: "",
-      pagination: 46,
     },
     {
       id: 5,
@@ -450,7 +404,6 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       title: "",
       gridImg: "",
       mainImg: "",
-      pagination: 47,
     },
     {
       id: 6,
@@ -464,7 +417,6 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       title: "",
       gridImg: "",
       mainImg: "",
-      pagination: 48,
     },
     {
       id: 7,
@@ -478,7 +430,6 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       title: "",
       gridImg: "",
       mainImg: "",
-      pagination: 49,
     },
     {
       id: 8,
@@ -492,7 +443,6 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       title: "",
       gridImg: "",
       mainImg: "",
-      pagination: 50,
     },
     {
       id: 9,
@@ -505,7 +455,6 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       title: "",
       gridImg: "",
       mainImg: "",
-      pagination: 51,
     },
     {
       id: 10,
@@ -519,7 +468,6 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       title: "",
       gridImg: "",
       mainImg: "",
-      pagination: 52,
     },
     {
       id: 11,
@@ -533,7 +481,6 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       title: "",
       gridImg: "",
       mainImg: "",
-      pagination: 53,
     },
   ],
   UXUI: [
@@ -549,7 +496,6 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       title: "예시 타이틀1",
       gridImg: "",
       mainImg: "",
-      pagination: 54,
     },
     {
       id: 2,
@@ -563,7 +509,6 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       title: "예시 타이틀2",
       gridImg: "",
       mainImg: "",
-      pagination: 55,
     },
     {
       id: 3,
@@ -577,7 +522,6 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       title: "",
       gridImg: "",
       mainImg: "",
-      pagination: 56,
     },
     {
       id: 4,
@@ -592,7 +536,6 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       title: "",
       gridImg: "",
       mainImg: "",
-      pagination: 57,
     },
     {
       id: 5,
@@ -606,7 +549,6 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       title: "",
       gridImg: "",
       mainImg: "",
-      pagination: 58,
     },
   ],
   PRODUCT: [
@@ -617,7 +559,6 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       title: "예시 타이틀1",
       gridImg: "",
       mainImg: "",
-      pagination: 59,
     },
     {
       id: 2,
@@ -626,7 +567,6 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       title: "예시 타이틀2",
       gridImg: "",
       mainImg: "",
-      pagination: 60,
     },
     {
       id: 3,
@@ -635,7 +575,6 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       title: "",
       gridImg: "",
       mainImg: "",
-      pagination: 61,
     },
     {
       id: 4,
@@ -644,7 +583,6 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       title: "",
       gridImg: "",
       mainImg: "",
-      pagination: 62,
     },
     {
       id: 5,
@@ -653,7 +591,6 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       title: "",
       gridImg: "",
       mainImg: "",
-      pagination: 63,
     },
     {
       id: 6,
@@ -662,7 +599,6 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       title: "",
       gridImg: "",
       mainImg: "",
-      pagination: 64,
     },
   ],
 };
