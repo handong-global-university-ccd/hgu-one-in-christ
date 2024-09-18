@@ -1,12 +1,12 @@
 const Footer = () => {
   return (
     <div
-      className={`w-full border-t flex justify-center items-center xl:h-[172px]`}
+      className={`w-full border-t flex justify-center items-center lg:h-[172px]`}
     >
       <div
         className={`w-full flex justify-between 
 				text-primary-white text-[20px]
-				xl:max-w-Xl`}
+			lg:max-w-lg`}
       >
         <div className={`flex flex-col font-Pretendard_Bold`}>
           <p>한동대학교 콘텐츠융합디자인학부</p>

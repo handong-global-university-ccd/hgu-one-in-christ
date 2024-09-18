@@ -13,7 +13,7 @@ const Container = ({ designer }: Props) => {
         className="h-[69px] border-b
 									flex items-center 
 								text-primary-white text-[18px] 
-									xl:px-6 xl:gap-[220px]
+								lg:px-6 lg:gap-[220px]
 								hover:bg-primary-white hover:text-primary-black
 									cursor-pointer
 									group
