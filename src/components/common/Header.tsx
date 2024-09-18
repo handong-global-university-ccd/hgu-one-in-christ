@@ -26,10 +26,10 @@ const Header = () => {
 
   return (
     <header className="sticky top-0 w-full h-16 flex justify-center items-center border-b backdrop-blur-sm">
-      <div className="w-full flex items-center justify-between xl:max-w-Xl">
+      <div className="w-full flex items-center justify-between lg:max-w-lg sm: ">
         <div>
           <Link to={PATHS.HOME}>
-            <img src={logo} alt="one in christ" className="w-[13.625rem]" />
+            <img src={logo} alt="one in christ" className="lg:w-[13.625rem]" />
           </Link>
         </div>
         <div className="flex items-center gap-x-12">

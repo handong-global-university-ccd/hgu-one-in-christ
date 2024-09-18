@@ -13,10 +13,13 @@ export default {
           blue: "#2e7ccb",
         },
       },
+      screens: {
+        sm: { min: "390px", max: "819px" },
+        md: { min: "820px", max: "1023px" },
+        lg: { min: "1080px" },
+      },
       maxWidth: {
-        Xl: "1240px",
-        Lg: "930px",
-        Sm: "320px",
+        lg: "1240px",
       },
       fontFamily: {
         Pretendard_Bold: ["Pretendard-Bold"],
