@@ -13,7 +13,11 @@ const DesignerWorks = ({ designer }: Props) => {
 		border-l`}
     >
       {designer?.works.map((work, index) => (
-        <Link to={`${PATHS.WORKS}/${work.work[work.worksId - 1].pagination}`}>
+        <Link
+          to={`${PATHS.WORKS}/${work.category}/${
+            work.work[work.worksId - 1].id
+          }`}
+        >
           <div
             key={index}
             className={`w-[468px] h-[351px] 
@@ -22,10 +26,10 @@ const DesignerWorks = ({ designer }: Props) => {
                 work.category === "COMMUNICATION"
                   ? "border-primary-orange"
                   : work.category === "SERVICE"
-                  ? "border-primary-red"
-                  : work.category === "UXUI"
-                  ? "border-primary-purple"
-                  : "border-primary-blue"
+                    ? "border-primary-red"
+                    : work.category === "UXUI"
+                      ? "border-primary-purple"
+                      : "border-primary-blue"
               } group`}
           >
             <div
@@ -34,10 +38,10 @@ const DesignerWorks = ({ designer }: Props) => {
                         work.category === "COMMUNICATION"
                           ? "bg-primary-orange"
                           : work.category === "SERVICE"
-                          ? "bg-primary-red"
-                          : work.category === "UXUI"
-                          ? "bg-primary-purple"
-                          : "bg-primary-blue"
+                            ? "bg-primary-red"
+                            : work.category === "UXUI"
+                              ? "bg-primary-purple"
+                              : "bg-primary-blue"
                       }`}
             >
               <p
