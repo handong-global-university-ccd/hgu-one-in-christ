@@ -3,6 +3,9 @@ import logo from "../../assets/header/logo.png";
 import Button from "../header/Button";
 import { PATHS } from "../../constants/paths";
 import hamburger from "../../assets/header/hamburger.png";
+import close from "../../assets/header/closeIcon.png";
+import { useState } from "react";
+import NavButtonMobile from "../header/NavButtonMobile";
 
 const button_list = [
   {
@@ -24,11 +27,22 @@ const button_list = [
 
 const Header = () => {
   const location = useLocation();
+  const [toggleOpen, setToggleOpen] = useState(false);
+
+  const handleToggle = () => {
+    setToggleOpen(!toggleOpen);
+  };
+
+  console.log(toggleOpen);
 
   return (
-    <header className="sticky top-0 w-full h-16 flex justify-center items-center border-b backdrop-blur-sm">
-      <div className="w-full flex items-center justify-between lg:max-w-lg md:w-[90%] sm:w-[90%]">
-        <div>
+    <>
+      <header
+        className={`z-[100] fixed top-0 w-full h-16 flex justify-center items-center ${
+          toggleOpen ? "" : "md:border-b sm:border-b"
+        } lg:backdrop-blur-sm`}
+      >
+        <div className="w-full flex items-center justify-between lg:max-w-lg md:w-[90%] sm:w-[90%]">
           <Link to={PATHS.HOME}>
             <img
               src={logo}
@@ -36,21 +50,44 @@ const Header = () => {
               className="w-[13.625rem] sm:w-[157px]"
             />
           </Link>
+          <div className="md:hidden sm:hidden flex items-center gap-x-12">
+            {button_list.map((item) => (
+              <Link key={item.id} to={item.link}>
+                <Button focus={location.pathname === item.link}>
+                  {item.name}
+                </Button>
+              </Link>
+            ))}
+          </div>
+          <div className="lg:hidden">
+            {toggleOpen ? (
+              <img src={close} className={`w-[16px]`} onClick={handleToggle} />
+            ) : (
+              <img
+                src={hamburger}
+                className={`w-[21px]`}
+                onClick={handleToggle}
+              />
+            )}
+          </div>
         </div>
-        <div className="md:hidden sm:hidden flex items-center gap-x-12">
+      </header>
+      {toggleOpen && (
+        <div
+          className={`lg:hidden fixed z-[100] w-full top-16 bg-primary-black border-b pb-2.5`}
+        >
           {button_list.map((item) => (
-            <Link key={item.id} to={item.link}>
-              <Button focus={location.pathname === item.link}>
-                {item.name}
-              </Button>
-            </Link>
+            <div>
+              <Link key={item.id} to={item.link}>
+                <NavButtonMobile focus={location.pathname === item.link}>
+                  {item.name}
+                </NavButtonMobile>
+              </Link>
+            </div>
           ))}
         </div>
-        <div className="lg:hidden">
-          <img src={hamburger} className={`w-[21px]`} />
-        </div>
-      </div>
-    </header>
+      )}
+    </>
   );
 };
 
