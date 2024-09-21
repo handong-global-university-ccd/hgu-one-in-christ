@@ -13,9 +13,9 @@ const WorkList = ({ category }: Props) => {
   const works: Work[] = WORKS[category] || [];
 
   return (
-    <div className="grid grid-cols-4 gap-[22px] mt-[267px] lg:mb-[206px]">
-      {works.map((work) => (
-        <Link to={`${PATHS.WORKS}/${category}/${work.id}`}>
+    <div className="grid grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-[22px] mt-[20px] lg:mt-[267px] lg:mb-[206px]">
+      {works.map((work, index) => (
+        <Link key={index} to={`${PATHS.WORKS}/${category}/${work.id}`}>
           <div
             className={`group
 						`}
