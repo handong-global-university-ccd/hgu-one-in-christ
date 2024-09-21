@@ -4,9 +4,17 @@ interface Props {
 
 const PageInfo = ({ children }: Props) => {
   return (
-    <p className="w-screen h-[99px] text-center text-primary-black bg-primary-white font-Organetto_ExtBold text-2xl py-9 sticky top-16">
-      {children}
-    </p>
+    <div
+      className={`flex justify-center items-center
+		w-screen h-[99px] py-9 sticky top-16 bg-primary-white 
+		sm:w-[90%] sm:h-[63px] sm:mt-[19px] sm:relative`}
+    >
+      <p
+        className={`text-center text-primary-black font-Organetto_ExtBold text-2xl sm:text-[15px]`}
+      >
+        {children}
+      </p>
+    </div>
   );
 };
 
