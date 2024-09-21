@@ -74,7 +74,7 @@ const Header = () => {
       </header>
       {toggleOpen && (
         <div
-          className={`lg:hidden fixed z-[100] w-full top-16 bg-primary-black border-b pb-2.5 animate-fadeindown`}
+          className={`lg:hidden fixed z-[100] w-full top-16 bg-primary-black border-b pb-2.5`}
         >
           {button_list.map((item) => (
             <div>

@@ -49,7 +49,7 @@ const Works = () => {
   return (
     <div className="flex flex-col items-center">
       <PageInfo>WORKS</PageInfo>
-      <div className={`sticky top-[177px] flex flex-col items-center`}>
+      <div className={`fixed top-[177px] flex items-center`}>
         <div className="flex justify-between gap-[22px]">
           {category_list.map((item) => (
             <WorksCategoryButton
