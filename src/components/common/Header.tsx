@@ -74,11 +74,11 @@ const Header = () => {
       </header>
       {toggleOpen && (
         <div
-          className={`lg:hidden fixed z-[100] w-full top-16 bg-primary-black border-b pb-2.5`}
+          className={`lg:hidden fixed z-[100] w-full top-16 bg-primary-black border-b pb-2.5 animate-fadeindown`}
         >
           {button_list.map((item) => (
             <div>
-              <Link key={item.id} to={item.link}>
+              <Link key={item.id} to={item.link} onClick={handleToggle}>
                 <NavButtonMobile focus={location.pathname === item.link}>
                   {item.name}
                 </NavButtonMobile>
