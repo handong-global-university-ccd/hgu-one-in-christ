@@ -15,7 +15,7 @@ const Work = () => {
   return (
     <div className={`w-full flex flex-col items-center`}>
       <PageInfo>WORKS</PageInfo>
-      <div className={`w-full flex justify-between mt-[118px] mb-[191px]`}>
+      <div className={`w-full flex justify-between mt-[281px] mb-[191px]`}>
         <WorkDesigner work={work} />
         <WorkContents category={category} work={work} />
       </div>
