@@ -6,7 +6,7 @@ const Designers = () => {
   return (
     <div className={`flex flex-col items-center`}>
       <PageInfo>DESIGNERS</PageInfo>
-      <div className="w-full mt-16 lg:mb-[206px]">
+      <div className="w-full mt-[227px] lg:mb-[206px]">
         {DESIGNERS.map((designer) => (
           <Container designer={designer} />
         ))}
