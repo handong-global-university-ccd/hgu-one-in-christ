@@ -8,9 +8,9 @@ interface Props {
 
 const WorkContents = ({ category, work }: Props) => {
   return (
-    <div className={`flex flex-col text-primary-white`}>
+    <div className={`flex flex-col text-primary-white justify-between`}>
       <p
-        className={`font-Menda_Medium text-[22px] mb-[40px] ${
+        className={`font-Menda_Medium text-[22px] ${
           category === "COMMUNICATION"
             ? "text-primary-orange"
             : category === "SERVICE"
@@ -20,19 +20,21 @@ const WorkContents = ({ category, work }: Props) => {
                 : "text-primary-blue"
         }`}
       >{`${category} DESIGN`}</p>
-      <p className={`font-Pretendard_Bold text-[33px] mb-[14px]`}>
-        {work?.title}
-      </p>
-      <p className={`w-[687px] font-Pretendard_Regular text-[17px]`}>
-        작품을 소개하는 글을 적어주세요. 작품을 소개하는 글을 적어주세요. 작품을
-        소개하는 글을 적어주세요. 작품을 소개하는 글을 적어주세요. 작품을
-        소개하는 글을 적어주세요. 작품을 소개하는 글을 적어주세요. 작품을
-        소개하는 글을 적어주세요. 작품을 소개하는 글을 적어주세요. 작품을
-        소개하는 글을 적어주세요. 작품을 소개하는 글을 적어주세요. 작품을
-        소개하는 글을 적어주세요. 작품을 소개하는 글을 적어주세요. 작품을
-        소개하는 글을 적어주세요. 작품을 소개하는 글을 적어주세요. 작품을
-        소개하는 글을 적어주세요. (공백포함 284글자)
-      </p>
+      <div>
+        <p className={`font-Pretendard_Bold text-[33px] mb-[14px]`}>
+          {work?.title}
+        </p>
+        <p className={`w-[687px] font-Pretendard_Regular text-[17px]`}>
+          작품을 소개하는 글을 적어주세요. 작품을 소개하는 글을 적어주세요.
+          작품을 소개하는 글을 적어주세요. 작품을 소개하는 글을 적어주세요.
+          작품을 소개하는 글을 적어주세요. 작품을 소개하는 글을 적어주세요.
+          작품을 소개하는 글을 적어주세요. 작품을 소개하는 글을 적어주세요.
+          작품을 소개하는 글을 적어주세요. 작품을 소개하는 글을 적어주세요.
+          작품을 소개하는 글을 적어주세요. 작품을 소개하는 글을 적어주세요.
+          작품을 소개하는 글을 적어주세요. 작품을 소개하는 글을 적어주세요.
+          작품을 소개하는 글을 적어주세요. (공백포함 284글자)
+        </p>
+      </div>
     </div>
   );
 };
