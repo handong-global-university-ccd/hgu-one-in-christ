@@ -22,40 +22,44 @@ const WorkList = ({ category }: Props) => {
 						`}
             key={work.id}
           >
-            <div className="flex flex-col items-center">
-              <img
-                src={gridtest1}
-                className={`w-[288px] h-auto
-								sm:w-full my-[10px]
-								group-hover:border ${
-                  category === "COMMUNICATION"
-                    ? "border-primary-orange"
-                    : category === "SERVICE"
-                      ? "border-primary-red"
-                      : category === "UXUI"
-                        ? "border-primary-purple"
-                        : "border-primary-blue"
-                }`}
-                alt={`${work.title}`}
-              />
-              <div className={`flex justify-center items-center`}>
+            <div className="flex flex-col">
+              <div className={`relative`}>
+                <img
+                  src={gridtest1}
+                  className={`w-[288px] h-auto
+									sm:w-full my-[10px]
+									group-hover:border ${
+                    category === "COMMUNICATION"
+                      ? "border-primary-orange"
+                      : category === "SERVICE"
+                        ? "border-primary-red"
+                        : category === "UXUI"
+                          ? "border-primary-purple"
+                          : "border-primary-blue"
+                  }`}
+                  alt={`${work.title}`}
+                />
                 <div
-                  className={`hidden lg:w-[201px] lg:h-[24px] lg:group-hover:flex justify-center items-center 
-											${
-                        category === "COMMUNICATION"
-                          ? "bg-primary-orange"
-                          : category === "SERVICE"
-                            ? "bg-primary-red"
-                            : category === "UXUI"
-                              ? "bg-primary-purple"
-                              : "bg-primary-blue"
-                      }`}
+                  className={`absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex justify-center items-center`}
                 >
-                  <p
-                    className={`text-primary-white text-center font-Pretendard_Bold text-[12px]`}
+                  <div
+                    className={`hidden lg:w-[201px] lg:h-[24px] lg:group-hover:flex justify-center items-center 
+												${
+                          category === "COMMUNICATION"
+                            ? "bg-primary-orange"
+                            : category === "SERVICE"
+                              ? "bg-primary-red"
+                              : category === "UXUI"
+                                ? "bg-primary-purple"
+                                : "bg-primary-blue"
+                        }`}
                   >
-                    예시문구
-                  </p>
+                    <p
+                      className={` text-primary-white text-center font-Pretendard_Bold text-[12px]`}
+                    >
+                      예시문구
+                    </p>
+                  </div>
                 </div>
               </div>
 
