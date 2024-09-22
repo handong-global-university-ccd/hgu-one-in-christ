@@ -19,7 +19,27 @@ const WorkDesigner = ({ work }: Props) => {
           </div>
         </div>
       ) : (
-        <></>
+        <div
+          className={`flex flex-col gap-[20px] font-Pretendard_Bold text-primary-white`}
+        >
+          <div className={`w-[411px] h-[227px] border`} />
+          <div className={`flex gap-[27px] items-baseline`}>
+            <p className={`text-[28px]`}>{work?.teamName}</p>
+            {/* TODO: team name 하드코딩 */}
+            <p className={`text-19px]`}>team name</p>
+          </div>
+          <div className={`grid grid-cols-2`}>
+            {work?.designer.map((item) => (
+              <div className={`flex gap-[19px]`}>
+                <p className={`text-[19px]`}>{item.nameKo}</p>
+                {/* TODO: email 하드코딩 */}
+                <p className={`text-[15px] font-Pretendard_Regular`}>
+                  email.com
+                </p>
+              </div>
+            ))}
+          </div>
+        </div>
       )}
     </>
   );
