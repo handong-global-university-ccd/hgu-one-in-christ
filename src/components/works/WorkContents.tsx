@@ -8,9 +8,11 @@ interface Props {
 
 const WorkContents = ({ category, work }: Props) => {
   return (
-    <div className={`flex flex-col text-primary-white justify-between`}>
+    <div
+      className={`w-[687px] md:w-[50%] sm:w-full flex flex-col text-primary-white lg:justify-between md:gap-[40px] sm:gap-[6px]`}
+    >
       <p
-        className={`font-Menda_Medium text-[22px] ${
+        className={`font-Menda_Medium sm:text-[12px] md:text-[19px] text-[22px] ${
           category === "COMMUNICATION"
             ? "text-primary-orange"
             : category === "SERVICE"
@@ -20,11 +22,16 @@ const WorkContents = ({ category, work }: Props) => {
                 : "text-primary-blue"
         }`}
       >{`${category} DESIGN`}</p>
+
       <div>
-        <p className={`font-Pretendard_Bold text-[33px] mb-[14px]`}>
+        <p
+          className={`font-Pretendard_Bold sm:text-[22px] md:text-[27px] text-[33px] mb-[14px]`}
+        >
           {work?.title}
         </p>
-        <p className={`w-[687px] font-Pretendard_Regular text-[17px]`}>
+        <p
+          className={`font-Pretendard_Regular sm:text-[12px] md:text-[14px] text-[17px]`}
+        >
           작품을 소개하는 글을 적어주세요. 작품을 소개하는 글을 적어주세요.
           작품을 소개하는 글을 적어주세요. 작품을 소개하는 글을 적어주세요.
           작품을 소개하는 글을 적어주세요. 작품을 소개하는 글을 적어주세요.
