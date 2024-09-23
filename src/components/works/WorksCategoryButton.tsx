@@ -121,7 +121,7 @@ const WorksCategoryButton = ({ category, setCategory }: Props) => {
 
       {/* md, sm 태블릿 모바일 뷰 카테고리 메뉴 */}
       <div
-        className={`lg:hidden sm:mt-[102px] md:mt-[190px] w-[90%] flex justify-between`}
+        className={`lg:hidden sm:mt-[166px] md:mt-[190px] w-[90%] flex justify-between`}
       >
         <img
           src={prevIcon}
