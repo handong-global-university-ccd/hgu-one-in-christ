@@ -68,7 +68,7 @@ const WorksCategoryButton = ({ category, setCategory }: Props) => {
     <>
       {/* lg 데스크탑 뷰 카테고리 메뉴 */}
       <div
-        className={`md:hidden sm:hidden fixed top-[177px] flex items-center`}
+        className={`md:hidden sm:hidden fixed z-50 top-[177px] flex items-center`}
       >
         <div className={`flex justify-between gap-[22px]`}>
           {category_list.map((item) => (
