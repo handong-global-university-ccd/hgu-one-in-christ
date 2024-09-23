@@ -40,7 +40,7 @@ const Header = () => {
       <header
         className={`z-[100] fixed top-0 w-full h-16 flex justify-center items-center ${
           toggleOpen ? "" : "md:border-b sm:border-b"
-        } lg:backdrop-blur-sm`}
+        } lg:backdrop-blur-sm md:bg-primary-black sm:bg-primary-black`}
       >
         <div className="w-full flex items-center justify-between lg:max-w-lg md:w-[90%] sm:w-[90%]">
           <Link to={PATHS.HOME}>
