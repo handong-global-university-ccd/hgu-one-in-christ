@@ -6,7 +6,7 @@ const PageInfo = ({ children }: Props) => {
   return (
     <div
       className={`flex justify-center items-center
-		w-screen h-[99px] lg:fixed md:fixed z-50 top-16 bg-primary-white 
+		w-screen h-[99px] lg:fixed md:absolute sm:absolute z-50 top-16 bg-primary-white 
 		sm:w-[90%] sm:h-[63px] sm:mt-[19px]`}
     >
       <p
