@@ -64,7 +64,7 @@ const WorkList = ({ category }: Props) => {
               </div>
 
               <div
-                className={`w-[288px] mb-[29px] sm:w-full sm:mb-[20px] font-TT_Firs_Light text-[15px]`}
+                className={`w-[288px] mb-[29px] sm:w-full sm:mb-[20px] font-TT_Firs_Light text-[15px] sm:text-[11px]`}
               >
                 <p className="text-primary-white">{work.title}</p>
                 <div className="flex">
