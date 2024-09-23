@@ -28,7 +28,7 @@ const WorkList = ({ category }: Props) => {
                   src={gridtest1}
                   className={`w-[288px] h-auto
 									sm:w-full my-[10px]
-									group-hover:border ${
+									lg:group-hover:border ${
                     category === "COMMUNICATION"
                       ? "border-primary-orange"
                       : category === "SERVICE"
