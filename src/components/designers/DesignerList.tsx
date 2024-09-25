@@ -6,7 +6,7 @@ interface Props {
   designer: DesingerDetailInfo;
 }
 
-const Container = ({ designer }: Props) => {
+const DesignerList = ({ designer }: Props) => {
   return (
     <Link to={`${PATHS.DESIGNERS}/${designer.id}`}>
       <div
@@ -29,4 +29,4 @@ const Container = ({ designer }: Props) => {
   );
 };
 
-export default Container;
+export default DesignerList;
