@@ -1,5 +1,5 @@
 import PageInfo from "../components/common/PageInfo";
-import Container from "../components/designers/Container";
+import DesignerList from "../components/designers/DesignerList";
 import { DESIGNERS } from "../constants/designers";
 
 const Designers = () => {
@@ -8,7 +8,7 @@ const Designers = () => {
       <PageInfo>DESIGNERS</PageInfo>
       <div className="w-full mt-[227px] lg:mb-[206px]">
         {DESIGNERS.map((designer) => (
-          <Container designer={designer} />
+          <DesignerList designer={designer} />
         ))}
       </div>
     </div>

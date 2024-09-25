@@ -12,7 +12,7 @@ export const DESIGNERS = [
     works: [
       {
         work: WORKS.UXUI,
-        category: "UXUI",
+        category: "UX",
         worksId: 3,
       },
     ],
@@ -28,12 +28,12 @@ export const DESIGNERS = [
     works: [
       {
         work: WORKS.COMMUNICATION,
-        category: "COMMUNICATION",
+        category: "Communication",
         worksId: 8,
       },
       {
         work: WORKS.SERVICE,
-        category: "SERVICE",
+        category: "Service",
         worksId: 8,
       },
     ],
