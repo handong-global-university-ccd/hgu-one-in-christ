@@ -43,7 +43,7 @@ const WorkDesigner = ({ work }: Props) => {
           {/* TODO: test 이미지  */}
           <img src={designer_group} className={`w-full`} />
           <div className={`sm:flex justify-between`}>
-            <div className={`flex gap-[27px] items-baseline`}>
+            <div className={`flex gap-[27px] items-baseline sm:leading-tight`}>
               <p className={`sm:text-[18px] md:text-[26px] text-[28px]`}>
                 {work?.teamName}
               </p>

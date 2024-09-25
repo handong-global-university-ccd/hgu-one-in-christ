@@ -5,9 +5,9 @@ interface Props extends React.ButtonHTMLAttributes<HTMLButtonElement> {
 
 const NavButtonMobile = ({ children, focus }: Props) => {
   return (
-    <div className={`flex justify-center items-center`}>
+    <div className={`flex justify-center items-center pd-[22px]`}>
       <div
-        className={`w-[90%] h-[36px] flex justify-center items-center  my-5 ${
+        className={`w-[90%] h-[36px] flex justify-center items-center  my-[9px] ${
           focus ? "bg-primary-white text-primary-black" : "text-primary-white"
         }`}
       >
