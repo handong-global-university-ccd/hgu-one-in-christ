@@ -29,7 +29,7 @@ const DesignerList = ({ designer }: Props) => {
 
         <img
           src={designer_work}
-          className="hidden w-[416px] group-hover:block group-hover:fixed absolute top-[327px] right-[300px]"
+          className="hidden w-[416px] lg:group-hover:block group-hover:fixed absolute top-[327px] right-[300px]"
         />
       </div>
     </Link>
