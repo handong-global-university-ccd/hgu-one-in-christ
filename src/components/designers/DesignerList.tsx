@@ -9,19 +9,21 @@ interface Props {
 
 const DesignerList = ({ designer }: Props) => {
   return (
-    <Link to={`${PATHS.DESIGNERS}/${designer.id}`}>
+    <Link
+      to={`${PATHS.DESIGNERS}/${designer.id}`}
+      className={`flex flex-col items-center cursor-pointer`}
+    >
       <div
-        className="h-[69px] border-b
-									flex items-center 
-								text-primary-white text-[18px] 
-								lg:px-6 lg:gap-[184px]
-								hover:bg-primary-white hover:text-primary-black
-									cursor-pointer
+        className="w-[90%] lg:w-full h-[69px] sm:h-[50px] 
+									flex items-center
+								text-primary-white hover:text-primary-black text-[18px] sm:text-[14px] 
+									lg:px-6 gap-[184px] sm:gap-[34px]
+								hover:bg-primary-white 
 									group
 									"
       >
         <p className="font-Pretendard_Regular">{designer.nameKo}</p>
-        <div className={`flex gap-[20px]`}>
+        <div className={`flex gap-[20px] sm:gap-[10px]`}>
           {designer.works.map((work) => (
             <p className="font-TT_Firs_Light">{work.category} Design</p>
           ))}
@@ -29,9 +31,10 @@ const DesignerList = ({ designer }: Props) => {
 
         <img
           src={designer_work}
-          className="hidden w-[416px] group-hover:block group-hover:fixed absolute top-[327px] right-[300px]"
+          className="hidden w-[416px] lg:group-hover:block group-hover:fixed absolute top-[327px] right-[300px]"
         />
       </div>
+      <div className={`w-full md:w-[90%] sm:w-screen border-b`}></div>
     </Link>
   );
 };
