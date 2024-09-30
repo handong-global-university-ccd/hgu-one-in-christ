@@ -12,7 +12,9 @@ const Designer = () => {
   return (
     <div className={`w-full flex flex-col items-center`}>
       <PageInfo>DESIGNERS</PageInfo>
-      <div className={`w-full flex justify-between mt-[262px] lg:mb-[206px]`}>
+      <div
+        className={`w-full flex sm:flex-col justify-between mt-[262px] lg:mb-[206px]`}
+      >
         <DesignerDetail designer={designer} />
         <DesignerWorks designer={designer} />
       </div>

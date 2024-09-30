@@ -1,4 +1,5 @@
 import { DesingerDetailInfo } from "../../models/designer.model";
+import designer_alone from "../../assets/works/project/test/designer_alone.png"; // test
 
 interface Props {
   designer: DesingerDetailInfo | null;
@@ -7,9 +8,9 @@ interface Props {
 const DesignerDetail = ({ designer }: Props) => {
   return (
     <div className={`flex flex-col items-start text-primary-white`}>
-      {/* 디자이너 이미지 */}
-      <div
-        className={`w-[262.59px] h-[372px] border border-primary-white mb-[50px]`}
+      <img
+        src={designer_alone}
+        className={`w-[262.59px] sm:w-[153px] mb-[50px]`}
       />
       <div
         className={`flex items-baseline gap-2.5 font-Pretendard_Bold mb-[8px]`}
@@ -21,7 +22,7 @@ const DesignerDetail = ({ designer }: Props) => {
         {designer?.email}
       </p>
       <p
-        className={`w-[569px] leading-[37px] font-Pretendard_Regular text-[21px]`}
+        className={`w-[569px] leading-[37px] font-Pretendard_Regular text-[21px] sm:text-[16px]`}
       >
         {designer?.description}
       </p>
