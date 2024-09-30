@@ -34,7 +34,7 @@ const DesignerList = ({ designer }: Props) => {
           className="hidden w-[416px] lg:group-hover:block group-hover:fixed absolute top-[327px] right-[300px]"
         />
       </div>
-      <div className={`w-screen border-b`}></div>
+      <div className={`w-full md:w-[90%] sm:w-screen border-b`}></div>
     </Link>
   );
 };
