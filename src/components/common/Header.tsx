@@ -11,7 +11,7 @@ const button_list = [
   {
     id: 1,
     name: "ABOUT",
-    link: PATHS.HOME,
+    link: PATHS.ABOUT,
   },
   {
     id: 2,

@@ -6,11 +6,16 @@ import Works from "./pages/Works";
 import Designers from "./pages/Designers";
 import Designer from "./pages/Designer";
 import Work from "./pages/Work";
+import About from "./pages/About";
 
 const routeList = [
   {
     path: PATHS.HOME,
     element: <Home />,
+  },
+  {
+    path: PATHS.ABOUT,
+    element: <About />,
   },
   {
     path: PATHS.WORKS,
