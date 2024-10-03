@@ -12,6 +12,7 @@ export interface Work {
   teamName: string | null;
   designer: DesignerWorksInfo[];
   title: string;
+  summary: string;
   description: string;
   gridImg: string;
   mainImg: string;
