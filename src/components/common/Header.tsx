@@ -1,9 +1,6 @@
 import { Link, useLocation } from "react-router-dom";
-import logo from "../../assets/header/logo.png";
 import Button from "../header/Button";
 import { PATHS } from "../../constants/paths";
-import hamburger from "../../assets/header/hamburger.png";
-import close from "../../assets/header/closeIcon.png";
 import { useState } from "react";
 import NavButtonMobile from "../header/NavButtonMobile";
 
@@ -45,7 +42,7 @@ const Header = () => {
         <div className="w-full flex items-center justify-between lg:max-w-lg md:w-[90%] sm:w-[90%]">
           <Link to={PATHS.HOME}>
             <img
-              src={logo}
+              src="https://hguccd2024.co.kr/images/header/logo.png"
               alt="one in christ"
               className="w-[13.625rem] sm:w-[157px]"
             />
@@ -61,10 +58,14 @@ const Header = () => {
           </div>
           <div className="lg:hidden">
             {toggleOpen ? (
-              <img src={close} className={`w-[16px]`} onClick={handleToggle} />
+              <img
+                src="https://hguccd2024.co.kr/images/header/closeIcon.png"
+                className={`w-[16px]`}
+                onClick={handleToggle}
+              />
             ) : (
               <img
-                src={hamburger}
+                src="https://hguccd2024.co.kr/images/header/hamburger.png"
                 className={`w-[21px]`}
                 onClick={handleToggle}
               />
