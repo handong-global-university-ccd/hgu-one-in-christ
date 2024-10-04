@@ -6,3 +6,5 @@ export const PATHS = {
   DESIGNERS: "/designers",
   DESIGNER_DETAIL: "/designers/:designerId",
 };
+
+export const DOMAIN = "https://hguccd2024.co.kr/";
