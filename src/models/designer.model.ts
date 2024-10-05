@@ -11,6 +11,6 @@ export interface Designer {
   works: DesignerWork[];
 }
 
-export type DesignerWorksInfo = Pick<Designer, "nameKo" | "studentId">;
+export type DesignerWorksInfo = Pick<Designer, "id" | "nameKo" | "studentId">;
 
 export type DesingerDetailInfo = Omit<Designer, "studentId">;
