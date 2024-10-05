@@ -14,6 +14,7 @@ export interface Work {
   title: string;
   summary: string;
   description: string;
+  teamImg?: string;
   gridImg: string;
   mainImg: string;
 }
