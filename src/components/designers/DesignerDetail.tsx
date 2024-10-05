@@ -1,5 +1,5 @@
 import { DesingerDetailInfo } from "../../models/designer.model";
-import designer_alone from "../../assets/works/project/test/designer_alone.png"; // test
+import { DOMAIN } from "../../constants/paths";
 
 interface Props {
   designer: DesingerDetailInfo | null;
@@ -10,7 +10,7 @@ const DesignerDetail = ({ designer }: Props) => {
     <div className={`sm:flex sm:justify-center sm:mb-[45px]`}>
       <div className={`flex flex-col items-start text-primary-white`}>
         <img
-          src={designer_alone}
+          src={`${DOMAIN}${designer?.img}`}
           className={`w-[262.59px] sm:w-[153px] md:w-[40%] mb-[50px] sm:mb-[45px]`}
         />
         <div
