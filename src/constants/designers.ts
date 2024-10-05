@@ -15,6 +15,11 @@ export const DESIGNERS = [
         category: "UX",
         worksId: 3,
       },
+      {
+        work: WORKS.UXUI,
+        category: "UX",
+        worksId: 6,
+      },
     ],
   },
   {
@@ -34,7 +39,7 @@ export const DESIGNERS = [
       {
         work: WORKS.SERVICE,
         category: "Service",
-        worksId: 8,
+        worksId: 7,
       },
     ],
   },
@@ -48,9 +53,14 @@ export const DESIGNERS = [
       "같은 대상이라도 시선을 약간만 달리하면 전혀 다른 가능성을 발견할 수 있다고 생각합니다. 그 안에서 무궁무진한 아이디어가 탄생할 수 있죠. 시선에 제한을 두지 않고, 어떠한 분야에서도 경계를 두지 않으며, 다양한 사물과 현상을 유연한 시각으로 바라보려 노력하는 삶. 저는 그 속에 숨겨진 가능성을 발견해나가려 오늘도 전진합니다.",
     works: [
       {
-        work: WORKS.UXUI,
-        category: "UX",
-        worksId: 3,
+        work: WORKS.COMMUNICATION,
+        category: "Communication",
+        worksId: 22,
+      },
+      {
+        work: WORKS.SERVICE,
+        category: "Service",
+        worksId: 10,
       },
     ],
   },
@@ -64,8 +74,13 @@ export const DESIGNERS = [
       "의미를 지닌 디자이너가 되고 싶습니다. 멀리 내다보는 것보다는, 현재의 순간에 의미를 두고 주어진 작은 일상을 풍요롭게 살아가는 것을 좋아합니다. 디자인을 통해 삶의 소소한 아름다움을 발견하고 담아내는 것, 그렇게 삶의 작은 순간들을 더 의미있고 빛나게 만드는 디자이너가 되고 싶습니다.",
     works: [
       {
-        work: WORKS.UXUI,
-        category: "UX",
+        work: WORKS.COMMUNICATION,
+        category: "Communication",
+        worksId: 9,
+      },
+      {
+        work: WORKS.SERVICE,
+        category: "Service",
         worksId: 3,
       },
     ],
@@ -82,7 +97,12 @@ export const DESIGNERS = [
       {
         work: WORKS.UXUI,
         category: "UX",
-        worksId: 3,
+        worksId: 1,
+      },
+      {
+        work: WORKS.UXUI,
+        category: "UX",
+        worksId: 7,
       },
     ],
   },
@@ -95,8 +115,13 @@ export const DESIGNERS = [
     description: "진리 안에서 자유롭고 기쁘게 디자인하고 싶습니다 =)",
     works: [
       {
-        work: WORKS.UXUI,
-        category: "UX",
+        work: WORKS.COMMUNICATION,
+        category: "Communication",
+        worksId: 10,
+      },
+      {
+        work: WORKS.SERVICE,
+        category: "Service",
         worksId: 3,
       },
     ],
@@ -110,9 +135,14 @@ export const DESIGNERS = [
     description: "사랑은 허다한 것들을 덮습니다.",
     works: [
       {
-        work: WORKS.UXUI,
-        category: "UX",
-        worksId: 3,
+        work: WORKS.COMMUNICATION,
+        category: "Communication",
+        worksId: 11,
+      },
+      {
+        work: WORKS.SERVICE,
+        category: "Service",
+        worksId: 11,
       },
     ],
   },
@@ -126,9 +156,14 @@ export const DESIGNERS = [
       "안녕하세요, 저는 시각디자인을 전공한 김나경입니다. 한동에서 배운 지식으로 ‘보시기에 좋았더라’라는 말씀처럼 아름답고, 다른 사람을 도울 수 있는 좋은 디자인을 하는 디자이너가 되고 싶습니다. ",
     works: [
       {
-        work: WORKS.UXUI,
-        category: "UX",
-        worksId: 3,
+        work: WORKS.COMMUNICATION,
+        category: "Communication",
+        worksId: 12,
+      },
+      {
+        work: WORKS.SERVICE,
+        category: "Service",
+        worksId: 8,
       },
     ],
   },
@@ -144,7 +179,12 @@ export const DESIGNERS = [
       {
         work: WORKS.UXUI,
         category: "UX",
-        worksId: 3,
+        worksId: 2,
+      },
+      {
+        work: WORKS.UXUI,
+        category: "UX",
+        worksId: 8,
       },
     ],
   },
@@ -157,9 +197,9 @@ export const DESIGNERS = [
     description: "깨지기 쉬운 것들을 디자인합니다. I deisgn something fragile",
     works: [
       {
-        work: WORKS.UXUI,
-        category: "UX",
-        worksId: 3,
+        work: WORKS.PRODUCT,
+        category: "Product",
+        worksId: 5,
       },
     ],
   },
@@ -177,6 +217,11 @@ export const DESIGNERS = [
         category: "UX",
         worksId: 3,
       },
+      {
+        work: WORKS.UXUI,
+        category: "UX",
+        worksId: 6,
+      },
     ],
   },
   {
@@ -189,8 +234,13 @@ export const DESIGNERS = [
       '"그런즉 너희가 먹든지 마시든지 무엇을 하든지 다 하나님의 영광을 위하여 하라" 하나님의 영광을 위해 살아가는 디자이너 김성순입니다. 복음을 지혜있게 전하길 간절히 소망하며 복음을 디자인 하기 원합니다. 언제 어디서나 복음을 위해 살기 원합니다. 샬롬',
     works: [
       {
-        work: WORKS.UXUI,
-        category: "UX",
+        work: WORKS.COMMUNICATION,
+        category: "Communication",
+        worksId: 13,
+      },
+      {
+        work: WORKS.SERVICE,
+        category: "Service",
         worksId: 3,
       },
     ],
@@ -205,9 +255,14 @@ export const DESIGNERS = [
       "사람, 사회, 더 나아가 세상에 선한 영향력을 미치는 디자이너가 되고 싶은 김수아입니다.",
     works: [
       {
-        work: WORKS.UXUI,
-        category: "UX",
-        worksId: 3,
+        work: WORKS.COMMUNICATION,
+        category: "Communication",
+        worksId: 23,
+      },
+      {
+        work: WORKS.SERVICE,
+        category: "Service",
+        worksId: 1,
       },
     ],
   },
@@ -223,7 +278,12 @@ export const DESIGNERS = [
       {
         work: WORKS.UXUI,
         category: "UX",
-        worksId: 3,
+        worksId: 4,
+      },
+      {
+        work: WORKS.UXUI,
+        category: "UX",
+        worksId: 9,
       },
     ],
   },
@@ -237,9 +297,14 @@ export const DESIGNERS = [
       '"It is the time you have wasted for your rose that makes your rose so important." - 어린왕자',
     works: [
       {
-        work: WORKS.UXUI,
-        category: "UX",
-        worksId: 3,
+        work: WORKS.COMMUNICATION,
+        category: "Communication",
+        worksId: 24,
+      },
+      {
+        work: WORKS.SERVICE,
+        category: "Service",
+        worksId: 1,
       },
     ],
   },
@@ -252,9 +317,14 @@ export const DESIGNERS = [
     description: "재밌고 엉뚱하고 놀랍고 새로운 거 좋아합니다.",
     works: [
       {
-        work: WORKS.UXUI,
-        category: "UX",
-        worksId: 3,
+        work: WORKS.COMMUNICATION,
+        category: "Communication",
+        worksId: 37,
+      },
+      {
+        work: WORKS.SERVICE,
+        category: "Service",
+        worksId: 4,
       },
     ],
   },
@@ -267,8 +337,8 @@ export const DESIGNERS = [
     description: "제품이 아닌 경험을 팔겠습니다",
     works: [
       {
-        work: WORKS.UXUI,
-        category: "UX",
+        work: WORKS.PRODUCT,
+        category: "Product",
         worksId: 3,
       },
     ],
@@ -283,9 +353,14 @@ export const DESIGNERS = [
       "섬세한 시선으로 세상을 바라보고, 대담하게 표현하는 디자이너입니다. 디자인을 통해 사람들의 생각과 감정을 연결하고, 그 안에서 깊이 있는 연대를 형성하고자 합니다. 시각적 아름다움을 넘어, 의미있는 소통과 공감을 만들어내는 디자인을 추구합니다.",
     works: [
       {
-        work: WORKS.UXUI,
-        category: "UX",
-        worksId: 3,
+        work: WORKS.COMMUNICATION,
+        category: "Communication",
+        worksId: 25,
+      },
+      {
+        work: WORKS.SERVICE,
+        category: "Service",
+        worksId: 5,
       },
     ],
   },
@@ -299,9 +374,14 @@ export const DESIGNERS = [
       "사람 사이 사람, 바람 사이 바람. 각자의 염원이 바래고 덧칠되어, 사랑으로.",
     works: [
       {
-        work: WORKS.UXUI,
-        category: "UX",
-        worksId: 3,
+        work: WORKS.COMMUNICATION,
+        category: "Communication",
+        worksId: 38,
+      },
+      {
+        work: WORKS.SERVICE,
+        category: "Service",
+        worksId: 7,
       },
     ],
   },
@@ -314,9 +394,9 @@ export const DESIGNERS = [
     description: "잘 챙겨먹지 못하더라도 잠은 자자 얘들아.",
     works: [
       {
-        work: WORKS.UXUI,
-        category: "UX",
-        worksId: 3,
+        work: WORKS.PRODUCT,
+        category: "Product",
+        worksId: 6,
       },
     ],
   },
@@ -329,9 +409,9 @@ export const DESIGNERS = [
     description: "아름다움을 좇습니다",
     works: [
       {
-        work: WORKS.UXUI,
-        category: "UX",
-        worksId: 3,
+        work: WORKS.PRODUCT,
+        category: "Product",
+        worksId: 1,
       },
     ],
   },
@@ -345,9 +425,14 @@ export const DESIGNERS = [
       "누구나 공감할 수 있는 디자인을 하고 싶은 디자이너 박보민입니다. 겉으로 보기에만 아름다운 것이 아닌 작품의 내용까지도 의미 있고 사람들에게 공감을 줄 수 있는 아름다운 디자인을 하고 싶습니다.",
     works: [
       {
-        work: WORKS.UXUI,
-        category: "UX",
-        worksId: 3,
+        work: WORKS.COMMUNICATION,
+        category: "Communication",
+        worksId: 26,
+      },
+      {
+        work: WORKS.SERVICE,
+        category: "Service",
+        worksId: 1,
       },
     ],
   },
@@ -361,9 +446,14 @@ export const DESIGNERS = [
       "열심히 하는 것은 쉬운데, 나아지는 것은 좀처럼 어렵다. 우선 나아지려면 무엇이 나아지는 것인지 알아야 한다. 무엇이 좋은 것이고, 무엇이 더 아름다운지 알아야 한다. 그 감각이 목표가 되고 기준이 된다. 해오던 대로 하지 않아야 하고, 해오지 않았던 대로 해야 한다. 낯설고 어색한 방식과 결과물, 어쩌면 더 나은 결과물을 만들고도 그냥 지나치게 될지도 모른다. 모호한 ‘좋은 것’에 답을 내리는 중이다.",
     works: [
       {
-        work: WORKS.UXUI,
-        category: "UX",
-        worksId: 3,
+        work: WORKS.COMMUNICATION,
+        category: "Communication",
+        worksId: 1,
+      },
+      {
+        work: WORKS.SERVICE,
+        category: "Service",
+        worksId: 6,
       },
     ],
   },
@@ -377,9 +467,14 @@ export const DESIGNERS = [
       "디자인을 잘하지는 않구요, 그냥 좋아합니다. 잘하는거 다 뒤로하고 내가 재밌고 하고싶은 디자인을 하다보니 여기까지 왔습니다. 내 마음을 움직이는 것을 찾아다니는 낭만주의자랍니다 와하하",
     works: [
       {
-        work: WORKS.UXUI,
-        category: "UX",
+        work: WORKS.COMMUNICATION,
+        category: "Communication",
         worksId: 3,
+      },
+      {
+        work: WORKS.SERVICE,
+        category: "Service",
+        worksId: 4,
       },
     ],
   },
@@ -395,7 +490,12 @@ export const DESIGNERS = [
       {
         work: WORKS.UXUI,
         category: "UX",
-        worksId: 3,
+        worksId: 5,
+      },
+      {
+        work: WORKS.UXUI,
+        category: "UX",
+        worksId: 10,
       },
     ],
   },
@@ -409,9 +509,14 @@ export const DESIGNERS = [
       '"Creator’s creature, Creator’s creator." 디자인을 통해 새로운 가치를 창조하는 디자이너 박은실입니다. 저는 창조주의 피조물로서 끊임없이 배우고 성장하며, 동시에 혁신적이고 독창적인 작품을 만들어내는 창의적인 디자이너가 되고 싶습니다.',
     works: [
       {
-        work: WORKS.UXUI,
-        category: "UX",
-        worksId: 3,
+        work: WORKS.COMMUNICATION,
+        category: "Communication",
+        worksId: 14,
+      },
+      {
+        work: WORKS.SERVICE,
+        category: "Service",
+        worksId: 11,
       },
     ],
   },
@@ -425,9 +530,14 @@ export const DESIGNERS = [
       "디자이너가 될 생각은 없었지만... 어쩌다보니 디자인 전공까지 하게된 박창조입니다.",
     works: [
       {
-        work: WORKS.UXUI,
-        category: "UX",
-        worksId: 3,
+        work: WORKS.COMMUNICATION,
+        category: "Communication",
+        worksId: 4,
+      },
+      {
+        work: WORKS.SERVICE,
+        category: "Service",
+        worksId: 4,
       },
     ],
   },
@@ -441,9 +551,14 @@ export const DESIGNERS = [
       "안녕하세요. 다른 사람에게 도움이 되고 감동을 주는 디자이너가 되고 싶은 서유나입니다. 시각디자인과 제품디자인을 전공했고, 브랜드디자인과 그래픽디자인에 관심을 가지고 경험 중에 있습니다.",
     works: [
       {
-        work: WORKS.UXUI,
-        category: "UX",
-        worksId: 3,
+        work: WORKS.COMMUNICATION,
+        category: "Communication",
+        worksId: 15,
+      },
+      {
+        work: WORKS.SERVICE,
+        category: "Service",
+        worksId: 10,
       },
     ],
   },
@@ -459,7 +574,12 @@ export const DESIGNERS = [
       {
         work: WORKS.UXUI,
         category: "UX",
-        worksId: 3,
+        worksId: 4,
+      },
+      {
+        work: WORKS.UXUI,
+        category: "UX",
+        worksId: 9,
       },
     ],
   },
@@ -473,8 +593,13 @@ export const DESIGNERS = [
       " 지속 가능한 디자인과 사회적 가치를 고려하여 더 나은 세상을 위한 디자인을 지향합니다.",
     works: [
       {
-        work: WORKS.UXUI,
-        category: "UX",
+        work: WORKS.COMMUNICATION,
+        category: "Communication",
+        worksId: 27,
+      },
+      {
+        work: WORKS.SERVICE,
+        category: "Service",
         worksId: 3,
       },
     ],
@@ -489,9 +614,14 @@ export const DESIGNERS = [
       "만드는 걸 좋아하고, 누군가 만든 걸 즐기는 디자이너 겸 개발자. 하고 싶은 건 다 해보는 중이에요.",
     works: [
       {
-        work: WORKS.UXUI,
-        category: "UX",
-        worksId: 3,
+        work: WORKS.COMMUNICATION,
+        category: "Communication",
+        worksId: 5,
+      },
+      {
+        work: WORKS.SERVICE,
+        category: "Service",
+        worksId: 5,
       },
     ],
   },
@@ -507,7 +637,12 @@ export const DESIGNERS = [
       {
         work: WORKS.UXUI,
         category: "UX",
-        worksId: 3,
+        worksId: 5,
+      },
+      {
+        work: WORKS.UXUI,
+        category: "UX",
+        worksId: 10,
       },
     ],
   },
@@ -525,6 +660,11 @@ export const DESIGNERS = [
         category: "UX",
         worksId: 3,
       },
+      {
+        work: WORKS.UXUI,
+        category: "UX",
+        worksId: 6,
+      },
     ],
   },
   {
@@ -537,9 +677,14 @@ export const DESIGNERS = [
       "만물이 그로 말미암아 지은 바 되었으니 지은 것이 하나도 그가 없이는 된 것이 없느니라",
     works: [
       {
-        work: WORKS.UXUI,
-        category: "UX",
-        worksId: 3,
+        work: WORKS.COMMUNICATION,
+        category: "Communication",
+        worksId: 28,
+      },
+      {
+        work: WORKS.SERVICE,
+        category: "Service",
+        worksId: 11,
       },
     ],
   },
@@ -553,9 +698,14 @@ export const DESIGNERS = [
       "시각적인 즐거움으로 일상에 풍성함을 더하는 기쁨을 함께 나누고 싶습니다.",
     works: [
       {
-        work: WORKS.UXUI,
-        category: "UX",
-        worksId: 3,
+        work: WORKS.COMMUNICATION,
+        category: "Communication",
+        worksId: 16,
+      },
+      {
+        work: WORKS.SERVICE,
+        category: "Service",
+        worksId: 2,
       },
     ],
   },
@@ -571,7 +721,12 @@ export const DESIGNERS = [
       {
         work: WORKS.UXUI,
         category: "UX",
-        worksId: 3,
+        worksId: 1,
+      },
+      {
+        work: WORKS.UXUI,
+        category: "UX",
+        worksId: 7,
       },
     ],
   },
@@ -585,9 +740,14 @@ export const DESIGNERS = [
       "안녕하세요, 저는 제 안에 있는 감성을 시각적으로 풀어내는 디자이너 안희재입니다. 디자인을 통해 제 감정과 생각을 표현하고, 그 속에서 사람들과 소통할 수 있는 작품을 만들려 노력하고 있습니다. 매 순간 느끼는 감정을 색감과 형태로 담아내며, 저의 시각적 언어로 세상을 이야기하고자 합니다.",
     works: [
       {
-        work: WORKS.UXUI,
-        category: "UX",
-        worksId: 3,
+        work: WORKS.COMMUNICATION,
+        category: "Communication",
+        worksId: 2,
+      },
+      {
+        work: WORKS.SERVICE,
+        category: "Service",
+        worksId: 9,
       },
     ],
   },
@@ -603,7 +763,12 @@ export const DESIGNERS = [
       {
         work: WORKS.UXUI,
         category: "UX",
-        worksId: 3,
+        worksId: 1,
+      },
+      {
+        work: WORKS.UXUI,
+        category: "UX",
+        worksId: 7,
       },
     ],
   },
@@ -617,9 +782,14 @@ export const DESIGNERS = [
       "생명을 살리는 디자이너가 되어가는 중입니다. 너의 하나님 여호와가 너의 가운데에 계시니 그는 구원을 베푸실 전능자이시라 그가 너로 말미암아 기쁨을 이기지 못하시며 너를 잠잠히 사랑하시며 너로 말미암아 즐거이 부르며 기뻐하시리라 하리라. The LORD your God is with you, the Mighty Warrior who saves. He will take great delight in you; in his love he will no longer rebuke you, but will rejoice over you with singing. - Zephaniah 3:17",
     works: [
       {
-        work: WORKS.UXUI,
-        category: "UX",
-        worksId: 3,
+        work: WORKS.COMMUNICATION,
+        category: "Communication",
+        worksId: 29,
+      },
+      {
+        work: WORKS.SERVICE,
+        category: "Service",
+        worksId: 9,
       },
     ],
   },
@@ -633,9 +803,14 @@ export const DESIGNERS = [
       "A multidisciplinary designer with a diverse cultural background.",
     works: [
       {
-        work: WORKS.UXUI,
-        category: "UX",
-        worksId: 3,
+        work: WORKS.COMMUNICATION,
+        category: "Communication",
+        worksId: 17,
+      },
+      {
+        work: WORKS.SERVICE,
+        category: "Service",
+        worksId: 2,
       },
     ],
   },
@@ -652,7 +827,12 @@ export const DESIGNERS = [
       {
         work: WORKS.UXUI,
         category: "UX",
-        worksId: 3,
+        worksId: 4,
+      },
+      {
+        work: WORKS.UXUI,
+        category: "UX",
+        worksId: 9,
       },
     ],
   },
@@ -666,9 +846,9 @@ export const DESIGNERS = [
       "물맷돌은 던지는 행위보다 방향이 중요합니다. 지금껏 배워서 손에 쥔 작은 돌맹이를 올바른 방향을 향해 던지는 디자이너가 되길 힘쓰겠습니다. 하나를 던지더라도 제대로 던지는 디자인을 만들겠습니다.",
     works: [
       {
-        work: WORKS.UXUI,
-        category: "UX",
-        worksId: 3,
+        work: WORKS.PRODUCT,
+        category: "Product",
+        worksId: 2,
       },
     ],
   },
@@ -682,9 +862,9 @@ export const DESIGNERS = [
     description: "돈이 아닌 꿈을 쫓는 디자이너가 되겠습니다.",
     works: [
       {
-        work: WORKS.UXUI,
-        category: "UX",
-        worksId: 3,
+        work: WORKS.PRODUCT,
+        category: "Product",
+        worksId: 4,
       },
     ],
   },
@@ -698,9 +878,14 @@ export const DESIGNERS = [
       "내게 능력 주시는 자 안에서 내가 모든 것을 할 수 있느니라. I can do everything through him who gives me strength. Philippians 4:13",
     works: [
       {
-        work: WORKS.UXUI,
-        category: "UX",
-        worksId: 3,
+        work: WORKS.COMMUNICATION,
+        category: "Communication",
+        worksId: 30,
+      },
+      {
+        work: WORKS.SERVICE,
+        category: "Service",
+        worksId: 8,
       },
     ],
   },
@@ -714,9 +899,14 @@ export const DESIGNERS = [
       "사람들의 마음을 움직이는 이미지를 만들고 싶어 디자인과 영상을 공부하고 있습니다. 적지 않은 시간 동안 디자인을 공부했지만 좋은 디자인이 무엇인지 답하기는 어렵습니다. 적어도 제 작업물이 저를 닮아있다는 말이 부끄럽지 않도록 성실히 성장하며 선한 영향력을 끼치는 사람이 되고 싶습니다.",
     works: [
       {
-        work: WORKS.UXUI,
-        category: "UX",
-        worksId: 3,
+        work: WORKS.COMMUNICATION,
+        category: "Communication",
+        worksId: 31,
+      },
+      {
+        work: WORKS.SERVICE,
+        category: "Service",
+        worksId: 1,
       },
     ],
   },
@@ -732,7 +922,12 @@ export const DESIGNERS = [
       {
         work: WORKS.UXUI,
         category: "UX",
-        worksId: 3,
+        worksId: 4,
+      },
+      {
+        work: WORKS.UXUI,
+        category: "UX",
+        worksId: 9,
       },
     ],
   },
@@ -746,9 +941,14 @@ export const DESIGNERS = [
       "세상의 아름다움을 디자인하는 디자이너를 꿈꾸는 이지향입니다. 작은 디테일 속에도 큰 이야기를 담아내는 디자이너로 세상에 새로운 아름다움을 선사하고 싶습니다.",
     works: [
       {
-        work: WORKS.UXUI,
-        category: "UX",
-        worksId: 3,
+        work: WORKS.COMMUNICATION,
+        category: "Communication",
+        worksId: 18,
+      },
+      {
+        work: WORKS.SERVICE,
+        category: "Service",
+        worksId: 8,
       },
     ],
   },
@@ -764,7 +964,12 @@ export const DESIGNERS = [
       {
         work: WORKS.UXUI,
         category: "UX",
-        worksId: 3,
+        worksId: 2,
+      },
+      {
+        work: WORKS.UXUI,
+        category: "UX",
+        worksId: 8,
       },
     ],
   },
@@ -778,9 +983,14 @@ export const DESIGNERS = [
       "Designer seeking to resemble Him, the first and the best designer.",
     works: [
       {
-        work: WORKS.UXUI,
-        category: "UX",
-        worksId: 3,
+        work: WORKS.COMMUNICATION,
+        category: "Communication",
+        worksId: 6,
+      },
+      {
+        work: WORKS.SERVICE,
+        category: "Service",
+        worksId: 2,
       },
     ],
   },
@@ -794,9 +1004,14 @@ export const DESIGNERS = [
       "머릿속에서 펼쳐지는 상상 속 세계를 눈앞에 실체화하는 디자이너입니다. 단순한 형상 그 이상의 가치, 창의력과 감각이 결합된 독창적인 경험을 추구합니다.",
     works: [
       {
-        work: WORKS.UXUI,
-        category: "UX",
-        worksId: 3,
+        work: WORKS.COMMUNICATION,
+        category: "Communication",
+        worksId: 19,
+      },
+      {
+        work: WORKS.SERVICE,
+        category: "Service",
+        worksId: 7,
       },
     ],
   },
@@ -810,9 +1025,14 @@ export const DESIGNERS = [
       "지금 원하고 바라는 모든 것들을 미래의 나는 다 이루고 있겠지 난 너무 기대돼 주님이 이루실 내 모든 것들을 생각이 아름다운 디자이너 임다솔입니다.",
     works: [
       {
-        work: WORKS.UXUI,
-        category: "UX",
-        worksId: 3,
+        work: WORKS.COMMUNICATION,
+        category: "Communication",
+        worksId: 39,
+      },
+      {
+        work: WORKS.SERVICE,
+        category: "Service",
+        worksId: 5,
       },
     ],
   },
@@ -830,6 +1050,11 @@ export const DESIGNERS = [
         category: "UX",
         worksId: 3,
       },
+      {
+        work: WORKS.UXUI,
+        category: "UX",
+        worksId: 6,
+      },
     ],
   },
   {
@@ -842,9 +1067,14 @@ export const DESIGNERS = [
       "믿음은 바라는 것들의 확신이요, 보이지 않는 것들의 증거입니다. Now faith is confidence in what we hope for and assurance about what we do not see. Hebrews 11:1",
     works: [
       {
-        work: WORKS.UXUI,
-        category: "UX",
-        worksId: 3,
+        work: WORKS.COMMUNICATION,
+        category: "Communication",
+        worksId: 32,
+      },
+      {
+        work: WORKS.SERVICE,
+        category: "Service",
+        worksId: 6,
       },
     ],
   },
@@ -858,9 +1088,14 @@ export const DESIGNERS = [
       "캐릭터 디자인을 꿈꾸고 있습니다. 부족한 작품이지만 모두에게 행복과 기쁨을 주는, 그런 디자이너가 되고 싶습니다.",
     works: [
       {
-        work: WORKS.UXUI,
-        category: "UX",
-        worksId: 3,
+        work: WORKS.COMMUNICATION,
+        category: "Communication",
+        worksId: 33,
+      },
+      {
+        work: WORKS.SERVICE,
+        category: "Service",
+        worksId: 10,
       },
     ],
   },
@@ -873,9 +1108,14 @@ export const DESIGNERS = [
     description: "사람과 사랑, 그리고 마침내 발견한 아름다움에 감탄합니다.",
     works: [
       {
-        work: WORKS.UXUI,
-        category: "UX",
-        worksId: 3,
+        work: WORKS.COMMUNICATION,
+        category: "Communication",
+        worksId: 40,
+      },
+      {
+        work: WORKS.SERVICE,
+        category: "Service",
+        worksId: 6,
       },
     ],
   },
@@ -889,9 +1129,14 @@ export const DESIGNERS = [
       "우리가 진정 자유로운 학교라고 여기는 곳도 실은 자유로운 사회만큼이나 실현하기 어렵고, 내적 모순에도 그 못지않게 취약할지도 모른다. 하지만 자유만큼은 유일한 독재자로 언제나 허용해야 마땅하다. 노먼 포터(최성민 옮김), ⌜디자이너란 무엇인가: 사물·장소·메시지 (3판)⌟",
     works: [
       {
-        work: WORKS.UXUI,
-        category: "UX",
-        worksId: 3,
+        work: WORKS.COMMUNICATION,
+        category: "Communication",
+        worksId: 34,
+      },
+      {
+        work: WORKS.SERVICE,
+        category: "Service",
+        worksId: 7,
       },
     ],
   },
@@ -905,9 +1150,14 @@ export const DESIGNERS = [
       "비로소 '나답게', 일상 속에서의 작은 낭만을 사랑하는 정예은입니다. 낭만 아래 비로소 나다운 것들을 찾아가는 여정에 있습니다. 디자인을 통해 함께 나누고자 하는 것을 풍부히 담아 나눌 수 있는 디자이너가 되고 싶습니다.",
     works: [
       {
-        work: WORKS.UXUI,
-        category: "UX",
-        worksId: 3,
+        work: WORKS.COMMUNICATION,
+        category: "Communication",
+        worksId: 35,
+      },
+      {
+        work: WORKS.SERVICE,
+        category: "Service",
+        worksId: 8,
       },
     ],
   },
@@ -921,9 +1171,14 @@ export const DESIGNERS = [
       "디자이너의 시선으로 세상을 바라보며 일상의 작은 영감조차 저의 것으로 만들어 내고자 합니다. 이를 사람들과 나누고자 하는 마음을 가지고, 시각 언어로 소통하며 공감과 정서를 끌어내는 디자이너로 성장하고 싶습니다.",
     works: [
       {
-        work: WORKS.UXUI,
-        category: "UX",
-        worksId: 3,
+        work: WORKS.COMMUNICATION,
+        category: "Communication",
+        worksId: 36,
+      },
+      {
+        work: WORKS.SERVICE,
+        category: "Service",
+        worksId: 4,
       },
     ],
   },
@@ -938,9 +1193,14 @@ export const DESIGNERS = [
       "세상의 아름다움은 우리 주변에서 가만히 기다리고 있습니다. - 칼 세이건",
     works: [
       {
-        work: WORKS.UXUI,
-        category: "UX",
-        worksId: 3,
+        work: WORKS.COMMUNICATION,
+        category: "Communication",
+        worksId: 20,
+      },
+      {
+        work: WORKS.SERVICE,
+        category: "Service",
+        worksId: 6,
       },
     ],
   },
@@ -953,9 +1213,14 @@ export const DESIGNERS = [
     description: "일상의 작은 부분에도 행복을 찾는 디자이너입니다.",
     works: [
       {
-        work: WORKS.UXUI,
-        category: "UX",
-        worksId: 3,
+        work: WORKS.COMMUNICATION,
+        category: "Communication",
+        worksId: 42,
+      },
+      {
+        work: WORKS.SERVICE,
+        category: "Service",
+        worksId: 2,
       },
     ],
   },
@@ -971,7 +1236,12 @@ export const DESIGNERS = [
       {
         work: WORKS.UXUI,
         category: "UX",
-        worksId: 3,
+        worksId: 1,
+      },
+      {
+        work: WORKS.UXUI,
+        category: "UX",
+        worksId: 7,
       },
     ],
   },
@@ -985,9 +1255,14 @@ export const DESIGNERS = [
       "저는 캐릭터 디자인과 애니메이션을 사랑하는 디자이너입니다. 흥미로운 세계관을 설정하고 캐릭터를 디자인하는 과정을 좋아합니다. 언젠가 저만의 개성과 스토리를 담아 많은 이들에게 영감을 주는 애니메이션을 만드는 것이 저의 목표입니다.",
     works: [
       {
-        work: WORKS.UXUI,
-        category: "UX",
-        worksId: 3,
+        work: WORKS.COMMUNICATION,
+        category: "Communication",
+        worksId: 21,
+      },
+      {
+        work: WORKS.SERVICE,
+        category: "Service",
+        worksId: 10,
       },
     ],
   },
@@ -1003,7 +1278,12 @@ export const DESIGNERS = [
       {
         work: WORKS.UXUI,
         category: "UX",
-        worksId: 3,
+        worksId: 5,
+      },
+      {
+        work: WORKS.UXUI,
+        category: "UX",
+        worksId: 10,
       },
     ],
   },
@@ -1017,9 +1297,14 @@ export const DESIGNERS = [
       "주님은 나의 목자시니, 내게 부족함이 없습니다. 나를 푸른 풀밭에 누이시고 쉴 만한 물 가로 인도하시며 다시 일어설 힘을 주십니다. 저 또한 저의 디자인으로 사람들에게 힘과 쉼을 주는 디자이너가 되고자 합니다.",
     works: [
       {
-        work: WORKS.UXUI,
-        category: "UX",
-        worksId: 3,
+        work: WORKS.COMMUNICATION,
+        category: "Communication",
+        worksId: 7,
+      },
+      {
+        work: WORKS.SERVICE,
+        category: "Service",
+        worksId: 11,
       },
     ],
   },
@@ -1035,7 +1320,12 @@ export const DESIGNERS = [
       {
         work: WORKS.UXUI,
         category: "UX",
-        worksId: 3,
+        worksId: 2,
+      },
+      {
+        work: WORKS.UXUI,
+        category: "UX",
+        worksId: 8,
       },
     ],
   },
@@ -1048,9 +1338,14 @@ export const DESIGNERS = [
     description: "세상의 빛과 소금같은 디자이너가 되고싶은 최예영입니다.",
     works: [
       {
-        work: WORKS.UXUI,
-        category: "UX",
-        worksId: 3,
+        work: WORKS.COMMUNICATION,
+        category: "Communication",
+        worksId: 41,
+      },
+      {
+        work: WORKS.SERVICE,
+        category: "Service",
+        worksId: 9,
       },
     ],
   },
@@ -1066,7 +1361,12 @@ export const DESIGNERS = [
       {
         work: WORKS.UXUI,
         category: "UX",
-        worksId: 3,
+        worksId: 5,
+      },
+      {
+        work: WORKS.UXUI,
+        category: "UX",
+        worksId: 10,
       },
     ],
   },
@@ -1082,7 +1382,12 @@ export const DESIGNERS = [
       {
         work: WORKS.UXUI,
         category: "UX",
-        worksId: 3,
+        worksId: 4,
+      },
+      {
+        work: WORKS.UXUI,
+        category: "UX",
+        worksId: 9,
       },
     ],
   },
@@ -1098,7 +1403,12 @@ export const DESIGNERS = [
       {
         work: WORKS.UXUI,
         category: "UX",
-        worksId: 3,
+        worksId: 2,
+      },
+      {
+        work: WORKS.UXUI,
+        category: "UX",
+        worksId: 8,
       },
     ],
   },
