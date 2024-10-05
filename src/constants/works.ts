@@ -480,6 +480,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       summary: "헬멧을 이용한 전동 킥보드 서비스",
       description:
         "전동 킥보드는 10 · 20대의 새로운 이동 수단으로 자리 잡고 있으나 이용 대비 안전 관련 문제는 잘 지켜지지 않고 있습니다. 그중 헬멧 미착용 비율이 가장 높고 이는 사고 시 큰 부상으로 이어지는 원인이 됩니다. 사람들이 헬멧을 개인적으로 소지할 수 있도록 돕는 서비스 met은 기존의 공유 모빌리티 서비스에서 NFC 헬멧으로 잠금 해제 및 결제를 할 수 있도록 합니다. 더불어 개인이 원하는 형태, 원하는 컬러로 헬멧을 선택할 수 있도록 하여 사용자마다 다른 헬멧의 니즈를 만족시킬 수 있도록 합니다.",
+      teamImg: "images/designers/service/4pat.webp",
       gridImg: "",
       mainImg: "",
     },
@@ -496,6 +497,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       summary: "경계선 지능 청년을 위한 일자리 경험 서비스",
       description:
         "경계선 지능 청년은 평균 지능과 발달 장애 사이에 위치해 학습 및 사회적 상호작용에서 어려움을 겪는 이들입니다. 이들은 청년기에 자립에 필요한 능력을 충분히 갖추지 못해 경제적, 사회적 도전에 직면하게 됩니다. 특히 낮은 업무 습득력과 상황 대처 능력으로 경계선 지능인은 단순 작업이나 단기 근무 형태의 직종 마저 쉽게 해고당합니다. 이러한 청년들에게 카페 바리스타 보조 역할을 통해 실무 경험을 제공하고, 직업 적응력을 높이며 사회 참여를 유도하는 일자리 경험 서비스를 제공합니다.",
+      teamImg: "images/designers/service/KkalsseomRalki.webp",
       gridImg: "",
       mainImg: "",
     },
@@ -512,6 +514,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       summary: "이혼가정을 위한 비대면 면접교섭 서비스",
       description:
         "우리나라는 아시아 국가 중 이혼율 1위를 차지하고 있습니다. 이혼율이 높다는 것은, 이혼 가정이 되는 아이들도 많다는 뜻인데요. 특히 학령전기 아동이 이혼 환경에 가장 많이 놓이고 있습니다. 이들은 정서, 환경적으로 많은 어려움을 겪고 있어 심리적 안정과 이혼 후 적응을 도울 수 있는 '면접교섭'이 필수적이나 전배우자간의 적대감과 지속적 갈등으로 대부분 불이행되고 있습니다. 양부모가 겪고 있는 어려움들과 갈등사항들을 알아보고, 이해관계를 적절히 적용시킨 솔루션을 제공해 이혼가정의 아이들을 도울 수 있는 프로젝트를 진행했습니다.",
+      teamImg: "images/designers/service/DoongDoong.webp",
       gridImg: "",
       mainImg: "",
     },
@@ -528,6 +531,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       summary: "동물병원에서 진행하는 반려동물 장례 서비스",
       description:
         "코로나 19 이후 급격하게 증가한 반려동물 가구 수. 반려동물의 평균 수명을 고려하였을 때 가까운 미래에 수많은 반려동물이 죽음을 맞이하게 될 것으로 예측됩니다. 이를 위해 반려동물 장례가 진행되고 있지만 여전히 많은 보호자들은 장례의 개념을 모르고 있습니다. 저희는 아직 반려동물 장례를 준비하지 못한 보호자를 위해 동물병원을 중심으로 새로운 반려동물 장례 서비스를 제공할 것입니다. 이를 통해 반려동물 장례가 모든 보호자들이 쉽게 이용할 수 있는 대중적인 장례 시스템을 만들 것입니다.",
+      teamImg: "images/designers/service/DIDU.webp",
       gridImg: "",
       mainImg: "",
     },
@@ -543,6 +547,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       summary: "대학생들을 위한 용돈 관리 서비스",
       description:
         "대학생들이 늘 용돈이 부족하다고 느끼는 이유는 무엇일까요? 그 이유 중 하나는 '용돈 관리를 소홀히 해서'가 아니라 매달 변하는 가용예산을 모르고 지출하기 때문입니다. ‘얼마EASY’는 매달 용돈 관리가 어려운 대학생들을 위한 하나은행에서 제공하는 대학생들을 위한 자산관리 서비스입니다. 사용자로 하여금 고정지출과 유동지출을 나누어 관리할 수 있게 도와주고 고정비용을 제외한 매달 실제로 사용할 수 있는 예산을 알려줍니다. 내 가용예산이 얼마인지 쉽게 알고 싶다면? 얼마EASY에서 확인하세요!",
+      teamImg: "images/designers/service/SamjaDaemyeon.webp",
       gridImg: "",
       mainImg: "",
     },
@@ -559,6 +564,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       summary: "냉장고 안 버려지는 반찬 문제를 돕는 서비스",
       description:
         "한국인들은 다양한 반찬을 소비하는 식문화 때문에 냉장고에서 반찬을 관리하는 데 어려움을 겪습니다. 냉장고의 구조와 포화도 때문에 반찬의 상태나 소비기한을 쉽게 파악하기 어려워, 음식이 상하거나 낭비되는 문제가 발생합니다. 따라서, 저희는 냉장고 문을 열었을 때 음식의 소비 우선순위와 위치 정보를 직관적으로 전달하는 서비스를 제안합니다. 사용자는 간단하게 소비기한을 설정하고, 보다 체계적으로 반찬을 관리할 수 있습니다. 이를 통해 사용자는 기억에 의존하지 않고 정확히 음식의 상태와 기한을 관리할 수 있습니다.",
+      teamImg: "images/designers/service/Ssageuri.webp",
       gridImg: "",
       mainImg: "",
     },
@@ -575,6 +581,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       summary: "건설 재해 저감을 위한 서비스",
       description:
         "작업의 이동성과 옥외환경이라는 특징을 가진 건설현장은 매일 1.7명의 근로자가 사망하며 수많은 근로자들이 위험 상황에 놓이고 있습니다. 특히나 건설현장에서 '베테랑'으로 불리는 숙련공은 수많은 안전사고를 목격해왔음에도 불구하고, 축적된 내공에 기반한 불안전한 행동을 지속하고 있습니다. 이로 인해 재해 저감이 절대적으로 중요해진 원청사의 페인포인트를 파악하고 이해관계자 간의 관계를 분석하여 근로자의 불안전한 행동을 예방하도록 돕는 모니터링 서비스를 제안합니다.",
+      teamImg: "images/designers/service/Aube.webp",
       gridImg: "",
       mainImg: "",
     },
@@ -591,6 +598,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       summary: "일시적인 공연 네트워크 및 안전 관리 시스템",
       description:
         "Check On은 공연장 관객과 안전요원 간의 소통 서비스입니다. 관객들은 응급상황이 발생했을 때 안전요원이 빠르게 자신의 도움 요청 사실을 인지할 수 있기를 원합니다. 그러나 공연장 환경적 요소로 인해 안전요원은  도움 요청 행위와 호응행위를 구별하기 어려웠습니다. 따라서 Check On은 관객이 채팅을 통해 도움 요청을 할 수 있게 하고 AI 분석을 통해 안전요원에게 심각한 상황의 구역을 안내합니다. 또한 환자의 구역 정보를 전달해 빠른 대응을 할 수 있도록 돕습니다. 관객들이 안전하고 즐겁게 공연을 관람할 수 있는 서비스를 제안하고자 합니다.",
+      teamImg: "images/designers/service/JungJunha.webp",
       gridImg: "",
       mainImg: "",
     },
@@ -606,6 +614,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       summary: "배달용 다회용기 서비스 제공 플랫폼",
       description:
         "배달시장이 급속히 성장함에 따라 일회용기 사용이 폭발적으로 증가하며, 이에 따른 환경오염이 심화되고 있습니다. 다담은 이러한 문제를 해결하기 위해, 배달 시 다회용기를 사용하여 다양한 음식을 수용할 수 있는 표준화된 다회용기 서비스를 제공합니다. 이 서비스는 지역 세척장을 활용한 세척 시스템을 통해 동선과 비용을 최소화하며, 이해관계자들과 상생하는 방식으로 다회용기 사용률을 높입니다. 다담은 친환경적 배달 문화를 촉진하고, 지속 가능한 배달 플랫폼을 구축하는 것을 목표로 합니다.",
+      teamImg: "images/designers/service/Tigger.webp",
       gridImg: "",
       mainImg: "",
     },
@@ -622,6 +631,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       summary: "고령택시기사의 안전운전을 위한 서비스",
       description:
         '고령운전자의 교통사고 사망률이 증가하고 있습니다. 이는 고령택시기사의 운전자신감이 높아졌기 때문입니다. "차비서"는 고령택시기사에게 신체적·인지적 기능 저하를 이해할 수 있는 객관적인 운전능력 평가와 피드백을 영상과 함께 리포트 형식으로 제공합니다. 또한, 관리감독자에게는 고령택시기사의 주행을 출근부터 퇴근까지 실시간으로 기록하여 보고되게 함으로써 체계적으로 관리가 이루어지고 고령택시기사 스스로 안전운전을 할 수 있도록 행동을 이끌어내는 것을 목표로 합니다.',
+      teamImg: "images/designers/service/HamaHama.webp",
       gridImg: "",
       mainImg: "",
     },
@@ -638,6 +648,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       summary: "세탁 라벨을 활용한 새로운 기능 제안",
       description:
         "세탁법을 몰라 곤란했던 적 없으신가요? 이제 세탁법을 찾아 헤매거나 고민할 필요가 없습니다. 빠르고 정확하게 세탁 방법을 안내해주는 스마트 세탁 서비스를 선보입니다. 누구나 가지고 있지만 누구도 주목하지 않았던 세탁 라벨의 숨겨진 가치를 RFID 태그로 한층 업그레이드 했습니다. 또한 세탁법에 대한 새로운 기준을 통해 더욱 쉽게 세탁법을 파악할 수 있습니다. 이서비스를 통해 손쉽게 최적의 세탁 방법을 안내받을 수 있습니다.",
+      teamImg: "images/designers/service/DMG.webp",
       gridImg: "",
       mainImg: "",
     },
@@ -656,6 +667,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       summary: "실감나는 분위기로, 모든 순간을 풍부하게",
       description:
         "자율주행 기술이 발전하면서 자동차라는 공간은 탑승자에게 감각적인 경험을 제공할 수 있는 잠재력을 지니고 있습니다. 이를 실현시켜 자동차를 단순한 기계가 아닌 의인화된 존재로 바라보고, 그 특성을 활용하여 탑승자가 자동차와 인간다운 상호작용을 하며 실감나는 분위기를 누릴 수 있는 공간으로 변화시키고자 합니다. 이처럼 mize는 분위기를 실감나게 만드는 방법과 공감지능형 인터렉션을 융합하여 탑승자에게 기존 모빌리티에서는 경험하지 못했던 차별화된 경험을 제시합니다.",
+      teamImg: "images/designers/ux/team/Haedik.webp",
       gridImg: "",
       mainImg: "",
     },
@@ -672,6 +684,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       summary: "사장님을 위한 정보를 제공하는 배민뉴우스",
       description:
         "'배민 뉴우스'는 가게 사장님들이 예측하기 어려운 지역 및 전국 정보를 미리 제공하고, 나아가 손쉽게 프로모션이나 이벤트를 구성할 수 있도록 돕는다. 이 정보는 '배민 캐스터'가 수집하며, 해당 지역과 전국의 다양한 데이터를 사장님께 제공한다. 사장님의 피드백은 AI가 분석하여, 캐스터가 더욱 관련성 높은 정보를 제공할 수 있도록 지원한다. 이를 통해 사장님들은 지역 또는 전국의 이벤트, 상권, 날씨, 트렌드에 대한 정보와 가게에 미치는 영향을 미리 파악하고 대비할 수 있다.",
+      teamImg: "images/designers/ux/team/BO3.webp",
       gridImg: "",
       mainImg: "",
     },
@@ -688,6 +701,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       summary: "NEUE 모빌리티 커뮤니케이션 경험",
       description:
         "인간다운 상호교감이 가능한 경험을 통해 차량 탑승자들의 소통을 원활하게 해주는 AI 중심의 2030 미래 모빌리티 커뮤니케이션 솔루션 ‘WELLCOM’을 소개합니다. 차량의 커뮤니케이션을 원활하게 도와주는 ‘WELLCOM’은 좌석의 위치와 방향에 상관없이 서로를 보며 소통하고, 소리의 개방정도를 조절하여 프라이빗한 공간을 생성, Dynamic한 소통 변화에 맞춰 즉각적으로 대응하여 seamless한 소통 환경을 제공합니다. 또한, 차량 내부에서의 정보 공유와 외부와의 소통 확장을 통해 풍성한 소통 경험을 선사합니다.",
+      teamImg: "images/designers/ux/team/Lux.webp",
       gridImg: "",
       mainImg: "",
     },
@@ -706,6 +720,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       summary: "Weaving on the Way",
       description:
         "Mobility인 차량이 주행을 시작하면 위치와 상황이  변하고 이에 따라 탑승자의 context도 달라집니다. 나와 주행의 여정을 함께하는 차량 AI는 도로 위의 수많은context 속에서 다른 차량과의 connection point를 찾아 'Car'뮤니티의 장을 만들어줍니다. 도로 위의 차량들이 연결되었을 때 어떤 일이 일어날까요?지금 주행중인 곳의 교통상황을 다른 차량에게 공유해줄 수도,먼저 목적지에 도착한 차량에게 주차할 자리가 있는지 반대로 물어볼 수도 있어요. 다른 차와의 연결을 통해 보다 촘촘해지는 도로 위 정보망과 커지는 소통의 즐거움을 누리세요.",
+      teamImg: "images/designers/ux/team/Solti.webp",
       gridImg: "",
       mainImg: "",
     },
@@ -722,6 +737,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       summary: "당신의 주행을 섬세히 보조하는 AI 'Cuddy'",
       description:
         "현재 자동차 산업은 자율주행 기술의 급격한 발전과 함께 새로운 변화를 맞이하고 있다. 본 프로젝트는 2030년의 반자율주행 시대에서 AI를 활용하여 운전자의 주행 환경을 더욱 사람답게 섬세히 caring해주는 의인화된 모빌리티 경험을 제공한다. 운전자를 세심히 센싱하며 보조가 필요한 순간을 파악해 적절한 Action을 제안, 실행해 차량 환경을 최적화 시켜주며, 필요시 사용자에게 take-over하여 Action을 fine-tunning한 후 이를 학습하며 사용자의 프로파일에 저장해 보다 개인화된, 섬세한 차량 환경 Caring을 완성한다.",
+      teamImg: "images/designers/ux/team/Vivaz.webp",
       gridImg: "",
       mainImg: "",
     },
