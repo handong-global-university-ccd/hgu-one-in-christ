@@ -459,7 +459,7 @@ export const DESIGNERS = [
   },
   {
     id: 24,
-    nameKo: "박승수 (B)",
+    nameKo: "박승주 (B)",
     nameEng: "Seungju Park",
     email: "thoron113@gmail.com",
     img: "images/designers/comm/SeungjuPark_B.webp",
