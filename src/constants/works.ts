@@ -6,7 +6,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
     {
       id: 1,
       teamName: null,
-      designer: [{ nameKo: "박승주", studentId: 21700271 }],
+      designer: [{ id: 23, nameKo: "박승주", studentId: 21700271 }],
       title: "PARTY WAVE AGIT",
       summary: "서핑 하우스 브랜딩",
       description:
@@ -17,7 +17,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
     {
       id: 2,
       teamName: null,
-      designer: [{ nameKo: "안희재", studentId: 21700427 }],
+      designer: [{ id: 37, nameKo: "안희재", studentId: 21700427 }],
       title: "식(蝕) | 신성의 잔해",
       summary: "사라진 빛, 엇갈린 두 운명",
       description:
@@ -28,7 +28,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
     {
       id: 3,
       teamName: null,
-      designer: [{ nameKo: "박승주", studentId: 21800297 }],
+      designer: [{ id: 24, nameKo: "박승주", studentId: 21800297 }],
       title: "BOOGIE",
       summary: "다양하고 독특한 매력의 외계 친구들",
       description:
@@ -39,7 +39,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
     {
       id: 4,
       teamName: null,
-      designer: [{ nameKo: "박창조", studentId: 21800323 }],
+      designer: [{ id: 27, nameKo: "박창조", studentId: 21800323 }],
       title: "한 수 베어스",
       summary: "프로야구 구단 '두산 베어스' 박물관",
       description:
@@ -50,7 +50,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
     {
       id: 5,
       teamName: null,
-      designer: [{ nameKo: "송민준", studentId: 21800393 }],
+      designer: [{ id: 31, nameKo: "송민준", studentId: 21800393 }],
       title: "삼국통일",
       summary: "한국의 삼국시대를 배경으로 한 보드게임",
       description:
@@ -61,7 +61,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
     {
       id: 6,
       teamName: null,
-      designer: [{ nameKo: "이하준", studentId: 21800595 }],
+      designer: [{ id: 49, nameKo: "이하준", studentId: 21800595 }],
       title: "네이버 나눔 스퀘어 네오 아랍",
       summary: "나눔 스퀘어 네오의 아랍 문자 폰트 페어링",
       description:
@@ -72,7 +72,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
     {
       id: 7,
       teamName: null,
-      designer: [{ nameKo: "최가흔", studentId: 21800722 }],
+      designer: [{ id: 64, nameKo: "최가흔", studentId: 21800722 }],
       title: "색안경 끼고 보는 세상",
       summary: "젠틀몬스터 X 이찬혁 쇼케이스 브랜딩",
       description:
@@ -83,7 +83,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
     {
       id: 8,
       teamName: null,
-      designer: [{ nameKo: "강수빈", studentId: 21900006 }],
+      designer: [{ id: 2, nameKo: "강수빈", studentId: 21900006 }],
       title: "TILT-UP Festa",
       summary: "Nopamine TILT-UP Festa",
       description:
@@ -94,7 +94,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
     {
       id: 9,
       teamName: null,
-      designer: [{ nameKo: "고수영", studentId: 21900025 }],
+      designer: [{ id: 4, nameKo: "고수영", studentId: 21900025 }],
       title: "HAPPY NEW DAY : 오늘의집 캠페인",
       summary: "오늘의집 팝업스토어 캠페인 브랜딩",
       description:
@@ -105,7 +105,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
     {
       id: 10,
       teamName: null,
-      designer: [{ nameKo: "김가현", studentId: 21900061 }],
+      designer: [{ id: 6, nameKo: "김가현", studentId: 21900061 }],
       title: "퐝퐝포항 VISIT POHANG YEAR 2025",
       summary: "2025 포항 방문의 해 프로모션 디자인",
       description:
@@ -116,7 +116,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
     {
       id: 11,
       teamName: null,
-      designer: [{ nameKo: "김경진", studentId: 21900067 }],
+      designer: [{ id: 7, nameKo: "김경진", studentId: 21900067 }],
       title: "Int'l Art Cup Festa",
       summary: "Int'l Art Cup Festa 브랜딩",
       description:
@@ -127,7 +127,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
     {
       id: 12,
       teamName: null,
-      designer: [{ nameKo: "김나경", studentId: 21900074 }],
+      designer: [{ id: 8, nameKo: "김나경", studentId: 21900074 }],
       title: "빵과후 과일생각",
       summary: "과일타르트 베이커리 브랜딩",
       description:
@@ -138,7 +138,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
     {
       id: 13,
       teamName: null,
-      designer: [{ nameKo: "김성순", studentId: 21900114 }],
+      designer: [{ id: 12, nameKo: "김성순", studentId: 21900114 }],
       title: '"하나님의 관심"',
       summary: '싱어송라이터 이하진의 데뷔앨범 "관심"',
       description:
@@ -149,7 +149,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
     {
       id: 14,
       teamName: null,
-      designer: [{ nameKo: "박은실", studentId: 21900299 }],
+      designer: [{ id: 26, nameKo: "박은실", studentId: 21900299 }],
       title: "서울극장 1979",
       summary: "서울극장 리브랜딩",
       description:
@@ -160,7 +160,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
     {
       id: 15,
       teamName: null,
-      designer: [{ nameKo: "서유나", studentId: 21900365 }],
+      designer: [{ id: 28, nameKo: "서유나", studentId: 21900365 }],
       title: "The Seoul Graphic Art Fair",
       summary: "서울그래픽아트페어 브랜딩",
       description:
@@ -171,7 +171,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
     {
       id: 16,
       teamName: null,
-      designer: [{ nameKo: "안다진", studentId: 21900417 }],
+      designer: [{ id: 35, nameKo: "안다진", studentId: 21900417 }],
       title: "Timeless Sweetness",
       summary: "Baskin Robbins X Swatch 팝업",
       description:
@@ -182,7 +182,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
     {
       id: 17,
       teamName: null,
-      designer: [{ nameKo: "이동연", studentId: 21900494 }],
+      designer: [{ id: 40, nameKo: "이동연", studentId: 21900494 }],
       title: "Fotografiska Rebranding",
       summary: "사진 박물관 포토그래피스카 리브랜딩",
       description:
@@ -193,7 +193,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
     {
       id: 18,
       teamName: null,
-      designer: [{ nameKo: "이지향", studentId: 21900569 }],
+      designer: [{ id: 47, nameKo: "이지향", studentId: 21900569 }],
       title: "Fairytale of Rotutu",
       summary: "'아름다운 커피' 팝업스토어",
       description:
@@ -204,7 +204,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
     {
       id: 19,
       teamName: null,
-      designer: [{ nameKo: "이현화", studentId: 21900598 }],
+      designer: [{ id: 50, nameKo: "이현화", studentId: 21900598 }],
       title: "Whiff",
       summary: "샌드캔들 브랜드 '위프' 브랜딩",
       description:
@@ -215,7 +215,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
     {
       id: 20,
       teamName: null,
-      designer: [{ nameKo: "정해인", studentId: 21900653 }],
+      designer: [{ id: 59, nameKo: "정해인", studentId: 21900653 }],
       title: "From Rain to Roots",
       summary: "레인부츠 업사이클링 팝업",
       description:
@@ -226,7 +226,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
     {
       id: 21,
       teamName: null,
-      designer: [{ nameKo: "조은비", studentId: 21900709 }],
+      designer: [{ id: 62, nameKo: "조은비", studentId: 21900709 }],
       title: "Stigma 가상의 버츄얼 그룹 캐릭터 디자인",
       summary: "스티그마(stigma) 캐릭터 디자인",
       description:
@@ -237,7 +237,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
     {
       id: 22,
       teamName: null,
-      designer: [{ nameKo: "강지은", studentId: 21901003 }],
+      designer: [{ id: 3, nameKo: "강지은", studentId: 21901003 }],
       title: "réblue",
       summary: "업사이클링 쥬얼리 브랜딩",
       description:
@@ -248,7 +248,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
     {
       id: 23,
       teamName: null,
-      designer: [{ nameKo: "김수아", studentId: 22000110 }],
+      designer: [{ id: 13, nameKo: "김수아", studentId: 22000110 }],
       title: "어쨌든 달콤함",
       summary: "수제캔디 전문점 브랜딩",
       description:
@@ -259,7 +259,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
     {
       id: 24,
       teamName: null,
-      designer: [{ nameKo: "김은빈", studentId: 22000160 }],
+      designer: [{ id: 15, nameKo: "김은빈", studentId: 22000160 }],
       title: "커스텀 초콜릿 브랜드 'viv'",
       summary: "나만의 이야기를 담을 수 있는 초콜릿 브랜드",
       description:
@@ -270,7 +270,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
     {
       id: 25,
       teamName: null,
-      designer: [{ nameKo: "노유원", studentId: 22000227 }],
+      designer: [{ id: 18, nameKo: "노유원", studentId: 22000227 }],
       title: "논알콜 한식 다이닝 <반주>",
       summary: "논알콜 한식 다이닝 <반주> 브랜딩",
       description:
@@ -281,7 +281,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
     {
       id: 26,
       teamName: null,
-      designer: [{ nameKo: "박보민", studentId: 22000260 }],
+      designer: [{ id: 22, nameKo: "박보민", studentId: 22000260 }],
       title: "어쨌든,",
       summary: '"아무튼," 에세이 시리즈2 ',
       description:
@@ -292,7 +292,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
     {
       id: 27,
       teamName: null,
-      designer: [{ nameKo: "서하령", studentId: 22000353 }],
+      designer: [{ id: 30, nameKo: "서하령", studentId: 22000353 }],
       title: "몽나니",
       summary: "못난이과일 상생브랜드",
       description:
@@ -303,7 +303,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
     {
       id: 28,
       teamName: null,
-      designer: [{ nameKo: "안가현", studentId: 22000399 }],
+      designer: [{ id: 34, nameKo: "안가현", studentId: 22000399 }],
       title: "Inside me, PiPPi",
       summary: "싱어송라이터 민수 브랜딩",
       description:
@@ -314,7 +314,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
     {
       id: 29,
       teamName: null,
-      designer: [{ nameKo: "유주희", studentId: 22000465 }],
+      designer: [{ id: 39, nameKo: "유주희", studentId: 22000465 }],
       title: "LUSH, Korean Tradition Collection",
       summary: "코스메틱 브랜드 러쉬, 한국 한정판 컬렉션",
       description:
@@ -325,7 +325,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
     {
       id: 30,
       teamName: null,
-      designer: [{ nameKo: "이주아", studentId: 22000565 }],
+      designer: [{ id: 44, nameKo: "이주아", studentId: 22000565 }],
       title: "무작정",
       summary: "시외버스를 이용한 여행 서비스 플랫폼",
       description:
@@ -336,7 +336,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
     {
       id: 31,
       teamName: null,
-      designer: [{ nameKo: "이주영", studentId: 22000566 }],
+      designer: [{ id: 45, nameKo: "이주영", studentId: 22000566 }],
       title: "Groove Round",
       summary: "춤추는 사람들을 위한 영상 플랫폼",
       description:
@@ -347,7 +347,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
     {
       id: 32,
       teamName: null,
-      designer: [{ nameKo: "임예담", studentId: 22000615 }],
+      designer: [{ id: 53, nameKo: "임예담", studentId: 22000615 }],
       title: "반디사과",
       summary: "반디 사과 브랜딩",
       description:
@@ -358,7 +358,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
     {
       id: 33,
       teamName: null,
-      designer: [{ nameKo: "장소윤", studentId: 22000622 }],
+      designer: [{ id: 54, nameKo: "장소윤", studentId: 22000622 }],
       title: "홀리몰리! (HolyMoly!)",
       summary: "성경 기반 카드 게임",
       description:
@@ -369,7 +369,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
     {
       id: 34,
       teamName: null,
-      designer: [{ nameKo: "전유은", studentId: 22000651 }],
+      designer: [{ id: 56, nameKo: "전유은", studentId: 22000651 }],
       title: "Between Us",
       summary: "일광전구 X 에너지 절약 캠페인",
       description:
@@ -380,7 +380,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
     {
       id: 35,
       teamName: null,
-      designer: [{ nameKo: "정예은", studentId: 22000681 }],
+      designer: [{ id: 57, nameKo: "정예은", studentId: 22000681 }],
       title: "nighty-night",
       summary: "수면 라이프스타일 브랜딩",
       description:
@@ -391,7 +391,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
     {
       id: 36,
       teamName: null,
-      designer: [{ nameKo: "정은서", studentId: 22000686 }],
+      designer: [{ id: 58, nameKo: "정은서", studentId: 22000686 }],
       title: "쉼, 패턴과 만나다",
       summary: "오패턴스튜디오X오늘의집 협업 전시",
       description:
@@ -402,7 +402,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
     {
       id: 37,
       teamName: null,
-      designer: [{ nameKo: "김현지", studentId: 22001014 }],
+      designer: [{ id: 16, nameKo: "김현지", studentId: 22001014 }],
       title: "MUYU (無有)",
       summary: "자동차 비쥬얼 튜닝샵 'MUYU' 브랜딩",
       description:
@@ -413,7 +413,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
     {
       id: 38,
       teamName: null,
-      designer: [{ nameKo: "류혜빈", studentId: 22001019 }],
+      designer: [{ id: 19, nameKo: "류혜빈", studentId: 22001019 }],
       title: "After time, 29",
       summary: "29cm '기록' 팝업 스토어",
       description:
@@ -424,7 +424,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
     {
       id: 39,
       teamName: null,
-      designer: [{ nameKo: "임다솔", studentId: 22001057 }],
+      designer: [{ id: 51, nameKo: "임다솔", studentId: 22001057 }],
       title: "Bluedot",
       summary: "뷰티 브랜드 Bluedot",
       description:
@@ -435,7 +435,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
     {
       id: 40,
       teamName: null,
-      designer: [{ nameKo: "장희진", studentId: 22001058 }],
+      designer: [{ id: 55, nameKo: "장희진", studentId: 22001058 }],
       title: "EDENIQUE",
       summary: "크리스찬 웨딩 스타일링 브랜드 EDENIQUE",
       description:
@@ -446,7 +446,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
     {
       id: 41,
       teamName: null,
-      designer: [{ nameKo: "최예영", studentId: 22001069 }],
+      designer: [{ id: 66, nameKo: "최예영", studentId: 22001069 }],
       title: "OPACITY",
       summary: "향수 브랜드",
       description:
@@ -457,7 +457,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
     {
       id: 42,
       teamName: null,
-      designer: [{ nameKo: "정희주", studentId: 22100696 }],
+      designer: [{ id: 60, nameKo: "정희주", studentId: 22100696 }],
       title: "BookBookBugBug",
       summary: "중고책 서점 브랜딩",
       description:
@@ -471,15 +471,16 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       id: 1,
       teamName: "4패트",
       designer: [
-        { nameKo: "김수아", studentId: 22000110 },
-        { nameKo: "김은빈", studentId: 22000160 },
-        { nameKo: "박보민", studentId: 22000260 },
-        { nameKo: "이주영", studentId: 22000566 },
+        { id: 13, nameKo: "김수아", studentId: 22000110 },
+        { id: 15, nameKo: "김은빈", studentId: 22000160 },
+        { id: 22, nameKo: "박보민", studentId: 22000260 },
+        { id: 45, nameKo: "이주영", studentId: 22000566 },
       ],
       title: "met",
       summary: "헬멧을 이용한 전동 킥보드 서비스",
       description:
         "전동 킥보드는 10 · 20대의 새로운 이동 수단으로 자리 잡고 있으나 이용 대비 안전 관련 문제는 잘 지켜지지 않고 있습니다. 그중 헬멧 미착용 비율이 가장 높고 이는 사고 시 큰 부상으로 이어지는 원인이 됩니다. 사람들이 헬멧을 개인적으로 소지할 수 있도록 돕는 서비스 met은 기존의 공유 모빌리티 서비스에서 NFC 헬멧으로 잠금 해제 및 결제를 할 수 있도록 합니다. 더불어 개인이 원하는 형태, 원하는 컬러로 헬멧을 선택할 수 있도록 하여 사용자마다 다른 헬멧의 니즈를 만족시킬 수 있도록 합니다.",
+      teamImg: "images/designers/service/4pat.webp",
       gridImg: "",
       mainImg: "",
     },
@@ -487,15 +488,16 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       id: 2,
       teamName: "깔쌈랄키",
       designer: [
-        { nameKo: "이하준", studentId: 21800595 },
-        { nameKo: "안다진", studentId: 21900417 },
-        { nameKo: "이동연", studentId: 21900494 },
-        { nameKo: "정희주", studentId: 22100696 },
+        { id: 49, nameKo: "이하준", studentId: 21800595 },
+        { id: 35, nameKo: "안다진", studentId: 21900417 },
+        { id: 40, nameKo: "이동연", studentId: 21900494 },
+        { id: 60, nameKo: "정희주", studentId: 22100696 },
       ],
       title: "BLEND IN'",
       summary: "경계선 지능 청년을 위한 일자리 경험 서비스",
       description:
         "경계선 지능 청년은 평균 지능과 발달 장애 사이에 위치해 학습 및 사회적 상호작용에서 어려움을 겪는 이들입니다. 이들은 청년기에 자립에 필요한 능력을 충분히 갖추지 못해 경제적, 사회적 도전에 직면하게 됩니다. 특히 낮은 업무 습득력과 상황 대처 능력으로 경계선 지능인은 단순 작업이나 단기 근무 형태의 직종 마저 쉽게 해고당합니다. 이러한 청년들에게 카페 바리스타 보조 역할을 통해 실무 경험을 제공하고, 직업 적응력을 높이며 사회 참여를 유도하는 일자리 경험 서비스를 제공합니다.",
+      teamImg: "images/designers/service/KkalsseomRalki.webp",
       gridImg: "",
       mainImg: "",
     },
@@ -503,15 +505,16 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       id: 3,
       teamName: "둥둥",
       designer: [
-        { nameKo: "고수영", studentId: 21900025 },
-        { nameKo: "김가현", studentId: 21900061 },
-        { nameKo: "김성순", studentId: 21900114 },
-        { nameKo: "서하령", studentId: 22000353 },
+        { id: 4, nameKo: "고수영", studentId: 21900025 },
+        { id: 6, nameKo: "김가현", studentId: 21900061 },
+        { id: 12, nameKo: "김성순", studentId: 21900114 },
+        { id: 30, nameKo: "서하령", studentId: 22000353 },
       ],
       title: "이룸",
       summary: "이혼가정을 위한 비대면 면접교섭 서비스",
       description:
         "우리나라는 아시아 국가 중 이혼율 1위를 차지하고 있습니다. 이혼율이 높다는 것은, 이혼 가정이 되는 아이들도 많다는 뜻인데요. 특히 학령전기 아동이 이혼 환경에 가장 많이 놓이고 있습니다. 이들은 정서, 환경적으로 많은 어려움을 겪고 있어 심리적 안정과 이혼 후 적응을 도울 수 있는 '면접교섭'이 필수적이나 전배우자간의 적대감과 지속적 갈등으로 대부분 불이행되고 있습니다. 양부모가 겪고 있는 어려움들과 갈등사항들을 알아보고, 이해관계를 적절히 적용시킨 솔루션을 제공해 이혼가정의 아이들을 도울 수 있는 프로젝트를 진행했습니다.",
+      teamImg: "images/designers/service/DoongDoong.webp",
       gridImg: "",
       mainImg: "",
     },
@@ -519,15 +522,16 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       id: 4,
       teamName: "디두",
       designer: [
-        { nameKo: "박승주", studentId: 21800297 },
-        { nameKo: "박창조", studentId: 21800323 },
-        { nameKo: "정은서", studentId: 22000686 },
-        { nameKo: "김현지", studentId: 22001014 },
+        { id: 24, nameKo: "박승주", studentId: 21800297 },
+        { id: 27, nameKo: "박창조", studentId: 21800323 },
+        { id: 58, nameKo: "정은서", studentId: 22000686 },
+        { id: 16, nameKo: "김현지", studentId: 22001014 },
       ],
       title: ".endeeve",
       summary: "동물병원에서 진행하는 반려동물 장례 서비스",
       description:
         "코로나 19 이후 급격하게 증가한 반려동물 가구 수. 반려동물의 평균 수명을 고려하였을 때 가까운 미래에 수많은 반려동물이 죽음을 맞이하게 될 것으로 예측됩니다. 이를 위해 반려동물 장례가 진행되고 있지만 여전히 많은 보호자들은 장례의 개념을 모르고 있습니다. 저희는 아직 반려동물 장례를 준비하지 못한 보호자를 위해 동물병원을 중심으로 새로운 반려동물 장례 서비스를 제공할 것입니다. 이를 통해 반려동물 장례가 모든 보호자들이 쉽게 이용할 수 있는 대중적인 장례 시스템을 만들 것입니다.",
+      teamImg: "images/designers/service/DIDU.webp",
       gridImg: "",
       mainImg: "",
     },
@@ -535,14 +539,15 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       id: 5,
       teamName: "삼자대면",
       designer: [
-        { nameKo: "송민준", studentId: 21800393 },
-        { nameKo: "노유원", studentId: 22000227 },
-        { nameKo: "임다솔", studentId: 22001057 },
+        { id: 31, nameKo: "송민준", studentId: 21800393 },
+        { id: 18, nameKo: "노유원", studentId: 22000227 },
+        { id: 51, nameKo: "임다솔", studentId: 22001057 },
       ],
       title: "얼마EASY",
       summary: "대학생들을 위한 용돈 관리 서비스",
       description:
         "대학생들이 늘 용돈이 부족하다고 느끼는 이유는 무엇일까요? 그 이유 중 하나는 '용돈 관리를 소홀히 해서'가 아니라 매달 변하는 가용예산을 모르고 지출하기 때문입니다. ‘얼마EASY’는 매달 용돈 관리가 어려운 대학생들을 위한 하나은행에서 제공하는 대학생들을 위한 자산관리 서비스입니다. 사용자로 하여금 고정지출과 유동지출을 나누어 관리할 수 있게 도와주고 고정비용을 제외한 매달 실제로 사용할 수 있는 예산을 알려줍니다. 내 가용예산이 얼마인지 쉽게 알고 싶다면? 얼마EASY에서 확인하세요!",
+      teamImg: "images/designers/service/SamjaDaemyeon.webp",
       gridImg: "",
       mainImg: "",
     },
@@ -550,15 +555,16 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       id: 6,
       teamName: "싸그리",
       designer: [
-        { nameKo: "박승주", studentId: 21700271 },
-        { nameKo: "정해인", studentId: 21900653 },
-        { nameKo: "임예담", studentId: 22000615 },
-        { nameKo: "장희진", studentId: 22001058 },
+        { id: 23, nameKo: "박승주", studentId: 21700271 },
+        { id: 59, nameKo: "정해인", studentId: 21900653 },
+        { id: 53, nameKo: "임예담", studentId: 22000615 },
+        { id: 55, nameKo: "장희진", studentId: 22001058 },
       ],
       title: "Blinker",
       summary: "냉장고 안 버려지는 반찬 문제를 돕는 서비스",
       description:
         "한국인들은 다양한 반찬을 소비하는 식문화 때문에 냉장고에서 반찬을 관리하는 데 어려움을 겪습니다. 냉장고의 구조와 포화도 때문에 반찬의 상태나 소비기한을 쉽게 파악하기 어려워, 음식이 상하거나 낭비되는 문제가 발생합니다. 따라서, 저희는 냉장고 문을 열었을 때 음식의 소비 우선순위와 위치 정보를 직관적으로 전달하는 서비스를 제안합니다. 사용자는 간단하게 소비기한을 설정하고, 보다 체계적으로 반찬을 관리할 수 있습니다. 이를 통해 사용자는 기억에 의존하지 않고 정확히 음식의 상태와 기한을 관리할 수 있습니다.",
+      teamImg: "images/designers/service/Ssageuri.webp",
       gridImg: "",
       mainImg: "",
     },
@@ -566,15 +572,16 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       id: 7,
       teamName: "오브",
       designer: [
-        { nameKo: "강수빈", studentId: 21900006 },
-        { nameKo: "이현화", studentId: 21900598 },
-        { nameKo: "전유은", studentId: 22000651 },
-        { nameKo: "류혜빈", studentId: 22001019 },
+        { id: 2, nameKo: "강수빈", studentId: 21900006 },
+        { id: 50, nameKo: "이현화", studentId: 21900598 },
+        { id: 56, nameKo: "전유은", studentId: 22000651 },
+        { id: 19, nameKo: "류혜빈", studentId: 22001019 },
       ],
       title: "PAZ",
       summary: "건설 재해 저감을 위한 서비스",
       description:
         "작업의 이동성과 옥외환경이라는 특징을 가진 건설현장은 매일 1.7명의 근로자가 사망하며 수많은 근로자들이 위험 상황에 놓이고 있습니다. 특히나 건설현장에서 '베테랑'으로 불리는 숙련공은 수많은 안전사고를 목격해왔음에도 불구하고, 축적된 내공에 기반한 불안전한 행동을 지속하고 있습니다. 이로 인해 재해 저감이 절대적으로 중요해진 원청사의 페인포인트를 파악하고 이해관계자 간의 관계를 분석하여 근로자의 불안전한 행동을 예방하도록 돕는 모니터링 서비스를 제안합니다.",
+      teamImg: "images/designers/service/Aube.webp",
       gridImg: "",
       mainImg: "",
     },
@@ -582,15 +589,16 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       id: 8,
       teamName: "정준하",
       designer: [
-        { nameKo: "김나경", studentId: 21900074 },
-        { nameKo: "이지향", studentId: 21900569 },
-        { nameKo: "이주아", studentId: 22000565 },
-        { nameKo: "정예은", studentId: 22000681 },
+        { id: 8, nameKo: "김나경", studentId: 21900074 },
+        { id: 47, nameKo: "이지향", studentId: 21900569 },
+        { id: 44, nameKo: "이주아", studentId: 22000565 },
+        { id: 57, nameKo: "정예은", studentId: 22000681 },
       ],
       title: "Check On",
       summary: "일시적인 공연 네트워크 및 안전 관리 시스템",
       description:
         "Check On은 공연장 관객과 안전요원 간의 소통 서비스입니다. 관객들은 응급상황이 발생했을 때 안전요원이 빠르게 자신의 도움 요청 사실을 인지할 수 있기를 원합니다. 그러나 공연장 환경적 요소로 인해 안전요원은  도움 요청 행위와 호응행위를 구별하기 어려웠습니다. 따라서 Check On은 관객이 채팅을 통해 도움 요청을 할 수 있게 하고 AI 분석을 통해 안전요원에게 심각한 상황의 구역을 안내합니다. 또한 환자의 구역 정보를 전달해 빠른 대응을 할 수 있도록 돕습니다. 관객들이 안전하고 즐겁게 공연을 관람할 수 있는 서비스를 제안하고자 합니다.",
+      teamImg: "images/designers/service/JungJunha.webp",
       gridImg: "",
       mainImg: "",
     },
@@ -598,14 +606,15 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       id: 9,
       teamName: "티거",
       designer: [
-        { nameKo: "안희재", studentId: 21700427 },
-        { nameKo: "유주희", studentId: 22000465 },
-        { nameKo: "최예영", studentId: 22001069 },
+        { id: 37, nameKo: "안희재", studentId: 21700427 },
+        { id: 39, nameKo: "유주희", studentId: 22000465 },
+        { id: 66, nameKo: "최예영", studentId: 22001069 },
       ],
       title: "다담",
       summary: "배달용 다회용기 서비스 제공 플랫폼",
       description:
         "배달시장이 급속히 성장함에 따라 일회용기 사용이 폭발적으로 증가하며, 이에 따른 환경오염이 심화되고 있습니다. 다담은 이러한 문제를 해결하기 위해, 배달 시 다회용기를 사용하여 다양한 음식을 수용할 수 있는 표준화된 다회용기 서비스를 제공합니다. 이 서비스는 지역 세척장을 활용한 세척 시스템을 통해 동선과 비용을 최소화하며, 이해관계자들과 상생하는 방식으로 다회용기 사용률을 높입니다. 다담은 친환경적 배달 문화를 촉진하고, 지속 가능한 배달 플랫폼을 구축하는 것을 목표로 합니다.",
+      teamImg: "images/designers/service/Tigger.webp",
       gridImg: "",
       mainImg: "",
     },
@@ -613,15 +622,16 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       id: 10,
       teamName: "하마하마",
       designer: [
-        { nameKo: "서유나", studentId: 21900365 },
-        { nameKo: "조은비", studentId: 21900709 },
-        { nameKo: "강지은", studentId: 21901003 },
-        { nameKo: "장소윤", studentId: 22000622 },
+        { id: 28, nameKo: "서유나", studentId: 21900365 },
+        { id: 62, nameKo: "조은비", studentId: 21900709 },
+        { id: 3, nameKo: "강지은", studentId: 21901003 },
+        { id: 54, nameKo: "장소윤", studentId: 22000622 },
       ],
       title: "차비서",
       summary: "고령택시기사의 안전운전을 위한 서비스",
       description:
         '고령운전자의 교통사고 사망률이 증가하고 있습니다. 이는 고령택시기사의 운전자신감이 높아졌기 때문입니다. "차비서"는 고령택시기사에게 신체적·인지적 기능 저하를 이해할 수 있는 객관적인 운전능력 평가와 피드백을 영상과 함께 리포트 형식으로 제공합니다. 또한, 관리감독자에게는 고령택시기사의 주행을 출근부터 퇴근까지 실시간으로 기록하여 보고되게 함으로써 체계적으로 관리가 이루어지고 고령택시기사 스스로 안전운전을 할 수 있도록 행동을 이끌어내는 것을 목표로 합니다.',
+      teamImg: "images/designers/service/HamaHama.webp",
       gridImg: "",
       mainImg: "",
     },
@@ -629,15 +639,16 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       id: 11,
       teamName: "DMG",
       designer: [
-        { nameKo: "최가흔", studentId: 21800722 },
-        { nameKo: "김경진", studentId: 21900067 },
-        { nameKo: "박은실", studentId: 21900299 },
-        { nameKo: "안가현", studentId: 22000399 },
+        { id: 64, nameKo: "최가흔", studentId: 21800722 },
+        { id: 7, nameKo: "김경진", studentId: 21900067 },
+        { id: 26, nameKo: "박은실", studentId: 21900299 },
+        { id: 34, nameKo: "안가현", studentId: 22000399 },
       ],
       title: "Smart Laundry-tag System",
       summary: "세탁 라벨을 활용한 새로운 기능 제안",
       description:
         "세탁법을 몰라 곤란했던 적 없으신가요? 이제 세탁법을 찾아 헤매거나 고민할 필요가 없습니다. 빠르고 정확하게 세탁 방법을 안내해주는 스마트 세탁 서비스를 선보입니다. 누구나 가지고 있지만 누구도 주목하지 않았던 세탁 라벨의 숨겨진 가치를 RFID 태그로 한층 업그레이드 했습니다. 또한 세탁법에 대한 새로운 기준을 통해 더욱 쉽게 세탁법을 파악할 수 있습니다. 이서비스를 통해 손쉽게 최적의 세탁 방법을 안내받을 수 있습니다.",
+      teamImg: "images/designers/service/DMG.webp",
       gridImg: "",
       mainImg: "",
     },
@@ -647,15 +658,16 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       id: 1,
       teamName: "해디크",
       designer: [
-        { nameKo: "조가은", studentId: 21900692 },
-        { nameKo: "권은진", studentId: 22000043 },
-        { nameKo: "안혜빈", studentId: 22000405 },
-        { nameKo: "유수정", studentId: 22100464 },
+        { id: 61, nameKo: "조가은", studentId: 21900692 },
+        { id: 5, nameKo: "권은진", studentId: 22000043 },
+        { id: 36, nameKo: "안혜빈", studentId: 22000405 },
+        { id: 38, nameKo: "유수정", studentId: 22100464 },
       ],
       title: "mize",
       summary: "실감나는 분위기로, 모든 순간을 풍부하게",
       description:
         "자율주행 기술이 발전하면서 자동차라는 공간은 탑승자에게 감각적인 경험을 제공할 수 있는 잠재력을 지니고 있습니다. 이를 실현시켜 자동차를 단순한 기계가 아닌 의인화된 존재로 바라보고, 그 특성을 활용하여 탑승자가 자동차와 인간다운 상호작용을 하며 실감나는 분위기를 누릴 수 있는 공간으로 변화시키고자 합니다. 이처럼 mize는 분위기를 실감나게 만드는 방법과 공감지능형 인터렉션을 융합하여 탑승자에게 기존 모빌리티에서는 경험하지 못했던 차별화된 경험을 제시합니다.",
+      teamImg: "images/designers/ux/team/Haedik.webp",
       gridImg: "",
       mainImg: "",
     },
@@ -663,15 +675,16 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       id: 2,
       teamName: "BO3",
       designer: [
-        { nameKo: "최석현", studentId: 21700722 },
-        { nameKo: "김민경", studentId: 22000070 },
-        { nameKo: "허현지", studentId: 22000798 },
-        { nameKo: "이하영", studentId: 22100590 },
+        { id: 65, nameKo: "최석현", studentId: 21700722 },
+        { id: 9, nameKo: "김민경", studentId: 22000070 },
+        { id: 69, nameKo: "허현지", studentId: 22000798 },
+        { id: 48, nameKo: "이하영", studentId: 22100590 },
       ],
       title: "배민 뉴우스",
       summary: "사장님을 위한 정보를 제공하는 배민뉴우스",
       description:
         "'배민 뉴우스'는 가게 사장님들이 예측하기 어려운 지역 및 전국 정보를 미리 제공하고, 나아가 손쉽게 프로모션이나 이벤트를 구성할 수 있도록 돕는다. 이 정보는 '배민 캐스터'가 수집하며, 해당 지역과 전국의 다양한 데이터를 사장님께 제공한다. 사장님의 피드백은 AI가 분석하여, 캐스터가 더욱 관련성 높은 정보를 제공할 수 있도록 지원한다. 이를 통해 사장님들은 지역 또는 전국의 이벤트, 상권, 날씨, 트렌드에 대한 정보와 가게에 미치는 영향을 미리 파악하고 대비할 수 있다.",
+      teamImg: "images/designers/ux/team/BO3.webp",
       gridImg: "",
       mainImg: "",
     },
@@ -679,15 +692,16 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       id: 3,
       teamName: "LUX",
       designer: [
-        { nameKo: "강산길", studentId: 21700003 },
-        { nameKo: "김민영", studentId: 21900098 },
-        { nameKo: "신지수", studentId: 22000392 },
-        { nameKo: "임시은", studentId: 22000613 },
+        { id: 1, nameKo: "강산길", studentId: 21700003 },
+        { id: 11, nameKo: "김민영", studentId: 21900098 },
+        { id: 33, nameKo: "신지수", studentId: 22000392 },
+        { id: 52, nameKo: "임시은", studentId: 22000613 },
       ],
       title: "WELLCOM: 차량 커뮤니케이션의 mediator",
       summary: "NEUE 모빌리티 커뮤니케이션 경험",
       description:
         "인간다운 상호교감이 가능한 경험을 통해 차량 탑승자들의 소통을 원활하게 해주는 AI 중심의 2030 미래 모빌리티 커뮤니케이션 솔루션 ‘WELLCOM’을 소개합니다. 차량의 커뮤니케이션을 원활하게 도와주는 ‘WELLCOM’은 좌석의 위치와 방향에 상관없이 서로를 보며 소통하고, 소리의 개방정도를 조절하여 프라이빗한 공간을 생성, Dynamic한 소통 변화에 맞춰 즉각적으로 대응하여 seamless한 소통 환경을 제공합니다. 또한, 차량 내부에서의 정보 공유와 외부와의 소통 확장을 통해 풍성한 소통 경험을 선사합니다.",
+      teamImg: "images/designers/ux/team/Lux.webp",
       gridImg: "",
       mainImg: "",
     },
@@ -696,16 +710,17 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       id: 4,
       teamName: "Solti",
       designer: [
-        { nameKo: "한인철", studentId: 21800781 },
-        { nameKo: "김유미", studentId: 21900166 },
-        { nameKo: "이지원", studentId: 22000581 },
-        { nameKo: "서지은", studentId: 22100369 },
-        { nameKo: "이석영", studentId: 22435003 },
+        { id: 68, nameKo: "한인철", studentId: 21800781 },
+        { id: 14, nameKo: "김유미", studentId: 21900166 },
+        { id: 46, nameKo: "이지원", studentId: 22000581 },
+        { id: 29, nameKo: "서지은", studentId: 22100369 },
+        { id: 41, nameKo: "이석영", studentId: 22435003 },
       ],
       title: "Carmmunity: Car+Community",
       summary: "Weaving on the Way",
       description:
         "Mobility인 차량이 주행을 시작하면 위치와 상황이  변하고 이에 따라 탑승자의 context도 달라집니다. 나와 주행의 여정을 함께하는 차량 AI는 도로 위의 수많은context 속에서 다른 차량과의 connection point를 찾아 'Car'뮤니티의 장을 만들어줍니다. 도로 위의 차량들이 연결되었을 때 어떤 일이 일어날까요?지금 주행중인 곳의 교통상황을 다른 차량에게 공유해줄 수도,먼저 목적지에 도착한 차량에게 주차할 자리가 있는지 반대로 물어볼 수도 있어요. 다른 차와의 연결을 통해 보다 촘촘해지는 도로 위 정보망과 커지는 소통의 즐거움을 누리세요.",
+      teamImg: "images/designers/ux/team/Solti.webp",
       gridImg: "",
       mainImg: "",
     },
@@ -713,15 +728,16 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       id: 5,
       teamName: "Vivaz",
       designer: [
-        { nameKo: "한상윤", studentId: 21800775 },
-        { nameKo: "박예봄", studentId: 21801030 },
-        { nameKo: "신수민", studentId: 21900396 },
-        { nameKo: "조은비", studentId: 22000723 },
+        { id: 67, nameKo: "한상윤", studentId: 21800775 },
+        { id: 25, nameKo: "박예봄", studentId: 21801030 },
+        { id: 32, nameKo: "신수민", studentId: 21900396 },
+        { id: 63, nameKo: "조은비", studentId: 22000723 },
       ],
       title: "Cuddy: 주행 환경 Caring Buddy",
       summary: "당신의 주행을 섬세히 보조하는 AI 'Cuddy'",
       description:
         "현재 자동차 산업은 자율주행 기술의 급격한 발전과 함께 새로운 변화를 맞이하고 있다. 본 프로젝트는 2030년의 반자율주행 시대에서 AI를 활용하여 운전자의 주행 환경을 더욱 사람답게 섬세히 caring해주는 의인화된 모빌리티 경험을 제공한다. 운전자를 세심히 센싱하며 보조가 필요한 순간을 파악해 적절한 Action을 제안, 실행해 차량 환경을 최적화 시켜주며, 필요시 사용자에게 take-over하여 Action을 fine-tunning한 후 이를 학습하며 사용자의 프로파일에 저장해 보다 개인화된, 섬세한 차량 환경 Caring을 완성한다.",
+      teamImg: "images/designers/ux/team/Vivaz.webp",
       gridImg: "",
       mainImg: "",
     },
@@ -729,10 +745,10 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       id: 6,
       teamName: "LUX",
       designer: [
-        { nameKo: "강산길", studentId: 21700003 },
-        { nameKo: "김민영", studentId: 21900098 },
-        { nameKo: "신지수", studentId: 22000392 },
-        { nameKo: "임시은", studentId: 22000613 },
+        { id: 1, nameKo: "강산길", studentId: 21700003 },
+        { id: 11, nameKo: "김민영", studentId: 21900098 },
+        { id: 33, nameKo: "신지수", studentId: 22000392 },
+        { id: 52, nameKo: "임시은", studentId: 22000613 },
       ],
       title: "배달의 민족 혁신 서비스 : 푸렌즈 & 분석이",
       summary: "배민의 메뉴 고민 해결사",
@@ -745,10 +761,10 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       id: 7,
       teamName: "해디크",
       designer: [
-        { nameKo: "조가은", studentId: 21900692 },
-        { nameKo: "권은진", studentId: 22000043 },
-        { nameKo: "안혜빈", studentId: 22000405 },
-        { nameKo: "유수정", studentId: 22100464 },
+        { id: 61, nameKo: "조가은", studentId: 21900692 },
+        { id: 5, nameKo: "권은진", studentId: 22000043 },
+        { id: 36, nameKo: "안혜빈", studentId: 22000405 },
+        { id: 38, nameKo: "유수정", studentId: 22100464 },
       ],
       title: "배민콤비 & B밀의장",
       summary: "메뉴 탐색 과정에 혁신을 더하다",
@@ -761,10 +777,10 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       id: 8,
       teamName: "BO3",
       designer: [
-        { nameKo: "최석현", studentId: 21700722 },
-        { nameKo: "김민경", studentId: 22000070 },
-        { nameKo: "허현지", studentId: 22000798 },
-        { nameKo: "이하영", studentId: 22100590 },
+        { id: 65, nameKo: "최석현", studentId: 21700722 },
+        { id: 9, nameKo: "김민경", studentId: 22000070 },
+        { id: 69, nameKo: "허현지", studentId: 22000798 },
+        { id: 48, nameKo: "이하영", studentId: 22100590 },
       ],
       title: "SMIDA: Seamless Meaningful Intelligent Driving cAr",
       summary: "Meaningful한 주행의 미래를 만들다",
@@ -777,11 +793,11 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       id: 9,
       teamName: "Solti",
       designer: [
-        { nameKo: "한인철", studentId: 21800781 },
-        { nameKo: "김유미", studentId: 21900166 },
-        { nameKo: "이지원", studentId: 22000581 },
-        { nameKo: "서지은", studentId: 22100369 },
-        { nameKo: "이석영", studentId: 22435003 },
+        { id: 68, nameKo: "한인철", studentId: 21800781 },
+        { id: 14, nameKo: "김유미", studentId: 21900166 },
+        { id: 46, nameKo: "이지원", studentId: 22000581 },
+        { id: 29, nameKo: "서지은", studentId: 22100369 },
+        { id: 41, nameKo: "이석영", studentId: 22435003 },
       ],
       title: "신메뉴 시식단 & 샘플러 위크",
       summary: "배민이라 가능한, 배민스러운 서비스",
@@ -794,10 +810,10 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       id: 10,
       teamName: "Vivaz",
       designer: [
-        { nameKo: "한상윤", studentId: 21800775 },
-        { nameKo: "박예봄", studentId: 21801030 },
-        { nameKo: "신수민", studentId: 21900396 },
-        { nameKo: "조은비", studentId: 22000723 },
+        { id: 67, nameKo: "한상윤", studentId: 21800775 },
+        { id: 25, nameKo: "박예봄", studentId: 21801030 },
+        { id: 32, nameKo: "신수민", studentId: 21900396 },
+        { id: 63, nameKo: "조은비", studentId: 22000723 },
       ],
       title: "배달의 민족 속 혁신 기회를 찾아:비즈메이트&꿀조합도감",
       summary: "배달의 민족 내 홍보와 경험 공유 혁신 제안",
@@ -811,7 +827,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
     {
       id: 1,
       teamName: null,
-      designer: [{ nameKo: "박범서", studentId: 21600252 }],
+      designer: [{ id: 21, nameKo: "박범서", studentId: 21600252 }],
       title: "Ducati 826 Procella",
       summary: "조형을 통해 감성을 전달하는 오토바이 ",
       description:
@@ -822,7 +838,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
     {
       id: 2,
       teamName: null,
-      designer: [{ nameKo: "이승현", studentId: 21701033 }],
+      designer: [{ id: 42, nameKo: "이승현", studentId: 21701033 }],
       title: "TM-27/ JR-110",
       summary: "스마트폰을 내려놓는 재미를 추구한 스마트 디바이스",
       description:
@@ -833,7 +849,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
     {
       id: 3,
       teamName: null,
-      designer: [{ nameKo: "김형진", studentId: 21800204 }],
+      designer: [{ id: 17, nameKo: "김형진", studentId: 21800204 }],
       title: "Clutch",
       summary: "AI 팀 코칭이 가능한 축구 정강이 보호대",
       description:
@@ -844,7 +860,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
     {
       id: 4,
       teamName: null,
-      designer: [{ nameKo: "이신원", studentId: 21801053 }],
+      designer: [{ id: 43, nameKo: "이신원", studentId: 21801053 }],
       title: "티볼리 (X-200)",
       summary: "다양한 경험을 연결하는 모바일 플랫폼",
       description:
@@ -855,7 +871,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
     {
       id: 5,
       teamName: null,
-      designer: [{ nameKo: "김민기", studentId: 21900093 }],
+      designer: [{ id: 10, nameKo: "김민기", studentId: 21900093 }],
       title: "MINI - Play",
       summary: "아이들의 뛰어노는 경험을 증가시는 촉매제",
       description:
@@ -866,7 +882,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
     {
       id: 6,
       teamName: null,
-      designer: [{ nameKo: "박민석", studentId: 21900267 }],
+      designer: [{ id: 20, nameKo: "박민석", studentId: 21900267 }],
       title: "Camaro: CALIBURN",
       summary: "전기화시대의 카마로에 대하 조형연구",
       description:
