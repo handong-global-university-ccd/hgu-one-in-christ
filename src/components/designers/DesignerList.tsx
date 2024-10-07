@@ -1,13 +1,13 @@
 import { Link } from "react-router-dom";
-import { PATHS } from "../../constants/paths";
+import { DOMAIN, PATHS } from "../../constants/paths";
 import { DesingerDetailInfo } from "../../models/designer.model";
-import designer_work from "../../assets/works/project/test/designer_work.png";
 
 interface Props {
   designer: DesingerDetailInfo;
 }
 
 const DesignerList = ({ designer }: Props) => {
+  const thumbnail = designer.works[0];
   return (
     <Link
       to={`${PATHS.DESIGNERS}/${designer.id}`}
@@ -30,7 +30,7 @@ const DesignerList = ({ designer }: Props) => {
         </div>
 
         <img
-          src={designer_work}
+          src={`${DOMAIN}${thumbnail.work[thumbnail.worksId - 1].thumbnail}`}
           className="hidden w-[416px] lg:group-hover:block group-hover:fixed absolute top-[327px] right-[300px]"
         />
       </div>

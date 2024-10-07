@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 import { DesingerDetailInfo } from "../../models/designer.model";
-import { PATHS } from "../../constants/paths";
-import gridtest1 from "../../assets/works/project/test/gridtest1.png"; //test
+import { DOMAIN, PATHS } from "../../constants/paths";
 
 interface Props {
   designer: DesingerDetailInfo | null;
@@ -38,7 +37,7 @@ const DesignerWorks = ({ designer }: Props) => {
               <div key={index} className={`lg:w-[468px] md:w-full group`}>
                 <div className={`relative`}>
                   <img
-                    src={gridtest1}
+                    src={`${DOMAIN}${work.work[work.worksId - 1].thumbnail}`}
                     className={`w-full lg:hover:border-[3px] ${
                       work.category === "Communication"
                         ? "border-primary-orange"
@@ -65,7 +64,7 @@ const DesignerWorks = ({ designer }: Props) => {
                     <p
                       className={`text-primary-white text-center font-Pretendard_Bold text-[15px]`}
                     >
-                      예시문구
+                      {work.work[work.worksId - 1].summary}
                     </p>
                   </div>
                 </div>
