@@ -3,8 +3,7 @@ import { WORKS } from "../../constants/works";
 import { WorkCategory } from "../../models/category.model";
 import { Work } from "../../models/work.model";
 import { Link } from "react-router-dom";
-import { PATHS } from "../../constants/paths";
-import gridtest1 from "../../assets/works/project/test/gridtest1.png";
+import { DOMAIN, PATHS } from "../../constants/paths";
 
 interface Props {
   category: WorkCategory;
@@ -25,7 +24,7 @@ const WorkList = ({ category }: Props) => {
             <div className="flex flex-col">
               <div className={`relative`}>
                 <img
-                  src={gridtest1}
+                  src={`${DOMAIN}${work.thumbnail}`}
                   className={`w-[288px] h-auto
 									sm:w-full my-[10px]
 									lg:group-hover:border ${
@@ -57,7 +56,7 @@ const WorkList = ({ category }: Props) => {
                     <p
                       className={` text-primary-white text-center font-Pretendard_Bold text-[12px]`}
                     >
-                      예시문구
+                      {work.summary}
                     </p>
                   </div>
                 </div>

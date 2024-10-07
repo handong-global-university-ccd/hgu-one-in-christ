@@ -4,6 +4,7 @@ import { WORKS } from "../constants/works";
 import { WorkCategory } from "../models/category.model";
 import WorkDesigner from "../components/works/WorkDesigner";
 import WorkContents from "../components/works/WorkContents";
+import Creation from "../components/works/Creation";
 
 const Work = () => {
   const params = useParams();
@@ -21,6 +22,7 @@ const Work = () => {
         <WorkDesigner work={work} />
         <WorkContents category={category} work={work} />
       </div>
+      <Creation creation={work?.creation} />
     </div>
   );
 };
