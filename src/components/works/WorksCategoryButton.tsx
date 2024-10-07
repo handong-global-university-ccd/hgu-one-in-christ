@@ -1,18 +1,13 @@
 import { WorkCategory } from "../../models/category.model";
-import communication_icon from "../../assets/works/icons/communication_icon.png";
-import service_icon from "../../assets/works/icons/service_icon.png";
-import uxui_icon from "../../assets/works/icons/uxui_icon.png";
-import product_icon from "../../assets/works/icons/product_icon.png";
-import prevIcon from "../../assets/works/icons/prevIcon.png";
-import nextIcon from "../../assets/works/icons/nextIcon.png";
 import { useEffect, useState } from "react";
+import { DOMAIN } from "../../constants/paths";
 
 const category_list = [
   {
     id: 1,
     name: "COMMUNICATION DESIGN",
     work: "COMMUNICATION" as WorkCategory,
-    imgSrc: communication_icon,
+    imgSrc: `${DOMAIN}images/icon/communication_icon.webp`,
     imgSize: "w-[35.27px] h-[30.23px]",
     color: "text-primary-orange",
   },
@@ -20,7 +15,7 @@ const category_list = [
     id: 2,
     name: "SERVICE DESIGN",
     work: "SERVICE" as WorkCategory,
-    imgSrc: service_icon,
+    imgSrc: `${DOMAIN}images/icon/service_icon.webp`,
     imgSize: "w-[36.17px] h-[36.17px]",
     color: "text-primary-red",
   },
@@ -28,7 +23,7 @@ const category_list = [
     id: 3,
     name: "UXUI DESIGN",
     work: "UXUI" as WorkCategory,
-    imgSrc: uxui_icon,
+    imgSrc: `${DOMAIN}images/icon/uxui_icon.webp`,
     imgSize: "w-[41.69px] h-[26.8px]",
     color: "text-primary-purple",
   },
@@ -36,7 +31,7 @@ const category_list = [
     id: 4,
     name: "PRODUCT DESIGN",
     work: "PRODUCT" as WorkCategory,
-    imgSrc: product_icon,
+    imgSrc: `${DOMAIN}images/icon/product_icon.webp`,
     imgSize: "w-[29px] h-[38px]",
     color: "text-primary-blue",
   },
@@ -124,7 +119,7 @@ const WorksCategoryButton = ({ category, setCategory }: Props) => {
         className={`lg:hidden sm:mt-[166px] md:mt-[190px] w-[90%] flex justify-between`}
       >
         <img
-          src={prevIcon}
+          src={`${DOMAIN}images/icon/prevIcon.webp`}
           className={`w-[7px] md:w-[10px] ${currItem > 0 && "block"} ${
             currItem === 0 && "hidden"
           }`}
@@ -150,7 +145,7 @@ const WorksCategoryButton = ({ category, setCategory }: Props) => {
           {category_list[currItem].name}
         </p>
         <img
-          src={nextIcon}
+          src={`${DOMAIN}images/icon/nextIcon.webp`}
           className={`w-[7px] md:w-[10px] ${
             currItem < category_list.length - 1 && "block"
           } ${currItem === category_list.length - 1 && "hidden"}`}
