@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import useCountUp from "../../hooks/useCountUp";
+// import useCountUp from "../../hooks/useCountUp";
 import { useSpring, animated } from "@react-spring/web";
 
 const SCROLL_POINT = 100;
