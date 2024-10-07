@@ -41,7 +41,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
         {
           id: 6,
           extension: "youtube",
-          src: "https://youtu.be/wJpGLV84zOA",
+          src: "wJpGLV84zOA",
         },
         {
           id: 7,
@@ -68,7 +68,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
         {
           id: 2,
           extension: "youtube",
-          src: "https://youtu.be/vtlp0e0XvDw",
+          src: "vtlp0e0XvDw",
         },
         {
           id: 3,
@@ -95,7 +95,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
         {
           id: 2,
           extension: "youtube",
-          src: "https://youtu.be/N4iDH05KLV8",
+          src: "N4iDH05KLV8",
         },
         {
           id: 3,
@@ -127,7 +127,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
         {
           id: 2,
           extension: "youtube",
-          src: "https://youtu.be/C3IcGHBf_wA",
+          src: "C3IcGHBf_wA",
         },
         {
           id: 3,
@@ -233,7 +233,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
         {
           id: 6,
           extension: "youtube",
-          src: "https://youtu.be/sB1okTE33VY",
+          src: "sB1okTE33VY",
         },
         {
           id: 7,
@@ -265,7 +265,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
         {
           id: 3,
           extension: "youtube",
-          src: "https://youtu.be/BuRx7th5sEc?si=1XTX_-nykkvm3UyS",
+          src: "BuRx7th5sEc",
         },
         {
           id: 4,
@@ -292,7 +292,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
         {
           id: 2,
           extension: "youtube",
-          src: "https://youtu.be/GYZUCW_oHwQ?si=4Fyg5ymLONii5fPG",
+          src: "GYZUCW_oHwQ",
         },
         {
           id: 3,
@@ -358,7 +358,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
         {
           id: 2,
           extension: "youtube",
-          src: "https://youtu.be/VI_6bRmphK4",
+          src: "VI_6bRmphK4",
         },
         {
           id: 3,
@@ -429,7 +429,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
         {
           id: 2,
           extension: "youtube",
-          src: "https://youtu.be/BB-KV9WRqNw",
+          src: "BB-KV9WRqNw",
         },
         {
           id: 3,
@@ -468,7 +468,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
         {
           id: 1,
           extension: "youtube",
-          src: "https://youtu.be/4IKHCAuqYY4",
+          src: "4IKHCAuqYY4",
         },
         {
           id: 2,
@@ -520,7 +520,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
         {
           id: 3,
           extension: "youtube",
-          src: "https://youtu.be/BUzxZPjAurU",
+          src: "BUzxZPjAurU",
         },
         {
           id: 4,
@@ -567,7 +567,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
         {
           id: 6,
           extension: "youtube",
-          src: "https://youtu.be/IJzVsgmDhHY",
+          src: "IJzVsgmDhHY",
         },
         {
           id: 7,
@@ -624,7 +624,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
         {
           id: 8,
           extension: "youtube",
-          src: "https://youtube.com/shorts/br3tCw0tmlc?feature=share",
+          src: "br3tCw0tmlc",
         },
         {
           id: 9,
@@ -668,7 +668,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
         {
           id: 2,
           extension: "youtube",
-          src: "https://youtu.be/rFhIlIcIrOk",
+          src: "rFhIlIcIrOk",
         },
       ],
     },
@@ -690,7 +690,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
         {
           id: 2,
           extension: "youtube",
-          src: "https://youtu.be/vaC3t9a9G-c",
+          src: "vaC3t9a9G-c",
         },
         {
           id: 3,
@@ -732,7 +732,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
         {
           id: 2,
           extension: "youtube",
-          src: "https://youtu.be/kW1-5KSfK0o",
+          src: "kW1-5KSfK0o",
         },
         {
           id: 3,
@@ -806,7 +806,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
         {
           id: 2,
           extension: "youtube",
-          src: "https://youtube.com/shorts/3ui8JFogO70",
+          src: "3ui8JFogO70",
         },
         {
           id: 3,
@@ -865,7 +865,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
         {
           id: 5,
           extension: "youtube",
-          src: "https://www.youtube.com/watch?v=4l8rTZWSOGA",
+          src: "4l8rTZWSOGA",
         },
         {
           id: 6,
@@ -892,7 +892,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
         {
           id: 2,
           extension: "youtube",
-          src: "https://youtube.com/shorts/DDMDfIK1xFM?feature=share",
+          src: "DDMDfIK1xFM",
         },
       ],
     },
@@ -914,7 +914,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
         {
           id: 2,
           extension: "youtube",
-          src: "https://youtu.be/vvXJTXJQWIU?si=0Qy2I8ZMF4EdxQpP",
+          src: "vvXJTXJQWIU",
         },
         {
           id: 3,
@@ -941,7 +941,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
         {
           id: 2,
           extension: "youtube",
-          src: "https://youtu.be/uY1lvDPwpvw?si=i542BydwlSJ6VyYe",
+          src: "uY1lvDPwpvw",
         },
         {
           id: 3,
@@ -951,7 +951,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
         {
           id: 4,
           extension: "youtube",
-          src: "https://youtu.be/wTvvfDGl7JM?si=RbKJdX6JtXlZz2xD",
+          src: "wTvvfDGl7JM",
         },
         {
           id: 5,
@@ -1052,7 +1052,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
         {
           id: 8,
           extension: "youtube",
-          src: "https://youtu.be/mL9dWQXWxt4",
+          src: "mL9dWQXWxt4",
         },
         {
           id: 9,
@@ -1079,7 +1079,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
         {
           id: 2,
           extension: "youtube",
-          src: "https://www.youtube.com/watch?v=hbilQIc1ipE&feature=youtu.be",
+          src: "hbilQIc1ipE",
         },
         {
           id: 3,
@@ -1106,7 +1106,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
         {
           id: 2,
           extension: "youtube",
-          src: "https://youtu.be/soyHVOFDTnc",
+          src: "soyHVOFDTnc",
         },
         {
           id: 3,
@@ -1155,7 +1155,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       summary: "29cm '기록' 팝업 스토어",
       description:
         "29cm는 일상의 작은 순간과 선택이 모여 각자의 고유한 라이프스타일을 형성한다고 믿습니다. 그 순간들은 스쳐가는 찰나가 아닌, 삶을 깊이 있게 만들어주는 소중한 흔적들입니다. '기록'은 이러한 작은 순간들을 담아내고, 이를 통해 더 풍부한 삶을 살아가는 방법을 제안합니다. 이번 'After time 29' 팝업스토어에서는 스테이셔너리 브랜드를 소개하며, 여러분이 그 순간들을 소중히 기록하고 간직할 수 있도록 돕는 다양한 제품들을 선보입니다. 기록을 통해 여러분만의 특별한 순간을 더 깊이 느끼고, 오래도록 간직해보세요. 지금 29cm와 함께.",
-      thumbnail: "",
+      thumbnail: "images/creation/communication/HyebinRyu/thumbnail.webp",
       creation: [
         {
           id: 1,
@@ -1170,7 +1170,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
         {
           id: 3,
           extension: "youtube",
-          src: "https://youtu.be/zA1hMoX9ZOI",
+          src: "zA1hMoX9ZOI",
         },
         {
           id: 4,
@@ -1224,7 +1224,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
         {
           id: 2,
           extension: "youtube",
-          src: "https://youtu.be/0Yd72LFdgPk",
+          src: "0Yd72LFdgPk",
         },
         {
           id: 3,
@@ -1266,7 +1266,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
         {
           id: 2,
           extension: "youtube",
-          src: "https://youtu.be/L9aY0piOtEw",
+          src: "L9aY0piOtEw",
         },
         {
           id: 3,
@@ -1563,7 +1563,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
         {
           id: 3,
           extension: "youtube",
-          src: "https://youtu.be/cTosNWA_zlg?si=pLOzHjntna8_gJIJ",
+          src: "cTosNWA_zlg",
         },
         {
           id: 4,
@@ -1666,7 +1666,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
         {
           id: 4,
           extension: "youtube",
-          src: "https://youtu.be/X6cjG7TpXS8",
+          src: "X6cjG7TpXS8",
         },
         {
           id: 5,
@@ -1729,7 +1729,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
         {
           id: 2,
           extension: "youtube",
-          src: "https://www.youtube.com/watch?v=hQ60Z7xc1Z0",
+          src: "hQ60Z7xc1Z0",
         },
         {
           id: 3,
@@ -1739,7 +1739,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
         {
           id: 4,
           extension: "youtube",
-          src: "https://www.youtube.com/watch?v=MRvjX_bfn-Y",
+          src: "MRvjX_bfn-Y",
         },
         {
           id: 5,
@@ -1912,7 +1912,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
         {
           id: 4,
           extension: "youtube",
-          src: "https://youtu.be/qoHRfLNmlx8",
+          src: "qoHRfLNmlx8",
         },
         {
           id: 5,
@@ -1922,7 +1922,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
         {
           id: 6,
           extension: "youtube",
-          src: "https://youtu.be/F0hLbAsk13A",
+          src: "F0hLbAsk13A",
         },
       ],
     },
@@ -2022,12 +2022,12 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
         {
           id: 2,
           extension: "youtube",
-          src: "https://youtu.be/UwsUjNVUlfM",
+          src: "UwsUjNVUlfM",
         },
         {
           id: 3,
           extension: "youtube",
-          src: "https://youtu.be/5os8DnFAWvo",
+          src: "5os8DnFAWvo",
         },
         {
           id: 4,
