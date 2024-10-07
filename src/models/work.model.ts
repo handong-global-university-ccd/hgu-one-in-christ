@@ -15,8 +15,14 @@ export interface Work {
   summary: string;
   description: string;
   teamImg?: string;
-  gridImg: string;
-  mainImg: string;
+  thumbnail: string;
+  creation: Creation[];
+}
+
+export interface Creation {
+  id: number;
+  extension: string;
+  src: string;
 }
 
 export interface DesignerWork {
