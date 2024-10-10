@@ -1,22 +1,30 @@
 import { Work } from "../../models/work.model";
 import { DOMAIN } from "../../constants/paths";
 import { DESIGNERS } from "../../constants/designers";
+import { useMousePosition } from "../cursor/Context";
+import { motion } from "framer-motion";
 
 interface Props {
   work: Work | null;
 }
 
 const WorkDesigner = ({ work }: Props) => {
+  const { personEnter, middleEnter, defaultEnter } = useMousePosition();
+
   return (
     <>
       {work?.designer.length === 1 ? (
         <div className={`md:w-[45%]`}>
           <div className={`flex gap-6 items-end`}>
-            <img
+            <motion.img
+              onMouseEnter={personEnter}
+              onMouseLeave={defaultEnter}
               src={`${DOMAIN}${DESIGNERS[work.designer[0].id - 1].img}`}
               className={`w-[192px] sm:w-[125.69px] md:w-[50%]`}
             />
-            <div
+            <motion.div
+              onMouseEnter={middleEnter}
+              onMouseLeave={defaultEnter}
               className={`flex flex-col gap-1 text-primary-white items-start`}
             >
               <div className={`flex gap-[7px] font-Pretendard_Bold items-end`}>
@@ -32,7 +40,7 @@ const WorkDesigner = ({ work }: Props) => {
               >
                 {DESIGNERS[work.designer[0].id - 1].email}
               </p>
-            </div>
+            </motion.div>
           </div>
         </div>
       ) : (

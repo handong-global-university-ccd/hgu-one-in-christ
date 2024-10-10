@@ -1,14 +1,22 @@
 import { Link } from "react-router-dom";
 import { DesingerDetailInfo } from "../../models/designer.model";
 import { DOMAIN, PATHS } from "../../constants/paths";
+import { useMousePosition } from "../cursor/Context";
+import { motion } from "framer-motion";
 
 interface Props {
   designer: DesingerDetailInfo | null;
 }
 
 const DesignerWorks = ({ designer }: Props) => {
+  const { bigEnter, defaultEnter } = useMousePosition();
+
   return (
-    <div className={`flex justify-center`}>
+    <motion.div
+      onMouseEnter={bigEnter}
+      onMouseLeave={defaultEnter}
+      className={`flex justify-center`}
+    >
       <div
         className={`w-full flex flex-col gap-[29px] sm:gap-0 lg:pl-[65px] md:pl-[40px] sm:pl-0
 			lg:border-l md:border-l sm:border-t sm:pt-[45px]`}
@@ -73,7 +81,7 @@ const DesignerWorks = ({ designer }: Props) => {
           </div>
         ))}
       </div>
-    </div>
+    </motion.div>
   );
 };
 

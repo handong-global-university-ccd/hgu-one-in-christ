@@ -7,6 +7,7 @@ import Designers from "./pages/Designers";
 import Designer from "./pages/Designer";
 import Work from "./pages/Work";
 import About from "./pages/About";
+import CustomCursor from "./components/cursor/CustomCursor";
 
 const routeList = [
   {
@@ -45,7 +46,12 @@ const router = createBrowserRouter(
 );
 
 function App() {
-  return <RouterProvider router={router} />;
+  return (
+    <>
+      <CustomCursor />
+      <RouterProvider router={router} />
+    </>
+  );
 }
 
 export default App;

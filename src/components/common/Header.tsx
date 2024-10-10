@@ -3,6 +3,8 @@ import Button from "../header/Button";
 import { PATHS } from "../../constants/paths";
 import { useState } from "react";
 import NavButtonMobile from "../header/NavButtonMobile";
+import { useMousePosition } from "../cursor/Context";
+import { motion } from "framer-motion";
 
 const button_list = [
   {
@@ -23,6 +25,7 @@ const button_list = [
 ];
 
 const Header = () => {
+  const { smallEnter, defaultEnter } = useMousePosition();
   const location = useLocation();
   const [toggleOpen, setToggleOpen] = useState(false);
 
@@ -34,7 +37,9 @@ const Header = () => {
 
   return (
     <>
-      <header
+      <motion.header
+        onMouseEnter={smallEnter}
+        onMouseLeave={defaultEnter}
         className={`z-[100] fixed top-0 w-full h-16 flex justify-center items-center ${
           toggleOpen ? "" : "md:border-b sm:border-b"
         } lg:backdrop-blur-sm md:bg-primary-black sm:bg-primary-black`}
@@ -72,7 +77,7 @@ const Header = () => {
             )}
           </div>
         </div>
-      </header>
+      </motion.header>
       {toggleOpen && (
         <div
           className={`lg:hidden fixed z-[100] w-full top-16 bg-primary-black border-b pb-2.5`}

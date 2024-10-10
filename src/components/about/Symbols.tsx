@@ -1,6 +1,7 @@
 import Title from "./Title";
-
+import { motion } from "framer-motion";
 import { DOMAIN } from "../../constants/paths";
+import { useMousePosition } from "../cursor/Context";
 
 const symbolInfo = [
   {
@@ -34,11 +35,17 @@ const symbolInfo = [
 ];
 
 const Symbols = () => {
+  const { bigEnter, middleEnter, defaultEnter } = useMousePosition();
+
   return (
     <>
       <div className={`hidden lg:block w-full mb-[374px]`}>
         <Title>SYMBOLS</Title>
-        <div className={`relative`}>
+        <motion.div
+          onMouseEnter={middleEnter}
+          onMouseLeave={defaultEnter}
+          className={`relative`}
+        >
           <img
             src={`${DOMAIN}${symbolInfo[0].imgSrc}`}
             className={`absolute top-[47px] left-[620px] w-[273px] hover:top-[77px]`}
@@ -75,9 +82,13 @@ const Symbols = () => {
           >
             {symbolInfo[3].symbol}
           </p>
-        </div>
+        </motion.div>
 
-        <div className={`mt-[858px] flex justify-between`}>
+        <motion.div
+          onMouseEnter={bigEnter}
+          onMouseLeave={defaultEnter}
+          className={`mt-[858px] flex justify-between`}
+        >
           {symbolInfo.map((item) => (
             <div
               className={`w-[289px] flex flex-col gap-[10px] text-[16px] text-primary-white hover:text-primary-orange`}
@@ -86,7 +97,7 @@ const Symbols = () => {
               <p className={`font-Pretendard_Regular`}>{item.info}</p>
             </div>
           ))}
-        </div>
+        </motion.div>
       </div>
       {/* 모바일 버전 */}
       <div
