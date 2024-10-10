@@ -6,9 +6,14 @@ interface Props {
 
 const Professor = ({ professor }: Props) => {
   return (
-    <div key={professor.id} className={`flex flex-col gap-[7px]`}>
-      <img src={professor.imgSrc} className={`w-[174px]`} alt="professor" />
-      <p className={`font-Pretendard_Regular text-[20px] text-primary-white`}>
+    <div
+      key={professor.id}
+      className={`sm:w-[30%] md:w-[30%] flex flex-col gap-[7px]`}
+    >
+      <img src={professor.imgSrc} className={`lg:w-[174px]`} alt="professor" />
+      <p
+        className={`font-Pretendard_Regular text-[20px] sm:text-[14px] text-primary-white`}
+      >
         {professor.name}
       </p>
     </div>
