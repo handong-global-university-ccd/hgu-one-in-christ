@@ -1,6 +1,7 @@
 import aboutLogo from "../../assets/about/aboutLogo.png";
 import { motion } from "framer-motion";
 import { DOMAIN } from "../../constants/paths";
+import { useMousePosition } from "../cursor/Context";
 
 const draw = {
   hidden: { pathLength: 0, opacity: 0 },
@@ -18,24 +19,30 @@ const draw = {
 };
 
 const AboutMain = () => {
+  const { bigEnter, defaultEnter } = useMousePosition();
+
   return (
     <>
       <div
         className={`sm:hidden w-full md:w-[90%] mt-[163px] flex flex-col items-center text-primary-white mb-[176px]`}
       >
-        <img
-          src={aboutLogo}
-          className={`w-[774px] mt-[154px]`}
-          alt="about_logo"
-        />
+        <motion.image onMouseEnter={bigEnter} onMouseLeave={defaultEnter}>
+          <img
+            src={aboutLogo}
+            className={`w-[774px] mt-[154px]`}
+            alt="about_logo"
+          />
 
-        <p
-          className={`font-Menda_Medium text-[17px] sm:text-[12px] text-primary-white leading-[30px] sm:leading-[14px] mt-[16px] sm:mt-[20px]`}
-        >
-          SO IN CHRIST WE, FORM ONE BODY, BELONGS TO ALL THE OTHERS.
-        </p>
+          <p
+            className={`font-Menda_Medium text-[17px] sm:text-[12px] text-primary-white leading-[30px] sm:leading-[14px] mt-[16px] sm:mt-[20px]`}
+          >
+            SO IN CHRIST WE, FORM ONE BODY, BELONGS TO ALL THE OTHERS.
+          </p>
+        </motion.image>
 
-        <div
+        <motion.div
+          onMouseEnter={bigEnter}
+          onMouseLeave={defaultEnter}
           className={`w-full mt-[145px] flex justify-between text-[18px] font-Pretendard_Bold`}
         >
           <div className={`w-[300px] flex flex-col items-center`}>
@@ -50,14 +57,16 @@ const AboutMain = () => {
             <p>2024.10.21 - 10.28</p>
             <p>09:00 - 18:00</p>
           </div>
-        </div>
-        <div
+        </motion.div>
+        <motion.div
+          onMouseEnter={bigEnter}
+          onMouseLeave={defaultEnter}
           className={`flex flex-col items-center text-[20px] font-Pretendard_Regular mt-[260px]`}
         >
           <p>그리스도 안에서 한 몸이 되어 서로 지체가 되었느니라.</p>
           <p>So In Christ We, Form One Body, Belongs To All The Others.</p>
           <p>로마서 12:5</p>
-        </div>
+        </motion.div>
         <motion.svg
           width="300"
           height="350"
@@ -75,7 +84,9 @@ const AboutMain = () => {
             custom={2}
           />
         </motion.svg>
-        <div
+        <motion.div
+          onMouseEnter={bigEnter}
+          onMouseLeave={defaultEnter}
           className={`flex flex-col items-center font-Organetto_ExtBold text-[20px]`}
         >
           <p>자신의 능력과 성취에만 집중하여 서로 경쟁하는 사고방식에서</p>
@@ -93,7 +104,7 @@ const AboutMain = () => {
             서로 돕는 관계에 있으며, 함께 일함으로 써 공동체는 그리스도 안에서
             하나가 됩니다.
           </p>
-        </div>
+        </motion.div>
       </div>
       {/* 모바일 버전 */}
       <div

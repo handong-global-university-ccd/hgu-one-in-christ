@@ -1,6 +1,8 @@
 import { WorkCategory } from "../../models/category.model";
 import { useEffect, useState } from "react";
 import { DOMAIN } from "../../constants/paths";
+import { useMousePosition } from "../cursor/Context";
+import { motion } from "framer-motion";
 
 const category_list = [
   {
@@ -43,6 +45,8 @@ interface Props extends React.ButtonHTMLAttributes<HTMLButtonElement> {
 }
 
 const WorksCategoryButton = ({ category, setCategory }: Props) => {
+  const { smallEnter, defaultEnter } = useMousePosition();
+
   const [currItem, setCurrItem] = useState(0);
 
   const handleButton = (sign: number) => {
@@ -62,7 +66,9 @@ const WorksCategoryButton = ({ category, setCategory }: Props) => {
   return (
     <>
       {/* lg 데스크탑 뷰 카테고리 메뉴 */}
-      <div
+      <motion.div
+        onMouseEnter={smallEnter}
+        onMouseLeave={defaultEnter}
         className={`md:hidden sm:hidden fixed z-50 top-[177px] flex items-center`}
       >
         <div className={`flex justify-between gap-[22px]`}>
@@ -112,7 +118,7 @@ const WorksCategoryButton = ({ category, setCategory }: Props) => {
             </button>
           ))}
         </div>
-      </div>
+      </motion.div>
 
       {/* md, sm 태블릿 모바일 뷰 카테고리 메뉴 */}
       <div

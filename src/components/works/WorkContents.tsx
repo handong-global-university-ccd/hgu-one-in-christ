@@ -1,5 +1,7 @@
 import { WorkCategory } from "../../models/category.model";
 import { Work } from "../../models/work.model";
+import { useMousePosition } from "../cursor/Context";
+import { motion } from "framer-motion";
 
 interface Props {
   category: WorkCategory;
@@ -7,8 +9,12 @@ interface Props {
 }
 
 const WorkContents = ({ category, work }: Props) => {
+  const { bigEnter, defaultEnter } = useMousePosition();
+
   return (
-    <div
+    <motion.div
+      onMouseEnter={bigEnter}
+      onMouseLeave={defaultEnter}
       className={`w-[687px] md:w-[50%] sm:w-full flex flex-col text-primary-white lg:justify-between md:gap-[40px] sm:gap-[6px]`}
     >
       <p
@@ -35,7 +41,7 @@ const WorkContents = ({ category, work }: Props) => {
           {work?.description}
         </p>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

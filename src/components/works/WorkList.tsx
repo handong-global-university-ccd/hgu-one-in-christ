@@ -4,16 +4,24 @@ import { WorkCategory } from "../../models/category.model";
 import { Work } from "../../models/work.model";
 import { Link } from "react-router-dom";
 import { DOMAIN, PATHS } from "../../constants/paths";
+import { useMousePosition } from "../cursor/Context";
+import { motion } from "framer-motion";
 
 interface Props {
   category: WorkCategory;
 }
 
 const WorkList = ({ category }: Props) => {
+  const { middleEnter, defaultEnter } = useMousePosition();
+
   const works: Work[] = WORKS[category] || [];
 
   return (
-    <div className="grid grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-[22px] sm:gap-[14px] mt-[20px] lg:mt-[267px] lg:mb-[206px] sm:w-[90%]">
+    <motion.div
+      onMouseEnter={middleEnter}
+      onMouseLeave={defaultEnter}
+      className="grid grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-[22px] sm:gap-[14px] mt-[20px] lg:mt-[267px] lg:mb-[206px] sm:w-[90%]"
+    >
       {works.map((work, index) => (
         <Link key={index} to={`${PATHS.WORKS}/${category}/${work.id}`}>
           <div
@@ -81,7 +89,7 @@ const WorkList = ({ category }: Props) => {
           </div>
         </Link>
       ))}
-    </div>
+    </motion.div>
   );
 };
 

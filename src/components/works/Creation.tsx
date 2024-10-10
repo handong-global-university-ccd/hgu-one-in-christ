@@ -1,14 +1,22 @@
 import YouTube from "react-youtube";
 import { Creation as ICreation } from "../../models/work.model";
 import { DOMAIN } from "../../constants/paths";
+import { useMousePosition } from "../cursor/Context";
+import { motion } from "framer-motion";
 
 interface Props {
   creation: ICreation[] | undefined;
 }
 
 const Creation = ({ creation }: Props) => {
+  const { bigEnter, defaultEnter } = useMousePosition();
+
   return (
-    <div className={`w-full flex flex-col`}>
+    <motion.div
+      onMouseEnter={bigEnter}
+      onMouseLeave={defaultEnter}
+      className={`w-full flex flex-col`}
+    >
       {creation?.map((item) =>
         item.extension === "youtube" ? (
           <div className={`w-full relative pb-[56.25%]`}>
@@ -35,7 +43,7 @@ const Creation = ({ creation }: Props) => {
           />
         )
       )}
-    </div>
+    </motion.div>
   );
 };
 

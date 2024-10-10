@@ -1,13 +1,18 @@
 import { PROFESSOR } from "../../constants/professor";
+import { useMousePosition } from "../cursor/Context";
 import Professor from "./Professor";
+import { motion } from "framer-motion";
 import Title from "./Title";
 
 const ThanksTo = () => {
+  const { smallEnter, defaultEnter } = useMousePosition();
   return (
     <div
       className={`flex flex-col items-center md:w-[90%] sm:w-[90%] mb-[170px] lg:mb-[344px] `}
     >
-      <Title>THANKS TO</Title>
+      <motion.div onMouseEnter={smallEnter} onMouseLeave={defaultEnter}>
+        <Title>THANKS TO</Title>
+      </motion.div>
       <div className={`hidden lg:flex gap-[24px] mb-[47px]`}>
         {PROFESSOR.slice(0, 4).map((professor) => (
           <Professor professor={professor} />
