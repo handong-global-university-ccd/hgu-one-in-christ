@@ -255,12 +255,12 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
         {
           id: 1,
           extension: "webp",
-          src: "images/creation/communication/GaheunChoi/pc_contents_01.webp",
+          src: "images/creation/communication/SubinKang/pc_contents_01.webp",
         },
         {
           id: 2,
           extension: "webp",
-          src: "images/creation/communication/GaheunChoi/pc_contents_02.webp",
+          src: "images/creation/communication/SubinKang/pc_contents_02.webp",
         },
         {
           id: 3,
@@ -270,7 +270,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
         {
           id: 4,
           extension: "webp",
-          src: "images/creation/communication/GaheunChoi/pc_contents_04.webp",
+          src: "images/creation/communication/SubinKang/pc_contents_04.webp",
         },
       ],
     },
