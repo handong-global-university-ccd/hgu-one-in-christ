@@ -1,3 +1,4 @@
+import { DOMAIN } from "../../constants/paths";
 import { Professor as IProfessor } from "../../models/professor.model";
 import { useMousePosition } from "../cursor/Context";
 import { motion } from "framer-motion";
@@ -17,7 +18,7 @@ const Professor = ({ professor }: Props) => {
       <motion.img
         onMouseEnter={personEnter}
         onMouseLeave={defaultEnter}
-        src={professor.imgSrc}
+        src={`${DOMAIN}${professor.imgSrc}`}
         className={`lg:w-[174px]`}
         alt="professor"
       />

@@ -405,7 +405,7 @@ export const DESIGNERS = [
     nameKo: "박범서",
     nameEng: "Beomseo Park",
     email: "pbs9916@gmail.com",
-    img: "",
+    img: "images/designers/product/BeomseoPark.webp",
     description: "아름다움을 좇습니다",
     works: [
       {

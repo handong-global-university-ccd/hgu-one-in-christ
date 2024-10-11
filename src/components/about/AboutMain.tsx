@@ -1,4 +1,3 @@
-import aboutLogo from "../../assets/about/aboutLogo.png";
 import { motion } from "framer-motion";
 import { DOMAIN } from "../../constants/paths";
 import { useMousePosition } from "../cursor/Context";
@@ -29,7 +28,7 @@ const AboutMain = () => {
         className={`sm:hidden w-full md:w-[90%] mt-[163px] flex flex-col items-center justify-center text-primary-white mb-[176px]`}
       >
         <img
-          src={aboutLogo}
+          src={`${DOMAIN}images/about/aboutLogo.webp`}
           className={`w-[774px] mt-[154px]`}
           alt="about_logo"
         />
