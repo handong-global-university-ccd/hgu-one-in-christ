@@ -41,6 +41,7 @@ const DesignerWorks = ({ designer }: Props) => {
               to={`${PATHS.WORKS}/${work.category}/${
                 work.work[work.worksId - 1].id
               }`}
+              className={`cursor-none`}
             >
               <div key={index} className={`lg:w-[468px] md:w-full group`}>
                 <div className={`relative`}>

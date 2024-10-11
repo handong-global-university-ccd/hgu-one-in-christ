@@ -15,7 +15,7 @@ const DesignerList = ({ designer }: Props) => {
   return (
     <Link
       to={`${PATHS.DESIGNERS}/${designer.id}`}
-      className={`flex flex-col items-center cursor-pointer`}
+      className={`flex flex-col items-center cursor-none`}
     >
       <motion.div
         onMouseEnter={smallEnter}

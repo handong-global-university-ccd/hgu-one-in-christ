@@ -25,7 +25,7 @@ const WorkList = ({ category }: Props) => {
       {works.map((work, index) => (
         <Link key={index} to={`${PATHS.WORKS}/${category}/${work.id}`}>
           <div
-            className={`group
+            className={`group cursor-none
 						`}
             key={work.id}
           >
@@ -33,7 +33,7 @@ const WorkList = ({ category }: Props) => {
               <div className={`relative`}>
                 <img
                   src={`${DOMAIN}${work.thumbnail}`}
-                  className={`w-[288px] h-auto
+                  className={`w-[288px] h-[216px] sm:h-auto
 									sm:w-full my-[10px]
 									lg:group-hover:border ${
                     category === "COMMUNICATION"

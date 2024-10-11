@@ -19,6 +19,11 @@ export const MouseContextProvider = ({ children }: Props) => {
       x: "-50%",
       y: "-50%",
       zIndex: 1000,
+      transition: {
+        type: "tween",
+        duration: 0,
+        ease: "linear",
+      },
     },
     big: {
       height: "300px",
@@ -30,6 +35,11 @@ export const MouseContextProvider = ({ children }: Props) => {
       backgroundColor: "white",
       mixBlendMode: "difference",
       zIndex: 1000,
+      transition: {
+        type: "tween",
+        duration: 0,
+        ease: "linear",
+      },
     },
     middle: {
       height: "150px",
@@ -41,6 +51,11 @@ export const MouseContextProvider = ({ children }: Props) => {
       backgroundColor: "white",
       mixBlendMode: "difference",
       zIndex: 1000,
+      transition: {
+        type: "tween",
+        duration: 0,
+        ease: "linear",
+      },
     },
     small: {
       top: mousePosition.y,
@@ -50,6 +65,11 @@ export const MouseContextProvider = ({ children }: Props) => {
       backgroundColor: "white",
       mixBlendMode: "difference",
       zIndex: 1000,
+      transition: {
+        type: "tween",
+        duration: 0,
+        ease: "linear",
+      },
     },
     person: {
       height: "10px",
@@ -61,6 +81,11 @@ export const MouseContextProvider = ({ children }: Props) => {
       backgroundColor: "black",
       mixBlendMode: "normal",
       zIndex: 1000,
+      transition: {
+        type: "tween",
+        duration: 0,
+        ease: "linear",
+      },
     },
   };
 
