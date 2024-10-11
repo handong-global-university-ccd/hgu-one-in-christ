@@ -1,8 +1,16 @@
 import { DOMAIN } from "../../constants/paths";
+import { useMousePosition } from "../cursor/Context";
+import { motion } from "framer-motion";
 
 const HomeMain = () => {
+  const { bigEnter, defaultEnter } = useMousePosition();
+
   return (
-    <div className={`w-full flex flex-col items-center gap-[24px] mb-[358px]`}>
+    <motion.div
+      onMouseEnter={bigEnter}
+      onMouseLeave={defaultEnter}
+      className={`w-full flex flex-col items-center gap-[24px] mb-[358px]`}
+    >
       <img
         src={`${DOMAIN}images/home/mainLogo.webp`}
         className={`w-full`}
@@ -15,7 +23,7 @@ const HomeMain = () => {
         <p>2024 HANDONG GLOBAL UNIVERSITY</p>
         <p>CONTENTS CONVERGENCE DESIGN GRADUATION EXHIBITION</p>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
