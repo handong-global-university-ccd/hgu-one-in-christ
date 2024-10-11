@@ -33,8 +33,6 @@ const Header = () => {
     setToggleOpen(!toggleOpen);
   };
 
-  console.log(toggleOpen);
-
   return (
     <>
       <motion.header
