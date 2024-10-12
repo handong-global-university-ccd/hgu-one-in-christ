@@ -33,6 +33,11 @@ const Header = () => {
     setToggleOpen(!toggleOpen);
   };
 
+  const handleSessionStorage = () => {
+    setToggleOpen(!toggleOpen);
+    sessionStorage.clear();
+  };
+
   return (
     <>
       <motion.header
@@ -43,7 +48,7 @@ const Header = () => {
         } lg:backdrop-blur-sm md:bg-primary-black sm:bg-primary-black`}
       >
         <div className="w-full flex items-center justify-between lg:max-w-lg md:w-[90%] sm:w-[90%]">
-          <Link to={PATHS.HOME}>
+          <Link to={PATHS.HOME} onClick={() => sessionStorage.clear()}>
             <img
               src={`${DOMAIN}images/header/logo.webp`}
               alt="one in christ"
@@ -52,7 +57,11 @@ const Header = () => {
           </Link>
           <div className="md:hidden sm:hidden flex items-center gap-x-12">
             {button_list.map((item) => (
-              <Link key={item.id} to={item.link}>
+              <Link
+                key={item.id}
+                to={item.link}
+                onClick={() => sessionStorage.clear()}
+              >
                 <Button focus={location.pathname.includes(item.link)}>
                   {item.name}
                 </Button>
@@ -82,8 +91,8 @@ const Header = () => {
         >
           {button_list.map((item) => (
             <div>
-              <Link key={item.id} to={item.link} onClick={handleToggle}>
-                <NavButtonMobile focus={location.pathname === item.link}>
+              <Link key={item.id} to={item.link} onClick={handleSessionStorage}>
+                <NavButtonMobile focus={location.pathname.includes(item.link)}>
                   {item.name}
                 </NavButtonMobile>
               </Link>
