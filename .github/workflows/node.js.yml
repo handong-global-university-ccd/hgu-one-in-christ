@@ -31,16 +31,12 @@ jobs:
 
       # react 빌드한 /build를 s3로 업로드
       - name: Upload /build to S3
-        env:
-          BUCKET_NAME: ${{ secrets.AWS_S3_BUCKET}}
         run: |
           aws s3 sync \
-            ./build s3://$BUCKET_NAME
+            ./build s3://${{ secrets.AWS_S3_BUCKET}}
 
       # 업로드한 s3 파일을 각 CDN 캐시 무효화하여 리프레시 하기
       - name: CloudFront Invalidation
-        env:
-          CLOUD_FRONT_ID: ${{ secrets.AWS_CLOUDFRONT_ID}}
         run: |
           aws cloudfront create-invalidation \
-            --distribution-id $CLOUD_FRONT_ID --paths "/*"
+            --distribution-id ${{ secrets.AWS_CLOUDFRONT_ID}} --paths "/*"
