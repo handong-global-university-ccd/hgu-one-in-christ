@@ -23,8 +23,11 @@ export default {
       },
       fontFamily: {
         Pretendard_Bold: ["Pretendard-Bold"],
+        Pretendard_SemiBold: ["Pretendard-SemiBold"],
         Pretendard_Regular: ["Pretendard-Regular"],
+        Pretendard_Light: ["Pretendard-Light"],
         Organetto_ExtBold: ["Organetto-ExtBold"],
+        Organetto_ExtRegular: ["Organetto-ExtRegular"],
         TT_Firs: ["TT-Firs-Neue-Medium"],
         TT_Firs_Regular: ["TT-Firs-Neue-Regular"],
         TT_Firs_Light: ["TT-Firs-Neue-light"],

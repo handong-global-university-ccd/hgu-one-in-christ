@@ -40,7 +40,7 @@ const AboutMain = () => {
         </p>
 
         <div
-          className={`w-full mt-[145px] flex justify-between text-[18px] md:text-[14px] font-Pretendard_Bold`}
+          className={`w-full mt-[145px] flex justify-between text-[18px] md:text-[14px] font-Pretendard_SemiBold`}
         >
           <div className={`w-[300px] flex flex-col items-center`}>
             <p>경북 포항시 북구 흥해읍 558</p>
@@ -80,7 +80,7 @@ const AboutMain = () => {
           />
         </motion.svg>
         <div
-          className={`flex flex-col items-center font-Organetto_ExtBold text-[20px] md:text-[16px]`}
+          className={`flex flex-col items-center font-Pretendard_SemiBold text-[20px] md:text-[16px]`}
         >
           <p>자신의 능력과 성취에만 집중하여 서로 경쟁하는 사고방식에서</p>
           <p>벗어나 하나님의 뜻을 깨닫는 것은 중요합니다.</p>

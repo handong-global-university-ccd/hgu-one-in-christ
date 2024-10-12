@@ -53,9 +53,6 @@ const WorkDesigner = ({ work }: Props) => {
               <p className={`sm:text-[18px] md:text-[26px] text-[28px]`}>
                 {work?.teamName}
               </p>
-              <p className={`sm:text-[12px] md:text-[17px] text-[19px]`}>
-                {work?.teamName}
-              </p>
             </div>
             <div
               className={`grid grid-cols-2 gap-[7px] sm:flex sm:flex-col sm:gap-[6px]`}
