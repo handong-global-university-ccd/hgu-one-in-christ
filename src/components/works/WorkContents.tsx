@@ -23,7 +23,7 @@ const WorkContents = ({ category, work }: Props) => {
             ? "text-primary-orange"
             : category === "SERVICE"
               ? "text-primary-red"
-              : category === "UXUI"
+              : category === "UX"
                 ? "text-primary-purple"
                 : "text-primary-blue"
         }`}

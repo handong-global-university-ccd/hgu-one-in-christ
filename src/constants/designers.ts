@@ -11,12 +11,12 @@ export const DESIGNERS = [
       "여러 갈래로 펼쳐진 길을 두고 선택의 고민에 빠지는 지금이지만, 훗날 뒤돌아봤을 때 그 길을 선택하길 잘했다고 웃으며 회상할 수 있기를",
     works: [
       {
-        work: WORKS.UXUI,
+        work: WORKS.UX,
         category: "UX",
         worksId: 3,
       },
       {
-        work: WORKS.UXUI,
+        work: WORKS.UX,
         category: "UX",
         worksId: 6,
       },
@@ -95,12 +95,12 @@ export const DESIGNERS = [
       "세상을 관찰하고 탐구함으로써 본질을 캐는 즐거움으로 디자인에 임하는 권은진입니다. 본질의 의미를 발견하여 진지한 태도로 다듬고 성장시켜, 사람들에게 풍부한 가치를 전달하겠습니다.",
     works: [
       {
-        work: WORKS.UXUI,
+        work: WORKS.UX,
         category: "UX",
         worksId: 1,
       },
       {
-        work: WORKS.UXUI,
+        work: WORKS.UX,
         category: "UX",
         worksId: 7,
       },
@@ -177,12 +177,12 @@ export const DESIGNERS = [
       "우리의 삶 속에서 셀 수 없이 많고 복잡한 경험들이 일어납니다. 이러한 사용자들의 경험을 논리적으로 분석하고, 좋은 경험으로 가득 차도록 이끌기 위해 '의미있는 디자인'을 만드는 디자이너 김민경입니다.",
     works: [
       {
-        work: WORKS.UXUI,
+        work: WORKS.UX,
         category: "UX",
         worksId: 2,
       },
       {
-        work: WORKS.UXUI,
+        work: WORKS.UX,
         category: "UX",
         worksId: 8,
       },
@@ -213,12 +213,12 @@ export const DESIGNERS = [
       "사람들의 행동을 궁금해하는 디자이너, 김민영입니다. 사람이 좋아서 사람을 위한 디자인을 고민하고 있습니다. 깊은 분석을 통해 얻은 통찰력으로 세상을 살아가는 사람들을 위해 가장 가까운 자리에서 저만의 디자인으로 더 나은 세상을 만들겠습니다.",
     works: [
       {
-        work: WORKS.UXUI,
+        work: WORKS.UX,
         category: "UX",
         worksId: 3,
       },
       {
-        work: WORKS.UXUI,
+        work: WORKS.UX,
         category: "UX",
         worksId: 6,
       },
@@ -276,12 +276,12 @@ export const DESIGNERS = [
       '아이들은 세상에 대한 순수한 호기심으로 질문합니다. 저는 이것이 좋은 UX 디자이너의 태도와 크게 다르지 않다고 생각합니다. 어른이 되면서 그 호기심은 관찰과 리서치로 이어지고, "이건 왜 좋을까?" "이건 왜 불편할까?"라는 질문을 끊임없이 던지며 더 나은 경험을 설계해 나갑니다. 여전히 호기심 많은 어린아이처럼 세상을 궁금해하며, 사용자에게 의미 있는 디자인을 제공하는 것을 목표로 하고 있습니다. 질문 많은 모든 어린이들, 파이팅:D',
     works: [
       {
-        work: WORKS.UXUI,
+        work: WORKS.UX,
         category: "UX",
         worksId: 4,
       },
       {
-        work: WORKS.UXUI,
+        work: WORKS.UX,
         category: "UX",
         worksId: 9,
       },
@@ -488,12 +488,12 @@ export const DESIGNERS = [
       "사람 간의 소통을 좋아합니다. 가끔은 베일에 싸여져 있는 것 같은 사용자의 실제 필요를 이해하고 이를 풀어낼수 있는 가치있는 솔루션을 만들어 세상을 더 이롭게 만들 수 있는 배워서 지식을 나누는 사람이 되길 꿈꿉니다.",
     works: [
       {
-        work: WORKS.UXUI,
+        work: WORKS.UX,
         category: "UX",
         worksId: 5,
       },
       {
-        work: WORKS.UXUI,
+        work: WORKS.UX,
         category: "UX",
         worksId: 10,
       },
@@ -572,12 +572,12 @@ export const DESIGNERS = [
       "누군가의 미래를 밝혀주기 위해 밤낮 없이 고민하는 디자이너, 서지은입니다. 여러 나라를 오가며 쌓은 경험들은 저의 세상을 넓혀주었고 더 많은 ‘누군가’를 마음에 품을 수 있게 해주었습니다. 빛이 필요한 누군가를 향해 시선과 마음은 고정한 채, 제가 가진 통찰력과 분석력으로 그 마음이 형체를 갖출 수 있도록 오늘도 저만의 디자인을 합니다.",
     works: [
       {
-        work: WORKS.UXUI,
+        work: WORKS.UX,
         category: "UX",
         worksId: 4,
       },
       {
-        work: WORKS.UXUI,
+        work: WORKS.UX,
         category: "UX",
         worksId: 9,
       },
@@ -635,12 +635,12 @@ export const DESIGNERS = [
       '나비효과처럼 작은 디테일 하나로도 사람들의 경험이 풍성해지고 그들의 일상의 질이 달라질 수 있다고 믿습니다. 사용자들의 숨겨진 필요를 집요하게 발견하고 탐구하여 디자인으로 해결해나가는 과정을 좋아합니다. 순간의 경험일지라도, 섬세하게 사용자를 고려하며 공감하는 디자이너가 되고자 합니다. "어,이런 것 까지 생각했네?"라는 생각의 뒤에 웃으며 서 있고자하는 UX디자이너 신수민입니다.',
     works: [
       {
-        work: WORKS.UXUI,
+        work: WORKS.UX,
         category: "UX",
         worksId: 5,
       },
       {
-        work: WORKS.UXUI,
+        work: WORKS.UX,
         category: "UX",
         worksId: 10,
       },
@@ -656,12 +656,12 @@ export const DESIGNERS = [
       "세상에서 가장 중요한 질문 'Why?'를 탐구하는 디자이너 신지수입니다. 사소한 것에도 'Why?'라고 질문하며 현상의 본질을 파악하고, 인생과 디자인에 대한 깊은 통찰을 쌓아가고 있습니다. 이제 막 씨앗을 심어 뿌리를 내리듯, 근본 있는 디자이너로 성장하는 저의 여정을 지켜봐 주시기 바랍니다.",
     works: [
       {
-        work: WORKS.UXUI,
+        work: WORKS.UX,
         category: "UX",
         worksId: 3,
       },
       {
-        work: WORKS.UXUI,
+        work: WORKS.UX,
         category: "UX",
         worksId: 6,
       },
@@ -719,12 +719,12 @@ export const DESIGNERS = [
       "저는 늘 '왜?' 라는 질문을 던지며 살아가고 있습니다. 당연하게 보이는 것들 속에서 의문을 품고, 답을 찾아가는 과정에서 새로운 사용자 경험 디자인의 가능성을 발견합니다. 하나의 질문에서 시작된 고민들은 사소해 보일 수 있지만, 그 작은 변화들이 결국 사용자에게 더 큰 가치를 전달한다고 생각합니다. 빠르게 변하는 시대 속에서 끊임없이 질문하며 사람을 위하는 UX 디자이너, 그게 바로 저의 이야기입니다.",
     works: [
       {
-        work: WORKS.UXUI,
+        work: WORKS.UX,
         category: "UX",
         worksId: 1,
       },
       {
-        work: WORKS.UXUI,
+        work: WORKS.UX,
         category: "UX",
         worksId: 7,
       },
@@ -761,12 +761,12 @@ export const DESIGNERS = [
       "무채색은 채도를 갖고 있지 않은 색을 의미합니다. 그래서 무채색은 대채적으로 독특함이 없다는 특징을 가지고 있기도 하지만 반대로 어떤 색이든 잘 어울리는 특성을 가지고 있죠. 저를 ‘무채색의 사람’ 으로 주로 표현합니다. 딱히 이것도 저것도 다 괜찮아 특별히 눈에 띄지 않을 수 있지만, 어떤 것과도 잘 어울리기도 합니다. ‘무채색’으로써 UX를 공부하며, 어떤 도메인과 사용자든 다가가기에 어렵지 않은 디자이너를 꿈꿉니다.",
     works: [
       {
-        work: WORKS.UXUI,
+        work: WORKS.UX,
         category: "UX",
         worksId: 1,
       },
       {
-        work: WORKS.UXUI,
+        work: WORKS.UX,
         category: "UX",
         worksId: 7,
       },
@@ -825,12 +825,12 @@ export const DESIGNERS = [
       "복잡한 문제를 유쾌하게 풀어내고 싶은 디자이너 이석영입니다. (사진만 보면 유쾌함과는 거리가 있어 보이긴 하네요.) 학부에서는 건축과 도시를 공부하였고 지금은 대학원에서 UX디자인을 공부하고 있습니다. 사람은 공간을 만들지만 동시에 공간도 사람을 만든다고 생각합니다. 사람을 사랑하는 마음이 UX라는 첨예하고도 따듯한 렌즈를 만나 사람들을 보듬어 안아줄 수 있는 보다 친절한 공간으로 세워지길 꿈꿉니다.",
     works: [
       {
-        work: WORKS.UXUI,
+        work: WORKS.UX,
         category: "UX",
         worksId: 4,
       },
       {
-        work: WORKS.UXUI,
+        work: WORKS.UX,
         category: "UX",
         worksId: 9,
       },
@@ -920,12 +920,12 @@ export const DESIGNERS = [
       "UX 디자이너에게 제일 중요한 능력은 문제를 뾰족하게 정의할 수 있는 능력과 사용자의 문제에 진심으로 공감할 줄 아는 마음이라고 생각합니다. 따뜻한 마음과 예리한 사고력을 모두 갖춘 UX 디자이너가 되어 사용자에게 따뜻하고 긍정적 경험을 선사하는 UX디자이너가 되고 싶습니다.",
     works: [
       {
-        work: WORKS.UXUI,
+        work: WORKS.UX,
         category: "UX",
         worksId: 4,
       },
       {
-        work: WORKS.UXUI,
+        work: WORKS.UX,
         category: "UX",
         worksId: 9,
       },
@@ -962,12 +962,12 @@ export const DESIGNERS = [
       '사용자들은 진정으로 원하는 것이 무엇인지를 모르고 살아갈 때가 많습니다. 저는 사용자들의 니즈로 1차원적인 해결책을 제시하는 것이 아닌 깊이 뿌리내려 사용자들의 삶에 긍정적인 변화를 주고 싶습니다. "배워서 남 주자!"라는 철학을 디자인에 담아 개인적인 성취를 위함이 아닌 실질적인 가치를 제공하는 세심한 디자이너가 되길 원합니다.',
     works: [
       {
-        work: WORKS.UXUI,
+        work: WORKS.UX,
         category: "UX",
         worksId: 2,
       },
       {
-        work: WORKS.UXUI,
+        work: WORKS.UX,
         category: "UX",
         worksId: 8,
       },
@@ -1046,12 +1046,12 @@ export const DESIGNERS = [
       "디자인은 복잡함 속에서 본질을 찾아 명확하게 전달하는 것이라고 생각합니다. 사람에 대한 이해를 바탕으로 미니멀하면서도 깔끔하게 표현하는 디자이너 임시은입니다. 각 요소들이 조화롭게 자리하고 입장에 맞게 전달될 수 있도록 고민합니다. 더 나은 소통을 위해 디테일한 의미를 놓치지 않고 직관적 감각을 담아내는 디자인을 지향합니다.",
     works: [
       {
-        work: WORKS.UXUI,
+        work: WORKS.UX,
         category: "UX",
         worksId: 3,
       },
       {
-        work: WORKS.UXUI,
+        work: WORKS.UX,
         category: "UX",
         worksId: 6,
       },
@@ -1234,12 +1234,12 @@ export const DESIGNERS = [
       "모든 디자인은 사용자를 배제할 수 없고 다양한 학문과 얽혀있는 ux에 대해 끊임없이 고민하는 디자이너입니다. 정의되지 않은 것들을 정의하는 행위의 미학이 ux에 있다고 생각합니다. 그 자체로 정의할 수 없는 의미를 재정립하면서 심도 있는 분석을 요하는 과정을 통해 사용자의 경험이 가장 효율적인 시스템으로 이루어질 수 있도록 합니다.",
     works: [
       {
-        work: WORKS.UXUI,
+        work: WORKS.UX,
         category: "UX",
         worksId: 1,
       },
       {
-        work: WORKS.UXUI,
+        work: WORKS.UX,
         category: "UX",
         worksId: 7,
       },
@@ -1276,12 +1276,12 @@ export const DESIGNERS = [
       "언젠가 프로젝트 피드백을 받다 ‘눈빛이 ”욕망의 결정체” 같다’라는 이야기를 들은 적이 있습니다. 기획부터 디자인까지, 다 잘하고 싶고 다 잘 해내는 욕심많고 열정있는 디자이너 조은비입니다. 불순물 들어가지 않은 정석과 진심으로 이루어진 순수한 결정체를 만들어 가는 중입니다.",
     works: [
       {
-        work: WORKS.UXUI,
+        work: WORKS.UX,
         category: "UX",
         worksId: 5,
       },
       {
-        work: WORKS.UXUI,
+        work: WORKS.UX,
         category: "UX",
         worksId: 10,
       },
@@ -1318,12 +1318,12 @@ export const DESIGNERS = [
       '지금까지 어떤 경험을 하고 살아오셨나요? 좋지 않은 경험과 좋은 경험들이 합쳐져 당신의 "삶"을 만듭니다. 삶의 경중을 따질 수 없듯이 필요없는 경험을 따질 수 없겠지요. 당신의 삶에서 "좋은 경험했다!"라고 말하는 순간에 UX 디자이너로 함께하고 싶습니다.',
     works: [
       {
-        work: WORKS.UXUI,
+        work: WORKS.UX,
         category: "UX",
         worksId: 2,
       },
       {
-        work: WORKS.UXUI,
+        work: WORKS.UX,
         category: "UX",
         worksId: 8,
       },
@@ -1359,12 +1359,12 @@ export const DESIGNERS = [
       "사용자의 경험을 설계하는 것은 단순히 사람들의 경험을 이해하고 공감하는 것을 넘어, 그들의 내면을 깊이 들여다보는 과정이라고 생각합니다. 이 과정에서 사람들은 자신도 몰랐던 내면을 마주하며, 진정한 자신만의 색을 발견하게 됩니다. 저는 사람들이 이러한 과정을 통해 자신의 색을 찾을 수 있도록 돕는 UX 디자이너가 되고자 합니다.",
     works: [
       {
-        work: WORKS.UXUI,
+        work: WORKS.UX,
         category: "UX",
         worksId: 5,
       },
       {
-        work: WORKS.UXUI,
+        work: WORKS.UX,
         category: "UX",
         worksId: 10,
       },
@@ -1380,12 +1380,12 @@ export const DESIGNERS = [
       "I’m a UX/UI designer focused on creating accessible, and intuitive design experiences. I enjoy breaking down complex problems and developing efficient, user-centered solutions. My approach combines solid functionality with clean, user-friendly designs that make sense from the first interaction.",
     works: [
       {
-        work: WORKS.UXUI,
+        work: WORKS.UX,
         category: "UX",
         worksId: 4,
       },
       {
-        work: WORKS.UXUI,
+        work: WORKS.UX,
         category: "UX",
         worksId: 9,
       },
@@ -1401,12 +1401,12 @@ export const DESIGNERS = [
       "인문학의 깊이와 기술의 혁신을 조화롭게 아우르는 전략적 디자이너로서, 저는 두 세계 사이의 Bridge역할을 하고 싶습니다. 인간의 감성과 첨단 기술의 경계에서 창의적 솔루션을 제시하는 매개자로 성장해 나가고 있습니다.",
     works: [
       {
-        work: WORKS.UXUI,
+        work: WORKS.UX,
         category: "UX",
         worksId: 2,
       },
       {
-        work: WORKS.UXUI,
+        work: WORKS.UX,
         category: "UX",
         worksId: 8,
       },

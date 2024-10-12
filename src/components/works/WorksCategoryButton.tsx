@@ -23,8 +23,8 @@ const category_list = [
   },
   {
     id: 3,
-    name: "UXUI DESIGN",
-    work: "UXUI" as WorkCategory,
+    name: "UX DESIGN",
+    work: "UX" as WorkCategory,
     imgSrc: `${DOMAIN}images/icon/uxui_icon.webp`,
     imgSize: "w-[41.69px] h-[26.8px]",
     color: "text-primary-purple",
@@ -154,7 +154,7 @@ const WorksCategoryButton = ({ category, setCategory }: Props) => {
               ? "text-primary-orange"
               : category_list[parseInt(currItem)].work === "SERVICE"
                 ? "text-primary-red"
-                : category_list[parseInt(currItem)].work === "UXUI"
+                : category_list[parseInt(currItem)].work === "UX"
                   ? "text-primary-purple"
                   : "text-primary-blue"
           }`}

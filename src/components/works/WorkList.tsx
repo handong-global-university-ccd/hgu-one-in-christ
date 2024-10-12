@@ -40,7 +40,7 @@ const WorkList = ({ category }: Props) => {
                       ? "border-primary-orange"
                       : category === "SERVICE"
                         ? "border-primary-red"
-                        : category === "UXUI"
+                        : category === "UX"
                           ? "border-primary-purple"
                           : "border-primary-blue"
                   }`}
@@ -56,7 +56,7 @@ const WorkList = ({ category }: Props) => {
                             ? "bg-primary-orange"
                             : category === "SERVICE"
                               ? "bg-primary-red"
-                              : category === "UXUI"
+                              : category === "UX"
                                 ? "bg-primary-purple"
                                 : "bg-primary-blue"
                         }`}

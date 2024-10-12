@@ -1,9 +1,8 @@
 export type WorkCategory =
   | "COMMUNICATION"
   | "SERVICE"
-  | "UXUI"
+  | "UX"
   | "PRODUCT"
   | "Communication"
   | "Service"
-  | "UX"
   | "Product";

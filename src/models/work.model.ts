@@ -3,7 +3,7 @@ import { DesignerWorksInfo } from "./designer.model";
 export interface Works {
   COMMUNICATION: Work[];
   SERVICE: Work[];
-  UXUI: Work[];
+  UX: Work[];
   PRODUCT: Work[];
 }
 
