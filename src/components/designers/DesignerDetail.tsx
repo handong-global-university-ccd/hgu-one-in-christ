@@ -11,7 +11,7 @@ const DesignerDetail = ({ designer }: Props) => {
   const { personEnter, middleEnter, defaultEnter } = useMousePosition();
 
   return (
-    <div className={`sm:flex sm:justify-center sm:mb-[45px]`}>
+    <div className={`w-full sm:flex sm:mb-[45px]`}>
       <div className={`flex flex-col items-start text-primary-white`}>
         <motion.img
           onMouseEnter={personEnter}
@@ -37,7 +37,7 @@ const DesignerDetail = ({ designer }: Props) => {
         <motion.p
           onMouseEnter={middleEnter}
           onMouseLeave={defaultEnter}
-          className={`lg:w-[569px] md:w-[90%] w-full lg:leading-[37px] leading-[30px] font-Pretendard_Regular lg:text-[21px] text-[16px]`}
+          className={`lg:w-[569px] md:w-[90%] w-full lg:leading-[37px] leading-[22px] font-Pretendard_Regular lg:text-[21px] text-[12px]`}
         >
           {designer?.description}
         </motion.p>
