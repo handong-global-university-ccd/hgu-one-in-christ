@@ -20,7 +20,7 @@ const symbolInfo = [
   },
   {
     id: 3,
-    symbol: "(UXUI DESIGN)",
+    symbol: "(UX DESIGN)",
     imgSrc: "images/about/symbol/UXSymbol.webp",
     imgMobSrc: "images/about/symbol/UXSymbolMob.webp",
     info: "UX/UI 디자인에서는 사용자가 제품이나 서비스를 사용하는 과정에서 느끼는 만족감과 편의성을 최대화하는 것이 중요합니다. 원은 중심에서 모든 점이 동일한 거리에 위치하여 균형을 이루고 심리적 안정감을 제공하는 특성으로 UX/UI 디자인의 사용자 경험과 조화를 상징합니다.",

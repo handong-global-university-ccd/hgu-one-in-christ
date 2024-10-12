@@ -1676,7 +1676,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       ],
     },
   ],
-  UXUI: [
+  UX: [
     {
       id: 1,
       teamName: "해디크",
@@ -2246,6 +2246,5 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
   ],
   Communication: [],
   Service: [],
-  UX: [],
   Product: [],
 };
