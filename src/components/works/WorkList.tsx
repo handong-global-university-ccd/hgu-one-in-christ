@@ -50,7 +50,7 @@ const WorkList = ({ category }: Props) => {
                   className={`absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex justify-center items-center`}
                 >
                   <div
-                    className={`hidden lg:w-[201px] lg:h-[24px] lg:group-hover:flex justify-center items-center 
+                    className={`hidden lg:w-[220px] lg:h-[24px] lg:group-hover:flex justify-center items-center 
 												${
                           category === "COMMUNICATION"
                             ? "bg-primary-orange"
