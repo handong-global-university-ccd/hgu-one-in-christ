@@ -46,22 +46,33 @@ interface Props extends React.ButtonHTMLAttributes<HTMLButtonElement> {
 
 const WorksCategoryButton = ({ category, setCategory }: Props) => {
   const { smallEnter, defaultEnter } = useMousePosition();
+  const [currItem, setCurrItem] = useState("0");
+  const sessionCategory = sessionStorage.getItem("category");
 
-  const [currItem, setCurrItem] = useState(0);
+  useEffect(() => {
+    if (!sessionCategory) {
+      sessionStorage.setItem("category", "0");
+    } else {
+      setCurrItem(sessionCategory);
+      setCategory(category_list[parseInt(sessionCategory)].work);
+    }
+  }, []);
 
-  const handleButton = (sign: number) => {
-    const result = currItem + sign;
+  const handleButton = (changeCategory: number) => {
+    setCurrItem(changeCategory.toString());
+    sessionStorage.setItem("category", changeCategory.toString());
+    setCategory(category_list[changeCategory].work);
+  };
+
+  const handleButtonMob = (sign: number) => {
+    const result = parseInt(currItem) + sign;
     if (result >= 0 && result < category_list.length) {
-      setCurrItem(result);
+      console.log(result);
+      setCurrItem(result.toString());
+      sessionStorage.setItem("category", result.toString());
       setCategory(category_list[result].work);
     }
   };
-
-  useEffect(() => {
-    category_list.forEach((item, index) =>
-      item.work === category ? setCurrItem(index) : null
-    );
-  }, [category]);
 
   return (
     <>
@@ -78,7 +89,7 @@ const WorksCategoryButton = ({ category, setCategory }: Props) => {
               className={
                 "w-[288px] h-[48px] relative flex items-center justify-center overflow-hidden duration-300 transition-all group"
               }
-              onClick={() => setCategory(item.work as WorkCategory)}
+              onClick={() => handleButton(item.id - 1)}
             >
               <div
                 className={`absolute w-[288px] h-[48px] flex justify-center items-center 
@@ -126,42 +137,42 @@ const WorksCategoryButton = ({ category, setCategory }: Props) => {
       >
         <img
           src={`${DOMAIN}images/icon/prevIcon.webp`}
-          className={`w-[7px] md:w-[10px] ${currItem > 0 && "block"} ${
-            currItem === 0 && "hidden"
-          }`}
+          className={`w-[7px] md:w-[10px] ${
+            parseInt(currItem) > 0 && "block"
+          } ${parseInt(currItem) === 0 && "hidden"}`}
           alt="prevIcon"
-          onClick={() => handleButton(-1)}
+          onClick={() => handleButtonMob(-1)}
         />
         <div
-          className={`w-[7px] md:w-[10px] ${currItem > 0 && "hidden"} ${
-            currItem === 0 && "block"
-          }`}
+          className={`w-[7px] md:w-[10px] ${
+            parseInt(currItem) > 0 && "hidden"
+          } ${parseInt(currItem) === 0 && "block"}`}
         ></div>
         <p
           className={`font-Organetto_ExtBold text-[13px] ${
-            category_list[currItem].work === "COMMUNICATION"
+            category_list[parseInt(currItem)].work === "COMMUNICATION"
               ? "text-primary-orange"
-              : category_list[currItem].work === "SERVICE"
+              : category_list[parseInt(currItem)].work === "SERVICE"
                 ? "text-primary-red"
-                : category_list[currItem].work === "UXUI"
+                : category_list[parseInt(currItem)].work === "UXUI"
                   ? "text-primary-purple"
                   : "text-primary-blue"
           }`}
         >
-          {category_list[currItem].name}
+          {category_list[parseInt(currItem)].name}
         </p>
         <img
           src={`${DOMAIN}images/icon/nextIcon.webp`}
           className={`w-[7px] md:w-[10px] ${
-            currItem < category_list.length - 1 && "block"
-          } ${currItem === category_list.length - 1 && "hidden"}`}
+            parseInt(currItem) < category_list.length - 1 && "block"
+          } ${parseInt(currItem) === category_list.length - 1 && "hidden"}`}
           alt="nextIcon"
-          onClick={() => handleButton(1)}
+          onClick={() => handleButtonMob(1)}
         />
         <div
           className={`w-[7px] md:w-[10px] ${
-            currItem < category_list.length - 1 && "hidden"
-          }  ${currItem === category_list.length - 1 && "block"}`}
+            parseInt(currItem) < category_list.length - 1 && "hidden"
+          }  ${parseInt(currItem) === category_list.length - 1 && "block"}`}
         ></div>
       </div>
     </>
