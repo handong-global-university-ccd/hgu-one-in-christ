@@ -53,7 +53,7 @@ const Header = () => {
           <div className="md:hidden sm:hidden flex items-center gap-x-12">
             {button_list.map((item) => (
               <Link key={item.id} to={item.link}>
-                <Button focus={location.pathname === item.link}>
+                <Button focus={location.pathname.includes(item.link)}>
                   {item.name}
                 </Button>
               </Link>

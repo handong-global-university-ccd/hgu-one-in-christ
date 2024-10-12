@@ -38,7 +38,7 @@ const DesignerWorks = ({ designer }: Props) => {
               {work.category.toUpperCase()} DESIGN
             </p>
             <Link
-              to={`${PATHS.WORKS}/${work.category}/${
+              to={`${PATHS.WORKS}/${work.category.toUpperCase()}/${
                 work.work[work.worksId - 1].id
               }`}
               className={`cursor-none`}
