@@ -11,6 +11,14 @@
 }
 
 @font-face {
+  font-family: "Pretendard-SemiBold";
+  src: url("/fonts/pretendard-semibold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
   font-family: "Pretendard-Regular";
   src: url("/fonts/pretendard-regular.ttf") format("truetype");
   font-weight: normal;
@@ -19,8 +27,24 @@
 }
 
 @font-face {
+  font-family: "Pretendard-Light";
+  src: url("/fonts/pretendard-light.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
   font-family: "Organetto-ExtBold";
   src: url("/fonts/organetto-extbold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Organetto-ExtRegular";
+  src: url("/fonts/organetto-extregular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
