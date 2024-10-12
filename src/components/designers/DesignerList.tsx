@@ -23,17 +23,23 @@ const DesignerList = ({ designer }: Props) => {
         className="w-[90%] lg:w-full h-[69px] sm:h-[50px] 
 									flex items-center
 								text-primary-white hover:text-primary-black text-[18px] sm:text-[14px] 
-									lg:px-6 gap-[151px] sm:gap-[34px]
+									lg:px-6 gap-[151px] sm:gap-[50px]
 								hover:bg-primary-white 
 									group
 									"
       >
-        <p className="font-Pretendard_Regular lg:w-[90px]">{designer.nameKo}</p>
-        <div className={`flex gap-[20px] sm:gap-[10px]`}>
+        <p className="font-Pretendard_Regular w-[90px] sm:w-[70px] pl-[10px]">
+          {designer.nameKo}
+        </p>
+        <div className={`sm:hidden flex gap-[20px] sm:gap-[10px]`}>
           {designer.works.map((work) => (
             <p className="font-TT_Firs_Light">{work.category} Design</p>
           ))}
         </div>
+
+        <p className={`hidden sm:block font-TT_Firs_Light`}>
+          {designer.nameEng}
+        </p>
 
         <motion.img
           onMouseEnter={bigEnter}
