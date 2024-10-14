@@ -33,6 +33,21 @@ export default {
         TT_Firs_Light: ["TT-Firs-Neue-light"],
         Menda_Medium: ["Menda-Medium"],
       },
+      keyframes: {
+        "fade-in-down": {
+          "0%": {
+            opacity: 0,
+            transform: "translate3d(0%, -100%, -100)",
+          },
+          "100%": {
+            opacity: 1,
+            transform: "translate3d(0, 0, 0)",
+          },
+        },
+      },
+      animation: {
+        fadeindown: "fade-in-down ease-in 0.4s 1",
+      },
     },
   },
   plugins: [],
