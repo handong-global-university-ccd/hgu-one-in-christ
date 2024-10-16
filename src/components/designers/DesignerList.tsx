@@ -32,9 +32,13 @@ const DesignerList = ({ designer }: Props) => {
           {designer.nameKo}
         </p>
         <div className={`sm:hidden flex gap-[20px] sm:gap-[10px]`}>
-          {designer.works.map((work) => (
-            <p className="font-TT_Firs_Light">{work.category} Design</p>
-          ))}
+          {designer.works[0].category === "UX" ? (
+            <p className="font-TT_Firs_Light">UX Design</p>
+          ) : (
+            designer.works.map((work) => (
+              <p className="font-TT_Firs_Light">{work.category} Design</p>
+            ))
+          )}
         </div>
 
         <p className={`hidden sm:block font-TT_Firs_Light`}>
