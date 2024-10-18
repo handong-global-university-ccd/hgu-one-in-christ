@@ -27,7 +27,9 @@ const WorkDesigner = ({ work }: Props) => {
               onMouseLeave={defaultEnter}
               className={`flex flex-col gap-1 text-primary-white items-start`}
             >
-              <div className={`flex gap-[7px] font-Pretendard_Bold items-end`}>
+              <div
+                className={`flex gap-[7px] font-Pretendard_Bold items-baseline`}
+              >
                 <p className={`sm:text-[18px] md:text-[26px] text-[28px]`}>
                   {work.designer[0].nameKo}
                 </p>
