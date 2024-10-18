@@ -79,9 +79,9 @@ const Home: React.FC = () => {
       <div className="inner h-[100vh]">
         <ShowDate />
       </div>
-      <div className="inner h-[100vh]">
+      {/* <div className="inner h-[100vh]">
         <HomeLast />
-      </div>
+      </div> */}
     </div>
   );
 };
