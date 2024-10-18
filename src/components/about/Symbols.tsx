@@ -46,36 +46,48 @@ const Symbols = () => {
           onMouseLeave={defaultEnter}
           className={`relative`}
         >
-          <img
+          <motion.img
+            whileHover={{ scale: 1.2 }}
+            whileTap={{ scale: 0.9 }}
+            transition={{ type: "spring", stiffness: 400, damping: 10 }}
             src={`${DOMAIN}${symbolInfo[0].imgSrc}`}
-            className={`absolute top-[47px] left-[620px] w-[273px] hover:top-[77px]`}
+            className={`absolute top-[47px] left-[620px] w-[273px]`}
           />
           <p
             className={`absolute top-[46px] left-[726px] text-primary-white font-Menda_Medium text-[20px] leading-[120px]`}
           >
             {symbolInfo[0].symbol}
           </p>
-          <img
+          <motion.img
+            whileHover={{ scale: 1.2 }}
+            whileTap={{ scale: 0.9 }}
+            transition={{ type: "spring", stiffness: 400, damping: 10 }}
             src={`${DOMAIN}${symbolInfo[1].imgSrc}`}
-            className={`absolute top-[193px] left-[325px] w-[270px] hover:top-[223px]`}
+            className={`absolute top-[193px] left-[325px] w-[270px]`}
           />
           <p
             className={`absolute top-[185px] left-[202px] text-primary-white font-Menda_Medium text-[20px] leading-[120px]`}
           >
             {symbolInfo[1].symbol}
           </p>
-          <img
+          <motion.img
+            whileHover={{ scale: 1.2 }}
+            whileTap={{ scale: 0.9 }}
+            transition={{ type: "spring", stiffness: 400, damping: 10 }}
             src={`${DOMAIN}${symbolInfo[2].imgSrc}`}
-            className={`absolute top-[435px] left-[354px] w-[356px] hover:top-[465px]`}
+            className={`absolute top-[435px] left-[354px] w-[356px]`}
           />
           <p
             className={`absolute top-[661px] left-[420px] text-primary-white font-Menda_Medium text-[20px] leading-[120px]`}
           >
             {symbolInfo[2].symbol}
           </p>
-          <img
+          <motion.img
+            whileHover={{ scale: 1.2 }}
+            whileTap={{ scale: 0.9 }}
+            transition={{ type: "spring", stiffness: 400, damping: 10 }}
             src={`${DOMAIN}${symbolInfo[3].imgSrc}`}
-            className={`absolute top-[316px] left-[604px] w-[315px] hover:top-[346px]`}
+            className={`absolute top-[316px] left-[604px] w-[315px]`}
           />
           <p
             className={`absolute top-[358px] left-[771px] text-primary-white font-Menda_Medium text-[20px] leading-[120px]`}
@@ -91,7 +103,15 @@ const Symbols = () => {
         >
           {symbolInfo.map((item) => (
             <div
-              className={`w-[289px] flex flex-col gap-[10px] text-[16px] text-primary-white hover:text-primary-orange`}
+              className={`w-[289px] flex flex-col gap-[10px] text-[16px] text-primary-white ${
+                item.symbol.includes("COMMUNICATION")
+                  ? "hover:text-primary-orange"
+                  : item.symbol.includes("SERVICE")
+                    ? "hover:text-primary-red"
+                    : item.symbol.includes("UX")
+                      ? "hover:text-primary-purple"
+                      : "hover:text-primary-blue"
+              }`}
             >
               <p className={`font-medium`}>{item.symbol}</p>
               <p className={`font-Pretendard_Regular leading-[27px]`}>
