@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-// import HomeLast from "../components/home/HomeLast";
+import HomeLast from "../components/home/HomeLast";
 import HomeStart from "../components/home/HomeStart";
 import ShowDate from "../components/home/ShowDate";
 
@@ -71,17 +71,17 @@ const Home: React.FC = () => {
   return (
     <div
       ref={outerDivRef}
-      className="scrollbar-hide outer h-[100vh] overflow-y-auto flex flex-col"
+      className="scrollbar-hide outer lg:h-[100vh] overflow-y-auto flex flex-col"
     >
-      <div className="inner h-[100vh]">
+      <div className="inner lg:h-[100vh]">
         <HomeStart />
       </div>
-      <div className="inner h-[100vh]">
+      <div className="inner lg:h-[100vh]">
         <ShowDate />
       </div>
-      {/* <div className="inner h-[100vh]">
+      <div className="inner lg:h-[100vh]">
         <HomeLast />
-      </div> */}
+      </div>
     </div>
   );
 };

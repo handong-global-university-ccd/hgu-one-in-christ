@@ -60,11 +60,10 @@ const HomeStart = () => {
           </div>
         </motion.div>
       </div>
-      <div
-        className={`relative hidden sm:flex h-[100vh] pd-[64px] flex-col items-center`}
-      >
+      {/* 모바일 */}
+      <div className={`hidden sm:flex mt-[64px] flex-col items-center`}>
         <div
-          className={`absolute top-[100px] flex flex-col items-center w-[90%] gap-[15px] pd-[30px]`}
+          className={`top-[94px] flex flex-col items-center w-[90%] gap-[15px] mt-[30px]`}
         >
           {Texts.map((text) => (
             <div
@@ -83,7 +82,7 @@ const HomeStart = () => {
           ))}
 
           <div
-            className={`absolute flex flex-col font-Pretendard_Regular text-primary-white text-[8px] leading-[11px] items-center top-[30vh]`}
+            className={`flex flex-col font-Pretendard_Regular text-primary-white text-[8px] leading-[11px] items-center mt-[154px]`}
           >
             <img
               src={`${DOMAIN}images/home/mainLogoMob.webp`}
