@@ -21,15 +21,13 @@ const ShowDate = () => {
 
   const [isVisible, setIsVisible] = useState(false);
   const ref = useRef<HTMLDivElement | null>(null);
+  const mobRef = useRef<HTMLDivElement | null>(null);
 
-  const handleScroll = () => {
+  const handleWheel = () => {
     const fromtoDate = ref.current;
     if (!fromtoDate) return;
 
     const fromtoDateTop = fromtoDate.getBoundingClientRect().top;
-    const scrollTop = ref.current?.scrollTop;
-    console.log(scrollTop);
-    console.log(fromtoDateTop);
 
     if (fromtoDateTop < 0) {
       setIsVisible(true);
@@ -38,18 +36,34 @@ const ShowDate = () => {
     }
   };
 
+  const handleScroll = () => {
+    const fromtoDate = mobRef.current;
+    if (!fromtoDate) return;
+
+    const fromtoDateTop = fromtoDate.getBoundingClientRect().top;
+    console.log(fromtoDateTop);
+
+    if (fromtoDateTop < 400) {
+      setIsVisible(true);
+    } else {
+      setIsVisible(false);
+    }
+  };
+
   useEffect(() => {
-    window.addEventListener("wheel", handleScroll);
+    window.addEventListener("wheel", handleWheel);
+    handleWheel();
+    window.addEventListener("scroll", handleScroll);
     handleScroll();
 
     return () => {
-      window.removeEventListener("wheel", handleScroll);
+      window.removeEventListener("wheel", handleWheel);
     };
   }, []);
 
   return (
     <>
-      <div className={`sm:hidden w-full h-[100vh] flex justify-center`}>
+      <div className={`hidden w-full h-[100vh] lg:flex justify-center`}>
         <motion.div
           onMouseEnter={bigEnter}
           onMouseLeave={defaultEnter}
@@ -80,10 +94,11 @@ const ShowDate = () => {
       </div>
       {/* 모바일 */}
       <div
-        className={`hidden sm:flex w-full mt-[150px] justify-center items-center`}
+        ref={mobRef}
+        className={`lg:hidden flex w-full mt-[150px]  justify-center items-center`}
       >
         <div
-          className={`flex flex-col items-center font-Menda_Medium text-[21px] text-primary-white`}
+          className={`flex flex-col items-center font-Menda_Medium text-[21px] md:text-[25px] text-primary-white`}
         >
           <p>2024.10.21</p>
           <motion.svg
@@ -91,7 +106,7 @@ const ShowDate = () => {
             height="300"
             viewBox="0 0 300 300"
             initial="hidden"
-            animate="visible"
+            animate={isVisible ? "visible" : "hidden"}
           >
             <motion.line
               x1="150"

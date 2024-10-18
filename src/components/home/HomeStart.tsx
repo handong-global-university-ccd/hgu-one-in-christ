@@ -26,9 +26,11 @@ const HomeStart = () => {
 
   return (
     <>
-      <div className={`sm:hidden w-full h-[100vh] flex flex-col items-center`}>
+      <div
+        className={`sm:hidden w-full lg:h-[100vh] flex flex-col items-center`}
+      >
         <div
-          className={`w-full max-w-lg pt-[142px] mb-[268px] flex justify-between`}
+          className={`w-full md:w-[90%] max-w-lg pt-[142px] mb-[268px] md:mb-[150px] flex justify-between`}
         >
           {Texts.map((text) => (
             <StartContent korContent={text.korContent}>
@@ -44,7 +46,7 @@ const HomeStart = () => {
             opacity: 1,
             transition: { duration: 2.5, delay: 0.7 },
           }}
-          className={`lg:max-w-lg flex flex-col items-center gap-[24px]`}
+          className={`lg:max-w-lg md:w-[90%] flex flex-col items-center gap-[24px]`}
         >
           <img
             src={`${DOMAIN}images/home/mainLogo.webp`}
