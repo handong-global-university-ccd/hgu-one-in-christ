@@ -27,8 +27,10 @@ const Creation = ({ creation }: Props) => {
                 width: "100%",
                 height: "100%",
                 playerVars: {
-                  autoplay: 0,
+                  autoplay: 1,
                   modestbranding: 0, //컨트롤 바에 유튜브 로고 표시 여부
+                  mute: 1,
+                  controls: 0,
                   loop: 1, //반복 재생
                   playlist: `${item.src}`, //반복 재생으로 재생할 플레이 리스트
                 },

@@ -2148,7 +2148,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       teamName: null,
       designer: [{ id: 42, nameKo: "이승현", studentId: 21701033 }],
       title: "TM-27/ JR-110",
-      summary: "스마트폰을 내려놓는 재미를 추구한 스마트 디바이스",
+      summary: "스마트폰 디톡스 스마트 도어락과 디스플레이",
       description:
         "사회초년생의 우울감 증가는 증가한 스마트폰의 의존도와 불리해서 볼 수 없습니다. 이들이 거주하는 좁은 원룸은 자유를 주기보다 더 작은 화면으로 구속해 버립니다. 우울감 완화에 필요한 것은 단순한 스마트폰 사용의 조절보다는 건강한 몰입을 할 수 있는 대체 여가입니다. JR-110 도어락은 스마트폰이 외부로부터 내부로 들어오는 자연스러운 연속성을 끊고, TM-27은 좁은 공간에서도 사용자에게 다양한 경험과 재미를 부여할 것입니다.",
       thumbnail: "images/creation/product/SeunghyeonLee/thumbnail.jpg",
