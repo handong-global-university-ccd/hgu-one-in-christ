@@ -11,7 +11,7 @@ const category_list = [
     work: "COMMUNICATION" as WorkCategory,
     imgSrc: `${DOMAIN}images/icon/communication_icon.webp`,
     imgSize: "w-[35.27px] h-[30.23px]",
-    color: "text-primary-orange",
+    color: "bg-primary-orange",
   },
   {
     id: 2,
@@ -19,7 +19,7 @@ const category_list = [
     work: "SERVICE" as WorkCategory,
     imgSrc: `${DOMAIN}images/icon/service_icon.webp`,
     imgSize: "w-[36.17px] h-[36.17px]",
-    color: "text-primary-red",
+    color: "bg-primary-red",
   },
   {
     id: 3,
@@ -27,7 +27,7 @@ const category_list = [
     work: "UX" as WorkCategory,
     imgSrc: `${DOMAIN}images/icon/uxui_icon.webp`,
     imgSize: "w-[41.69px] h-[26.8px]",
-    color: "text-primary-purple",
+    color: "bg-primary-purple",
   },
   {
     id: 4,
@@ -35,7 +35,7 @@ const category_list = [
     work: "INDUSTRIAL" as WorkCategory,
     imgSrc: `${DOMAIN}images/icon/product_icon.webp`,
     imgSize: "w-[29px] h-[38px]",
-    color: "text-primary-blue",
+    color: "bg-primary-blue",
   },
 ];
 
@@ -80,7 +80,7 @@ const WorksCategoryButton = ({ category, setCategory }: Props) => {
       <motion.div
         onMouseEnter={smallEnter}
         onMouseLeave={defaultEnter}
-        className={`md:hidden sm:hidden fixed z-50 top-[177px] flex items-center`}
+        className={`md:hidden sm:hidden w-screen fixed z-50 top-[177px] flex items-center justify-center bg-primary-white`}
       >
         <div className={`flex justify-between gap-[22px]`}>
           {category_list.map((item) => (
@@ -92,9 +92,8 @@ const WorksCategoryButton = ({ category, setCategory }: Props) => {
               onClick={() => handleButton(item.id - 1)}
             >
               <div
-                className={`absolute w-[288px] h-[48px] flex justify-center items-center 
-							bg-primary-white
-							font-Organetto_ExtBold text-[15px] ${item.color}
+                className={`absolute w-[288px] h-[48px] flex justify-center items-center tracking-[-1px]
+							font-Organetto_ExtBold text-[15px] ${item.color} text-primary-white
 							duration-300 transition-all transform ${
                 category === item.work ? "opacity-100" : "opacity-0"
               }
@@ -110,7 +109,7 @@ const WorksCategoryButton = ({ category, setCategory }: Props) => {
 								group-hover:translate-y-0 group-hover:opacity-100
 								group-focus:translate-y-0 group-focus:opacity-100`}
                 >
-                  {item.work}
+                  {item.work} DESIGN
                 </p>
               </div>
               <div
@@ -120,11 +119,11 @@ const WorksCategoryButton = ({ category, setCategory }: Props) => {
                     : "opacity-100"
                 } group-hover:translate-y-full group-hover:opacity-0 group-focus:translate-y-full group-focus:opacity-0`}
               >
-                <img
-                  src={item.imgSrc}
-                  alt="category_icon"
-                  className={`${item.imgSize}`}
-                />
+                <p
+                  className={`font-Organetto_ExtBold text-[15px] tracking-[-1px]`}
+                >
+                  {item.work} DESIGN
+                </p>
               </div>
             </button>
           ))}
