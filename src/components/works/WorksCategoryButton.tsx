@@ -31,8 +31,8 @@ const category_list = [
   },
   {
     id: 4,
-    name: "PRODUCT DESIGN",
-    work: "PRODUCT" as WorkCategory,
+    name: "INDUSTRIAL DESIGN",
+    work: "INDUSTRIAL" as WorkCategory,
     imgSrc: `${DOMAIN}images/icon/product_icon.webp`,
     imgSize: "w-[29px] h-[38px]",
     color: "text-primary-blue",

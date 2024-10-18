@@ -29,6 +29,7 @@ const ShowDate = () => {
     const fromtoDateTop = fromtoDate.getBoundingClientRect().top;
     const scrollTop = ref.current?.scrollTop;
     console.log(scrollTop);
+    console.log(fromtoDateTop);
 
     if (fromtoDateTop < 0) {
       setIsVisible(true);
@@ -38,42 +39,44 @@ const ShowDate = () => {
   };
 
   useEffect(() => {
-    window.addEventListener("scroll", handleScroll);
+    window.addEventListener("wheel", handleScroll);
     handleScroll();
 
     return () => {
-      window.removeEventListener("scroll", handleScroll);
+      window.removeEventListener("wheel", handleScroll);
     };
   }, []);
 
   return (
-    <motion.div
-      onMouseEnter={bigEnter}
-      onMouseLeave={defaultEnter}
-      ref={ref}
-      className={`h-[100vh] flex justify-between items-center font-Menda_Medium text-[46px] text-primary-white`}
-    >
-      <p>2024.10.21</p>
-      <motion.svg
-        width="656"
-        height="28"
-        viewBox="0 0 656 28"
-        initial="hidden"
-        animate={isVisible ? "visible" : "hidden"}
+    <div className={`w-full h-[100vh] flex justify-center`}>
+      <motion.div
+        onMouseEnter={bigEnter}
+        onMouseLeave={defaultEnter}
+        ref={ref}
+        className={`w-full lg:max-w-lg h-[100vh] flex justify-between items-center font-Menda_Medium text-[46px] text-primary-white`}
       >
-        <motion.line
-          x1="0"
-          y1="14"
-          x2="656"
-          y2="14"
-          stroke="#ffffff"
-          strokeWidth="2"
-          variants={draw}
-          custom={2}
-        />
-      </motion.svg>
-      <p>2024.10.28</p>
-    </motion.div>
+        <p>2024.10.21</p>
+        <motion.svg
+          width="656"
+          height="28"
+          viewBox="0 0 656 28"
+          initial="hidden"
+          animate={isVisible ? "visible" : "hidden"}
+        >
+          <motion.line
+            x1="0"
+            y1="14"
+            x2="656"
+            y2="14"
+            stroke="#ffffff"
+            strokeWidth="2"
+            variants={draw}
+            custom={2}
+          />
+        </motion.svg>
+        <p>2024.10.28</p>
+      </motion.div>
+    </div>
   );
 };
 

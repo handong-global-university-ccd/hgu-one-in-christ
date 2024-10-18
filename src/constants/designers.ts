@@ -197,8 +197,8 @@ export const DESIGNERS = [
     description: "깨지기 쉬운 것들을 디자인합니다. I deisgn something fragile",
     works: [
       {
-        work: WORKS.PRODUCT,
-        category: "Product",
+        work: WORKS.INDUSTRIAL,
+        category: "Industrial",
         worksId: 5,
       },
     ],
@@ -337,8 +337,8 @@ export const DESIGNERS = [
     description: "제품이 아닌 경험을 팔겠습니다",
     works: [
       {
-        work: WORKS.PRODUCT,
-        category: "Product",
+        work: WORKS.INDUSTRIAL,
+        category: "Industrial",
         worksId: 3,
       },
     ],
@@ -394,8 +394,8 @@ export const DESIGNERS = [
     description: "잘 챙겨먹지 못하더라도 잠은 자자 얘들아.",
     works: [
       {
-        work: WORKS.PRODUCT,
-        category: "Product",
+        work: WORKS.INDUSTRIAL,
+        category: "Industrial",
         worksId: 6,
       },
     ],
@@ -409,8 +409,8 @@ export const DESIGNERS = [
     description: "아름다움을 좇습니다",
     works: [
       {
-        work: WORKS.PRODUCT,
-        category: "Product",
+        work: WORKS.INDUSTRIAL,
+        category: "Industrial",
         worksId: 1,
       },
     ],
@@ -846,8 +846,8 @@ export const DESIGNERS = [
       "물맷돌은 던지는 행위보다 방향이 중요합니다. 지금껏 배워서 손에 쥔 작은 돌맹이를 올바른 방향을 향해 던지는 디자이너가 되길 힘쓰겠습니다. 하나를 던지더라도 제대로 던지는 디자인을 만들겠습니다.",
     works: [
       {
-        work: WORKS.PRODUCT,
-        category: "Product",
+        work: WORKS.INDUSTRIAL,
+        category: "Industrial",
         worksId: 2,
       },
     ],
@@ -862,8 +862,8 @@ export const DESIGNERS = [
     description: "돈이 아닌 꿈을 쫓는 디자이너가 되겠습니다.",
     works: [
       {
-        work: WORKS.PRODUCT,
-        category: "Product",
+        work: WORKS.INDUSTRIAL,
+        category: "Industrial",
         worksId: 4,
       },
     ],

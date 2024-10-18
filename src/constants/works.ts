@@ -2125,7 +2125,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       ],
     },
   ],
-  PRODUCT: [
+  INDUSTRIAL: [
     {
       id: 1,
       teamName: null,
@@ -2246,5 +2246,5 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
   ],
   Communication: [],
   Service: [],
-  Product: [],
+  Industrial: [],
 };

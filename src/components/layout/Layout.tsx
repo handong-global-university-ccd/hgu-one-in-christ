@@ -17,7 +17,7 @@ const Layout = ({ children }: LayoutProps) => {
   return (
     <>
       <Header />
-      <main className="w-full m-0 mx-auto lg:max-w-lg">{children}</main>
+      <main className="w-full">{children}</main>
       <Footer />
     </>
   );

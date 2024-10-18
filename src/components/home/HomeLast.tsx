@@ -30,7 +30,7 @@ const Categories = [
   },
   {
     id: 4,
-    name: "PRODUCT",
+    name: "INDUSTRIAL",
     imgSrc: "images/home/productBigSymbol.webp",
     size: "w-[634px]",
     description:

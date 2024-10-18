@@ -25,8 +25,10 @@ const HomeStart = () => {
   const { bigEnter, defaultEnter } = useMousePosition();
 
   return (
-    <div className={`h-[100vh]`}>
-      <div className={`w-full pt-[142px] mb-[268px] flex justify-between`}>
+    <div className={`w-full h-[100vh] flex flex-col items-center`}>
+      <div
+        className={`w-full max-w-lg pt-[142px] mb-[268px] flex justify-between`}
+      >
         {Texts.map((text) => (
           <StartContent korContent={text.korContent}>
             {text.engContent}
@@ -38,7 +40,7 @@ const HomeStart = () => {
         onMouseLeave={defaultEnter}
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1, transition: { duration: 2.5, delay: 0.7 } }}
-        className={`w-full flex flex-col items-center gap-[24px]`}
+        className={`lg:max-w-lg flex flex-col items-center gap-[24px]`}
       >
         <img
           src={`${DOMAIN}images/home/mainLogo.webp`}

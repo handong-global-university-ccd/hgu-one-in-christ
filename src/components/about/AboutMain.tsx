@@ -25,7 +25,7 @@ const AboutMain = () => {
       <motion.div
         onMouseEnter={bigEnter}
         onMouseLeave={defaultEnter}
-        className={`sm:hidden w-full md:w-[90%] mt-[163px] flex flex-col items-center justify-center text-primary-white mb-[176px]`}
+        className={`sm:hidden w-full lg:max-w-lg md:w-[90%] mt-[163px] flex flex-col items-center justify-center text-primary-white mb-[176px]`}
       >
         <img
           src={`${DOMAIN}images/about/aboutLogo.webp`}

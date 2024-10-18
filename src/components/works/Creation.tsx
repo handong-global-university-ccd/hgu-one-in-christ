@@ -15,7 +15,7 @@ const Creation = ({ creation }: Props) => {
     <motion.div
       onMouseEnter={bigEnter}
       onMouseLeave={defaultEnter}
-      className={`w-full flex flex-col`}
+      className={`w-full lg:max-w-lg flex flex-col`}
     >
       {creation?.map((item) =>
         item.extension === "youtube" ? (

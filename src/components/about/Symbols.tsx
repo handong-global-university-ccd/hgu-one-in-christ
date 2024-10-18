@@ -27,7 +27,7 @@ const symbolInfo = [
   },
   {
     id: 4,
-    symbol: "(PRODUCT DESIGN)",
+    symbol: "(INDUSTRIAL DESIGN)",
     imgSrc: "images/about/symbol/productSymbol.webp",
     imgMobSrc: "images/about/symbol/productSymbolMob.webp",
     info: "제품 디자인은 새로운 아이디어와 기능을 통한 혁신적인 접근이 중요하다. 반원은 한쪽이 직선이고 다른 한쪽이 곡면으로 전통적인 원의 안정감을 유지하면서 새로운 접근과 가능성을 탐구할 수 있는 특성을 가지고 있다.",
@@ -39,7 +39,7 @@ const Symbols = () => {
 
   return (
     <>
-      <div className={`hidden lg:block w-full mb-[374px]`}>
+      <div className={`hidden lg:block w-full lg:max-w-lg mb-[374px]`}>
         <Title>SYMBOLS</Title>
         <motion.div
           onMouseEnter={middleEnter}

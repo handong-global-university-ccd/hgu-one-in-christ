@@ -7,7 +7,7 @@ import PageInfo from "../components/common/PageInfo";
 
 const About = () => {
   return (
-    <div className={`w-full flex flex-col items-center`}>
+    <div className={`w-full flex flex-col items-center scrollbar-hide`}>
       <PageInfo>ABOUT</PageInfo>
       <AboutMain />
       <MainPoster />

@@ -3,7 +3,9 @@ import Title from "./Title";
 
 const Interviews = () => {
   return (
-    <div className={`w-full flex flex-col items-center mb-[300px] mb-[170px]`}>
+    <div
+      className={`w-full lg:max-w-lg flex flex-col items-center mb-[300px] mb-[170px]`}
+    >
       <Title>INTERVIEWS</Title>
       <div className={`w-[90%] relative pb-[56.25%] mb-[22px]`}>
         <YouTube

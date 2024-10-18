@@ -4,7 +4,7 @@ export interface Works {
   COMMUNICATION: Work[];
   SERVICE: Work[];
   UX: Work[];
-  PRODUCT: Work[];
+  INDUSTRIAL: Work[];
 }
 
 export interface Work {

@@ -8,7 +8,7 @@ const Footer = () => {
     <motion.div
       onMouseEnter={middleEnter}
       onMouseLeave={defaultEnter}
-      className={`w-full border-t flex justify-center items-center py-[35px] sm:py-[20px]
+      className={`w-full  border-t flex justify-center items-center py-[35px] sm:py-[20px] 
 				text-[20px] md:text-[15px] sm:text-[10px]`}
     >
       <div

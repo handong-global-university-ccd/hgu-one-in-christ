@@ -71,7 +71,7 @@ const Home: React.FC = () => {
   return (
     <div
       ref={outerDivRef}
-      className="outer h-[100vh] overflow-y-auto flex flex-col"
+      className="scrollbar-hide outer h-[100vh] overflow-y-auto flex flex-col"
     >
       <div className="inner h-[100vh]">
         <HomeStart />
