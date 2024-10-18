@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import HomeLast from "../components/home/HomeLast";
+// import HomeLast from "../components/home/HomeLast";
 import HomeStart from "../components/home/HomeStart";
 import ShowDate from "../components/home/ShowDate";
 
