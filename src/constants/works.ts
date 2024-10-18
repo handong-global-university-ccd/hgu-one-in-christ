@@ -31,12 +31,12 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
         {
           id: 4,
           extension: "gif",
-          src: "images/creation/communication/SeungjuPark_A/pc_contents_02.gif",
+          src: "images/creation/communication/SeungjuPark_A/pc_contents_04.gif",
         },
         {
           id: 5,
           extension: "webp",
-          src: "images/creation/communication/SeungjuPark_A/pc_contents_03.webp",
+          src: "images/creation/communication/SeungjuPark_A/pc_contents_05.webp",
         },
         {
           id: 6,
@@ -287,7 +287,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
         {
           id: 1,
           extension: "webp",
-          src: "images/creation/communication/GaheunChoi/pc_contents_01.webp",
+          src: "images/creation/communication/SuyoungKo/pc_contents_01.webp",
         },
         {
           id: 2,
@@ -297,7 +297,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
         {
           id: 3,
           extension: "webp",
-          src: "images/creation/communication/GaheunChoi/pc_contents_03.webp",
+          src: "images/creation/communication/SuyoungKo/pc_contents_03.webp",
         },
       ],
     },
@@ -1145,6 +1145,11 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
           extension: "webp",
           src: "images/creation/communication/HyunjiKim/pc_contents_04.webp",
         },
+        {
+          id: 5,
+          extension: "youtube",
+          src: "-buNKpcBP1s",
+        },
       ],
     },
     {
@@ -1175,7 +1180,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
         {
           id: 4,
           extension: "webp",
-          src: "images/creation/communication/HyebinRyu/pc_contents_02.webp",
+          src: "images/creation/communication/HyebinRyu/pc_contents_04.webp",
         },
       ],
     },
@@ -2205,7 +2210,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
         {
           id: 1,
           extension: "webp",
-          src: "images/creation/product/ShinwonLee/pc_contents_01.png",
+          src: "images/creation/product/ShinwonLee/pc_contents_01.webp",
         },
       ],
     },

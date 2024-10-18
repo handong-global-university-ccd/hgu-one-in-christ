@@ -17,7 +17,7 @@ const Interviews = () => {
             playerVars: {
               autoplay: 0,
               modestbranding: 0, //컨트롤 바에 유튜브 로고 표시 여부
-              loop: 1, //반복 재생
+              loop: 0, //반복 재생
               playlist: "2Id5kY0-PwE", //반복 재생으로 재생할 플레이 리스트
             },
           }}
@@ -26,15 +26,15 @@ const Interviews = () => {
       <div className={`w-[90%] relative pb-[56.25%]`}>
         <YouTube
           className={`absolute w-full h-full`}
-          videoId="2Id5kY0-PwE"
+          videoId="E8oM6SBUrcI"
           opts={{
             width: "100%",
             height: "100%",
             playerVars: {
               autoplay: 0,
               modestbranding: 0,
-              loop: 1,
-              playlist: "2Id5kY0-PwE",
+              loop: 0,
+              playlist: "E8oM6SBUrcI",
             },
           }}
         />
