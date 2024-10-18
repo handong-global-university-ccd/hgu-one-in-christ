@@ -36,7 +36,7 @@ const WorkContents = ({ category, work }: Props) => {
           {work?.title}
         </p>
         <p
-          className={`font-Pretendard_Regular sm:text-[12px] md:text-[14px] text-[17px]`}
+          className={`font-Pretendard_Light sm:text-[12px] md:text-[14px] text-[17px] leading-[34px] tracking-[-1px]`}
         >
           {work?.description}
         </p>

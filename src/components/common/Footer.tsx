@@ -16,18 +16,18 @@ const Footer = () => {
 				text-primary-white 
 			lg:max-w-lg`}
       >
-        <div className={`flex flex-col font-Pretendard_Bold`}>
+        <div className={`flex flex-col font-Pretendard_SemiBold`}>
           <p>한동대학교 콘텐츠융합디자인학부</p>
           <p>제 26회 졸업전시</p>
           <p>2024 DEGREE SHOW</p>
         </div>
-        <div className={`flex flex-col font-Pretendard_Regular`}>
+        <div className={`flex flex-col font-Pretendard_Light`}>
           <div className={`flex gap-[17px]`}>
-            <p className={`font-Pretendard_Bold`}>일시</p>
+            <p className={`font-Pretendard_SemiBold`}>일시</p>
             <p>2024.10.21-2024.10.28</p>
           </div>
           <div className={`flex gap-[17px]`}>
-            <p className={`font-Pretendard_Bold`}>장소</p>
+            <p className={`font-Pretendard_SemiBold`}>장소</p>
             <p>한동대학교 김영길 그레이스 스쿨</p>
           </div>
           <p

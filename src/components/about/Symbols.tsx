@@ -114,7 +114,9 @@ const Symbols = () => {
               }`}
             >
               <p className={`font-medium`}>{item.symbol}</p>
-              <p className={`font-Pretendard_Regular leading-[27px]`}>
+              <p
+                className={`font-Pretendard_Light leading-[27px] tracking-[-1px]`}
+              >
                 {item.info}
               </p>
             </div>

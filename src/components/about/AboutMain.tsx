@@ -56,7 +56,7 @@ const AboutMain = () => {
           </div>
         </div>
         <div
-          className={`flex flex-col items-center text-[20px] md:text-[16px] font-Pretendard_Regular mt-[260px]`}
+          className={`flex flex-col items-center text-[20px] md:text-[16px] font-Pretendard_Light mt-[260px] tracking-[-1px]`}
         >
           <p>그리스도 안에서 한 몸이 되어 서로 지체가 되었느니라.</p>
           <p>So In Christ We, Form One Body, Belongs To All The Others.</p>
@@ -80,7 +80,7 @@ const AboutMain = () => {
           />
         </motion.svg>
         <div
-          className={`flex flex-col items-center font-Pretendard_SemiBold text-[20px] md:text-[16px]`}
+          className={`flex flex-col items-center font-Pretendard_SemiBold text-[20px] md:text-[16px] leading-[33px]`}
         >
           <p>자신의 능력과 성취에만 집중하여 서로 경쟁하는 사고방식에서</p>
           <p>벗어나 하나님의 뜻을 깨닫는 것은 중요합니다.</p>
