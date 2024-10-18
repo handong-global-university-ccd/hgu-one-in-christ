@@ -1,59 +1,79 @@
 import { useEffect, useRef, useState } from "react";
-// import useCountUp from "../../hooks/useCountUp";
-import { useSpring, animated } from "@react-spring/web";
+import { motion } from "framer-motion";
+import { useMousePosition } from "../cursor/Context";
 
-const SCROLL_POINT = 100;
-const START_DATE = 21;
-const END_DATE = 28;
+const draw = {
+  hidden: { pathLength: 0, opacity: 0 },
+  visible: () => {
+    return {
+      pathLength: 1,
+      opacity: 1,
+      transition: {
+        pathLength: { type: "spring", duration: 3, bounce: 0 },
+        opacity: { duration: 0.01 },
+      },
+    };
+  },
+};
 
 const ShowDate = () => {
-  const ref = useRef(null);
-  const [count, setCount] = useState(START_DATE);
-  const [springs, api] = useSpring(() => ({
-    x: 0,
-    config: { tension: 130, friction: 30 },
-  }));
+  const { bigEnter, defaultEnter } = useMousePosition();
+
+  const [isVisible, setIsVisible] = useState(false);
+  const ref = useRef<HTMLDivElement | null>(null);
 
   const handleScroll = () => {
-    if (ref.current) {
-      const scrollY = window.scrollY; // 현재 스크롤 위치
-      const viewportHeight = window.innerHeight - 40; // 현재 뷰포트 높이
+    const fromtoDate = ref.current;
+    if (!fromtoDate) return;
 
-      if (scrollY >= SCROLL_POINT && scrollY <= viewportHeight) {
-        const scrollPercentage =
-          (scrollY - SCROLL_POINT) / (viewportHeight - SCROLL_POINT); // 100부터 뷰포트 높이까지 비율 계산
-        api.start({
-          x: scrollPercentage * 960,
-        });
+    const fromtoDateTop = fromtoDate.getBoundingClientRect().top;
+    const scrollTop = ref.current?.scrollTop;
+    console.log(scrollTop);
 
-        const newCount = Math.floor(
-          START_DATE + scrollPercentage * (END_DATE - START_DATE)
-        );
-        setCount(newCount);
-      } else if (scrollY < SCROLL_POINT) {
-        api.start({ x: 0 });
-        setCount(START_DATE);
-      } else {
-        api.start({ x: 960 });
-        setCount(END_DATE);
-      }
+    if (fromtoDateTop < 0) {
+      setIsVisible(true);
+    } else {
+      setIsVisible(false);
     }
   };
 
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);
+    handleScroll();
+
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
-  }, [api]);
+  }, []);
 
   return (
-    <div ref={ref} className={`w-full h-[100px] mb-[264px]`}>
-      <animated.p
-        style={springs}
-        className={`font-Menda_Medium text-[46px] text-primary-white`}
-      >{`2024.10.${count}`}</animated.p>
-    </div>
+    <motion.div
+      onMouseEnter={bigEnter}
+      onMouseLeave={defaultEnter}
+      ref={ref}
+      className={`h-[100vh] flex justify-between items-center font-Menda_Medium text-[46px] text-primary-white`}
+    >
+      <p>2024.10.21</p>
+      <motion.svg
+        width="656"
+        height="28"
+        viewBox="0 0 656 28"
+        initial="hidden"
+        animate={isVisible ? "visible" : "hidden"}
+      >
+        <motion.line
+          x1="0"
+          y1="14"
+          x2="656"
+          y2="14"
+          stroke="#ffffff"
+          strokeWidth="2"
+          variants={draw}
+          custom={2}
+        />
+      </motion.svg>
+      <p>2024.10.28</p>
+    </motion.div>
   );
 };
 
