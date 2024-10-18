@@ -50,24 +50,22 @@ const WorkDesigner = ({ work }: Props) => {
           className={`flex flex-col gap-[20px]  md:w-[40%] sm:w-full font-Pretendard_Bold text-primary-white`}
         >
           <img src={`${DOMAIN}${work?.teamImg}`} className={`w-[411px]`} />
-          <div className={`sm:flex justify-between`}>
+          <div className={`sm:flex md:flex justify-between`}>
             <div className={`flex gap-[27px] items-baseline sm:leading-tight`}>
               <p className={`sm:text-[18px] md:text-[26px] text-[28px]`}>
                 {work?.teamName}
               </p>
             </div>
             <div
-              className={`grid grid-cols-2 gap-[7px] sm:flex sm:flex-col sm:gap-[6px]`}
+              className={`grid grid-cols-2 gap-[7px] sm:flex md:flex sm:flex-col md:flex-col sm:gap-[6px] md:gap-[6px]`}
             >
               {work?.designer.map((item) => (
                 <div
-                  className={`flex gap-[19px] items-center sm:gap-[13px] sm:w-auto`}
+                  className={`flex lg:gap-[19px] items-center gap-[13px] sm:w-auto md:w-auto`}
                 >
-                  <p className={`sm:text-[11px] md:text-[15px] text-[19px]`}>
-                    {item.nameKo}
-                  </p>
+                  <p className={`text-[11px] lg:text-[19px]`}>{item.nameKo}</p>
                   <p
-                    className={`sm:text-[11px] md:text-[15px] text-[15px] font-Pretendard_Regular`}
+                    className={`text-[11px] lg:text-[15px] font-Pretendard_Regular lg:mr-[12px]`}
                   >
                     {DESIGNERS[item.id - 1].email}
                   </p>
