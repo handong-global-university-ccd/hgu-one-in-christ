@@ -9,11 +9,11 @@ interface Props {
 }
 
 const Creation = ({ creation }: Props) => {
-  const { bigEnter, defaultEnter } = useMousePosition();
+  const { creationEnter, defaultEnter } = useMousePosition();
 
   return (
     <motion.div
-      onMouseEnter={bigEnter}
+      onMouseEnter={creationEnter}
       onMouseLeave={defaultEnter}
       className={`w-full lg:max-w-lg flex flex-col`}
     >

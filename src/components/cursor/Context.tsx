@@ -25,6 +25,38 @@ export const MouseContextProvider = ({ children }: Props) => {
         ease: "linear",
       },
     },
+    creation: {
+      height: "94px",
+      width: "94px",
+      top: mousePosition.y,
+      left: mousePosition.x,
+      x: "-70%",
+      y: "-70%",
+      backgroundColor: "white",
+      mixBlendMode: "difference",
+      zIndex: 1000,
+      transition: {
+        type: "tween",
+        duration: 0.1,
+        ease: "linear",
+      },
+    },
+    workList: {
+      height: "67px",
+      width: "67px",
+      top: mousePosition.y,
+      left: mousePosition.x,
+      x: "-70%",
+      y: "-70%",
+      backgroundColor: "white",
+      mixBlendMode: "difference",
+      zIndex: 1000,
+      transition: {
+        type: "tween",
+        duration: 0.1,
+        ease: "linear",
+      },
+    },
     big: {
       height: "300px",
       width: "300px",
@@ -94,6 +126,8 @@ export const MouseContextProvider = ({ children }: Props) => {
   const defaultEnter = () => setHoverNav("default");
   const personEnter = () => setHoverNav("person");
   const middleEnter = () => setHoverNav("middle");
+  const creationEnter = () => setHoverNav("creation");
+  const workListEnter = () => setHoverNav("workList");
 
   useEffect(() => {
     const handlePosition = (e: MouseEvent) => {
@@ -111,6 +145,8 @@ export const MouseContextProvider = ({ children }: Props) => {
     defaultEnter,
     personEnter,
     middleEnter,
+    creationEnter,
+    workListEnter,
     hoverNav,
   };
 

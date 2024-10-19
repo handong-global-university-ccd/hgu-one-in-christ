@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from "react";
 import { WORKS } from "../../constants/works";
 import { WorkCategory } from "../../models/category.model";
 import { Work } from "../../models/work.model";
@@ -12,13 +12,16 @@ interface Props {
 }
 
 const WorkList = ({ category }: Props) => {
-  const { middleEnter, defaultEnter } = useMousePosition();
-
+  const { workListEnter, defaultEnter } = useMousePosition();
   const works: Work[] = WORKS[category] || [];
+  const ref = useRef<HTMLDivElement>(null);
+
+  if (ref.current) console.log(ref.current.scrollTop);
 
   return (
     <motion.div
-      onMouseEnter={middleEnter}
+      ref={ref}
+      onMouseEnter={workListEnter}
       onMouseLeave={defaultEnter}
       className="grid grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-[22px] sm:gap-[14px] mt-[20px] lg:mt-[267px] lg:mb-[206px] sm:w-[90%]"
     >
@@ -28,7 +31,7 @@ const WorkList = ({ category }: Props) => {
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ duration: 1.5 }}
-            className={`group cursor-none
+            className={`group cursor-none 
 						`}
             key={work.id}
           >
@@ -38,7 +41,7 @@ const WorkList = ({ category }: Props) => {
                   src={`${DOMAIN}${work.thumbnail}`}
                   className={`w-[288px] h-[216px] sm:h-auto
 									sm:w-full my-[10px]
-									lg:group-hover:border-[2px] ${
+									lg:group-hover:border-[2px] transition-all duration-100 ${
                     category === "COMMUNICATION"
                       ? "border-primary-orange"
                       : category === "SERVICE"
@@ -53,7 +56,7 @@ const WorkList = ({ category }: Props) => {
                   className={`absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex justify-center items-center`}
                 >
                   <div
-                    className={`hidden lg:w-[220px] lg:h-[24px] lg:group-hover:flex justify-center items-center 
+                    className={`hidden lg:w-[220px] lg:h-[24px] lg:group-hover:flex justify-center items-center  
 												${
                           category === "COMMUNICATION"
                             ? "bg-primary-orange"
