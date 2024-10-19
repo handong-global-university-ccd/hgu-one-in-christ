@@ -46,7 +46,7 @@ const HomeStart = () => {
             opacity: 1,
             transition: { duration: 2.5, delay: 0.7 },
           }}
-          className={`lg:max-w-lg md:w-[90%] flex flex-col items-center gap-[24px]`}
+          className={`relative lg:max-w-lg md:w-[90%] flex flex-col items-center gap-[24px]`}
         >
           <img
             src={`${DOMAIN}images/home/mainLogo.webp`}
@@ -60,11 +60,56 @@ const HomeStart = () => {
             <p>2024 HANDONG GLOBAL UNIVERSITY</p>
             <p>CONTENTS CONVERGENCE DESIGN GRADUATION EXHIBITION</p>
           </div>
+          <motion.img
+            initial={{ opacity: 0 }}
+            whileInView={{
+              opacity: 1,
+              transition: { duration: 2.5, delay: 1 },
+            }}
+            src={`${DOMAIN}images/home/comm.gif`}
+            alt="comm-gif"
+            className={`lg:w-[300px] w-[25%] absolute top-[-90%] left-[-5%]`}
+          />
+          <motion.img
+            initial={{ opacity: 0 }}
+            whileInView={{
+              opacity: 1,
+              transition: { duration: 2.5, delay: 1 },
+            }}
+            src={`${DOMAIN}images/home/industrial.gif`}
+            alt="industrial-gif"
+            className={`lg:w-[300px] w-[25%] absolute top-[-90%] left-[50%]`}
+          />
+          <motion.img
+            initial={{ opacity: 0 }}
+            whileInView={{
+              opacity: 1,
+              transition: { duration: 2.5, delay: 1 },
+            }}
+            src={`${DOMAIN}images/home/service.gif`}
+            alt="service-gif"
+            className={`lg:w-[300px] w-[25%] absolute top-[80px] left-[20%]`}
+          />
+          <motion.img
+            initial={{ opacity: 0 }}
+            whileInView={{
+              opacity: 1,
+              transition: { duration: 2.5, delay: 1 },
+            }}
+            src={`${DOMAIN}images/home/ux.gif`}
+            alt="ux-gif"
+            className={`lg:w-[300px] w-[25%] absolute top-[30px] right-[-5%]`}
+          />
         </motion.div>
       </div>
       {/* 모바일 */}
       <div className={`hidden sm:flex mt-[64px] flex-col items-center`}>
-        <div
+        <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{
+            opacity: 1,
+            transition: { duration: 2.5, delay: 0.7 },
+          }}
           className={`top-[94px] flex flex-col items-center w-[90%] gap-[15px] mt-[30px]`}
         >
           {Texts.map((text) => (
@@ -83,8 +128,13 @@ const HomeStart = () => {
             </div>
           ))}
 
-          <div
-            className={`flex flex-col font-Pretendard_Regular text-primary-white text-[8px] leading-[11px] items-center mt-[154px]`}
+          <motion.div
+            initial={{ opacity: 0 }}
+            whileInView={{
+              opacity: 1,
+              transition: { duration: 2.5, delay: 0.7 },
+            }}
+            className={`relative flex flex-col font-Pretendard_Regular text-primary-white text-[8px] leading-[11px] items-center mt-[154px]`}
           >
             <img
               src={`${DOMAIN}images/home/mainLogoMob.webp`}
@@ -93,8 +143,48 @@ const HomeStart = () => {
             />
             <p>2024 HANDONG GLOBAL UNIVERSITY</p>
             <p>CONTENTS CONVERGENCE DESIGN GRADUATION EXHIBITION</p>
-          </div>
-        </div>
+            <motion.img
+              initial={{ opacity: 0 }}
+              whileInView={{
+                opacity: 1,
+                transition: { duration: 2.5, delay: 1 },
+              }}
+              src={`${DOMAIN}images/home/comm.gif`}
+              alt="comm-gif"
+              className={`w-[35%] absolute top-[-35%] left-[-15%]`}
+            />
+            <motion.img
+              initial={{ opacity: 0 }}
+              whileInView={{
+                opacity: 1,
+                transition: { duration: 2.5, delay: 1 },
+              }}
+              src={`${DOMAIN}images/home/industrial.gif`}
+              alt="industrial-gif"
+              className={`w-[35%] absolute top-[-35%] left-[50%]`}
+            />
+            <motion.img
+              initial={{ opacity: 0 }}
+              whileInView={{
+                opacity: 1,
+                transition: { duration: 2.5, delay: 1 },
+              }}
+              src={`${DOMAIN}images/home/service.gif`}
+              alt="service-gif"
+              className={`w-[35%] absolute top-[75px] left-[10%]`}
+            />
+            <motion.img
+              initial={{ opacity: 0 }}
+              whileInView={{
+                opacity: 1,
+                transition: { duration: 2.5, delay: 1 },
+              }}
+              src={`${DOMAIN}images/home/ux.gif`}
+              alt="ux-gif"
+              className={`w-[35%] absolute top-[80px] right-[-20%]`}
+            />
+          </motion.div>
+        </motion.div>
       </div>
     </>
   );
