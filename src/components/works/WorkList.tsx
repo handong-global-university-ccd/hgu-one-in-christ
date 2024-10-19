@@ -24,7 +24,10 @@ const WorkList = ({ category }: Props) => {
     >
       {works.map((work, index) => (
         <Link key={index} to={`${PATHS.WORKS}/${category}/${work.id}`}>
-          <div
+          <motion.div
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ duration: 1.5 }}
             className={`group cursor-none
 						`}
             key={work.id}
@@ -86,7 +89,7 @@ const WorkList = ({ category }: Props) => {
                 </div>
               </div>
             </div>
-          </div>
+          </motion.div>
         </Link>
       ))}
     </motion.div>
