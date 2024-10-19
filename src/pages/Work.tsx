@@ -16,13 +16,18 @@ const Work = () => {
 
   return (
     <div className={`w-full  flex flex-col items-center`}>
-      <motion.div
-        initial={{ opacity: 0 }}
-        whileInView={{ opacity: 1 }}
-        className={`flex justify-center`}
-      >
+      <div className={`hidden lg:block`}>
+        <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          className={`flex justify-center`}
+        >
+          <PageInfo>WORKS</PageInfo>
+        </motion.div>
+      </div>
+      <div className={`w-[90%] lg:hidden`}>
         <PageInfo>WORKS</PageInfo>
-      </motion.div>
+      </div>
       <div
         className={`w-[90%] lg:w-full lg:max-w-lg flex sm:flex-col justify-between sm:gap-[34px] mt-[281px] md:mt-[230px] sm:mt-[165px] mb-[191px]`}
       >

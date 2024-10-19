@@ -17,17 +17,33 @@ const WorkContents = ({ category, work }: Props) => {
       onMouseLeave={defaultEnter}
       className={`w-[687px] md:w-[50%] sm:w-full flex flex-col text-primary-white lg:justify-between md:gap-[40px] sm:gap-[6px]`}
     >
-      <p
-        className={`font-Menda_Medium sm:text-[12px] md:text-[19px] text-[22px] ${
-          category === "COMMUNICATION"
-            ? "text-primary-orange"
-            : category === "SERVICE"
-              ? "text-primary-red"
-              : category === "UX"
-                ? "text-primary-purple"
-                : "text-primary-blue"
-        }`}
-      >{`${category} DESIGN`}</p>
+      <div className={`flex justify-between`}>
+        <p
+          className={`font-Menda_Medium sm:text-[12px] md:text-[19px] text-[22px] ${
+            category === "COMMUNICATION"
+              ? "text-primary-orange"
+              : category === "SERVICE"
+                ? "text-primary-red"
+                : category === "UX"
+                  ? "text-primary-purple"
+                  : "text-primary-blue"
+          }`}
+        >{`${category} DESIGN`}</p>
+        <div
+          className={`flex gap-[12px] sm:gap-[5px] text-[17px] sm:text-[12px] md:text-[19px] ${
+            category === "COMMUNICATION"
+              ? "text-primary-orange"
+              : category === "SERVICE"
+                ? "text-primary-red"
+                : category === "UX"
+                  ? "text-primary-purple"
+                  : "text-primary-blue"
+          }`}
+        >
+          <p className={`font-Pretendard_SemiBold`}>지도교수</p>
+          <p className={`font-Pretendard_Light`}>{work?.professor}</p>
+        </div>
+      </div>
 
       <div>
         <p

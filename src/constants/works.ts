@@ -7,6 +7,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       id: 1,
       teamName: null,
       designer: [{ id: 23, nameKo: "박승주", studentId: 21700271 }],
+      professor: "이진구",
       title: "PARTY WAVE AGIT",
       summary: "서핑 하우스 브랜딩",
       description:
@@ -54,6 +55,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       id: 2,
       teamName: null,
       designer: [{ id: 37, nameKo: "안희재", studentId: 21700427 }],
+      professor: "이진구",
       title: "식(蝕) | 신성의 잔해",
       summary: "사라진 빛, 엇갈린 두 운명",
       description:
@@ -81,6 +83,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       id: 3,
       teamName: null,
       designer: [{ id: 24, nameKo: "박승주", studentId: 21800297 }],
+      professor: "이진구",
       title: "BOOGIE",
       summary: "다양하고 독특한 매력의 외계 친구들",
       description:
@@ -113,6 +116,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       id: 4,
       teamName: null,
       designer: [{ id: 27, nameKo: "박창조", studentId: 21800323 }],
+      professor: "이진구",
       title: "한 수 베어스",
       summary: "프로야구 구단 '두산 베어스' 박물관",
       description:
@@ -140,6 +144,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       id: 5,
       teamName: null,
       designer: [{ id: 31, nameKo: "송민준", studentId: 21800393 }],
+      professor: "이중섭",
       title: "삼국통일",
       summary: "한국의 삼국시대를 배경으로 한 보드게임",
       description:
@@ -182,6 +187,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       id: 6,
       teamName: null,
       designer: [{ id: 49, nameKo: "이하준", studentId: 21800595 }],
+      professor: "이중섭",
       title: "네이버 나눔 스퀘어 네오 아랍",
       summary: "나눔 스퀘어 네오의 아랍 문자 폰트 페어링",
       description:
@@ -199,6 +205,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       id: 7,
       teamName: null,
       designer: [{ id: 64, nameKo: "최가흔", studentId: 21800722 }],
+      professor: "이중섭",
       title: "색안경 끼고 보는 세상",
       summary: "젠틀몬스터 X 이찬혁 쇼케이스 브랜딩",
       description:
@@ -246,6 +253,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       id: 8,
       teamName: null,
       designer: [{ id: 2, nameKo: "강수빈", studentId: 21900006 }],
+      professor: "이진구",
       title: "TILT-UP Festa",
       summary: "Nopamine TILT-UP Festa",
       description:
@@ -278,6 +286,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       id: 9,
       teamName: null,
       designer: [{ id: 4, nameKo: "고수영", studentId: 21900025 }],
+      professor: "이진구",
       title: "HAPPY NEW DAY : 오늘의집 캠페인",
       summary: "오늘의집 팝업스토어 캠페인 브랜딩",
       description:
@@ -305,6 +314,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       id: 10,
       teamName: null,
       designer: [{ id: 6, nameKo: "김가현", studentId: 21900061 }],
+      professor: "이중섭",
       title: "퐝퐝포항 VISIT POHANG YEAR 2025",
       summary: "2025 포항 방문의 해 프로모션 디자인",
       description:
@@ -322,6 +332,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       id: 11,
       teamName: null,
       designer: [{ id: 7, nameKo: "김경진", studentId: 21900067 }],
+      professor: "이진구",
       title: "Int'l Art Cup Festa",
       summary: "Int'l Art Cup Festa 브랜딩",
       description:
@@ -344,6 +355,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       id: 12,
       teamName: null,
       designer: [{ id: 8, nameKo: "김나경", studentId: 21900074 }],
+      professor: "이진구",
       title: "빵과후 과일생각",
       summary: "과일타르트 베이커리 브랜딩",
       description:
@@ -371,6 +383,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       id: 13,
       teamName: null,
       designer: [{ id: 12, nameKo: "김성순", studentId: 21900114 }],
+      professor: "이중섭",
       title: '"하나님의 관심"',
       summary: '싱어송라이터 이하진의 데뷔앨범 "관심"',
       description:
@@ -388,6 +401,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       id: 14,
       teamName: null,
       designer: [{ id: 26, nameKo: "박은실", studentId: 21900299 }],
+      professor: "이진구",
       title: "서울극장 1979",
       summary: "서울극장 리브랜딩",
       description:
@@ -415,6 +429,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       id: 15,
       teamName: null,
       designer: [{ id: 28, nameKo: "서유나", studentId: 21900365 }],
+      professor: "이진구",
       title: "The Seoul Graphic Art Fair",
       summary: "서울그래픽아트페어 브랜딩",
       description:
@@ -442,6 +457,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       id: 16,
       teamName: null,
       designer: [{ id: 35, nameKo: "안다진", studentId: 21900417 }],
+      professor: "이중섭",
       title: "Timeless Sweetness",
       summary: "Baskin Robbins X Swatch 팝업",
       description:
@@ -459,6 +475,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       id: 17,
       teamName: null,
       designer: [{ id: 40, nameKo: "이동연", studentId: 21900494 }],
+      professor: "이진구",
       title: "Fotografiska Rebranding",
       summary: "사진 박물관 포토그래피스카 리브랜딩",
       description:
@@ -501,6 +518,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       id: 18,
       teamName: null,
       designer: [{ id: 47, nameKo: "이지향", studentId: 21900569 }],
+      professor: "이진구",
       title: "Fairytale of Rotutu",
       summary: "'아름다운 커피' 팝업스토어",
       description:
@@ -533,6 +551,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       id: 19,
       teamName: null,
       designer: [{ id: 50, nameKo: "이현화", studentId: 21900598 }],
+      professor: "이진구",
       title: "Whiff",
       summary: "샌드캔들 브랜드 '위프' 브랜딩",
       description:
@@ -580,6 +599,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       id: 20,
       teamName: null,
       designer: [{ id: 59, nameKo: "정해인", studentId: 21900653 }],
+      professor: "이진구",
       title: "From Rain to Roots",
       summary: "레인부츠 업사이클링 팝업",
       description:
@@ -637,6 +657,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       id: 21,
       teamName: null,
       designer: [{ id: 62, nameKo: "조은비", studentId: 21900709 }],
+      professor: "이중섭",
       title: "Stigma 가상의 버츄얼 그룹 캐릭터 디자인",
       summary: "스티그마(stigma) 캐릭터 디자인",
       description:
@@ -654,6 +675,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       id: 22,
       teamName: null,
       designer: [{ id: 3, nameKo: "강지은", studentId: 21901003 }],
+      professor: "이진구",
       title: "réblue",
       summary: "업사이클링 쥬얼리 브랜딩",
       description:
@@ -676,6 +698,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       id: 23,
       teamName: null,
       designer: [{ id: 13, nameKo: "김수아", studentId: 22000110 }],
+      professor: "이진구",
       title: "어쨌든 달콤함",
       summary: "수제캔디 전문점 브랜딩",
       description:
@@ -718,6 +741,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       id: 24,
       teamName: null,
       designer: [{ id: 15, nameKo: "김은빈", studentId: 22000160 }],
+      professor: "이진구",
       title: "커스텀 초콜릿 브랜드 'viv'",
       summary: "나만의 이야기를 담을 수 있는 초콜릿 브랜드",
       description:
@@ -755,6 +779,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       id: 25,
       teamName: null,
       designer: [{ id: 18, nameKo: "노유원", studentId: 22000227 }],
+      professor: "이증섭",
       title: "논알콜 한식 다이닝 <반주>",
       summary: "논알콜 한식 다이닝 <반주> 브랜딩",
       description:
@@ -792,6 +817,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       id: 26,
       teamName: null,
       designer: [{ id: 22, nameKo: "박보민", studentId: 22000260 }],
+      professor: "이진구",
       title: "어쨌든,",
       summary: '"아무튼," 에세이 시리즈2 ',
       description:
@@ -819,6 +845,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       id: 27,
       teamName: null,
       designer: [{ id: 30, nameKo: "서하령", studentId: 22000353 }],
+      professor: "이중섭",
       title: "몽나니",
       summary: "못난이과일 상생브랜드",
       description:
@@ -836,6 +863,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       id: 28,
       teamName: null,
       designer: [{ id: 34, nameKo: "안가현", studentId: 22000399 }],
+      professor: "이진구",
       title: "Inside me, PiPPi",
       summary: "싱어송라이터 민수 브랜딩",
       description:
@@ -878,6 +906,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       id: 29,
       teamName: null,
       designer: [{ id: 39, nameKo: "유주희", studentId: 22000465 }],
+      professor: "이진구",
       title: "LUSH, Korean Tradition Collection",
       summary: "코스메틱 브랜드 러쉬, 한국 한정판 컬렉션",
       description:
@@ -900,6 +929,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       id: 30,
       teamName: null,
       designer: [{ id: 44, nameKo: "이주아", studentId: 22000565 }],
+      professor: "이진구",
       title: "무작정",
       summary: "시외버스를 이용한 여행 서비스 플랫폼",
       description:
@@ -927,6 +957,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       id: 31,
       teamName: null,
       designer: [{ id: 45, nameKo: "이주영", studentId: 22000566 }],
+      professor: "이진구",
       title: "Groove Round",
       summary: "춤추는 사람들을 위한 영상 플랫폼",
       description:
@@ -964,6 +995,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       id: 32,
       teamName: null,
       designer: [{ id: 53, nameKo: "임예담", studentId: 22000615 }],
+      professor: "이진구",
       title: "반디사과",
       summary: "반디 사과 브랜딩",
       description:
@@ -991,6 +1023,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       id: 33,
       teamName: null,
       designer: [{ id: 54, nameKo: "장소윤", studentId: 22000622 }],
+      professor: "이중섭",
       title: "홀리몰리! (HolyMoly!)",
       summary: "성경 기반 카드 게임",
       description:
@@ -1008,6 +1041,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       id: 34,
       teamName: null,
       designer: [{ id: 56, nameKo: "전유은", studentId: 22000651 }],
+      professor: "이진구",
       title: "Between Us",
       summary: "일광전구 X 에너지 절약 캠페인",
       description:
@@ -1065,6 +1099,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       id: 35,
       teamName: null,
       designer: [{ id: 57, nameKo: "정예은", studentId: 22000681 }],
+      professor: "이진구",
       title: "nighty-night",
       summary: "수면 라이프스타일 브랜딩",
       description:
@@ -1092,6 +1127,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       id: 36,
       teamName: null,
       designer: [{ id: 58, nameKo: "정은서", studentId: 22000686 }],
+      professor: "이진구",
       title: "쉼, 패턴과 만나다",
       summary: "오패턴스튜디오X오늘의집 협업 전시",
       description:
@@ -1119,6 +1155,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       id: 37,
       teamName: null,
       designer: [{ id: 16, nameKo: "김현지", studentId: 22001014 }],
+      professor: "이진구",
       title: "MUYU (無有)",
       summary: "자동차 비쥬얼 튜닝샵 'MUYU' 브랜딩",
       description:
@@ -1156,6 +1193,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       id: 38,
       teamName: null,
       designer: [{ id: 19, nameKo: "류혜빈", studentId: 22001019 }],
+      professor: "이진구",
       title: "After time, 29",
       summary: "29cm '기록' 팝업 스토어",
       description:
@@ -1188,6 +1226,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       id: 39,
       teamName: null,
       designer: [{ id: 51, nameKo: "임다솔", studentId: 22001057 }],
+      professor: "이진구",
       title: "Bluedot",
       summary: "뷰티 브랜드 Bluedot",
       description:
@@ -1215,6 +1254,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       id: 40,
       teamName: null,
       designer: [{ id: 55, nameKo: "장희진", studentId: 22001058 }],
+      professor: "이진구",
       title: "EDENIQUE",
       summary: "크리스찬 웨딩 스타일링 브랜드 EDENIQUE",
       description:
@@ -1257,6 +1297,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       id: 41,
       teamName: null,
       designer: [{ id: 66, nameKo: "최예영", studentId: 22001069 }],
+      professor: "이중섭",
       title: "OPACITY",
       summary: "향수 브랜드",
       description:
@@ -1294,6 +1335,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       id: 42,
       teamName: null,
       designer: [{ id: 60, nameKo: "정희주", studentId: 22100696 }],
+      professor: "이진구",
       title: "BookBookBugBug",
       summary: "중고책 서점 브랜딩",
       description:
@@ -1318,6 +1360,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
         { id: 22, nameKo: "박보민", studentId: 22000260 },
         { id: 45, nameKo: "이주영", studentId: 22000566 },
       ],
+      professor: "이중섭",
       title: "met",
       summary: "헬멧을 이용한 전동 킥보드 서비스",
       description:
@@ -1341,6 +1384,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
         { id: 40, nameKo: "이동연", studentId: 21900494 },
         { id: 60, nameKo: "정희주", studentId: 22100696 },
       ],
+      professor: "이재선",
       title: "BLEND IN'",
       summary: "경계선 지능 청년을 위한 일자리 경험 서비스",
       description:
@@ -1364,6 +1408,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
         { id: 12, nameKo: "김성순", studentId: 21900114 },
         { id: 30, nameKo: "서하령", studentId: 22000353 },
       ],
+      professor: "이재선",
       title: "이룸",
       summary: "이혼가정을 위한 비대면 면접교섭 서비스",
       description:
@@ -1392,6 +1437,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
         { id: 58, nameKo: "정은서", studentId: 22000686 },
         { id: 16, nameKo: "김현지", studentId: 22001014 },
       ],
+      professor: "이중섭",
       title: ".endeeve",
       summary: "동물병원에서 진행하는 반려동물 장례 서비스",
       description:
@@ -1424,6 +1470,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
         { id: 18, nameKo: "노유원", studentId: 22000227 },
         { id: 51, nameKo: "임다솔", studentId: 22001057 },
       ],
+      professor: "이중섭",
       title: "얼마EASY",
       summary: "대학생들을 위한 용돈 관리 서비스",
       description:
@@ -1452,6 +1499,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
         { id: 53, nameKo: "임예담", studentId: 22000615 },
         { id: 55, nameKo: "장희진", studentId: 22001058 },
       ],
+      professor: "이중섭",
       title: "Blinker",
       summary: "냉장고 안 버려지는 반찬 문제를 돕는 서비스",
       description:
@@ -1505,6 +1553,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
         { id: 56, nameKo: "전유은", studentId: 22000651 },
         { id: 19, nameKo: "류혜빈", studentId: 22001019 },
       ],
+      professor: "이재선",
       title: "PAZ",
       summary: "건설 재해 저감을 위한 서비스",
       description:
@@ -1548,6 +1597,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
         { id: 44, nameKo: "이주아", studentId: 22000565 },
         { id: 57, nameKo: "정예은", studentId: 22000681 },
       ],
+      professor: "이중섭",
       title: "Check On",
       summary: "일시적인 공연 네트워크 및 안전 관리 시스템",
       description:
@@ -1585,6 +1635,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
         { id: 39, nameKo: "유주희", studentId: 22000465 },
         { id: 66, nameKo: "최예영", studentId: 22001069 },
       ],
+      professor: "이중섭",
       title: "다담",
       summary: "배달용 다회용기 서비스 제공 플랫폼",
       description:
@@ -1623,6 +1674,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
         { id: 3, nameKo: "강지은", studentId: 21901003 },
         { id: 54, nameKo: "장소윤", studentId: 22000622 },
       ],
+      professor: "이재선",
       title: "차비서",
       summary: "고령택시기사의 안전운전을 위한 서비스",
       description:
@@ -1646,6 +1698,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
         { id: 26, nameKo: "박은실", studentId: 21900299 },
         { id: 34, nameKo: "안가현", studentId: 22000399 },
       ],
+      professor: "이중섭",
       title: "Smart Laundry-tag System",
       summary: "세탁 라벨을 활용한 새로운 기능 제안",
       description:
@@ -1691,6 +1744,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
         { id: 36, nameKo: "안혜빈", studentId: 22000405 },
         { id: 38, nameKo: "유수정", studentId: 22100464 },
       ],
+      professor: "이은종",
       title: "mize",
       summary: "실감나는 분위기로, 모든 순간을 풍부하게",
       description:
@@ -1719,6 +1773,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
         { id: 69, nameKo: "허현지", studentId: 22000798 },
         { id: 48, nameKo: "이하영", studentId: 22100590 },
       ],
+      professor: "이은종",
       title: "배민 뉴우스",
       summary: "사장님을 위한 정보를 제공하는 배민뉴우스",
       description:
@@ -1762,6 +1817,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
         { id: 33, nameKo: "신지수", studentId: 22000392 },
         { id: 52, nameKo: "임시은", studentId: 22000613 },
       ],
+      professor: "이은종",
       title: "WELLCOM: 차량 커뮤니케이션의 mediator",
       summary: "NEUE 모빌리티 커뮤니케이션 경험",
       description:
@@ -1811,6 +1867,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
         { id: 29, nameKo: "서지은", studentId: 22100369 },
         { id: 41, nameKo: "이석영", studentId: 22435003 },
       ],
+      professor: "이은종",
       title: "Carmmunity: Car+Community",
       summary: "Weaving on the Way",
       description:
@@ -1839,6 +1896,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
         { id: 32, nameKo: "신수민", studentId: 21900396 },
         { id: 63, nameKo: "조은비", studentId: 22000723 },
       ],
+      professor: "이은종",
       title: "Cuddy: 주행 환경 Caring Buddy",
       summary: "당신의 주행을 섬세히 보조하는 AI 'Cuddy'",
       description:
@@ -1892,6 +1950,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
         { id: 33, nameKo: "신지수", studentId: 22000392 },
         { id: 52, nameKo: "임시은", studentId: 22000613 },
       ],
+      professor: "이은종",
       title: "배달의 민족 혁신 서비스 : 푸렌즈 & 분석이",
       summary: "배민의 메뉴 고민 해결사",
       description:
@@ -1940,6 +1999,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
         { id: 36, nameKo: "안혜빈", studentId: 22000405 },
         { id: 38, nameKo: "유수정", studentId: 22100464 },
       ],
+      professor: "이은종",
       title: "배민콤비 & B밀의장",
       summary: "메뉴 탐색 과정에 혁신을 더하다",
       description:
@@ -1978,6 +2038,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
         { id: 69, nameKo: "허현지", studentId: 22000798 },
         { id: 48, nameKo: "이하영", studentId: 22100590 },
       ],
+      professor: "이은종",
       title: "SMIDA: Seamless Meaningful Intelligent Driving cAr",
       summary: "Meaningful한 주행의 미래를 만들다",
       description:
@@ -2012,6 +2073,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
         { id: 29, nameKo: "서지은", studentId: 22100369 },
         { id: 41, nameKo: "이석영", studentId: 22435003 },
       ],
+      professor: "이은종",
       title: "신메뉴 시식단 & 샘플러 위크",
       summary: "배민이라 가능한, 배민스러운 서비스",
       description:
@@ -2080,6 +2142,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
         { id: 32, nameKo: "신수민", studentId: 21900396 },
         { id: 63, nameKo: "조은비", studentId: 22000723 },
       ],
+      professor: "이은종",
       title: "배달의 민족 속 혁신 기회를 찾아:비즈메이트&꿀조합도감",
       summary: "배달의 민족 내 홍보와 경험 공유 혁신 제안",
       description:
@@ -2135,6 +2198,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       id: 1,
       teamName: null,
       designer: [{ id: 21, nameKo: "박범서", studentId: 21600252 }],
+      professor: "박찬송",
       title: "Ducati 826 Procella",
       summary: "조형을 통해 감성을 전달하는 오토바이 ",
       description:
@@ -2152,6 +2216,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       id: 2,
       teamName: null,
       designer: [{ id: 42, nameKo: "이승현", studentId: 21701033 }],
+      professor: "박찬송",
       title: "TM-27/ JR-110",
       summary: "스마트폰 디톡스 스마트 도어락과 디스플레이",
       description:
@@ -2184,6 +2249,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       id: 3,
       teamName: null,
       designer: [{ id: 17, nameKo: "김형진", studentId: 21800204 }],
+      professor: "박찬송",
       title: "Clutch",
       summary: "AI 팀 코칭이 가능한 축구 정강이 보호대",
       description:
@@ -2201,6 +2267,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       id: 4,
       teamName: null,
       designer: [{ id: 43, nameKo: "이신원", studentId: 21801053 }],
+      professor: "박찬송",
       title: "티볼리 (X-200)",
       summary: "다양한 경험을 연결하는 모바일 플랫폼",
       description:
@@ -2218,6 +2285,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       id: 5,
       teamName: null,
       designer: [{ id: 10, nameKo: "김민기", studentId: 21900093 }],
+      professor: "박찬송",
       title: "MINI - Play",
       summary: "아이들의 뛰어노는 경험을 증가시는 촉매제",
       description:
@@ -2235,6 +2303,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       id: 6,
       teamName: null,
       designer: [{ id: 20, nameKo: "박민석", studentId: 21900267 }],
+      professor: "박찬송",
       title: "Camaro: CALIBURN",
       summary: "전기화시대의 카마로에 대하 조형연구",
       description:

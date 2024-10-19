@@ -11,6 +11,7 @@ export interface Work {
   id: number;
   teamName: string | null;
   designer: DesignerWorksInfo[];
+  professor: string;
   title: string;
   summary: string;
   description: string;
