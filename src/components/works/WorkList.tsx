@@ -35,7 +35,7 @@ const WorkList = ({ category }: Props) => {
                   src={`${DOMAIN}${work.thumbnail}`}
                   className={`w-[288px] h-[216px] sm:h-auto
 									sm:w-full my-[10px]
-									lg:group-hover:border ${
+									lg:group-hover:border-[2px] ${
                     category === "COMMUNICATION"
                       ? "border-primary-orange"
                       : category === "SERVICE"

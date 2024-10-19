@@ -136,14 +136,14 @@ const WorksCategoryButton = ({ category, setCategory }: Props) => {
       >
         <img
           src={`${DOMAIN}images/icon/prevIcon.webp`}
-          className={`w-[7px] md:w-[10px] ${
+          className={`w-[7px] md:w-[10px] mr-[10px] ${
             parseInt(currItem) > 0 && "block"
           } ${parseInt(currItem) === 0 && "hidden"}`}
           alt="prevIcon"
           onClick={() => handleButtonMob(-1)}
         />
         <div
-          className={`w-[7px] md:w-[10px] ${
+          className={`w-[7px] md:w-[10px] mr-[10px] ${
             parseInt(currItem) > 0 && "hidden"
           } ${parseInt(currItem) === 0 && "block"}`}
         ></div>
@@ -162,14 +162,14 @@ const WorksCategoryButton = ({ category, setCategory }: Props) => {
         </p>
         <img
           src={`${DOMAIN}images/icon/nextIcon.webp`}
-          className={`w-[7px] md:w-[10px] ${
+          className={`w-[7px] md:w-[10px] ml-[10px] ${
             parseInt(currItem) < category_list.length - 1 && "block"
           } ${parseInt(currItem) === category_list.length - 1 && "hidden"}`}
           alt="nextIcon"
           onClick={() => handleButtonMob(1)}
         />
         <div
-          className={`w-[7px] md:w-[10px] ${
+          className={`w-[7px] md:w-[10px] ml-[10px] ${
             parseInt(currItem) < category_list.length - 1 && "hidden"
           }  ${parseInt(currItem) === category_list.length - 1 && "block"}`}
         ></div>
