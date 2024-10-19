@@ -21,7 +21,7 @@ export const MouseContextProvider = ({ children }: Props) => {
       zIndex: 1000,
       transition: {
         type: "tween",
-        duration: 0.05,
+        duration: 0,
         ease: "linear",
       },
     },
@@ -37,7 +37,7 @@ export const MouseContextProvider = ({ children }: Props) => {
       zIndex: 1000,
       transition: {
         type: "tween",
-        duration: 0.1,
+        duration: 0,
         ease: "linear",
       },
     },
@@ -53,7 +53,7 @@ export const MouseContextProvider = ({ children }: Props) => {
       zIndex: 1000,
       transition: {
         type: "tween",
-        duration: 0.05,
+        duration: 0,
         ease: "linear",
       },
     },
@@ -67,7 +67,7 @@ export const MouseContextProvider = ({ children }: Props) => {
       zIndex: 1000,
       transition: {
         type: "tween",
-        duration: 0.05,
+        duration: 0,
         ease: "linear",
       },
     },
@@ -83,7 +83,7 @@ export const MouseContextProvider = ({ children }: Props) => {
       zIndex: 1000,
       transition: {
         type: "tween",
-        duration: 0.05,
+        duration: 0,
         ease: "linear",
       },
     },
