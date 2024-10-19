@@ -3,7 +3,7 @@ import Title from "./Title";
 
 const Developer = () => {
   return (
-    <div className={`flex flex-col items-center mb-[625px]`}>
+    <div className={`flex flex-col items-center mb-[309px]`}>
       <Title>DEVELOPER</Title>
       <div
         className={`flex md:flex-col sm:flex-col gap-[72px] md:gap-[20px] sm:gap-[6px] justify-center items-center mt-[21px]`}
