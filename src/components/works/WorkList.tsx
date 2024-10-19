@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React from "react";
 import { WORKS } from "../../constants/works";
 import { WorkCategory } from "../../models/category.model";
 import { Work } from "../../models/work.model";
@@ -14,13 +14,9 @@ interface Props {
 const WorkList = ({ category }: Props) => {
   const { workListEnter, defaultEnter } = useMousePosition();
   const works: Work[] = WORKS[category] || [];
-  const ref = useRef<HTMLDivElement>(null);
-
-  if (ref.current) console.log(ref.current.scrollTop);
 
   return (
     <motion.div
-      ref={ref}
       onMouseEnter={workListEnter}
       onMouseLeave={defaultEnter}
       className="grid grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-[22px] sm:gap-[14px] mt-[20px] lg:mt-[267px] lg:mb-[206px] sm:w-[90%]"
