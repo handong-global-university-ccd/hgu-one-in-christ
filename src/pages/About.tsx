@@ -1,4 +1,5 @@
 import AboutMain from "../components/about/AboutMain";
+import Developer from "../components/about/Developer";
 import Executives from "../components/about/Executives";
 import Interviews from "../components/about/Interviews";
 import MainPoster from "../components/about/MainPoster";
@@ -16,6 +17,7 @@ const About = () => {
       <Interviews />
       <ThanksTo />
       <Executives />
+      <Developer />
     </div>
   );
 };
