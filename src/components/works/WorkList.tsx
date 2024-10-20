@@ -27,44 +27,48 @@ const WorkList = ({ category }: Props) => {
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ duration: 1.5 }}
-            className={`group cursor-none 
-						`}
+            className={`group cursor-none`}
             key={work.id}
           >
             <div className="flex flex-col">
               <div className={`relative`}>
-                <img
-                  src={`${DOMAIN}${work.thumbnail}`}
-                  className={`w-288 h-216 sm:h-auto
-									sm:w-full my-10
-									lg:group-hover:border-2 transition-all duration-100 ${
-                    category === "COMMUNICATION"
-                      ? "border-primary-orange"
-                      : category === "SERVICE"
-                        ? "border-primary-red"
-                        : category === "UX"
-                          ? "border-primary-purple"
-                          : "border-primary-blue"
-                  }`}
-                  alt={`${work.title}`}
-                />
+                <div
+                  className={`relative w-288 h-216 sm:h-auto sm:w-full my-10 transition-all duration-100`}
+                >
+                  <img
+                    src={`${DOMAIN}${work.thumbnail}`}
+                    className={`w-full h-full object-cover transform scale-100 group-hover:scale-100`}
+                    alt={`${work.title}`}
+                  />
+                  <div
+                    className={`absolute inset-0 border-0 group-hover:border-2 transition-all duration-100 ${
+                      category === "COMMUNICATION"
+                        ? "border-primary-orange"
+                        : category === "SERVICE"
+                          ? "border-primary-red"
+                          : category === "UX"
+                            ? "border-primary-purple"
+                            : "border-primary-blue"
+                    }`}
+                  ></div>
+                </div>
                 <div
                   className={`absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex justify-center items-center`}
                 >
                   <div
-                    className={`hidden lg:w-220 lg:h-24 lg:group-hover:flex justify-center items-center  
-												${
-                          category === "COMMUNICATION"
-                            ? "bg-primary-orange"
-                            : category === "SERVICE"
-                              ? "bg-primary-red"
-                              : category === "UX"
-                                ? "bg-primary-purple"
-                                : "bg-primary-blue"
-                        }`}
+                    className={`hidden lg:w-220 lg:h-24 lg:group-hover:flex justify-center items-center transition-all duration-100  
+                      ${
+                        category === "COMMUNICATION"
+                          ? "bg-primary-orange"
+                          : category === "SERVICE"
+                            ? "bg-primary-red"
+                            : category === "UX"
+                              ? "bg-primary-purple"
+                              : "bg-primary-blue"
+                      }`}
                   >
                     <p
-                      className={` text-primary-white text-center font-Pretendard_Bold text-12`}
+                      className={`text-primary-white text-center font-Pretendard_Bold text-12`}
                     >
                       {work.summary}
                     </p>
