@@ -30,7 +30,7 @@ const WorkContents = ({ category, work }: Props) => {
           }`}
         >{`${category} DESIGN`}</p>
         <div
-          className={`flex gap-[12px] sm:gap-[5px] text-[17px] sm:text-[12px] md:text-[19px] ${
+          className={`flex gap-[12px] sm:gap-[5px] text-[17px] sm:text-[12px] md:text-[19px] sm:mb-[32px] ${
             category === "COMMUNICATION"
               ? "text-primary-orange"
               : category === "SERVICE"
@@ -52,7 +52,7 @@ const WorkContents = ({ category, work }: Props) => {
           {work?.title}
         </p>
         <p
-          className={`font-Pretendard_Light sm:text-[12px] md:text-[14px] text-[17px] leading-[34px] tracking-[-1px]`}
+          className={`font-Pretendard_Light sm:text-[12px] md:text-[14px] text-[17px] leading-[34px] sm:leading-[22px] tracking-[-1px]`}
         >
           {work?.description}
         </p>
