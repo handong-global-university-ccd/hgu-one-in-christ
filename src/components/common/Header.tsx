@@ -38,6 +38,11 @@ const Header = () => {
     sessionStorage.clear();
   };
 
+  const handleHome = () => {
+    if (toggleOpen) setToggleOpen(!toggleOpen);
+    sessionStorage.clear();
+  };
+
   return (
     <>
       <motion.header
@@ -48,7 +53,7 @@ const Header = () => {
         } lg:backdrop-blur-sm md:bg-primary-black sm:bg-primary-black`}
       >
         <div className="w-full flex items-center justify-between lg:max-w-lg md:w-[90%] sm:w-[90%]">
-          <Link to={PATHS.HOME} onClick={() => sessionStorage.clear()}>
+          <Link to={PATHS.HOME} onClick={handleHome}>
             <img
               src={`${DOMAIN}images/header/logo.webp`}
               alt="one in christ"
