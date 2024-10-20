@@ -2,23 +2,20 @@ import { motion } from "framer-motion";
 import { DOMAIN } from "../../constants/paths";
 import { useMousePosition } from "../cursor/Context";
 
-const draw = {
-  hidden: { pathLength: 0, opacity: 0 },
-  visible: (i: number) => {
-    const delay = 0.5 + i * 0.5;
-    return {
+const AboutMain = () => {
+  const { bigEnter, defaultEnter } = useMousePosition();
+
+  const draw = {
+    hidden: { pathLength: 0, opacity: 0 },
+    visible: (i: number) => ({
       pathLength: 1,
       opacity: 1,
       transition: {
-        pathLength: { delay, type: "spring", duration: 2, bounce: 0 },
-        opacity: { delay, duration: 0.01 },
+        pathLength: { delay: i * 0.5, type: "spring", duration: 2 },
+        opacity: { delay: i * 0.5, duration: 0.01 },
       },
-    };
-  },
-};
-
-const AboutMain = () => {
-  const { bigEnter, defaultEnter } = useMousePosition();
+    }),
+  };
 
   return (
     <>
@@ -27,19 +24,28 @@ const AboutMain = () => {
         onMouseLeave={defaultEnter}
         className={`sm:hidden w-full lg:max-w-lg md:w-[90%] mt-[163px] flex flex-col items-center justify-center text-primary-white mb-[176px]`}
       >
-        <img
+        <motion.img
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ duration: 1.5 }}
           src={`${DOMAIN}images/about/aboutLogo.webp`}
           className={`w-[774px] mt-[154px]`}
           alt="about_logo"
         />
 
-        <p
+        <motion.p
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ duration: 1.5 }}
           className={`font-Menda_Medium text-[17px] md:text-[14px] sm:text-[12px] text-primary-white leading-[30px] sm:leading-[14px] mt-[16px] sm:mt-[20px]`}
         >
           SO IN CHRIST WE, FORM ONE BODY, BELONGS TO ALL THE OTHERS.
-        </p>
+        </motion.p>
 
-        <div
+        <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ duration: 1.5 }}
           className={`w-full mt-[145px] flex justify-between text-[18px] md:text-[14px] font-Pretendard_SemiBold`}
         >
           <div className={`w-[300px] flex flex-col items-center`}>
@@ -54,7 +60,7 @@ const AboutMain = () => {
             <p>2024.10.21 - 10.28</p>
             <p>09:00 - 18:00</p>
           </div>
-        </div>
+        </motion.div>
         <div
           className={`flex flex-col items-center text-[20px] md:text-[16px] font-Pretendard_Light mt-[260px] tracking-[-1px]`}
         >
@@ -67,14 +73,15 @@ const AboutMain = () => {
           height="350"
           viewBox="250 0 100 350"
           initial="hidden"
-          animate="visible"
+          whileInView="visible"
+          viewport={{ once: true }}
         >
           <motion.line
             x1="300"
             y1="50"
             x2="300"
             y2="300"
-            stroke="#ffffff"
+            stroke="rgb(255, 255, 255)"
             variants={draw}
             custom={2}
           />
@@ -127,7 +134,7 @@ const AboutMain = () => {
             y1="25"
             x2="50"
             y2="175"
-            stroke="#ffffff"
+            stroke="rgb(255, 255, 255)"
             strokeWidth="0.5"
             variants={draw}
             custom={2}

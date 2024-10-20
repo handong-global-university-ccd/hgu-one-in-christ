@@ -15,28 +15,28 @@ const ThanksTo = () => {
       </motion.div>
       <div className={`hidden lg:flex gap-[24px] mb-[47px]`}>
         {PROFESSOR.slice(0, 4).map((professor) => (
-          <Professor professor={professor} />
+          <Professor key={professor.id} professor={professor} />
         ))}
       </div>
       <div className={`hidden lg:flex gap-[24px]`}>
         {PROFESSOR.slice(4).map((professor) => (
-          <Professor professor={professor} />
+          <Professor key={professor.id} professor={professor} />
         ))}
       </div>
       {/* 모바일 버전 */}
       <div className={`lg:hidden flex justify-center gap-[11px] mb-[47px]`}>
         {PROFESSOR.slice(0, 3).map((professor) => (
-          <Professor professor={professor} />
+          <Professor key={professor.id} professor={professor} />
         ))}
       </div>
       <div className={`lg:hidden flex justify-center gap-[11px] mb-[47px]`}>
         {PROFESSOR.slice(3, 5).map((professor) => (
-          <Professor professor={professor} />
+          <Professor key={professor.id} professor={professor} />
         ))}
       </div>
       <div className={`lg:hidden flex justify-center gap-[11px]`}>
         {PROFESSOR.slice(5).map((professor) => (
-          <Professor professor={professor} />
+          <Professor key={professor.id} professor={professor} />
         ))}
       </div>
     </div>

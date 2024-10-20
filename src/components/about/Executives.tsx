@@ -15,9 +15,9 @@ const Executives = () => {
       >
         {EXECUTIVES.map((item) =>
           item.group === "header" ? (
-            <ExecutiveHeader header={item} />
+            <ExecutiveHeader key={item.id} header={item} />
           ) : (
-            <ExecutiveTeam team={item} />
+            <ExecutiveTeam key={item.id} team={item} />
           )
         )}
       </div>

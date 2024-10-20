@@ -103,6 +103,7 @@ const Symbols = () => {
         >
           {symbolInfo.map((item) => (
             <div
+              key={item.id}
               className={`w-[289px] flex flex-col gap-[10px] text-[16px] text-primary-white ${
                 item.symbol.includes("COMMUNICATION")
                   ? "hover:text-primary-orange"

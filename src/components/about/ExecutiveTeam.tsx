@@ -16,7 +16,9 @@ const ExecutiveTeam = ({ team }: Props) => {
             <p className={`font-Pretendard_Regular`}>팀장</p>
             <div className={`flex gap-[11px]`}>
               {team.leader?.map((item) => (
-                <p className={`font-Pretendard_Light`}>{item.name}</p>
+                <p key={item.id} className={`font-Pretendard_Light`}>
+                  {item.name}
+                </p>
               ))}
             </div>
           </div>
@@ -24,7 +26,9 @@ const ExecutiveTeam = ({ team }: Props) => {
             <p className={`font-Pretendard_Regular`}>팀원</p>
             <div className={`grid grid-cols-2 gap-[11px] gap-y-0`}>
               {team.member?.map((item) => (
-                <p className={`font-Pretendard_Light`}>{item.name}</p>
+                <p key={item.id} className={`font-Pretendard_Light`}>
+                  {item.name}
+                </p>
               ))}
             </div>
           </div>
@@ -43,7 +47,7 @@ const ExecutiveTeam = ({ team }: Props) => {
           <div
             className={`flex gap-[6px] sm:w-[100px] md:w-[200px] font-Pretendard_Light`}
           >
-            {team.leader?.map((item) => <p>{item.name}</p>)}
+            {team.leader?.map((item) => <p key={item.id}>{item.name}</p>)}
           </div>
         </div>
         <div className={`flex gap-[17px]`}>
@@ -55,7 +59,7 @@ const ExecutiveTeam = ({ team }: Props) => {
           <div
             className={`grid grid-cols-2 gap-[6px] gap-y-0 font-Pretendard_Light`}
           >
-            {team.member?.map((item) => <p>{item.name}</p>)}
+            {team.member?.map((item) => <p key={item.id}>{item.name}</p>)}
           </div>
         </div>
       </div>

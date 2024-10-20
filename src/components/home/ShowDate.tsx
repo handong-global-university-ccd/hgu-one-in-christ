@@ -83,7 +83,7 @@ const ShowDate = () => {
               y1="14"
               x2="656"
               y2="14"
-              stroke="#ffffff"
+              stroke="rgb(255, 255, 255)"
               strokeWidth="2"
               variants={draw}
               custom={2}
@@ -113,7 +113,7 @@ const ShowDate = () => {
               y1="25"
               x2="150"
               y2="275"
-              stroke="#ffffff"
+              stroke="rgb(255, 255, 255)"
               variants={draw}
               custom={2}
             />
