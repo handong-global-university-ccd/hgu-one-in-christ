@@ -19,7 +19,7 @@ const WorkList = ({ category }: Props) => {
     <motion.div
       onMouseEnter={workListEnter}
       onMouseLeave={defaultEnter}
-      className="grid grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-[22px] sm:gap-[14px] mt-[20px] lg:mt-[267px] lg:mb-[206px] sm:w-[90%]"
+      className="grid grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-[22px] sm:gap-[14px] mt-[20px] lg:mt-[267px] lg:mb-[206px] sm:w-[90%] md:w-[90%]"
     >
       {works.map((work, index) => (
         <Link key={index} to={`${PATHS.WORKS}/${category}/${work.id}`}>
