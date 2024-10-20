@@ -73,15 +73,19 @@ const WorkList = ({ category }: Props) => {
               </div>
 
               <div
-                className={`w-[288px] mb-[29px] sm:w-full sm:mb-[20px] font-TT_Firs_Light text-[15px] sm:text-[11px]`}
+                className={`w-[288px] mb-[29px] sm:w-full sm:mb-[20px] font-TT_Firs_Light text-primary-white text-[15px] sm:text-[11px]`}
               >
-                <p className="text-primary-white">{work.title}</p>
-                <div className="flex">
+                <p>{work.title}</p>
+                <div
+                  className={`flex ${
+                    work.designer.length > 4 && "text-[10px]"
+                  }`}
+                >
                   {work.designer.map((item, index, designer) => (
                     <React.Fragment key={index}>
-                      <p className="text-primary-white">{item.nameKo}</p>
+                      <p className={``}>{item.nameKo}</p>
                       {index !== designer.length - 1 && (
-                        <p className="text-primary-white whitespace-pre">, </p>
+                        <p className="whitespace-pre">, </p>
                       )}
                     </React.Fragment>
                   ))}
