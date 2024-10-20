@@ -1,9 +1,24 @@
 import { motion } from "framer-motion";
 import { DOMAIN } from "../../constants/paths";
 import { useMousePosition } from "../cursor/Context";
+import { useEffect, useRef, useState } from "react";
 
 const AboutMain = () => {
   const { bigEnter, defaultEnter } = useMousePosition();
+  const ref = useRef<HTMLDivElement>(null);
+  const [isVisible, setIsVisible] = useState(false);
+
+  const handleScroll = () => {
+    const fromtoDate = ref.current;
+    if (!fromtoDate) return;
+
+    const fromtoDateTop = fromtoDate.getBoundingClientRect().top;
+    if (fromtoDateTop < 0) {
+      setIsVisible(true);
+    } else {
+      setIsVisible(false);
+    }
+  };
 
   const draw = {
     hidden: { pathLength: 0, opacity: 0 },
@@ -17,8 +32,17 @@ const AboutMain = () => {
     }),
   };
 
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+    handleScroll();
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
-    <>
+    <div ref={ref} className={`w-full flex justify-center`}>
       <motion.div
         onMouseEnter={bigEnter}
         onMouseLeave={defaultEnter}
@@ -61,20 +85,22 @@ const AboutMain = () => {
             <p>09:00 - 18:00</p>
           </div>
         </motion.div>
-        <div
-          className={`flex flex-col items-center text-[20px] md:text-[16px] font-Pretendard_Light mt-[260px] tracking-[-1px]`}
+        <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ duration: 1.5 }}
+          className={`flex flex-col items-center text-[20px] md:text-[16px] font-Pretendard_Light mt-[300px] tracking-[-1px]`}
         >
           <p>그리스도 안에서 한 몸이 되어 서로 지체가 되었느니라.</p>
           <p>So In Christ We, Form One Body, Belongs To All The Others.</p>
           <p>로마서 12:5</p>
-        </div>
+        </motion.div>
         <motion.svg
           width="300"
           height="350"
           viewBox="250 0 100 350"
           initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true }}
+          animate={isVisible ? "visible" : "hidden"}
         >
           <motion.line
             x1="300"
@@ -86,7 +112,10 @@ const AboutMain = () => {
             custom={2}
           />
         </motion.svg>
-        <div
+        <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ duration: 1.5, delay: 1 }}
           className={`flex flex-col items-center font-Pretendard_SemiBold text-[20px] md:text-[16px] leading-[33px]`}
         >
           <p>자신의 능력과 성취에만 집중하여 서로 경쟁하는 사고방식에서</p>
@@ -104,30 +133,36 @@ const AboutMain = () => {
             서로 돕는 관계에 있으며, 함께 일함으로 써 공동체는 그리스도 안에서
             하나가 됩니다.
           </p>
-        </div>
+        </motion.div>
       </motion.div>
       {/* 모바일 버전 */}
       <div
         className={`hidden sm:flex mt-[163px] w-[90%] flex-col items-center text-primary-white mb-[134px]`}
       >
-        <img
+        <motion.img
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ duration: 1.5 }}
           src={`${DOMAIN}images/about/aboutMain.webp`}
           className={`hidden sm:block w-full top-[120px]`}
         />
-        <div
+        <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ duration: 1 }}
           className={`flex flex-col items-center text-[12px] font-Pretendard_Regular mt-[90px]`}
         >
           <p>그리스도 안에서 한 몸이 되어 서로 지체가 되었느니라.</p>
           <p>So In Christ We, Form One Body, Belongs To All The Others.</p>
           <p>로마서 12:5</p>
-        </div>
+        </motion.div>
 
         <motion.svg
           width="300"
           height="200"
           viewBox="0 0 100 200"
           initial="hidden"
-          animate="visible"
+          animate={isVisible ? "visible" : "hidden"}
         >
           <motion.line
             x1="50"
@@ -140,7 +175,10 @@ const AboutMain = () => {
             custom={2}
           />
         </motion.svg>
-        <div
+        <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ duration: 1, delay: 1 }}
           className={`flex flex-col items-center font-Pretendard_Bold text-[12px]`}
         >
           <p>자신의 능력과 성취에만 집중하여 서로 경쟁하는 사고방식에서</p>
@@ -153,9 +191,9 @@ const AboutMain = () => {
             공동체 안에서는 모든 사람이 서로 필요하고 서로 돕는 관계에 있으며,
           </p>
           <p>함께 일함으로 써 공동체는 그리스도 안에서 하나가 됩니다.</p>
-        </div>
+        </motion.div>
       </div>
-    </>
+    </div>
   );
 };
 

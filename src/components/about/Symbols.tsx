@@ -129,7 +129,12 @@ const Symbols = () => {
         className={`hidden sm:flex md:flex flex-col w-[90%] h-[1300px] md:h-[1800px]`}
       >
         <Title>SYMBOLS</Title>
-        <div className={`flex flex-col gap-[14px] mb-[44px] mt-[10px]`}>
+        <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ duration: 1 }}
+          className={`flex flex-col gap-[14px] mb-[44px] mt-[10px]`}
+        >
           <img
             src={`${DOMAIN}${symbolInfo[0].imgMobSrc}`}
             className={`w-[201px] md:w-[315px]`}
@@ -143,8 +148,13 @@ const Symbols = () => {
             <p>복잡하지 않아 이해하기 쉽고,</p>
             <p>구조적으로 안정적이라는 특성을 지니고 있다.</p>
           </div>
-        </div>
-        <div className={`flex flex-col gap-[14px] items-end mb-[44px]`}>
+        </motion.div>
+        <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ duration: 1 }}
+          className={`flex flex-col gap-[14px] items-end mb-[44px]`}
+        >
           <img
             src={`${DOMAIN}${symbolInfo[1].imgMobSrc}`}
             className={`w-[173px] md:w-[295px]`}
@@ -158,8 +168,13 @@ const Symbols = () => {
             <p>삼각형은 세 변과 세 꼭짓점으로 구성되어 있어 다양한</p>
             <p>방식으로 연결되고 변형될 수 있는 특성을 가지고 있다.</p>
           </div>
-        </div>
-        <div className={`flex flex-col gap-[14px] left-0 mb-[44px]`}>
+        </motion.div>
+        <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ duration: 1 }}
+          className={`flex flex-col gap-[14px] left-0 mb-[44px]`}
+        >
           <img
             src={`${DOMAIN}${symbolInfo[2].imgMobSrc}`}
             className={`w-[175px] md:w-[300px]`}
@@ -174,8 +189,13 @@ const Symbols = () => {
             <p>위치하여 균형을 이루고 심리적 안정감을 제공하는 특성으로</p>
             <p>UX/UI 디자인의 사용자 경험과 조화를 상징합니다.</p>
           </div>
-        </div>
-        <div className={`w-full flex flex-col gap-[14px] items-end`}>
+        </motion.div>
+        <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ duration: 1 }}
+          className={`w-full flex flex-col gap-[14px] items-end`}
+        >
           <img
             src={`${DOMAIN}${symbolInfo[3].imgMobSrc}`}
             className={`w-[165px] md:w-[290px]`}
@@ -189,7 +209,7 @@ const Symbols = () => {
             <p>다른 한쪽이 곡면으로 전통적인 원의 안정감을 유지하면서</p>
             <p>새로운 접근과 가능성을 탐구할 수 있는 특성을 가지고 있다.</p>
           </div>
-        </div>
+        </motion.div>
       </div>
     </>
   );

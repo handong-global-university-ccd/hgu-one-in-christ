@@ -1,4 +1,5 @@
 import { Header } from "../../models/executives.model";
+import { motion } from "framer-motion";
 
 interface Props {
   header: Header;
@@ -7,7 +8,10 @@ interface Props {
 const ExecutiveHeader = ({ header }: Props) => {
   return (
     <>
-      <div
+      <motion.div
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        transition={{ duration: 1 }}
         className={`hidden lg:flex flex-col gap-[12px] w-[185px] text-[22px] text-primary-white leading-[30px] tracking-[-1px]`}
       >
         {header.position?.map((item) => (
@@ -16,9 +20,12 @@ const ExecutiveHeader = ({ header }: Props) => {
             <p className={`font-Pretendard_Light`}>{item.name}</p>
           </div>
         ))}
-      </div>
+      </motion.div>
       {/* 모바일 */}
-      <div
+      <motion.div
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        transition={{ duration: 1 }}
         className={`lg:hidden flex flex-col w-full text-[14px] md:text-[18px] text-primary-white leading-[30px] tracking-[-1px]`}
       >
         {header.position?.map((item) => (
@@ -33,7 +40,7 @@ const ExecutiveHeader = ({ header }: Props) => {
             </p>
           </div>
         ))}
-      </div>
+      </motion.div>
     </>
   );
 };

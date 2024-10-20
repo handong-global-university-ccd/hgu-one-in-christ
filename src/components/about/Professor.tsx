@@ -11,7 +11,10 @@ const Professor = ({ professor }: Props) => {
   const { personEnter, smallEnter, defaultEnter } = useMousePosition();
 
   return (
-    <div
+    <motion.div
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      transition={{ duration: 1 }}
       key={professor.id}
       className={`sm:w-[30%] md:w-[30%] flex flex-col gap-[7px]`}
     >
@@ -30,7 +33,7 @@ const Professor = ({ professor }: Props) => {
       >
         {professor.name}
       </motion.p>
-    </div>
+    </motion.div>
   );
 };
 

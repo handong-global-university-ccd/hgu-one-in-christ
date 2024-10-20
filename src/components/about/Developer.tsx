@@ -1,11 +1,15 @@
 import { DOMAIN } from "../../constants/paths";
 import Title from "./Title";
+import { motion } from "framer-motion";
 
 const Developer = () => {
   return (
     <div className={`flex flex-col items-center mb-[309px]`}>
       <Title>DEVELOPER</Title>
-      <div
+      <motion.div
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        transition={{ duration: 1 }}
         className={`flex md:flex-col sm:flex-col gap-[72px] md:gap-[20px] sm:gap-[6px] justify-center items-center mt-[21px]`}
       >
         <img
@@ -18,7 +22,7 @@ const Developer = () => {
         >
           박민지
         </p>
-      </div>
+      </motion.div>
     </div>
   );
 };
