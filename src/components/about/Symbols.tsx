@@ -20,17 +20,17 @@ const symbolInfo = [
   },
   {
     id: 3,
-    symbol: "(UX DESIGN)",
-    imgSrc: "images/about/symbol/UXSymbol.webp",
-    imgMobSrc: "images/about/symbol/UXSymbolMob.webp",
-    info: "UX/UI 디자인에서는 사용자가 제품이나 서비스를 사용하는 과정에서 느끼는 만족감과 편의성을 최대화하는 것이 중요합니다. 원은 중심에서 모든 점이 동일한 거리에 위치하여 균형을 이루고 심리적 안정감을 제공하는 특성으로 UX/UI 디자인의 사용자 경험과 조화를 상징합니다.",
-  },
-  {
-    id: 4,
     symbol: "(INDUSTRIAL DESIGN)",
     imgSrc: "images/about/symbol/productSymbol.webp",
     imgMobSrc: "images/about/symbol/productSymbolMob.webp",
     info: "제품 디자인은 새로운 아이디어와 기능을 통한 혁신적인 접근이 중요하다. 반원은 한쪽이 직선이고 다른 한쪽이 곡면으로 전통적인 원의 안정감을 유지하면서 새로운 접근과 가능성을 탐구할 수 있는 특성을 가지고 있다.",
+  },
+  {
+    id: 4,
+    symbol: "(UX DESIGN)",
+    imgSrc: "images/about/symbol/UXSymbol.webp",
+    imgMobSrc: "images/about/symbol/UXSymbolMob.webp",
+    info: "UX/UI 디자인에서는 사용자가 제품이나 서비스를 사용하는 과정에서 느끼는 만족감과 편의성을 최대화하는 것이 중요합니다. 원은 중심에서 모든 점이 동일한 거리에 위치하여 균형을 이루고 심리적 안정감을 제공하는 특성으로 UX/UI 디자인의 사용자 경험과 조화를 상징합니다.",
   },
 ];
 

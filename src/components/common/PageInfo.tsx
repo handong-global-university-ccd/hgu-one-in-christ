@@ -6,11 +6,11 @@ interface Props {
 }
 
 const PageInfo = ({ children }: Props) => {
-  const { bigEnter, defaultEnter } = useMousePosition();
+  const { middleEnter, defaultEnter } = useMousePosition();
 
   return (
     <motion.div
-      onMouseEnter={bigEnter}
+      onMouseEnter={middleEnter}
       onMouseLeave={defaultEnter}
       className={`flex justify-center items-center
 		w-screen h-99 lg:fixed md:absolute sm:absolute z-50 top-64 bg-primary-white 
