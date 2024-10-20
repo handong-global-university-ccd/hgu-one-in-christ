@@ -77,7 +77,7 @@ const WorkList = ({ category }: Props) => {
               >
                 <p>{work.title}</p>
                 <div
-                  className={`flex ${work.designer.length > 4 && "text-10"}`}
+                  className={`flex ${work.designer.length > 4 && "sm:text-10"}`}
                 >
                   {work.designer.map((item, index, designer) => (
                     <React.Fragment key={index}>
