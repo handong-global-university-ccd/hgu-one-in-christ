@@ -15,7 +15,7 @@ const Developer = () => {
         <img
           src={`${DOMAIN}images/about/pardLogo.webp`}
           alt="pard-logo"
-          className={`w-[96px] h-auto`}
+          className={`w-[90px] h-auto`}
         />
         <p
           className={`font-Pretendard_Light text-primary-white text-[22px] md:text-[18px] sm:text-[14px] leading-[30px] tracking-[-1px] `}
