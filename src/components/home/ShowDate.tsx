@@ -41,7 +41,6 @@ const ShowDate = () => {
     if (!fromtoDate) return;
 
     const fromtoDateTop = fromtoDate.getBoundingClientRect().top;
-    console.log(fromtoDateTop);
 
     if (fromtoDateTop < 400) {
       setIsVisible(true);

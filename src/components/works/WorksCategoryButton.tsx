@@ -67,7 +67,6 @@ const WorksCategoryButton = ({ category, setCategory }: Props) => {
   const handleButtonMob = (sign: number) => {
     const result = parseInt(currItem) + sign;
     if (result >= 0 && result < category_list.length) {
-      console.log(result);
       setCurrItem(result.toString());
       sessionStorage.setItem("category", result.toString());
       setCategory(category_list[result].work);
