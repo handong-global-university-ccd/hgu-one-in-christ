@@ -20,18 +20,18 @@ const DesignerList = ({ designer }: Props) => {
       <motion.div
         onMouseEnter={smallEnter}
         onMouseLeave={defaultEnter}
-        className="w-[90%] lg:w-full h-[69px] sm:h-[50px] 
+        className="w-[90%] lg:w-full h-69 sm:h-50 
 									flex items-center
-								text-primary-white lg:hover:text-primary-black md:hover:text-primary-black text-[18px] sm:text-[14px] 
-									lg:px-6 gap-[151px] sm:gap-[50px]
+								text-primary-white lg:hover:text-primary-black md:hover:text-primary-black text-18 sm:text-14 
+									lg:px-24 gap-151 sm:gap-50
 								lg:hover:bg-primary-white md:hover:bg-primary-white 
 									group
 									"
       >
-        <p className="font-Pretendard_Regular w-[90px] sm:w-[70px] pl-[10px]">
+        <p className="font-Pretendard_Regular w-90 sm:w-70 pl-10">
           {designer.nameKo}
         </p>
-        <div className={`sm:hidden flex gap-[20px] sm:gap-[10px]`}>
+        <div className={`sm:hidden flex gap-20 sm:gap-10`}>
           {designer.works[0].category === "UX" ? (
             <p className="font-TT_Firs_Light">UX Design</p>
           ) : (
@@ -49,7 +49,7 @@ const DesignerList = ({ designer }: Props) => {
           onMouseEnter={bigEnter}
           onMouseLeave={defaultEnter}
           src={`${DOMAIN}${thumbnail.work[thumbnail.worksId - 1].thumbnail}`}
-          className="hidden w-[416px] lg:group-hover:block group-hover:fixed absolute top-[327px] right-[300px]"
+          className="hidden w-416 lg:group-hover:block group-hover:fixed absolute top-327 right-300"
         />
       </motion.div>
       <div className={`w-full md:w-[90%] sm:w-screen border-b`}></div>

@@ -25,24 +25,22 @@ const HomeLast: React.FC = () => {
         onMouseLeave={defaultEnter}
         className="hidden lg:h-[100vh] relative lg:flex flex-col items-center justify-center"
       >
-        <div className={`flex flex-col gap-[30px]`}>
+        <div className={`flex flex-col gap-30`}>
           {Categories.map((item) => (
-            <div className={`flex gap-[38px] items-center`}>
+            <div className={`flex gap-38 items-center`}>
               <p
-                className={`w-[510px] text-right font-Menda_Medium text-primary-white text-[46px]`}
+                className={`w-510 text-right font-Menda_Medium text-primary-white text-46`}
               >
                 {item.name}
               </p>
               <img
                 src={`${DOMAIN}images/home/homeCircle.webp`}
-                className={`w-[8px] h-[8px] ${
-                  Category.id !== item.id && "hidden"
-                }`}
+                className={`w-8 h-8 ${Category.id !== item.id && "hidden"}`}
               />
               <p
                 className={`${
                   Category.id !== item.id && "hidden"
-                } font-Menda_Medium text-primary-white text-[46px]`}
+                } font-Menda_Medium text-primary-white text-46`}
               >
                 (DESIGN)
               </p>
@@ -62,31 +60,31 @@ const HomeLast: React.FC = () => {
           />
         ))}
         <p
-          className={`absolute bottom-[140px] whitespace-pre-wrap text-center text-[18px] text-primary-white font-Pretendard_Regular `}
+          className={`absolute bottom-140 whitespace-pre-wrap text-center text-18 text-primary-white font-Pretendard_Regular `}
         >
           {Category.description}
         </p>
       </motion.div>
       {/* 모바일 */}
-      <div className="lg:hidden flex relative flex-col items-center justify-center mb-[270px] mt-[150px]">
-        <div className={`flex flex-col gap-[15px] md:gap-[20px]`}>
+      <div className="lg:hidden flex relative flex-col items-center justify-center mb-270 mt-150">
+        <div className={`flex flex-col gap-15 md:gap-20`}>
           {Categories.map((item) => (
-            <div className={`flex gap-[12px] md:gap-[15px] items-center`}>
+            <div className={`flex gap-12 md:gap-15 items-center`}>
               <p
-                className={`w-[163px] md:w-[280px] text-right font-Menda_Medium text-primary-white text-[15px] md:text-[25px]`}
+                className={`w-163 md:w-280 text-right font-Menda_Medium text-primary-white text-15 md:text-25`}
               >
                 {item.name}
               </p>
               <img
                 src={`${DOMAIN}images/home/homeCircle.webp`}
-                className={`w-[3px] h-[3px] md:w-[5px] md:h-[5px] ${
+                className={`w-3 h-3 md:w-5 md:h-5 ${
                   Category.id !== item.id && "hidden"
                 }`}
               />
               <p
                 className={`${
                   Category.id !== item.id && "hidden"
-                } font-Menda_Medium text-primary-white text-[15px] md:text-[25px]`}
+                } font-Menda_Medium text-primary-white text-15 md:text-25`}
               >
                 (DESIGN)
               </p>
@@ -106,7 +104,7 @@ const HomeLast: React.FC = () => {
           />
         ))}
         <p
-          className={`absolute bottom-[-100px] whitespace-pre-wrap text-center text-[10px] md:text-[12px] text-primary-white font-Pretendard_Regular `}
+          className={`absolute bottom-[-100px] whitespace-pre-wrap text-center text-10 md:text-12 text-primary-white font-Pretendard_Regular `}
         >
           {Category.mobDescription}
         </p>

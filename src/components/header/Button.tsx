@@ -6,7 +6,7 @@ interface Props extends React.ButtonHTMLAttributes<HTMLButtonElement> {
 const Button = ({ children, focus }: Props) => {
   return (
     <button
-      className={`rounded font-Pretendard_Bold text-sm px-2.5 
+      className={`rounded font-Pretendard_Bold text-sm px-10
 				${focus && "pointer-events-none"}
 				hover:bg-primary-white hover:text-primary-black 
 				${focus ? "text-primary-white" : "text-primary-white/40"}  

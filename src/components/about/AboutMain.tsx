@@ -46,14 +46,14 @@ const AboutMain = () => {
       <motion.div
         onMouseEnter={bigEnter}
         onMouseLeave={defaultEnter}
-        className={`sm:hidden w-full lg:max-w-lg md:w-[90%] mt-[163px] flex flex-col items-center justify-center text-primary-white mb-[176px]`}
+        className={`sm:hidden w-full lg:max-w-lg md:w-[90%] mt-163 flex flex-col items-center justify-center text-primary-white mb-176`}
       >
         <motion.img
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           transition={{ duration: 1.5 }}
           src={`${DOMAIN}images/about/aboutLogo.webp`}
-          className={`w-[774px] mt-[154px]`}
+          className={`w-774 mt-154`}
           alt="about_logo"
         />
 
@@ -61,7 +61,7 @@ const AboutMain = () => {
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           transition={{ duration: 1.5 }}
-          className={`font-Menda_Medium text-[17px] md:text-[14px] sm:text-[12px] text-primary-white leading-[30px] sm:leading-[14px] mt-[16px] sm:mt-[20px]`}
+          className={`font-Menda_Medium text-17 md:text-14 sm:text-12 text-primary-white leading-30 sm:leading-14 mt-16 sm:mt-20`}
         >
           SO IN CHRIST WE, FORM ONE BODY, BELONGS TO ALL THE OTHERS.
         </motion.p>
@@ -70,17 +70,17 @@ const AboutMain = () => {
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           transition={{ duration: 1.5 }}
-          className={`w-full mt-[145px] flex justify-between text-[18px] md:text-[14px] font-Pretendard_SemiBold`}
+          className={`w-full mt-145 flex justify-between text-18 md:text-14 font-Pretendard_SemiBold`}
         >
-          <div className={`w-[300px] flex flex-col items-center`}>
+          <div className={`w-300 flex flex-col items-center`}>
             <p>경북 포항시 북구 흥해읍 558</p>
             <p>한동대학교 김영길 그레이스스쿨</p>
           </div>
-          <div className={`w-[300px] flex flex-col items-center`}>
+          <div className={`w-300 flex flex-col items-center`}>
             <p>한동대학교 콘텐츠융합디자인학부</p>
             <p>2024 졸업작품전</p>
           </div>
-          <div className={`w-[300px] flex flex-col items-center`}>
+          <div className={`w-300 flex flex-col items-center`}>
             <p>2024.10.21 - 10.28</p>
             <p>09:00 - 18:00</p>
           </div>
@@ -89,7 +89,7 @@ const AboutMain = () => {
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           transition={{ duration: 1.5 }}
-          className={`flex flex-col items-center text-[20px] md:text-[16px] font-Pretendard_Light mt-[300px] tracking-[-1px]`}
+          className={`flex flex-col items-center text-20 md:text-16 font-Pretendard_Light mt-300 tracking-[-1px]`}
         >
           <p>그리스도 안에서 한 몸이 되어 서로 지체가 되었느니라.</p>
           <p>So In Christ We, Form One Body, Belongs To All The Others.</p>
@@ -116,7 +116,7 @@ const AboutMain = () => {
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           transition={{ duration: 1.5, delay: 1 }}
-          className={`flex flex-col items-center font-Pretendard_SemiBold text-[20px] md:text-[16px] leading-[33px]`}
+          className={`flex flex-col items-center font-Pretendard_SemiBold text-20 md:text-16 leading-33`}
         >
           <p>자신의 능력과 성취에만 집중하여 서로 경쟁하는 사고방식에서</p>
           <p>벗어나 하나님의 뜻을 깨닫는 것은 중요합니다.</p>
@@ -137,20 +137,20 @@ const AboutMain = () => {
       </motion.div>
       {/* 모바일 버전 */}
       <div
-        className={`hidden sm:flex mt-[163px] w-[90%] flex-col items-center text-primary-white mb-[134px]`}
+        className={`hidden sm:flex mt-163 w-[90%] flex-col items-center text-primary-white mb-134`}
       >
         <motion.img
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           transition={{ duration: 1.5 }}
           src={`${DOMAIN}images/about/aboutMain.webp`}
-          className={`hidden sm:block w-full top-[120px]`}
+          className={`hidden sm:block w-full top-120`}
         />
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           transition={{ duration: 1 }}
-          className={`flex flex-col items-center text-[12px] font-Pretendard_Regular mt-[90px]`}
+          className={`flex flex-col items-center text-12 font-Pretendard_Regular mt-90`}
         >
           <p>그리스도 안에서 한 몸이 되어 서로 지체가 되었느니라.</p>
           <p>So In Christ We, Form One Body, Belongs To All The Others.</p>
@@ -179,7 +179,7 @@ const AboutMain = () => {
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           transition={{ duration: 1, delay: 1 }}
-          className={`flex flex-col items-center font-Pretendard_Bold text-[12px]`}
+          className={`flex flex-col items-center font-Pretendard_Bold text-12`}
         >
           <p>자신의 능력과 성취에만 집중하여 서로 경쟁하는 사고방식에서</p>
           <p>벗어나 하나님의 뜻을 깨닫는 것은 중요합니다.</p>

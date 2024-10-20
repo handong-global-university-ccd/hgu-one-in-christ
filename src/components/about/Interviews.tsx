@@ -4,10 +4,10 @@ import Title from "./Title";
 const Interviews = () => {
   return (
     <div
-      className={`w-full lg:max-w-lg flex flex-col items-center mb-[300px] sm:mb-[170px]`}
+      className={`w-full lg:max-w-lg flex flex-col items-center mb-300 sm:mb-170`}
     >
       <Title>INTERVIEWS</Title>
-      <div className={`w-[90%] relative pb-[56.25%] mb-[22px]`}>
+      <div className={`w-[90%] relative pb-[56.25%] mb-22`}>
         <YouTube
           className={`absolute w-full h-full`}
           videoId="9KZscZuMj4k" //동영상 주소

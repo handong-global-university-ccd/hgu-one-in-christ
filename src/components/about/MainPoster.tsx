@@ -10,12 +10,12 @@ const MainPoster = () => {
     <motion.div
       onMouseEnter={bigEnter}
       onMouseLeave={defaultEnter}
-      className={`w-full md:w-[90%] flex flex-col items-center mb-[219px] sm:mb-[144px]`}
+      className={`w-full md:w-[90%] flex flex-col items-center mb-219 sm:mb-144`}
     >
       <Title>MAIN POSTER</Title>
       <img
         src={`${DOMAIN}images/about/mainPoster.webp`}
-        className={`w-[500px] sm:w-full`}
+        className={`w-500 sm:w-full`}
       />
     </motion.div>
   );

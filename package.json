@@ -24,6 +24,7 @@
     "react-youtube": "^10.1.0",
     "sharp": "^0.33.5",
     "tailwind-scrollbar-hide": "^1.1.7",
+    "tailwindcss-preset-px-to-rem": "^1.2.1",
     "three": "^0.168.0"
   },
   "devDependencies": {

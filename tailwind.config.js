@@ -36,4 +36,5 @@ export default {
     },
   },
   plugins: [require("tailwind-scrollbar-hide")],
+  presets: [require("tailwindcss-preset-px-to-rem")],
 };
