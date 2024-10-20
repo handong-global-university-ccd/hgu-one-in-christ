@@ -19,7 +19,7 @@ const Creation = ({ creation }: Props) => {
     >
       {creation?.map((item) =>
         item.extension === "youtube" ? (
-          <div className={`w-full relative pb-[56.25%]`}>
+          <div key={item.id} className={`w-full relative pb-[56.25%]`}>
             <YouTube
               className={`absolute w-full h-full`}
               videoId={item.src} //동영상 주소
@@ -39,6 +39,7 @@ const Creation = ({ creation }: Props) => {
           </div>
         ) : (
           <img
+            key={item.id}
             src={`${DOMAIN}${item.src}`}
             className={`w-full`}
             alt="creation"

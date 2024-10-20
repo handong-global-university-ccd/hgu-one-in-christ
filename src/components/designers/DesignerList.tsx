@@ -36,7 +36,12 @@ const DesignerList = ({ designer }: Props) => {
             <p className="font-TT_Firs_Light">UX Design</p>
           ) : (
             designer.works.map((work) => (
-              <p className="font-TT_Firs_Light">{work.category} Design</p>
+              <p
+                key={`${work.category}${work.worksId}`}
+                className="font-TT_Firs_Light"
+              >
+                {work.category} Design
+              </p>
             ))
           )}
         </div>

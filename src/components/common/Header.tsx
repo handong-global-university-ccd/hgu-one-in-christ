@@ -1,7 +1,7 @@
 import { Link, useLocation } from "react-router-dom";
 import Button from "../header/Button";
 import { DOMAIN, PATHS } from "../../constants/paths";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import NavButtonMobile from "../header/NavButtonMobile";
 import { useMousePosition } from "../cursor/Context";
 import { motion } from "framer-motion";
@@ -29,17 +29,16 @@ const Header = () => {
   const location = useLocation();
   const [toggleOpen, setToggleOpen] = useState(false);
 
+  useEffect(() => {
+    setToggleOpen(false);
+  }, [location]);
+
   const handleToggle = () => {
     setToggleOpen(!toggleOpen);
   };
 
   const handleSessionStorage = () => {
     setToggleOpen(!toggleOpen);
-    sessionStorage.clear();
-  };
-
-  const handleHome = () => {
-    if (toggleOpen) setToggleOpen(!toggleOpen);
     sessionStorage.clear();
   };
 
@@ -53,7 +52,12 @@ const Header = () => {
         } lg:backdrop-blur-sm md:bg-primary-black sm:bg-primary-black`}
       >
         <div className="w-full flex items-center justify-between lg:max-w-lg md:w-[90%] sm:w-[90%]">
-          <Link to={PATHS.HOME} onClick={handleHome}>
+          <Link
+            to={PATHS.HOME}
+            onClick={() => {
+              sessionStorage.clear();
+            }}
+          >
             <img
               src={`${DOMAIN}images/header/logo.webp`}
               alt="one in christ"
@@ -95,7 +99,7 @@ const Header = () => {
           className={`lg:hidden fixed z-[100] w-full top-64 bg-primary-black border-b pb-10`}
         >
           {button_list.map((item) => (
-            <div>
+            <div key={item.id}>
               <Link key={item.id} to={item.link} onClick={handleSessionStorage}>
                 <NavButtonMobile focus={location.pathname.includes(item.link)}>
                   {item.name}

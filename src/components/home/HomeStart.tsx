@@ -33,7 +33,7 @@ const HomeStart = () => {
           className={`w-full md:w-[90%] max-w-lg pt-142 mb-268 md:mb-150 flex justify-between`}
         >
           {Texts.map((text) => (
-            <StartContent korContent={text.korContent}>
+            <StartContent key={text.id} korContent={text.korContent}>
               {text.engContent}
             </StartContent>
           ))}

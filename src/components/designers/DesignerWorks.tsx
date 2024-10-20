@@ -43,7 +43,7 @@ const DesignerWorks = ({ designer }: Props) => {
               }`}
               className={`cursor-none`}
             >
-              <div className={`lg:w-468 md:w-full group relative`}>
+              <div className={`lg:w-468 max-w-900 md:w-full group relative`}>
                 <div
                   className={`w-full h-full absolute top-0 left-0 transition-all duration-100 ${
                     work.category === "Communication"
