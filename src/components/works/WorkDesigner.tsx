@@ -57,11 +57,11 @@ const WorkDesigner = ({ work }: Props) => {
               </p>
             </div>
             <div
-              className={`grid grid-cols-2 gap-[7px] sm:flex md:flex sm:flex-col md:flex-col sm:gap-[6px] md:gap-[6px]`}
+              className={`lg:mt-[10px] grid grid-cols-2 gap-[7px] sm:flex md:flex sm:flex-col md:flex-col sm:gap-[6px] md:gap-[6px]`}
             >
               {work?.designer.map((item) => (
                 <div
-                  className={`flex lg:gap-[19px] items-center gap-[13px] sm:w-auto md:w-auto`}
+                  className={`flex lg:gap-[7px] items-center gap-[13px] sm:w-auto md:w-auto`}
                 >
                   <p className={`text-[11px] lg:text-[19px]`}>{item.nameKo}</p>
                   <p
