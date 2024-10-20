@@ -23,7 +23,7 @@ const DesignerList = ({ designer }: Props) => {
         className="w-[90%] lg:w-full h-[69px] sm:h-[50px] 
 									flex items-center
 								text-primary-white lg:hover:text-primary-black md:hover:text-primary-black text-[18px] sm:text-[14px] 
-									lg:px-6 gap-[151px] sm:gap-[50px]
+									lg:px-[24px] gap-[151px] sm:gap-[50px]
 								lg:hover:bg-primary-white md:hover:bg-primary-white 
 									group
 									"

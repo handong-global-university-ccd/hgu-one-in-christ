@@ -15,7 +15,7 @@ const WorkDesigner = ({ work }: Props) => {
     <>
       {work?.designer.length === 1 ? (
         <div className={`md:w-[45%]`}>
-          <div className={`flex gap-6 items-end`}>
+          <div className={`flex gap-[24px] items-end`}>
             <motion.img
               onMouseEnter={personEnter}
               onMouseLeave={defaultEnter}
@@ -25,7 +25,7 @@ const WorkDesigner = ({ work }: Props) => {
             <motion.div
               onMouseEnter={middleEnter}
               onMouseLeave={defaultEnter}
-              className={`flex flex-col gap-1 text-primary-white items-start`}
+              className={`flex flex-col gap-[4px] text-primary-white items-start`}
             >
               <div
                 className={`flex gap-[7px] font-Pretendard_Bold items-baseline`}

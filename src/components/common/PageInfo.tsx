@@ -13,11 +13,11 @@ const PageInfo = ({ children }: Props) => {
       onMouseEnter={bigEnter}
       onMouseLeave={defaultEnter}
       className={`flex justify-center items-center
-		w-screen h-[99px] lg:fixed md:absolute sm:absolute z-50 top-16 bg-primary-white 
+		w-screen h-[99px] lg:fixed md:absolute sm:absolute z-50 top-[64px] bg-primary-white 
 		sm:w-[90%] sm:h-[63px] sm:mt-[19px]`}
     >
       <p
-        className={`text-center text-primary-black font-Organetto_ExtBold text-2xl sm:text-[15px]`}
+        className={`text-center text-primary-black font-Organetto_ExtBold text-[24px] sm:text-[15px]`}
       >
         {children}
       </p>
