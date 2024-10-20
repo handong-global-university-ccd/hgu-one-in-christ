@@ -144,7 +144,7 @@ const AboutMain = () => {
           whileInView={{ opacity: 1 }}
           transition={{ duration: 1.5 }}
           src={`${DOMAIN}images/about/aboutMain.webp`}
-          className={`hidden sm:block w-full top-[120px]`}
+          className={`hidden sm:block w-full top-120`}
         />
         <motion.div
           initial={{ opacity: 0 }}
