@@ -49,7 +49,7 @@ const Symbols = () => {
           <motion.img
             whileHover={{ scale: 1.2 }}
             whileTap={{ scale: 0.9 }}
-            transition={{ type: "spring", stiffness: 400, damping: 10 }}
+            transition={{ type: "tween", stiffness: 400, damping: 10 }}
             src={`${DOMAIN}${symbolInfo[0].imgSrc}`}
             className={`absolute top-47 left-620 w-273`}
           />
@@ -61,7 +61,7 @@ const Symbols = () => {
           <motion.img
             whileHover={{ scale: 1.2 }}
             whileTap={{ scale: 0.9 }}
-            transition={{ type: "spring", stiffness: 400, damping: 10 }}
+            transition={{ type: "tween", stiffness: 400, damping: 10 }}
             src={`${DOMAIN}${symbolInfo[1].imgSrc}`}
             className={`absolute top-193 left-325 w-270`}
           />
@@ -73,7 +73,7 @@ const Symbols = () => {
           <motion.img
             whileHover={{ scale: 1.2 }}
             whileTap={{ scale: 0.9 }}
-            transition={{ type: "spring", stiffness: 400, damping: 10 }}
+            transition={{ type: "tween", stiffness: 400, damping: 10 }}
             src={`${DOMAIN}${symbolInfo[2].imgSrc}`}
             className={`absolute top-435 left-354 w-356`}
           />
@@ -85,7 +85,7 @@ const Symbols = () => {
           <motion.img
             whileHover={{ scale: 1.2 }}
             whileTap={{ scale: 0.9 }}
-            transition={{ type: "spring", stiffness: 400, damping: 10 }}
+            transition={{ type: "tween", stiffness: 400, damping: 10 }}
             src={`${DOMAIN}${symbolInfo[3].imgSrc}`}
             className={`absolute top-316 left-604 w-315`}
           />
