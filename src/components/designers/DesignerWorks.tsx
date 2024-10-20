@@ -33,7 +33,7 @@ const DesignerWorks = ({ designer }: Props) => {
                       : work.category === "UX"
                         ? "text-primary-purple"
                         : "text-primary-blue"
-                } leading-30 mb-5`}
+                } leading-[30px] mb-5`}
             >
               {work.category.toUpperCase()} DESIGN
             </p>

@@ -134,7 +134,7 @@ const HomeStart = () => {
               opacity: 1,
               transition: { duration: 2.5, delay: 0.7 },
             }}
-            className={`relative flex flex-col font-Pretendard_Regular text-primary-white text-8 leading-11 items-center mt-154`}
+            className={`relative flex flex-col font-Pretendard_Regular text-primary-white text-8 leading-[11px] items-center mt-154`}
           >
             <img
               src={`${DOMAIN}images/home/mainLogoMob.webp`}

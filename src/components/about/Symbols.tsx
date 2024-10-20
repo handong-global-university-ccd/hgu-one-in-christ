@@ -54,7 +54,7 @@ const Symbols = () => {
             className={`absolute top-47 left-620 w-273`}
           />
           <p
-            className={`absolute top-46 left-726 text-primary-white font-Menda_Medium text-20 leading-120`}
+            className={`absolute top-46 left-726 text-primary-white font-Menda_Medium text-20 leading-[120px]`}
           >
             {symbolInfo[0].symbol}
           </p>
@@ -66,7 +66,7 @@ const Symbols = () => {
             className={`absolute top-193 left-325 w-270`}
           />
           <p
-            className={`absolute top-185 left-202 text-primary-white font-Menda_Medium text-20 leading-120`}
+            className={`absolute top-185 left-202 text-primary-white font-Menda_Medium text-20 leading-[120px]`}
           >
             {symbolInfo[1].symbol}
           </p>
@@ -78,7 +78,7 @@ const Symbols = () => {
             className={`absolute top-435 left-354 w-356`}
           />
           <p
-            className={`absolute top-661 left-420 text-primary-white font-Menda_Medium text-20 leading-120`}
+            className={`absolute top-661 left-420 text-primary-white font-Menda_Medium text-20 leading-[120px]`}
           >
             {symbolInfo[2].symbol}
           </p>
@@ -90,7 +90,7 @@ const Symbols = () => {
             className={`absolute top-316 left-604 w-315`}
           />
           <p
-            className={`absolute top-358 left-771 text-primary-white font-Menda_Medium text-20 leading-120`}
+            className={`absolute top-358 left-771 text-primary-white font-Menda_Medium text-20 leading-[120px]`}
           >
             {symbolInfo[3].symbol}
           </p>
@@ -115,7 +115,9 @@ const Symbols = () => {
               }`}
             >
               <p className={`font-medium`}>{item.symbol}</p>
-              <p className={`font-Pretendard_Light leading-27 tracking-[-1px]`}>
+              <p
+                className={`font-Pretendard_Light leading-[27px] tracking-[-1px]`}
+              >
                 {item.info}
               </p>
             </div>

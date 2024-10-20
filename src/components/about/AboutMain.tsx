@@ -61,7 +61,7 @@ const AboutMain = () => {
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           transition={{ duration: 1.5 }}
-          className={`font-Menda_Medium text-17 md:text-14 sm:text-12 text-primary-white leading-30 sm:leading-14 mt-16 sm:mt-20`}
+          className={`font-Menda_Medium text-17 md:text-14 sm:text-12 text-primary-white leading-[30px] sm:leading-[14px] mt-16 sm:mt-20`}
         >
           SO IN CHRIST WE, FORM ONE BODY, BELONGS TO ALL THE OTHERS.
         </motion.p>
@@ -116,7 +116,7 @@ const AboutMain = () => {
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           transition={{ duration: 1.5, delay: 1 }}
-          className={`flex flex-col items-center font-Pretendard_SemiBold text-20 md:text-16 leading-33`}
+          className={`flex flex-col items-center font-Pretendard_SemiBold text-20 md:text-16 leading-[33px]`}
         >
           <p>자신의 능력과 성취에만 집중하여 서로 경쟁하는 사고방식에서</p>
           <p>벗어나 하나님의 뜻을 깨닫는 것은 중요합니다.</p>

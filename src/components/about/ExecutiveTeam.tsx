@@ -12,7 +12,7 @@ const ExecutiveTeam = ({ team }: Props) => {
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ duration: 1 }}
-        className={`hidden lg:flex gap-34 text-22 text-primary-white leading-30 tracking-[-1px]`}
+        className={`hidden lg:flex gap-34 text-22 text-primary-white leading-[30px] tracking-[-1px]`}
       >
         <p className={`font-Pretendard_Regular w-100`}>{team.teamName}</p>
         <div className={`flex flex-col gap-10`}>
@@ -43,7 +43,7 @@ const ExecutiveTeam = ({ team }: Props) => {
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ duration: 1 }}
-        className={`lg:hidden flex flex-col w-full text-14 md:text-18 text-primary-white leading-30 tracking-[-1px]`}
+        className={`lg:hidden flex flex-col w-full text-14 md:text-18 text-primary-white leading-[30px] tracking-[-1px]`}
       >
         <div className={`flex gap-17`}>
           <p className={`text-right sm:w-100 md:w-200 font-Pretendard_Regular`}>

@@ -12,7 +12,7 @@ const ExecutiveHeader = ({ header }: Props) => {
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ duration: 1 }}
-        className={`hidden lg:flex flex-col gap-12 w-185 text-22 text-primary-white leading-30 tracking-[-1px]`}
+        className={`hidden lg:flex flex-col gap-12 w-185 text-22 text-primary-white leading-[30px] tracking-[-1px]`}
       >
         {header.position?.map((item) => (
           <div key={item.id} className={`flex justify-between`}>
@@ -26,7 +26,7 @@ const ExecutiveHeader = ({ header }: Props) => {
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ duration: 1 }}
-        className={`lg:hidden flex flex-col w-full text-14 md:text-18 text-primary-white leading-30 tracking-[-1px]`}
+        className={`lg:hidden flex flex-col w-full text-14 md:text-18 text-primary-white leading-[30px] tracking-[-1px]`}
       >
         {header.position?.map((item) => (
           <div key={item.id} className={`flex gap-17`}>

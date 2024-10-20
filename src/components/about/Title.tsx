@@ -5,7 +5,7 @@ interface Props {
 const Title = ({ children }: Props) => {
   return (
     <div
-      className={`w-full font-Organetto_ExtBold text-25 sm:text-15 text-primary-white leading-120 text-center mb-50`}
+      className={`w-full font-Organetto_ExtBold text-25 sm:text-15 text-primary-white leading-[120px] text-center mb-50`}
     >
       {children}
     </div>

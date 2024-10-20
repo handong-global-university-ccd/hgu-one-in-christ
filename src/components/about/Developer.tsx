@@ -18,7 +18,7 @@ const Developer = () => {
           className={`w-90 h-auto`}
         />
         <p
-          className={`font-Pretendard_Light text-primary-white text-22 md:text-18 sm:text-14 leading-30 tracking-[-1px] `}
+          className={`font-Pretendard_Light text-primary-white text-22 md:text-18 sm:text-14 leading-[30px] tracking-[-1px] `}
         >
           박민지
         </p>
