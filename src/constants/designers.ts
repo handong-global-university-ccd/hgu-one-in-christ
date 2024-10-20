@@ -8,7 +8,7 @@ export const DESIGNERS = [
     email: "sbg6901@gmail.com",
     img: "images/designers/ux/SangilKang.webp",
     description:
-      "여러 갈래로 펼쳐진 길을 두고 선택의 고민에 빠지는 지금이지만, 훗날 뒤돌아봤을 때 그 길을 선택하길 잘했다고 웃으며 회상할 수 있기를",
+      "여러 갈래로 펼쳐진 길을 두고 선택의 고민에 빠지는 지금이지만,\n훗날 뒤돌아봤을 때 그 길을 선택하길 잘했다고 웃으며 회상할 수 있기를",
     works: [
       {
         work: WORKS.UX,
@@ -1062,7 +1062,7 @@ export const DESIGNERS = [
     nameKo: "임예담",
     nameEng: "Yedam Im",
     email: "nenedam@naver.com",
-    img: "images/designers/comm/YedamIm.webp",
+    img: "images/designers/comm/ImYedam.webp",
     description:
       "믿음은 바라는 것들의 확신이요, 보이지 않는 것들의 증거입니다. Now faith is confidence in what we hope for and assurance about what we do not see. Hebrews 11:1",
     works: [
@@ -1126,7 +1126,7 @@ export const DESIGNERS = [
     email: "jeon.ueunc@gmail.com",
     img: "images/designers/comm/UeunJeon.webp",
     description:
-      "우리가 진정 자유로운 학교라고 여기는 곳도 실은 자유로운 사회만큼이나 실현하기 어렵고, 내적 모순에도 그 못지않게 취약할지도 모른다. 하지만 자유만큼은 유일한 독재자로 언제나 허용해야 마땅하다. 노먼 포터(최성민 옮김), ⌜디자이너란 무엇인가: 사물·장소·메시지 (3판)⌟",
+      "우리가 진정 자유로운 학교라고 여기는 곳도 실은 자유로운 사회만큼이나 실현하기 어렵고, 내적 모순에도 그 못지않게 취약할지도 모른다. 하지만 자유만큼은 유일한 독재자로 언제나 허용해야 마땅하다.\n노먼 포터(최성민 옮김), ⌜디자이너란 무엇인가: 사물·장소·메시지 (3판)⌟",
     works: [
       {
         work: WORKS.COMMUNICATION,
@@ -1249,7 +1249,7 @@ export const DESIGNERS = [
     id: 62,
     nameKo: "조은비 (A)",
     nameEng: "Eunbee Cho",
-    email: "egunbijo@gmail",
+    email: "egunbijo@gmail.com",
     img: "images/designers/comm/EunbeeCho_A.webp",
     description:
       "저는 캐릭터 디자인과 애니메이션을 사랑하는 디자이너입니다. 흥미로운 세계관을 설정하고 캐릭터를 디자인하는 과정을 좋아합니다. 언젠가 저만의 개성과 스토리를 담아 많은 이들에게 영감을 주는 애니메이션을 만드는 것이 저의 목표입니다.",

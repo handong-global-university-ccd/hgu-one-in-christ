@@ -37,7 +37,7 @@ const DesignerDetail = ({ designer }: Props) => {
         <motion.p
           onMouseEnter={middleEnter}
           onMouseLeave={defaultEnter}
-          className={`lg:w-[569px] md:w-[90%] w-full lg:leading-[37px] leading-[22px] font-Pretendard_Light lg:text-[21px] text-[12px] tracking-[-1px]`}
+          className={`lg:w-[569px] md:w-[90%] w-full lg:leading-[37px] leading-[22px] font-Pretendard_Light lg:text-[21px] text-[12px] tracking-[-1px] whitespace-pre-wrap`}
         >
           {designer?.description}
         </motion.p>

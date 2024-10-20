@@ -644,7 +644,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
         {
           id: 8,
           extension: "youtube",
-          src: "br3tCw0tmlc",
+          src: "jugzhZ1re5Y",
         },
         {
           id: 9,
