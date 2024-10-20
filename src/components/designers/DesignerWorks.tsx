@@ -18,13 +18,13 @@ const DesignerWorks = ({ designer }: Props) => {
       className={`flex justify-center`}
     >
       <div
-        className={`w-full flex flex-col gap-[29px] sm:gap-0 lg:pl-[65px] md:pl-[40px] sm:pl-0
-			lg:border-l md:border-l sm:border-t sm:pt-[45px]`}
+        className={`w-full flex flex-col gap-29 sm:gap-0 lg:pl-65 md:pl-40 sm:pl-0
+			lg:border-l md:border-l sm:border-t sm:pt-45`}
       >
         {designer?.works.map((work, index) => (
-          <div className={`mb-[33px]`}>
+          <div className={`mb-33`}>
             <p
-              className={`lg:hidden text-[12px] font-Menda_Medium
+              className={`lg:hidden text-12 font-Menda_Medium
 								leading-tight ${
                   work.category === "Communication"
                     ? "text-primary-orange"
@@ -33,7 +33,7 @@ const DesignerWorks = ({ designer }: Props) => {
                       : work.category === "UX"
                         ? "text-primary-purple"
                         : "text-primary-blue"
-                } leading-[30px] mb-[5px]`}
+                } leading-30 mb-5`}
             >
               {work.category.toUpperCase()} DESIGN
             </p>
@@ -43,11 +43,11 @@ const DesignerWorks = ({ designer }: Props) => {
               }`}
               className={`cursor-none`}
             >
-              <div key={index} className={`lg:w-[468px] md:w-full group`}>
+              <div key={index} className={`lg:w-468 md:w-full group`}>
                 <div className={`relative`}>
                   <img
                     src={`${DOMAIN}${work.work[work.worksId - 1].thumbnail}`}
-                    className={`w-full lg:hover:border-[3px] ${
+                    className={`w-full lg:hover:border-3 ${
                       work.category === "Communication"
                         ? "border-primary-orange"
                         : work.category === "Service"
@@ -59,7 +59,7 @@ const DesignerWorks = ({ designer }: Props) => {
                     alt={`${index}`}
                   />
                   <div
-                    className={`absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 hidden lg:w-[293px] h-[37px] lg:group-hover:flex justify-center items-center 
+                    className={`absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 hidden lg:w-293 h-37 lg:group-hover:flex justify-center items-center 
 														${
                               work.category === "Communication"
                                 ? "bg-primary-orange"
@@ -71,7 +71,7 @@ const DesignerWorks = ({ designer }: Props) => {
                             }`}
                   >
                     <p
-                      className={`text-primary-white text-center font-Pretendard_Bold text-[15px]`}
+                      className={`text-primary-white text-center font-Pretendard_Bold text-15`}
                     >
                       {work.work[work.worksId - 1].summary}
                     </p>

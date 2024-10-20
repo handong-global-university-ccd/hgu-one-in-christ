@@ -6,11 +6,11 @@ import Title from "./Title";
 const Executives = () => {
   return (
     <div
-      className={`lg:w-full w-[90%] flex flex-col items-center mb-[317px] sm:mb-[165px]`}
+      className={`lg:w-full w-[90%] flex flex-col items-center mb-317 sm:mb-165`}
     >
       <Title>EXECUTIVES</Title>
       <div
-        className="hidden lg:grid mt-[63px] gap-y-[66px] gap-x-[120px]"
+        className="hidden lg:grid mt-63 gap-y-66 gap-x-120"
         style={{ gridTemplateColumns: "185px 1fr 1fr" }}
       >
         {EXECUTIVES.map((item) =>
@@ -21,9 +21,7 @@ const Executives = () => {
           )
         )}
       </div>
-      <div
-        className={`lg:hidden flex flex-col items-center gap-[30px] md:gap-[50px]`}
-      >
+      <div className={`lg:hidden flex flex-col items-center gap-30 md:gap-50`}>
         <div>
           <ExecutiveHeader header={EXECUTIVES[0]} />
           <ExecutiveHeader header={EXECUTIVES[3]} />

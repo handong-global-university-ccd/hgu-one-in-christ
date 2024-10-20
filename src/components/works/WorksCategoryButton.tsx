@@ -79,20 +79,20 @@ const WorksCategoryButton = ({ category, setCategory }: Props) => {
       <motion.div
         onMouseEnter={smallEnter}
         onMouseLeave={defaultEnter}
-        className={`md:hidden sm:hidden w-screen fixed z-50 top-[177px] flex items-center justify-center bg-primary-white`}
+        className={`md:hidden sm:hidden w-screen fixed z-50 top-177 flex items-center justify-center bg-primary-white`}
       >
-        <div className={`flex justify-between gap-[22px]`}>
+        <div className={`flex justify-between gap-22`}>
           {category_list.map((item) => (
             <button
               key={item.id}
               className={
-                "w-[288px] h-[48px] relative flex items-center justify-center overflow-hidden duration-300 transition-all group"
+                "w-288 h-48 relative flex items-center justify-center overflow-hidden duration-300 transition-all group"
               }
               onClick={() => handleButton(item.id - 1)}
             >
               <div
-                className={`absolute w-[288px] h-[48px] flex justify-center items-center tracking-[-1px]
-							font-Organetto_ExtBold text-[15px] ${item.color} text-primary-white
+                className={`absolute w-288 h-48 flex justify-center items-center tracking-[-1px]
+							font-Organetto_ExtBold text-15 ${item.color} text-primary-white
 							duration-300 transition-all transform ${
                 category === item.work ? "opacity-100" : "opacity-0"
               }
@@ -112,15 +112,13 @@ const WorksCategoryButton = ({ category, setCategory }: Props) => {
                 </p>
               </div>
               <div
-                className={`absolute w-[288px] h-[48px] flex justify-center items-center duration-300 transition-all transform translate-y-0 ${
+                className={`absolute w-288 h-48 flex justify-center items-center duration-300 transition-all transform translate-y-0 ${
                   category === item.work
                     ? "opacity-0 translate-y-full"
                     : "opacity-100"
                 } group-hover:translate-y-full group-hover:opacity-0 group-focus:translate-y-full group-focus:opacity-0`}
               >
-                <p
-                  className={`font-Organetto_ExtBold text-[15px] tracking-[-1px]`}
-                >
+                <p className={`font-Organetto_ExtBold text-15 tracking-[-1px]`}>
                   {item.work} DESIGN
                 </p>
               </div>
@@ -131,23 +129,23 @@ const WorksCategoryButton = ({ category, setCategory }: Props) => {
 
       {/* md, sm 태블릿 모바일 뷰 카테고리 메뉴 */}
       <div
-        className={`lg:hidden sm:mt-[166px] md:mt-[190px] w-[90%] flex justify-between`}
+        className={`lg:hidden sm:mt-166 md:mt-190 w-[90%] flex justify-between`}
       >
         <img
           src={`${DOMAIN}images/icon/prevIcon.webp`}
-          className={`w-[7px] md:w-[10px] mr-[10px] ${
-            parseInt(currItem) > 0 && "block"
-          } ${parseInt(currItem) === 0 && "hidden"}`}
+          className={`w-7 md:w-10 mr-10 ${parseInt(currItem) > 0 && "block"} ${
+            parseInt(currItem) === 0 && "hidden"
+          }`}
           alt="prevIcon"
           onClick={() => handleButtonMob(-1)}
         />
         <div
-          className={`w-[7px] md:w-[10px] mr-[10px] ${
-            parseInt(currItem) > 0 && "hidden"
-          } ${parseInt(currItem) === 0 && "block"}`}
+          className={`w-7 md:w-10 mr-10 ${parseInt(currItem) > 0 && "hidden"} ${
+            parseInt(currItem) === 0 && "block"
+          }`}
         ></div>
         <p
-          className={`font-Organetto_ExtBold text-[13px] ${
+          className={`font-Organetto_ExtBold text-13 ${
             category_list[parseInt(currItem)].work === "COMMUNICATION"
               ? "text-primary-orange"
               : category_list[parseInt(currItem)].work === "SERVICE"
@@ -161,14 +159,14 @@ const WorksCategoryButton = ({ category, setCategory }: Props) => {
         </p>
         <img
           src={`${DOMAIN}images/icon/nextIcon.webp`}
-          className={`w-[7px] md:w-[10px] ml-[10px] ${
+          className={`w-7 md:w-10 ml-10 ${
             parseInt(currItem) < category_list.length - 1 && "block"
           } ${parseInt(currItem) === category_list.length - 1 && "hidden"}`}
           alt="nextIcon"
           onClick={() => handleButtonMob(1)}
         />
         <div
-          className={`w-[7px] md:w-[10px] ml-[10px] ${
+          className={`w-7 md:w-10 ml-10 ${
             parseInt(currItem) < category_list.length - 1 && "hidden"
           }  ${parseInt(currItem) === category_list.length - 1 && "block"}`}
         ></div>

@@ -19,7 +19,7 @@ const WorkList = ({ category }: Props) => {
     <motion.div
       onMouseEnter={workListEnter}
       onMouseLeave={defaultEnter}
-      className="grid grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-[22px] sm:gap-[14px] mt-[20px] lg:mt-[267px] lg:mb-[206px] sm:w-[90%] md:w-[90%]"
+      className="grid grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-22 sm:gap-14 mt-20 lg:mt-267 lg:mb-206 sm:w-[90%] md:w-[90%]"
     >
       {works.map((work, index) => (
         <Link key={index} to={`${PATHS.WORKS}/${category}/${work.id}`}>
@@ -35,9 +35,9 @@ const WorkList = ({ category }: Props) => {
               <div className={`relative`}>
                 <img
                   src={`${DOMAIN}${work.thumbnail}`}
-                  className={`w-[288px] h-[216px] sm:h-auto
-									sm:w-full my-[10px]
-									lg:group-hover:border-[2px] transition-all duration-100 ${
+                  className={`w-288 h-216 sm:h-auto
+									sm:w-full my-10
+									lg:group-hover:border-2 transition-all duration-100 ${
                     category === "COMMUNICATION"
                       ? "border-primary-orange"
                       : category === "SERVICE"
@@ -52,7 +52,7 @@ const WorkList = ({ category }: Props) => {
                   className={`absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex justify-center items-center`}
                 >
                   <div
-                    className={`hidden lg:w-[220px] lg:h-[24px] lg:group-hover:flex justify-center items-center  
+                    className={`hidden lg:w-220 lg:h-24 lg:group-hover:flex justify-center items-center  
 												${
                           category === "COMMUNICATION"
                             ? "bg-primary-orange"
@@ -64,7 +64,7 @@ const WorkList = ({ category }: Props) => {
                         }`}
                   >
                     <p
-                      className={` text-primary-white text-center font-Pretendard_Bold text-[12px]`}
+                      className={` text-primary-white text-center font-Pretendard_Bold text-12`}
                     >
                       {work.summary}
                     </p>
@@ -73,13 +73,11 @@ const WorkList = ({ category }: Props) => {
               </div>
 
               <div
-                className={`w-[288px] mb-[29px] sm:w-full sm:mb-[20px] font-TT_Firs_Light text-primary-white text-[15px] sm:text-[11px]`}
+                className={`w-288 mb-29 sm:w-full sm:mb-20 font-TT_Firs_Light text-primary-white text-15 sm:text-11`}
               >
                 <p>{work.title}</p>
                 <div
-                  className={`flex ${
-                    work.designer.length > 4 && "text-[10px]"
-                  }`}
+                  className={`flex ${work.designer.length > 4 && "text-10"}`}
                 >
                   {work.designer.map((item, index, designer) => (
                     <React.Fragment key={index}>

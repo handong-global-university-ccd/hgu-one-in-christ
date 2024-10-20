@@ -67,7 +67,7 @@ const ShowDate = () => {
           onMouseEnter={bigEnter}
           onMouseLeave={defaultEnter}
           ref={ref}
-          className={`w-full lg:max-w-lg h-[100vh] flex justify-between items-center font-Menda_Medium text-[46px] text-primary-white`}
+          className={`w-full lg:max-w-lg h-[100vh] flex justify-between items-center font-Menda_Medium text-46 text-primary-white`}
         >
           <p>2024.10.21</p>
           <motion.svg
@@ -94,10 +94,10 @@ const ShowDate = () => {
       {/* 모바일 */}
       <div
         ref={mobRef}
-        className={`lg:hidden flex w-full mt-[150px]  justify-center items-center`}
+        className={`lg:hidden flex w-full mt-150 justify-center items-center`}
       >
         <div
-          className={`flex flex-col items-center font-Menda_Medium text-[21px] md:text-[25px] text-primary-white`}
+          className={`flex flex-col items-center font-Menda_Medium text-21 md:text-25 text-primary-white`}
         >
           <p>2024.10.21</p>
           <motion.svg

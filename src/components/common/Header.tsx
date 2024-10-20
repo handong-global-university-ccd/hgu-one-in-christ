@@ -48,7 +48,7 @@ const Header = () => {
       <motion.header
         onMouseEnter={smallEnter}
         onMouseLeave={defaultEnter}
-        className={`z-[100] fixed top-0 w-full h-[64px] flex justify-center items-center ${
+        className={`z-[100] fixed top-0 w-full h-64 flex justify-center items-center ${
           toggleOpen ? "" : "md:border-b sm:border-b"
         } lg:backdrop-blur-sm md:bg-primary-black sm:bg-primary-black`}
       >
@@ -57,10 +57,10 @@ const Header = () => {
             <img
               src={`${DOMAIN}images/header/logo.webp`}
               alt="one in christ"
-              className="w-[13.625rem] sm:w-[157px]"
+              className="w-218 sm:w-157"
             />
           </Link>
-          <div className="md:hidden sm:hidden flex items-center gap-x-[48px]">
+          <div className="md:hidden sm:hidden flex items-center gap-x-48">
             {button_list.map((item) => (
               <Link
                 key={item.id}
@@ -77,13 +77,13 @@ const Header = () => {
             {toggleOpen ? (
               <img
                 src={`${DOMAIN}images/header/closeIcon.webp`}
-                className={`w-[16px]`}
+                className={`w-16`}
                 onClick={handleToggle}
               />
             ) : (
               <img
                 src={`${DOMAIN}images/header/hamburger.webp`}
-                className={`w-[21px]`}
+                className={`w-21`}
                 onClick={handleToggle}
               />
             )}
@@ -92,7 +92,7 @@ const Header = () => {
       </motion.header>
       {toggleOpen && (
         <div
-          className={`lg:hidden fixed z-[100] w-full top-[64px] bg-primary-black border-b pb-[10px]`}
+          className={`lg:hidden fixed z-[100] w-full top-64 bg-primary-black border-b pb-10`}
         >
           {button_list.map((item) => (
             <div>

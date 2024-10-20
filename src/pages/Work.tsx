@@ -29,7 +29,7 @@ const Work = () => {
         <PageInfo>WORKS</PageInfo>
       </div>
       <div
-        className={`w-[90%] lg:w-full lg:max-w-lg flex sm:flex-col justify-between sm:gap-[34px] mt-[281px] md:mt-[230px] sm:mt-[165px] mb-[191px]`}
+        className={`w-[90%] lg:w-full lg:max-w-lg flex sm:flex-col justify-between sm:gap-34 mt-281 md:mt-230 sm:mt-165 mb-191`}
       >
         <WorkDesigner work={work} />
         <WorkContents category={category} work={work} />

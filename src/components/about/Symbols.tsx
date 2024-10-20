@@ -39,7 +39,7 @@ const Symbols = () => {
 
   return (
     <>
-      <div className={`hidden lg:block w-full lg:max-w-lg mb-[374px]`}>
+      <div className={`hidden lg:block w-full lg:max-w-lg mb-374`}>
         <Title>SYMBOLS</Title>
         <motion.div
           onMouseEnter={middleEnter}
@@ -51,10 +51,10 @@ const Symbols = () => {
             whileTap={{ scale: 0.9 }}
             transition={{ type: "spring", stiffness: 400, damping: 10 }}
             src={`${DOMAIN}${symbolInfo[0].imgSrc}`}
-            className={`absolute top-[47px] left-[620px] w-[273px]`}
+            className={`absolute top-47 left-620 w-273`}
           />
           <p
-            className={`absolute top-[46px] left-[726px] text-primary-white font-Menda_Medium text-[20px] leading-[120px]`}
+            className={`absolute top-46 left-726 text-primary-white font-Menda_Medium text-20 leading-120`}
           >
             {symbolInfo[0].symbol}
           </p>
@@ -63,10 +63,10 @@ const Symbols = () => {
             whileTap={{ scale: 0.9 }}
             transition={{ type: "spring", stiffness: 400, damping: 10 }}
             src={`${DOMAIN}${symbolInfo[1].imgSrc}`}
-            className={`absolute top-[193px] left-[325px] w-[270px]`}
+            className={`absolute top-193 left-325 w-270`}
           />
           <p
-            className={`absolute top-[185px] left-[202px] text-primary-white font-Menda_Medium text-[20px] leading-[120px]`}
+            className={`absolute top-185 left-202 text-primary-white font-Menda_Medium text-20 leading-120`}
           >
             {symbolInfo[1].symbol}
           </p>
@@ -75,10 +75,10 @@ const Symbols = () => {
             whileTap={{ scale: 0.9 }}
             transition={{ type: "spring", stiffness: 400, damping: 10 }}
             src={`${DOMAIN}${symbolInfo[2].imgSrc}`}
-            className={`absolute top-[435px] left-[354px] w-[356px]`}
+            className={`absolute top-435 left-354 w-356`}
           />
           <p
-            className={`absolute top-[661px] left-[420px] text-primary-white font-Menda_Medium text-[20px] leading-[120px]`}
+            className={`absolute top-661 left-420 text-primary-white font-Menda_Medium text-20 leading-120`}
           >
             {symbolInfo[2].symbol}
           </p>
@@ -87,10 +87,10 @@ const Symbols = () => {
             whileTap={{ scale: 0.9 }}
             transition={{ type: "spring", stiffness: 400, damping: 10 }}
             src={`${DOMAIN}${symbolInfo[3].imgSrc}`}
-            className={`absolute top-[316px] left-[604px] w-[315px]`}
+            className={`absolute top-316 left-604 w-315`}
           />
           <p
-            className={`absolute top-[358px] left-[771px] text-primary-white font-Menda_Medium text-[20px] leading-[120px]`}
+            className={`absolute top-358 left-771 text-primary-white font-Menda_Medium text-20 leading-120`}
           >
             {symbolInfo[3].symbol}
           </p>
@@ -99,12 +99,12 @@ const Symbols = () => {
         <motion.div
           onMouseEnter={bigEnter}
           onMouseLeave={defaultEnter}
-          className={`mt-[858px] flex justify-between`}
+          className={`mt-858 flex justify-between`}
         >
           {symbolInfo.map((item) => (
             <div
               key={item.id}
-              className={`w-[289px] flex flex-col gap-[10px] text-[16px] text-primary-white ${
+              className={`w-289 flex flex-col gap-10 text-16 text-primary-white ${
                 item.symbol.includes("COMMUNICATION")
                   ? "hover:text-primary-orange"
                   : item.symbol.includes("SERVICE")
@@ -115,9 +115,7 @@ const Symbols = () => {
               }`}
             >
               <p className={`font-medium`}>{item.symbol}</p>
-              <p
-                className={`font-Pretendard_Light leading-[27px] tracking-[-1px]`}
-              >
+              <p className={`font-Pretendard_Light leading-27 tracking-[-1px]`}>
                 {item.info}
               </p>
             </div>
@@ -126,22 +124,22 @@ const Symbols = () => {
       </div>
       {/* 모바일 버전 */}
       <div
-        className={`hidden sm:flex md:flex flex-col w-[90%] h-[1300px] md:h-[1800px]`}
+        className={`hidden sm:flex md:flex flex-col w-[90%] h-1300 md:h-1800`}
       >
         <Title>SYMBOLS</Title>
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           transition={{ duration: 1 }}
-          className={`flex flex-col gap-[14px] mb-[44px] mt-[10px]`}
+          className={`flex flex-col gap-14 mb-44 mt-10`}
         >
           <img
             src={`${DOMAIN}${symbolInfo[0].imgMobSrc}`}
-            className={`w-[201px] md:w-[315px]`}
+            className={`w-201 md:w-315`}
             alt="comm-image"
           />
           <div
-            className={`font-Pretendard_Regular text-[13px] md:text-[16px]  text-primary-orange`}
+            className={`font-Pretendard_Regular text-13 md:text-16  text-primary-orange`}
           >
             <p>커뮤니케이션 디자인에서는 메시지가 명확하게 전달되야한다.</p>
             <p>사각형은 형태적으로 단순하고 직관적이며,</p>
@@ -153,15 +151,15 @@ const Symbols = () => {
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           transition={{ duration: 1 }}
-          className={`flex flex-col gap-[14px] items-end mb-[44px]`}
+          className={`flex flex-col gap-14 items-end mb-44`}
         >
           <img
             src={`${DOMAIN}${symbolInfo[1].imgMobSrc}`}
-            className={`w-[173px] md:w-[295px]`}
+            className={`w-173 md:w-295`}
             alt="comm-image"
           />
           <div
-            className={`font-Pretendard_Regular text-[13px] md:text-[16px] text-primary-red text-right`}
+            className={`font-Pretendard_Regular text-13 md:text-16 text-primary-red text-right`}
           >
             <p>서비스 디자인은 다양한 사용자를 이해하고</p>
             <p>여러 이해관계자와 상황을 고려하여 접근해야 한다.</p>
@@ -173,15 +171,15 @@ const Symbols = () => {
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           transition={{ duration: 1 }}
-          className={`flex flex-col gap-[14px] left-0 mb-[44px]`}
+          className={`flex flex-col gap-14 left-0 mb-44`}
         >
           <img
             src={`${DOMAIN}${symbolInfo[2].imgMobSrc}`}
-            className={`w-[175px] md:w-[300px]`}
+            className={`w-175 md:w-300`}
             alt="comm-image"
           />
           <div
-            className={`font-Pretendard_Regular text-[13px] md:text-[16px] text-primary-purple`}
+            className={`font-Pretendard_Regular text-13 md:text-16 text-primary-purple`}
           >
             <p>UX/UI 디자인에서는 사용자가 제품이나 서비스를 사용하는</p>
             <p>과정에서 느끼는 만족감과 편의성을 최대화하는 것이</p>
@@ -194,15 +192,15 @@ const Symbols = () => {
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           transition={{ duration: 1 }}
-          className={`w-full flex flex-col gap-[14px] items-end`}
+          className={`w-full flex flex-col gap-14 items-end`}
         >
           <img
             src={`${DOMAIN}${symbolInfo[3].imgMobSrc}`}
-            className={`w-[165px] md:w-[290px]`}
+            className={`w-165 md:w-290`}
             alt="comm-image"
           />
           <div
-            className={`font-Pretendard_Regular text-[13px] md:text-[16px] text-primary-blue text-right`}
+            className={`font-Pretendard_Regular text-13 md:text-16 text-primary-blue text-right`}
           >
             <p>제품 디자인은 새로운 아이디어와 기능을 통한</p>
             <p>혁신적인 접근이 중요하다. 반원은 한쪽이 직선이고</p>
