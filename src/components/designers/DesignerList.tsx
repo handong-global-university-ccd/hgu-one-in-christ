@@ -21,34 +21,43 @@ const DesignerList = ({ designer }: Props) => {
         onMouseEnter={smallEnter}
         onMouseLeave={defaultEnter}
         className="w-[90%] lg:w-full h-69 sm:h-50 
+									flex items-center group
+									"
+      >
+        <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ duration: 1 }}
+          className="w-[90%] lg:w-full h-69 sm:h-50 
 									flex items-center
 								text-primary-white lg:hover:text-primary-black md:hover:text-primary-black text-18 sm:text-14 
 									lg:px-24 gap-151 sm:gap-50
 								lg:hover:bg-primary-white md:hover:bg-primary-white 
-									group
+									
 									"
-      >
-        <p className="font-Pretendard_Regular w-90 sm:w-70 pl-10">
-          {designer.nameKo}
-        </p>
-        <div className={`sm:hidden flex gap-20 sm:gap-10`}>
-          {designer.works[0].category === "UX" ? (
-            <p className="font-TT_Firs_Light">UX Design</p>
-          ) : (
-            designer.works.map((work) => (
-              <p
-                key={`${work.category}${work.worksId}`}
-                className="font-TT_Firs_Light"
-              >
-                {work.category} Design
-              </p>
-            ))
-          )}
-        </div>
+        >
+          <p className="font-Pretendard_Regular w-90 sm:w-70 pl-10">
+            {designer.nameKo}
+          </p>
+          <div className={`sm:hidden flex gap-20 sm:gap-10`}>
+            {designer.works[0].category === "UX" ? (
+              <p className="font-TT_Firs_Light">UX Design</p>
+            ) : (
+              designer.works.map((work) => (
+                <p
+                  key={`${work.category}${work.worksId}`}
+                  className="font-TT_Firs_Light"
+                >
+                  {work.category} Design
+                </p>
+              ))
+            )}
+          </div>
 
-        <p className={`hidden sm:block font-TT_Firs_Light`}>
-          {designer.nameEng}
-        </p>
+          <p className={`hidden sm:block font-TT_Firs_Light`}>
+            {designer.nameEng}
+          </p>
+        </motion.div>
 
         <motion.img
           onMouseEnter={bigEnter}

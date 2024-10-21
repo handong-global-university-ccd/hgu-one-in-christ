@@ -11,7 +11,12 @@ const DesignerDetail = ({ designer }: Props) => {
   const { personEnter, middleEnter, defaultEnter } = useMousePosition();
 
   return (
-    <div className={`w-full sm:flex sm:mb-45`}>
+    <motion.div
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      transition={{ duration: 1 }}
+      className={`w-full sm:flex sm:mb-45`}
+    >
       <div className={`flex flex-col items-start text-primary-white`}>
         <motion.img
           onMouseEnter={personEnter}
@@ -35,6 +40,9 @@ const DesignerDetail = ({ designer }: Props) => {
           {designer?.email}
         </motion.p>
         <motion.p
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ duration: 2 }}
           onMouseEnter={middleEnter}
           onMouseLeave={defaultEnter}
           className={`lg:w-569 md:w-[90%] w-full lg:leading-[37px] leading-[22px] font-Pretendard_Light lg:text-21 text-12 tracking-[-1px] whitespace-pre-wrap`}
@@ -42,7 +50,7 @@ const DesignerDetail = ({ designer }: Props) => {
           {designer?.description}
         </motion.p>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
