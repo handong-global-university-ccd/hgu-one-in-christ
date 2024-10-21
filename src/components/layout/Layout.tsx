@@ -63,7 +63,7 @@ const Layout = ({ children }: LayoutProps) => {
           alt="up-button"
           className={`${
             isVisible ? "fixed" : "hidden"
-          } w-50 lg:bottom-[30%] lg:right-150 bottom-[5%] right-[5%]`}
+          } w-50 lg:bottom-[8%] lg:right-[5%] bottom-[5%] right-[5%]`}
           onClick={handleUp}
         />
       </main>

@@ -41,7 +41,7 @@ const WorkList = ({ category }: Props) => {
                     alt={`${work.title}`}
                   />
                   <div
-                    className={`absolute inset-0 border-0 group-hover:border-2 transition-all duration-100 ${
+                    className={`absolute inset-0 border-0 lg:group-hover:border-2 transition-all duration-100 ${
                       category === "COMMUNICATION"
                         ? "border-primary-orange"
                         : category === "SERVICE"
