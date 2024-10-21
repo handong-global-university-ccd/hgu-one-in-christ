@@ -55,7 +55,7 @@ const HomeStart = () => {
           }}
           className={`lg:max-w-lg md:w-[90%] flex flex-col items-center gap-24`}
         >
-          <div className={`relative -z-10 w-screen`}>
+          <div className={`sm:hidden relative -z-10 w-screen`}>
             <video
               className=""
               src={`${DOMAIN}images/home/background.mp4`}
