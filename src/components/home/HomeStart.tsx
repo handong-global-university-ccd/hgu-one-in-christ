@@ -8,19 +8,19 @@ const Texts = [
     id: 1,
     engContent: "SYNERGIZE",
     korContent: "함께 일해 조화를 이루다",
-    delay: 0,
+    delay: 2000,
   },
   {
     id: 2,
     engContent: "SYMPATHY",
     korContent: "마음을 함께하다",
-    delay: 1500,
+    delay: 4000,
   },
   {
     id: 3,
     engContent: "SYNOECISM",
     korContent: "하나의 공동체로 통합되다",
-    delay: 3000,
+    delay: 6000,
   },
 ];
 

@@ -15,16 +15,18 @@ const StartContent = ({ children, korContent, delay }: Props) => {
   useEffect(() => {
     const initialTimeout = setTimeout(() => {
       setShowKorContent(true);
+      setTimeout(() => setShowKorContent(false), 2000);
 
       const interval = setInterval(() => {
-        setShowKorContent((prev) => !prev);
-      }, 5000); // 전체 사이클이 5초
+        setShowKorContent(true);
+        setTimeout(() => setShowKorContent(false), 2000); // 2초 동안 한국어 표시
+      }, 8000); // 8초 주기
 
       return () => clearInterval(interval);
     }, delay);
 
     return () => clearTimeout(initialTimeout);
-  }, [delay]);
+  }, []);
 
   return (
     <motion.div
@@ -42,7 +44,7 @@ const StartContent = ({ children, korContent, delay }: Props) => {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            transition={{ duration: 1 }}
+            transition={{ duration: 0.5 }}
             className={`absolute top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%] font-Pretendard_Regular text-23 w-250 text-center`}
           >
             {korContent}
@@ -53,7 +55,7 @@ const StartContent = ({ children, korContent, delay }: Props) => {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            transition={{ duration: 1 }}
+            transition={{ duration: 0.5 }}
             className={`absolute top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%]`}
           >
             {children}
