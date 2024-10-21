@@ -187,7 +187,7 @@ const Symbols = () => {
           >
             <p>UX/UI 디자인에서는 사용자가 제품이나 서비스를 사용하는</p>
             <p>과정에서 느끼는 만족감과 편의성을 최대화하는 것이</p>
-            <p>중요합니다. 원은 중심에서 모든 점이 동일한 거리에 </p>
+            <p>중요합니다. 원은 중심에서 모든 점이 동일한 거리에</p>
             <p>위치하여 균형을 이루고 심리적 안정감을 제공하는 특성으로</p>
             <p>UX/UI 디자인의 사용자 경험과 조화를 상징합니다.</p>
           </div>
@@ -204,7 +204,7 @@ const Symbols = () => {
             alt="comm-image"
           />
           <div
-            className={`font-Pretendard_Regular text-13 md:text-16 text-primary-blue text-right`}
+            className={`font-Pretendard_Regular text-13 md:text-16  text-right text-primary-blue`}
           >
             <p>제품 디자인은 새로운 아이디어와 기능을 통한</p>
             <p>혁신적인 접근이 중요하다. 반원은 한쪽이 직선이고</p>

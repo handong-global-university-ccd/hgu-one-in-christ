@@ -1,5 +1,6 @@
 import YouTube from "react-youtube";
 import Title from "./Title";
+import { motion } from "framer-motion";
 
 const Interviews = () => {
   return (
@@ -7,7 +8,12 @@ const Interviews = () => {
       className={`w-full lg:max-w-lg flex flex-col items-center mb-300 sm:mb-170`}
     >
       <Title>INTERVIEWS</Title>
-      <div className={`w-[90%] relative pb-[56.25%] mb-22`}>
+      <motion.div
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        transition={{ duration: 1.5 }}
+        className={`w-[90%] relative pb-[56.25%] mb-22`}
+      >
         <YouTube
           className={`absolute w-full h-full`}
           videoId="9KZscZuMj4k" //동영상 주소
@@ -23,8 +29,13 @@ const Interviews = () => {
             },
           }}
         />
-      </div>
-      <div className={`w-[90%] relative pb-[56.25%]`}>
+      </motion.div>
+      <motion.div
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        transition={{ duration: 1.5 }}
+        className={`w-[90%] relative pb-[56.25%]`}
+      >
         <YouTube
           className={`absolute w-full h-full`}
           videoId="E8oM6SBUrcI"
@@ -40,7 +51,7 @@ const Interviews = () => {
             },
           }}
         />
-      </div>
+      </motion.div>
     </div>
   );
 };

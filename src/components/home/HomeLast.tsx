@@ -10,7 +10,7 @@ const HomeLast: React.FC = () => {
   useEffect(() => {
     const intervalId = setInterval(() => {
       setCurrentIndex((prevIndex) => (prevIndex + 1) % Categories.length);
-    }, 5000);
+    }, 3000);
 
     return () => clearInterval(intervalId);
   }, []);
