@@ -64,6 +64,9 @@ const ShowDate = () => {
     <>
       <div className={`hidden w-full h-[100vh] lg:flex justify-center`}>
         <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ duration: 1.5 }}
           onMouseEnter={bigEnter}
           onMouseLeave={defaultEnter}
           ref={ref}
@@ -92,7 +95,10 @@ const ShowDate = () => {
         </motion.div>
       </div>
       {/* 모바일 */}
-      <div
+      <motion.div
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        transition={{ duration: 1.5, delay: 2 }}
         ref={mobRef}
         className={`lg:hidden flex w-full mt-150 justify-center items-center`}
       >
@@ -119,7 +125,7 @@ const ShowDate = () => {
           </motion.svg>
           <p>2024.10.28</p>
         </div>
-      </div>
+      </motion.div>
     </>
   );
 };
