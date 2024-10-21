@@ -8,16 +8,19 @@ const Texts = [
     id: 1,
     engContent: "SYNERGIZE",
     korContent: "함께 일해 조화를 이루다",
+    delay: 0,
   },
   {
     id: 2,
     engContent: "SYMPATHY",
     korContent: "마음을 함께하다",
+    delay: 1500,
   },
   {
     id: 3,
     engContent: "SYNOECISM",
     korContent: "하나의 공동체로 통합되다",
+    delay: 3000,
   },
 ];
 
@@ -32,8 +35,12 @@ const HomeStart = () => {
         <div
           className={`w-full md:w-[90%] max-w-lg pt-142 mb-268 md:mb-150 flex justify-between`}
         >
-          {Texts.map((text) => (
-            <StartContent key={text.id} korContent={text.korContent}>
+          {Texts.map((text, idx) => (
+            <StartContent
+              key={text.id}
+              korContent={text.korContent}
+              delay={idx * 2500}
+            >
               {text.engContent}
             </StartContent>
           ))}
@@ -56,7 +63,6 @@ const HomeStart = () => {
           <div
             className={`flex flex-col items-center text-primary-white font-Pretendard_Regular text-22 leading-0`}
           >
-            {/* 폰트 변경하지 말것 */}
             <p>2024 HANDONG GLOBAL UNIVERSITY</p>
             <p>CONTENTS CONVERGENCE DESIGN GRADUATION EXHIBITION</p>
           </div>

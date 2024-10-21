@@ -54,7 +54,7 @@ const DesignerList = ({ designer }: Props) => {
           onMouseEnter={bigEnter}
           onMouseLeave={defaultEnter}
           src={`${DOMAIN}${thumbnail.work[thumbnail.worksId - 1].thumbnail}`}
-          className="hidden w-416 lg:group-hover:block group-hover:fixed absolute top-327 right-300"
+          className="hidden w-416 lg:group-hover:block fixed top-327 right-[20%]"
         />
       </motion.div>
       <div className={`w-full md:w-[90%] sm:w-screen border-b`}></div>
