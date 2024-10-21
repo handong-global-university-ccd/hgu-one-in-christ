@@ -60,6 +60,7 @@ const HomeStart = () => {
               className={"sm:hidden"}
               src={`${DOMAIN}images/home/background.mp4`}
               autoPlay
+              playsInline
               muted
               loop
             ></video>
