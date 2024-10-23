@@ -1,10 +1,17 @@
 import { DOMAIN } from "../../constants/paths";
+import { useMousePosition } from "../cursor/Context";
 import Title from "./Title";
 import { motion } from "framer-motion";
 
 const Developer = () => {
+  const { smallEnter, defaultEnter } = useMousePosition();
+
   return (
-    <div className={`flex flex-col items-center mb-309`}>
+    <motion.div
+      onMouseEnter={smallEnter}
+      onMouseLeave={defaultEnter}
+      className={`flex flex-col items-center mb-309`}
+    >
       <Title>DEVELOPER</Title>
       <motion.div
         initial={{ opacity: 0 }}
@@ -23,7 +30,7 @@ const Developer = () => {
           박민지
         </p>
       </motion.div>
-    </div>
+    </motion.div>
   );
 };
 

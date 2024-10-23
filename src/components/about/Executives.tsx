@@ -1,11 +1,17 @@
 import { EXECUTIVES } from "../../constants/executives";
+import { useMousePosition } from "../cursor/Context";
 import ExecutiveHeader from "./ExecutiveHeader";
 import ExecutiveTeam from "./ExecutiveTeam";
 import Title from "./Title";
+import { motion } from "framer-motion";
 
 const Executives = () => {
+  const { smallEnter, defaultEnter } = useMousePosition();
+
   return (
-    <div
+    <motion.div
+      onMouseEnter={smallEnter}
+      onMouseLeave={defaultEnter}
       className={`lg:w-full w-[90%] flex flex-col items-center mb-317 sm:mb-165`}
     >
       <Title>EXECUTIVES</Title>
@@ -31,7 +37,7 @@ const Executives = () => {
         <ExecutiveTeam team={EXECUTIVES[4]} />
         <ExecutiveTeam team={EXECUTIVES[5]} />
       </div>
-    </div>
+    </motion.div>
   );
 };
 
