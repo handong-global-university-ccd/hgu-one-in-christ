@@ -27,7 +27,7 @@ const WorkList = ({ category }: Props) => {
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ duration: 1.5 }}
-            className={`group cursor-none`}
+            className={`group lg:cursor-none`}
             key={work.id}
           >
             <div className="flex flex-col">

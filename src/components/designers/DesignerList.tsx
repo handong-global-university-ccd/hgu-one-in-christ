@@ -15,7 +15,7 @@ const DesignerList = ({ designer }: Props) => {
   return (
     <Link
       to={`${PATHS.DESIGNERS}/${designer.id}`}
-      className={`flex flex-col items-center cursor-none`}
+      className={`flex flex-col items-center lg:cursor-none`}
     >
       <motion.div
         onMouseEnter={smallEnter}
@@ -28,11 +28,11 @@ const DesignerList = ({ designer }: Props) => {
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           transition={{ duration: 1 }}
-          className="w-[90%] lg:w-full h-69 sm:h-50 
+          className="w-full h-69 sm:h-50 
 									flex items-center
 								text-primary-white lg:hover:text-primary-black md:hover:text-primary-black text-18 sm:text-14 
 									lg:px-24 gap-151 sm:gap-50
-								lg:hover:bg-primary-white md:hover:bg-primary-white 
+								lg:group-hover:bg-primary-white md:group-hover:bg-primary-white 
 									
 									"
         >

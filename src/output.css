@@ -7,10 +7,6 @@
 2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)
 */
 
-* {
-  cursor: none; /* 모든 요소에 커서를 숨김 */
-}
-
 *,
 ::before,
 ::after {

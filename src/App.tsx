@@ -47,7 +47,7 @@ const router = createBrowserRouter(
 
 function App() {
   return (
-    <div className={`cursor-none`}>
+    <div className={`lg:cursor-none`}>
       <CustomCursor />
       <RouterProvider router={router} />
     </div>
