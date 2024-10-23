@@ -44,7 +44,7 @@ const DesignerWorks = ({ designer }: Props) => {
               to={`${PATHS.WORKS}/${work.category.toUpperCase()}/${
                 work.work[work.worksId - 1].id
               }`}
-              className={`cursor-none`}
+              className={`lg:cursor-none`}
             >
               <div className={`lg:w-468 max-w-900 md:w-full group relative`}>
                 <div
