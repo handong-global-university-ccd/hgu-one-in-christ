@@ -33,7 +33,7 @@ const WorkList = ({ category }: Props) => {
             <div className="flex flex-col">
               <div className={`relative`}>
                 <div
-                  className={`relative w-288 h-216 sm:h-auto sm:w-full my-10 transition-all duration-100`}
+                  className={`relative lg:w-288 lg:h-216 h-auto w-full my-10 transition-all duration-100`}
                 >
                   <img
                     src={`${DOMAIN}${work.thumbnail}`}
