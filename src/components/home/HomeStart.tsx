@@ -65,11 +65,11 @@ const HomeStart = () => {
               loop
             ></video>
             <div
-              className={`absolute w-full md:w-[70%] top-[43%] lg:max-w-lg md:w-[90%] left-[50%] -translate-x-[50%]`}
+              className={`absolute w-full md:w-[70%] top-[40%] lg:max-w-lg md:w-[90%] left-[50%] -translate-x-[50%]`}
             >
               <img
                 src={`${DOMAIN}images/home/mainLogo.webp`}
-                className={`w-full`}
+                className={`w-full pb-[23.68px]`}
                 alt="logo"
               />
               <div
