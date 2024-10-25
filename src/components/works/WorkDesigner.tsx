@@ -59,6 +59,7 @@ const WorkDesigner = ({ work }: Props) => {
             >
               {work?.designer.map((item) => (
                 <div
+                  key={item.id}
                   className={`flex lg:gap-7 items-center gap-13 sm:w-auto md:w-auto`}
                 >
                   <p className={`text-11 lg:text-19`}>{item.nameKo}</p>
