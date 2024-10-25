@@ -35,7 +35,7 @@ const ContactModal = () => {
     <motion.div
       onMouseEnter={smallEnter}
       onMouseLeave={defaultEnter}
-      className={`fixed left-40 ${
+      className={`hidden lg:block fixed left-40 ${
         isOpen
           ? "bottom-40 -translate-y duration-700"
           : "bottom-[-274px] translate-y duration-700"
