@@ -94,6 +94,7 @@ const HomeStart = () => {
         >
           {Texts.map((text) => (
             <div
+              key={text.id}
               className={`w-full flex gap-27 font-Menda_Medium text-15 text-primary-white ${
                 text.id === 1
                   ? "justify-start"

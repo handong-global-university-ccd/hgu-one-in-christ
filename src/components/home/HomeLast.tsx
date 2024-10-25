@@ -27,7 +27,7 @@ const HomeLast: React.FC = () => {
       >
         <div className={`flex flex-col gap-30`}>
           {Categories.map((item) => (
-            <div className={`flex gap-38 items-center`}>
+            <div key={item.id} className={`flex gap-38 items-center`}>
               <p
                 className={`w-510 text-right font-Menda_Medium text-primary-white text-46`}
               >
@@ -69,7 +69,7 @@ const HomeLast: React.FC = () => {
       <div className="lg:hidden flex relative flex-col items-center justify-center mb-270 mt-150">
         <div className={`flex flex-col gap-15 md:gap-20`}>
           {Categories.map((item) => (
-            <div className={`flex gap-12 md:gap-15 items-center`}>
+            <div key={item.id} className={`flex gap-12 md:gap-15 items-center`}>
               <p
                 className={`w-163 md:w-280 text-right font-Menda_Medium text-primary-white text-15 md:text-25`}
               >
