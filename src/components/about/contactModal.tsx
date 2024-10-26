@@ -40,10 +40,10 @@ const ContactModal = () => {
           ? "bottom-40 -translate-y duration-700"
           : "bottom-[-274px] translate-y duration-700"
       }  w-220 flex flex-col tracking-[-1px] bg-primary-black`}
-      onClick={handleOpen}
     >
       <div
         className={`w-full h-36 bg-primary-white rounded-t-30 font-Organetto_ExtBold text-center inline-flex items-center justify-center text-primary-black text-14`}
+        onClick={handleOpen}
       >
         CONTACT
       </div>
