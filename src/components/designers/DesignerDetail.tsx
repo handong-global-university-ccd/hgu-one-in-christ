@@ -32,13 +32,14 @@ const DesignerDetail = ({ designer }: Props) => {
           <p className={`text-28`}>{designer?.nameKo}</p>
           <p className={`text-19`}>{designer?.nameEng}</p>
         </motion.div>
-        <motion.p
+        <motion.a
           onMouseEnter={middleEnter}
           onMouseLeave={defaultEnter}
+          href={`mailto:${designer?.email}?subject=한동대학교 콘텐츠융합디자인학부 졸업전시 문의`}
           className={`font-Pretendard_Regular text-17 mb-22`}
         >
           {designer?.email}
-        </motion.p>
+        </motion.a>
         <motion.p
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}

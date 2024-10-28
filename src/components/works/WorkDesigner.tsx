@@ -35,11 +35,14 @@ const WorkDesigner = ({ work }: Props) => {
                   {DESIGNERS[work.designer[0].id - 1].nameEng}
                 </p>
               </div>
-              <p
+              <a
+                href={`mailto:${
+                  DESIGNERS[work.designer[0].id - 1].email
+                }?subject=한동대학교 콘텐츠융합디자인학부 졸업전시 문의`}
                 className={`font-Pretendard_Regular sm:text-11 md:text-15 text-17`}
               >
                 {DESIGNERS[work.designer[0].id - 1].email}
-              </p>
+              </a>
             </motion.div>
           </div>
         </div>
@@ -63,11 +66,14 @@ const WorkDesigner = ({ work }: Props) => {
                   className={`flex lg:gap-7 items-center gap-13 sm:w-auto md:w-auto`}
                 >
                   <p className={`text-11 lg:text-19`}>{item.nameKo}</p>
-                  <p
+                  <a
+                    href={`mailto:${
+                      DESIGNERS[item.id - 1].email
+                    }?subject=한동대학교 콘텐츠융합디자인학부 졸업전시 문의`}
                     className={`text-11 lg:text-15 font-Pretendard_Regular lg:mr-12`}
                   >
                     {DESIGNERS[item.id - 1].email}
-                  </p>
+                  </a>
                 </div>
               ))}
             </div>
