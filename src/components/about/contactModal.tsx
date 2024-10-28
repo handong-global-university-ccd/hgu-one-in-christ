@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { useMousePosition } from "../cursor/Context";
 import { AnimatePresence, motion } from "framer-motion";
 import { DOMAIN } from "../../constants/paths";
@@ -26,11 +26,31 @@ const LEADER = [
 
 const ContactModal = () => {
   const { smallEnter, defaultEnter } = useMousePosition();
+  const [isVisible, setIsVisible] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
+
+  const handleScroll = () => {
+    const mainTop = window.scrollY;
+
+    if (mainTop > 200) {
+      setIsVisible(true);
+    } else {
+      setIsVisible(false);
+    }
+  };
 
   const handleOpen = () => {
     setIsOpen(!isOpen);
   };
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+    handleScroll();
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
   return (
     <>
@@ -41,7 +61,7 @@ const ContactModal = () => {
           isOpen
             ? "bottom-40 -translate-y duration-700"
             : "bottom-[-274px] translate-y duration-700"
-        }  w-220 flex flex-col tracking-[-1px] bg-primary-black`}
+        } w-220 flex flex-col tracking-[-1px] bg-primary-black`}
       >
         <div
           className={`w-full h-36 bg-primary-white rounded-t-30 font-Organetto_ExtBold text-center inline-flex items-center justify-center text-primary-black text-14`}
@@ -55,6 +75,7 @@ const ContactModal = () => {
         >
           {LEADER.map((item, i, leader) => (
             <div
+              key={item.id}
               className={`w-171 flex flex-col py-15 mx-25 leading-[30px] ${
                 leader.length - 1 !== i && "border-b"
               } border-primary-white`}
@@ -75,7 +96,9 @@ const ContactModal = () => {
       </motion.div>
       {/* 태블릿, 모바일 */}
       <div
-        className={`lg:hidden fixed bottom-[5%] left-[5%] flex flex-col items-start gap-10`}
+        className={`lg:hidden fixed bottom-[5%] left-[5%] flex flex-col items-start gap-10  ${
+          isVisible ? "fixed" : "hidden"
+        }`}
       >
         {isOpen && (
           <AnimatePresence>
@@ -85,10 +108,11 @@ const ContactModal = () => {
               animate={{ y: 0, opacity: 1 }}
               exit={{ y: 20, opacity: 0 }}
               transition={{ duration: 1 }}
-              className={`flex flex-col gap-8 ml-6`}
+              className={`flex flex-col gap-8 ml-6 `}
             >
               {LEADER.map((item) => (
                 <a
+                  key={item.id}
                   href={`mailto:${item.email}?subject=한동대학교 콘텐츠융합디자인학부 졸업전시 문의`}
                   className={`w-109 h-40 flex gap-7 items-center bg-primary-white rounded-20 p-8`}
                 >
