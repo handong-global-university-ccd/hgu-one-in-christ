@@ -10,4 +10,4 @@
 - Github Actions
 
 ### Links
-http://hguccd2024.co.kr
+https://hguccd2024.co.kr
