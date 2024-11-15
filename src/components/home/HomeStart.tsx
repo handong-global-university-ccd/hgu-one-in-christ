@@ -57,7 +57,7 @@ const HomeStart = () => {
         >
           <div className={`relative -z-10 w-screen`}>
             <video
-              className={"sm:hidden"}
+              className={"sm:hidden w-full h-auto"}
               src={`${DOMAIN}images/home/background.mp4`}
               autoPlay
               playsInline
