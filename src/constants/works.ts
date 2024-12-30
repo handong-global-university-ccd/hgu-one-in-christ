@@ -98,7 +98,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
         {
           id: 2,
           extension: "youtube",
-          src: "N4iDH05KLV8",
+          src: "Jws4_uFugtk",
         },
         {
           id: 3,
@@ -158,8 +158,8 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
         },
         {
           id: 2,
-          extension: "webp",
-          src: "images/creation/communication/MinjunSong/pc_contents_02.webp",
+          extension: "youtube",
+          src: "pglxphPXTb8",
         },
         {
           id: 3,
@@ -180,6 +180,16 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
           id: 6,
           extension: "webp",
           src: "images/creation/communication/MinjunSong/pc_contents_06.webp",
+        },
+        {
+          id: 7,
+          extension: "webp",
+          src: "images/creation/communication/MinjunSong/pc_contents_07.webp",
+        },
+        {
+          id: 8,
+          extension: "webp",
+          src: "images/creation/communication/MinjunSong/pc_contents_08.webp",
         },
       ],
     },
@@ -300,13 +310,43 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
         },
         {
           id: 2,
-          extension: "youtube",
-          src: "GYZUCW_oHwQ",
+          extension: "gif",
+          src: "images/creation/communication/SuyoungKo/pc_contents_02.gif",
         },
         {
           id: 3,
           extension: "webp",
           src: "images/creation/communication/SuyoungKo/pc_contents_03.webp",
+        },
+        {
+          id: 4,
+          extension: "youtube",
+          src: "lImgVKJUiqY",
+        },
+        {
+          id: 5,
+          extension: "webp",
+          src: "images/creation/communication/SuyoungKo/pc_contents_05.webp",
+        },
+        {
+          id: 6,
+          extension: "gif",
+          src: "images/creation/communication/SuyoungKo/pc_contents_06.gif",
+        },
+        {
+          id: 7,
+          extension: "webp",
+          src: "images/creation/communication/SuyoungKo/pc_contents_07.webp",
+        },
+        {
+          id: 8,
+          extension: "gif",
+          src: "images/creation/communication/SuyoungKo/pc_contents_08.gif",
+        },
+        {
+          id: 9,
+          extension: "webp",
+          src: "images/creation/communication/SuyoungKo/pc_contents_09.webp",
         },
       ],
     },
@@ -430,7 +470,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       teamName: null,
       designer: [{ id: 28, nameKo: "서유나", studentId: 21900365 }],
       professor: "이진구",
-      title: "The Seoul Graphic Art Fair",
+      title: "The Seoul Graphic Art Fair 브랜딩",
       summary: "서울그래픽아트페어 브랜딩",
       description:
         "서울그래픽아트페어는 그래픽분야의 다양한 아티스트들이 참여하여 자신들의 개성 넘치는 작품을 전시하여 알리고, 대중과 소통하는 아트 축제입니다. 폭넓은 작품을 선보이며, 그래픽 디자인의 혁신과 창의성을 강조합니다. 관람객이 예술과 디자인의 세계에 몰입하고, 새로운 시각을 경험할 수 있도록 하는 것을 목표로 합니다. 또한 그래픽 아트의 최신 트렌드와 기술을 접할 수 있는 기회를 제공하며, 아트 컬렉터와 디자이너들에게 영감을 줄 것입니다. 여러분을 서울그래픽아트페어에서 만날 수 있기를 기대합니다!",
@@ -444,7 +484,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
         {
           id: 2,
           extension: "youtube",
-          src: "BB-KV9WRqNw",
+          src: "VEsAyQzCwwo",
         },
         {
           id: 3,
@@ -690,7 +730,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
         {
           id: 2,
           extension: "youtube",
-          src: "rFhIlIcIrOk",
+          src: "03_LYKGSKHM",
         },
       ],
     },
@@ -713,7 +753,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
         {
           id: 2,
           extension: "youtube",
-          src: "vaC3t9a9G-c",
+          src: "RZdxzCyWfHk",
         },
         {
           id: 3,
@@ -793,8 +833,8 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
         },
         {
           id: 2,
-          extension: "gif",
-          src: "images/creation/communication/YuwonRo/pc_contents_02.gif",
+          extension: "youtube",
+          src: "0RzsPmny1Gw",
         },
         {
           id: 3,
@@ -810,6 +850,16 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
           id: 5,
           extension: "webp",
           src: "images/creation/communication/YuwonRo/pc_contents_05.webp",
+        },
+        {
+          id: 6,
+          extension: "gif",
+          src: "images/creation/communication/YuwonRo/pc_contents_06.gif",
+        },
+        {
+          id: 7,
+          extension: "webp",
+          src: "images/creation/communication/YuwonRo/pc_contents_07.webp",
         },
       ],
     },
@@ -893,7 +943,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
         {
           id: 5,
           extension: "youtube",
-          src: "4l8rTZWSOGA",
+          src: "QjWchUnUlZQ",
         },
         {
           id: 6,
@@ -921,7 +971,12 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
         {
           id: 2,
           extension: "youtube",
-          src: "DDMDfIK1xFM",
+          src: "UCei8At9o0w",
+        },
+        {
+          id: 3,
+          extension: "youtube",
+          src: "hlr2X7_b88w",
         },
       ],
     },
@@ -1025,7 +1080,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       designer: [{ id: 54, nameKo: "장소윤", studentId: 22000622 }],
       professor: "이중섭",
       title: "홀리몰리! (HolyMoly!)",
-      summary: "성경 기반 카드 게임",
+      summary: "성경 말씀 기반 카드게임",
       description:
         "'홀리몰리!(HolyMoly!)'는 일본의 '카루타' 형식을 채용한 카드 게임입니다. 규칙은 간단합니다. 두 세트 중 한 세트를 골라 카드를 잘 섞은 후 그림이 그려진 면을 위에 오게 해 카드를 펼쳐 놓습니다. 그리고 사회자는 나머지 세트를 섞은 후 뒷면에 적힌 성경 구절을 읽습니다. 플레이어들은 사회자가 말하는 것을 잘 듣고, 방금 말한 구절의 앞 혹은 뒤의 내용을 말하면서 해당 구절의 인물이 그려진 카드를 가져갑니다. 펼쳐진 카드가 전부 사라지면 게임이 끝나고, 더 많은 카드를 가져간 사람이 승리하게 됩니다. 성경 암기와 즐거운 카드 게임, 두 마리 토끼를 모두 잡아보세요!",
       thumbnail: "images/creation/communication/SoyoonJang/thumbnail.webp",
@@ -1045,7 +1100,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       title: "Between Us",
       summary: "일광전구 X 에너지 절약 캠페인",
       description:
-        "현대사회에서 기술의 발전은 우리에게 많은 편리함을 가져다주지만, 동시에 지구 환경에 큰 위협이 되기도 합니다. 기후위기에 시대에 지속가능한 미래를 위해 에너지 절약은 이제 선택이 아닌 필수입니다. 'Between Us' 는 아름다운 빛을 올바르게 사용하며 가치있는 삶을 가꾸어가는 지혜를 전하는 길잡이가 되고자 하는 조명 브랜드 ‘일광전구’가 전개하는 에너지 절약 캠페인입니다. 귀여운 3D 캐릭터가 보여주는 과거와 현재의 에너지 사용 방식 대조를 통해 유쾌하게 에너지 절약을 지향하고자 합니다.",
+        "현대사회에서 기술의 발전은 우리에게 많은 편리함을 가져다주지만, 동시에 지구 환경에 큰 위협이 되기도 합니다. 기후 위기의 시대에 지속가능한 미래를 위해 에너지 절약은 이제 선택이 아닌 필수입니다. 'Between Us' 는 아름다운 빛을 올바르게 사용하며 가치 있는 삶을 가꾸어가는 지혜를 전하는 길잡이가 되고자 하는 조명 브랜드 ‘일광전구’가 전개하는 에너지 절약 캠페인입니다. 귀여운 3D 캐릭터가 보여주는 과거와 현재의 에너지 사용 방식 대조를 통해 유쾌하게 에너지 절약을 지향하고자 합니다.",
       thumbnail: "images/creation/communication/UeunJeon/thumbnail.webp",
       creation: [
         {
@@ -1086,7 +1141,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
         {
           id: 8,
           extension: "youtube",
-          src: "mL9dWQXWxt4",
+          src: "gmVm6lxElE8",
         },
         {
           id: 9,
@@ -1207,18 +1262,13 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
         },
         {
           id: 2,
-          extension: "webp",
-          src: "images/creation/communication/HyebinRyu/pc_contents_02.webp",
+          extension: "youtube",
+          src: "O2NWdn8mOUo",
         },
         {
           id: 3,
-          extension: "youtube",
-          src: "zA1hMoX9ZOI",
-        },
-        {
-          id: 4,
           extension: "webp",
-          src: "images/creation/communication/HyebinRyu/pc_contents_04.webp",
+          src: "images/creation/communication/HyebinRyu/pc_contents_03.webp",
         },
       ],
     },
@@ -1311,8 +1361,8 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
         },
         {
           id: 2,
-          extension: "youtube",
-          src: "L9aY0piOtEw",
+          extension: "gif",
+          src: "images/creation/communication/YeyeongChoi/pc_contents_02.gif",
         },
         {
           id: 3,
@@ -1321,13 +1371,8 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
         },
         {
           id: 4,
-          extension: "gif",
-          src: "images/creation/communication/YeyeongChoi/pc_contents_04.gif",
-        },
-        {
-          id: 5,
-          extension: "webp",
-          src: "images/creation/communication/YeyeongChoi/pc_contents_05.webp",
+          extension: "youtube",
+          src: "g-Jel43fiXg",
         },
       ],
     },
@@ -1687,6 +1732,11 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
           extension: "webp",
           src: "images/creation/service/HamaHama/pc_contents_01.webp",
         },
+        {
+          id: 2,
+          extension: "youtube",
+          src: "53Ckcbvj_mQ",
+        },
       ],
     },
     {
@@ -1762,6 +1812,26 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
           extension: "webp",
           src: "images/creation/ux/Haedik/mize/pc_contents_02.webp",
         },
+        {
+          id: 3,
+          extension: "youtube",
+          src: "7MdM2--VblA",
+        },
+        {
+          id: 4,
+          extension: "webp",
+          src: "images/creation/ux/Haedik/mize/pc_contents_04.webp",
+        },
+        {
+          id: 5,
+          extension: "youtube",
+          src: "iV7UuHKiIJI",
+        },
+        {
+          id: 6,
+          extension: "webp",
+          src: "images/creation/ux/Haedik/mize/pc_contents_06.webp",
+        },
       ],
     },
     {
@@ -1819,9 +1889,9 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       ],
       professor: "이은종",
       title: "WELLCOM: 차량 커뮤니케이션의 mediator",
-      summary: "NEUE 모빌리티 커뮤니케이션 경험",
+      summary: "NEUE 모빌리티 커뮤니케이션 AI",
       description:
-        "인간다운 상호교감이 가능한 경험을 통해 차량 탑승자들의 소통을 원활하게 해주는 AI 중심의 2030 미래 모빌리티 커뮤니케이션 솔루션 ‘WELLCOM’을 소개합니다. 차량의 커뮤니케이션을 원활하게 도와주는 ‘WELLCOM’은 좌석의 위치와 방향에 상관없이 서로를 보며 소통하고, 소리의 개방정도를 조절하여 프라이빗한 공간을 생성, Dynamic한 소통 변화에 맞춰 즉각적으로 대응하여 seamless한 소통 환경을 제공합니다. 또한, 차량 내부에서의 정보 공유와 외부와의 소통 확장을 통해 풍성한 소통 경험을 선사합니다.",
+        "인간다운 상호교감이 가능한 경험을 통해 차량 탑승자들의 소통을 원활하게 해주는 AI 중심의 2030 미래 모빌리티 커뮤니케이션 솔루션 'WELLCOM'을 소개합니다. 차량의 커뮤니케이션을 원활하게 도와주는 'WELLCOM'은 좌석의 위치와 방향에 상관없이 서로를 보며 소통하고, 소리의 개방정도를 조절하여 프라이빗한 공간을 생성하고, Dynamic하게 변화하는 커뮤니케이션 상황에 Adaptive하게 대응하여 최적의 커뮤니케이션 경험을 제공합니다. 또한, 차량 내부에서의 정보 공유와 외부와의 소통 확장을 통해 풍성한 소통 경험을 선사합니다.",
       teamImg: "images/designers/ux/team/Lux.webp",
       thumbnail: "images/creation/ux/Lux/WELLCOM/thumbnail.webp",
       creation: [
@@ -1855,6 +1925,16 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
           extension: "webp",
           src: "images/creation/ux/Lux/WELLCOM/pc_contents_06.webp",
         },
+        {
+          id: 7,
+          extension: "webp",
+          src: "images/creation/ux/Lux/WELLCOM/pc_contents_07.webp",
+        },
+        {
+          id: 8,
+          extension: "webp",
+          src: "images/creation/ux/Lux/WELLCOM/pc_contents_08.webp",
+        },
       ],
     },
     {
@@ -1868,10 +1948,10 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
         { id: 41, nameKo: "이석영", studentId: 22435003 },
       ],
       professor: "이은종",
-      title: "Carmmunity: Car+Community",
-      summary: "Weaving on the Way",
+      title: "Life Weaver",
+      summary: "풍성한 Life를 위한 차량 AI의 Weaving",
       description:
-        "Mobility인 차량이 주행을 시작하면 위치와 상황이  변하고 이에 따라 탑승자의 context도 달라집니다. 나와 주행의 여정을 함께하는 차량 AI는 도로 위의 수많은context 속에서 다른 차량과의 connection point를 찾아 'Car'뮤니티의 장을 만들어줍니다. 도로 위의 차량들이 연결되었을 때 어떤 일이 일어날까요?지금 주행중인 곳의 교통상황을 다른 차량에게 공유해줄 수도,먼저 목적지에 도착한 차량에게 주차할 자리가 있는지 반대로 물어볼 수도 있어요. 다른 차와의 연결을 통해 보다 촘촘해지는 도로 위 정보망과 커지는 소통의 즐거움을 누리세요.",
+        "우리의 삶은 무수한 이벤트들의 짜임으로 이루어져 있습니다. 그러한 삶 속에서 차량은 단순히 이동수단에 그치거나 차량 안과 밖에서 독립적인 세계관을 이루어 '차량 안에서만 누릴 수 있는' 독립적인 서비스를 제공해왔습니다. 그러나 Life라는 거시적인 관점에서 본다면 차량 안에서 보내는 시간들도 Life의 이벤트로써 충분히 자리할 수 있다고 정의하게 되었습니다. Life Weaver는 차량의 안과 밖으로 단절되지 않고 우리 삶의 이벤트가 계속될 수 있도록, 차량 또한 하나의 날실로써 끌어들여와 Life를 더욱 풍성하게 만들어 줍니다.",
       teamImg: "images/designers/ux/team/Solti.webp",
       thumbnail: "images/creation/ux/Solti/Carmmunity/thumnail.webp",
       creation: [
@@ -1939,6 +2019,36 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
           extension: "webp",
           src: "images/creation/ux/Vivaz/Cuddy/pc_contents_07.webp",
         },
+        {
+          id: 8,
+          extension: "webp",
+          src: "images/creation/ux/Vivaz/Cuddy/pc_contents_08.webp",
+        },
+        {
+          id: 9,
+          extension: "webp",
+          src: "images/creation/ux/Vivaz/Cuddy/pc_contents_09.webp",
+        },
+        {
+          id: 10,
+          extension: "webp",
+          src: "images/creation/ux/Vivaz/Cuddy/pc_contents_10.webp",
+        },
+        {
+          id: 11,
+          extension: "webp",
+          src: "images/creation/ux/Vivaz/Cuddy/pc_contents_11.webp",
+        },
+        {
+          id: 12,
+          extension: "webp",
+          src: "images/creation/ux/Vivaz/Cuddy/pc_contents_12.webp",
+        },
+        {
+          id: 13,
+          extension: "youtube",
+          src: "qTAE-_WuuRs",
+        },
       ],
     },
     {
@@ -1951,10 +2061,10 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
         { id: 52, nameKo: "임시은", studentId: 22000613 },
       ],
       professor: "이은종",
-      title: "배달의 민족 혁신 서비스 : 푸렌즈 & 분석이",
+      title: "배달의 민족 혁신 서비스: 푸렌즈 & 분석이",
       summary: "배민의 메뉴 고민 해결사",
       description:
-        "넘쳐나는 선택지 속, 현대인들에게 선택은 더 이상 즐거운 일이 아닌 피로감을 주는 과제가 되었습니다. 특히 음식 정보와 리뷰가 넘쳐나는 배달의 민족에서 사용자들은 매번 고민에 빠집니다. 배민의 혁신적인 서비스, 메뉴 고민 해결사 : 푸렌즈와 분석이를 소개합니다. '푸렌즈'는 음식의 특성을 Dynamic하게 표현하는 카메라로 음식의 특징을 생생하게 전달해 리뷰의 선순환을 제공합니다.  '분석이'는 사용자의 다양한 상황에 맞춰 기준을  flexible하게 조절할 수 있어 원하는 정보를 제공 받아 메뉴 선택을 도와줍니다.",
+        "넘쳐나는 선택지 속, 현대인들에게 선택은 더 이상 즐거운 일이 아닌 피로감을 주는 과제가 되었습니다. 특히 음식 정보와 리뷰가 넘쳐나는 배달의 민족에서 사용자들은 매번 고민에 빠집니다. 배민의 혁신적인 서비스, 메뉴 고민 해결사 : 푸렌즈와 분석이를 소개합니다. '푸렌즈'는 음식의 특성을 Dynamic하게 표현하는 카메라로 음식의 특징을 생생하게 전달해 리뷰의 선순환을 제공합니다. '분석이'는 사용자의 다양한 상황에 맞춰 기준을 flexible하게 조절할 수 있어 원하는 정보를 제공 받아 메뉴 선택을 도와줍니다.",
       teamImg: "images/designers/ux/team/Lux.webp",
       thumbnail: "images/creation/ux/Lux/Furenjeu&Bunseogi/thumbnail.webp",
       creation: [
@@ -1970,21 +2080,16 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
         },
         {
           id: 3,
-          extension: "webp",
-          src: "images/creation/ux/Lux/Furenjeu&Bunseogi/pc_contents_03.webp",
-        },
-        {
-          id: 4,
           extension: "youtube",
           src: "qoHRfLNmlx8",
         },
         {
-          id: 5,
+          id: 4,
           extension: "webp",
-          src: "images/creation/ux/Lux/Furenjeu&Bunseogi/pc_contents_05.webp",
+          src: "images/creation/ux/Lux/Furenjeu&Bunseogi/pc_contents_04.webp",
         },
         {
-          id: 6,
+          id: 5,
           extension: "youtube",
           src: "F0hLbAsk13A",
         },
@@ -2024,8 +2129,13 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
         },
         {
           id: 4,
+          extension: "youtube",
+          src: "FYvA82OQgbc",
+        },
+        {
+          id: 5,
           extension: "webp",
-          src: "images/creation/ux/Haedik/BaeminCombi/pc_contents_04.webp",
+          src: "images/creation/ux/Haedik/BaeminCombi/pc_contents_05.webp",
         },
       ],
     },
@@ -2074,10 +2184,10 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
         { id: 41, nameKo: "이석영", studentId: 22435003 },
       ],
       professor: "이은종",
-      title: "신메뉴 시식단 & 샘플러 위크",
-      summary: "배민이라 가능한, 배민스러운 서비스",
+      title: "배민에 혁신을! - 신메뉴 시식단&샘플러 위크",
+      summary: "배민이 가장 잘 할 수 있는 혁신 서비스",
       description:
-        "[신메뉴시식단] 새로운 메뉴를 개발중인 사장님들을 위해 배민에서 대신 시식단을 모집해드립니다! 메뉴 출시 전에 입맛과 리뷰 스타일이 담긴 시식 프로필을 바탕으로 사장님은 꼭 맞는 시식단을 모집할 수 있습니다. [샘플러] 음식을 미리 맛볼 수 있도록 선정한 음식의 표본들을 말합니다. 배민의 샘플러위크는 여러 가게가 연합하여 메뉴 하나의 가격으로 3개의 메뉴를 한번에 맛볼 수 있는 배달음식 샘플러를 제공하는 서비스입니다. 샘플러 위크, 한 끼 가격으로 다양한 메뉴를 맛보세요!",
+        "신메뉴 시식단은 신메뉴를 개발중인 배민의 사장님을 위한 서비스입니다. 메뉴를 맛보고 가장 유용한 평가를 남겨줄 시식단을 모집하는 과정부터, 시식단이 간편하고 세세하게 리뷰 남길 수 있는 플로우를 제안합니다. 샘플러 위크는 먹어보고 싶은 메뉴를 손님이 0.3~0.5인분의 샘플러로 담아 나만의 한 끼 식사를 만들 수 있는 서비스입니다. 행사가 진행되는 일주일 동안 우리 동네 가게들을 내맘대로 자유롭게 조합해서 다양한 음식을 맛보고 이 과정에서 새로운 꿀조합을 발견할 수 있습니다.",
       teamImg: "images/designers/ux/team/Solti.webp",
       thumbnail: "images/creation/ux/Solti/SamplerWeek/thumbnail.webp",
       creation: [
@@ -2089,47 +2199,17 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
         {
           id: 2,
           extension: "youtube",
-          src: "UwsUjNVUlfM",
+          src: "1RVpKxGReeY",
         },
         {
           id: 3,
-          extension: "youtube",
-          src: "5os8DnFAWvo",
+          extension: "webp",
+          src: "images/creation/ux/Solti/SamplerWeek/pc_contents_03.webp",
         },
         {
           id: 4,
-          extension: "webp",
-          src: "images/creation/ux/Solti/SamplerWeek/pc_contents_04.webp",
-        },
-        {
-          id: 5,
-          extension: "webp",
-          src: "images/creation/ux/Solti/SamplerWeek/pc_contents_05.webp",
-        },
-        {
-          id: 6,
-          extension: "webp",
-          src: "images/creation/ux/Solti/SamplerWeek/pc_contents_06.webp",
-        },
-        {
-          id: 7,
-          extension: "webp",
-          src: "images/creation/ux/Solti/SamplerWeek/pc_contents_07.webp",
-        },
-        {
-          id: 8,
-          extension: "webp",
-          src: "images/creation/ux/Solti/SamplerWeek/pc_contents_08.webp",
-        },
-        {
-          id: 9,
-          extension: "webp",
-          src: "images/creation/ux/Solti/SamplerWeek/pc_contents_09.webp",
-        },
-        {
-          id: 10,
-          extension: "webp",
-          src: "images/creation/ux/Solti/SamplerWeek/pc_contents_10.webp",
+          extension: "youtube",
+          src: "FSstoNZLqqU",
         },
       ],
     },
@@ -2187,8 +2267,18 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
         },
         {
           id: 8,
+          extension: "youtube",
+          src: "UIavvli2iuA",
+        },
+        {
+          id: 9,
           extension: "webp",
-          src: "images/creation/ux/Vivaz/Bizmate/pc_contents_08.webp",
+          src: "images/creation/ux/Vivaz/Bizmate/pc_contents_09.webp",
+        },
+        {
+          id: 10,
+          extension: "youtube",
+          src: "ksA8hUncgk8",
         },
       ],
     },
