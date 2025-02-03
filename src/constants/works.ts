@@ -1261,7 +1261,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       summary: "향수 브랜드",
       description:
         "향수 브랜드 'OPACITY'는 도시적이고 모던한 라이프스타일을 추구하는 사람들을 위한 향수입니다. 투명함의 농도를 조절하여 개인의 개성과 감각을 자연스럽게 표현할 수 있는 것이 특징으로, 화려한 장식보다 심플하고 세련된 디자인을 선호하는 현대인을 위한 향수입니다. 투명 농도 0%, 30%, 50%에 따라 자신만의 독특한 향기를 찾아 완성된 스타일을 만들어낼 수 있습니다. 향기와 함께 자신만의 특별한 순간을 담아낼 수 있는 브랜드입니다. 투명함의 농도로 당신만의 이야기를 담아보세요.",
-      thumbnail: "images/creation/communication/YeyeongChoi/thumnail.webp",
+      thumbnail: "images/creation/communication/YeyeongChoi/thumbnail.webp",
       creation: [
         {
           id: 1,
