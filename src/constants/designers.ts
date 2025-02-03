@@ -34,7 +34,7 @@ export const DESIGNERS = [
       {
         work: WORKS.COMMUNICATION,
         category: "Communication",
-        worksId: 8,
+        worksId: 7,
       },
       {
         work: WORKS.SERVICE,
@@ -55,7 +55,7 @@ export const DESIGNERS = [
       {
         work: WORKS.COMMUNICATION,
         category: "Communication",
-        worksId: 22,
+        worksId: 21,
       },
       {
         work: WORKS.SERVICE,
@@ -76,7 +76,7 @@ export const DESIGNERS = [
       {
         work: WORKS.COMMUNICATION,
         category: "Communication",
-        worksId: 9,
+        worksId: 8,
       },
       {
         work: WORKS.SERVICE,
@@ -117,7 +117,7 @@ export const DESIGNERS = [
       {
         work: WORKS.COMMUNICATION,
         category: "Communication",
-        worksId: 10,
+        worksId: 9,
       },
       {
         work: WORKS.SERVICE,
@@ -137,7 +137,7 @@ export const DESIGNERS = [
       {
         work: WORKS.COMMUNICATION,
         category: "Communication",
-        worksId: 11,
+        worksId: 10,
       },
       {
         work: WORKS.SERVICE,
@@ -158,7 +158,7 @@ export const DESIGNERS = [
       {
         work: WORKS.COMMUNICATION,
         category: "Communication",
-        worksId: 12,
+        worksId: 11,
       },
       {
         work: WORKS.SERVICE,
@@ -236,7 +236,7 @@ export const DESIGNERS = [
       {
         work: WORKS.COMMUNICATION,
         category: "Communication",
-        worksId: 13,
+        worksId: 12,
       },
       {
         work: WORKS.SERVICE,
@@ -257,7 +257,7 @@ export const DESIGNERS = [
       {
         work: WORKS.COMMUNICATION,
         category: "Communication",
-        worksId: 23,
+        worksId: 22,
       },
       {
         work: WORKS.SERVICE,
@@ -299,7 +299,7 @@ export const DESIGNERS = [
       {
         work: WORKS.COMMUNICATION,
         category: "Communication",
-        worksId: 24,
+        worksId: 23,
       },
       {
         work: WORKS.SERVICE,
@@ -319,7 +319,7 @@ export const DESIGNERS = [
       {
         work: WORKS.COMMUNICATION,
         category: "Communication",
-        worksId: 37,
+        worksId: 36,
       },
       {
         work: WORKS.SERVICE,
@@ -355,7 +355,7 @@ export const DESIGNERS = [
       {
         work: WORKS.COMMUNICATION,
         category: "Communication",
-        worksId: 25,
+        worksId: 24,
       },
       {
         work: WORKS.SERVICE,
@@ -376,7 +376,7 @@ export const DESIGNERS = [
       {
         work: WORKS.COMMUNICATION,
         category: "Communication",
-        worksId: 38,
+        worksId: 37,
       },
       {
         work: WORKS.SERVICE,
@@ -427,7 +427,7 @@ export const DESIGNERS = [
       {
         work: WORKS.COMMUNICATION,
         category: "Communication",
-        worksId: 26,
+        worksId: 25,
       },
       {
         work: WORKS.SERVICE,
@@ -445,11 +445,6 @@ export const DESIGNERS = [
     description:
       "열심히 하는 것은 쉬운데, 나아지는 것은 좀처럼 어렵다. 우선 나아지려면 무엇이 나아지는 것인지 알아야 한다. 무엇이 좋은 것이고, 무엇이 더 아름다운지 알아야 한다. 그 감각이 목표가 되고 기준이 된다. 해오던 대로 하지 않아야 하고, 해오지 않았던 대로 해야 한다. 낯설고 어색한 방식과 결과물, 어쩌면 더 나은 결과물을 만들고도 그냥 지나치게 될지도 모른다. 모호한 ‘좋은 것’에 답을 내리는 중이다.",
     works: [
-      {
-        work: WORKS.COMMUNICATION,
-        category: "Communication",
-        worksId: 1,
-      },
       {
         work: WORKS.SERVICE,
         category: "Service",
@@ -469,7 +464,7 @@ export const DESIGNERS = [
       {
         work: WORKS.COMMUNICATION,
         category: "Communication",
-        worksId: 3,
+        worksId: 2,
       },
       {
         work: WORKS.SERVICE,
@@ -511,7 +506,7 @@ export const DESIGNERS = [
       {
         work: WORKS.COMMUNICATION,
         category: "Communication",
-        worksId: 14,
+        worksId: 13,
       },
       {
         work: WORKS.SERVICE,
@@ -532,7 +527,7 @@ export const DESIGNERS = [
       {
         work: WORKS.COMMUNICATION,
         category: "Communication",
-        worksId: 4,
+        worksId: 3,
       },
       {
         work: WORKS.SERVICE,
@@ -553,7 +548,7 @@ export const DESIGNERS = [
       {
         work: WORKS.COMMUNICATION,
         category: "Communication",
-        worksId: 15,
+        worksId: 14,
       },
       {
         work: WORKS.SERVICE,
@@ -595,7 +590,7 @@ export const DESIGNERS = [
       {
         work: WORKS.COMMUNICATION,
         category: "Communication",
-        worksId: 27,
+        worksId: 26,
       },
       {
         work: WORKS.SERVICE,
@@ -616,7 +611,7 @@ export const DESIGNERS = [
       {
         work: WORKS.COMMUNICATION,
         category: "Communication",
-        worksId: 5,
+        worksId: 4,
       },
       {
         work: WORKS.SERVICE,
@@ -679,7 +674,7 @@ export const DESIGNERS = [
       {
         work: WORKS.COMMUNICATION,
         category: "Communication",
-        worksId: 28,
+        worksId: 27,
       },
       {
         work: WORKS.SERVICE,
@@ -700,7 +695,7 @@ export const DESIGNERS = [
       {
         work: WORKS.COMMUNICATION,
         category: "Communication",
-        worksId: 16,
+        worksId: 15,
       },
       {
         work: WORKS.SERVICE,
@@ -742,7 +737,7 @@ export const DESIGNERS = [
       {
         work: WORKS.COMMUNICATION,
         category: "Communication",
-        worksId: 2,
+        worksId: 1,
       },
       {
         work: WORKS.SERVICE,
@@ -784,7 +779,7 @@ export const DESIGNERS = [
       {
         work: WORKS.COMMUNICATION,
         category: "Communication",
-        worksId: 29,
+        worksId: 28,
       },
       {
         work: WORKS.SERVICE,
@@ -805,7 +800,7 @@ export const DESIGNERS = [
       {
         work: WORKS.COMMUNICATION,
         category: "Communication",
-        worksId: 17,
+        worksId: 16,
       },
       {
         work: WORKS.SERVICE,
@@ -880,7 +875,7 @@ export const DESIGNERS = [
       {
         work: WORKS.COMMUNICATION,
         category: "Communication",
-        worksId: 30,
+        worksId: 29,
       },
       {
         work: WORKS.SERVICE,
@@ -901,7 +896,7 @@ export const DESIGNERS = [
       {
         work: WORKS.COMMUNICATION,
         category: "Communication",
-        worksId: 31,
+        worksId: 30,
       },
       {
         work: WORKS.SERVICE,
@@ -943,7 +938,7 @@ export const DESIGNERS = [
       {
         work: WORKS.COMMUNICATION,
         category: "Communication",
-        worksId: 18,
+        worksId: 17,
       },
       {
         work: WORKS.SERVICE,
@@ -985,7 +980,7 @@ export const DESIGNERS = [
       {
         work: WORKS.COMMUNICATION,
         category: "Communication",
-        worksId: 6,
+        worksId: 4,
       },
       {
         work: WORKS.SERVICE,
@@ -1006,7 +1001,7 @@ export const DESIGNERS = [
       {
         work: WORKS.COMMUNICATION,
         category: "Communication",
-        worksId: 19,
+        worksId: 18,
       },
       {
         work: WORKS.SERVICE,
@@ -1027,7 +1022,7 @@ export const DESIGNERS = [
       {
         work: WORKS.COMMUNICATION,
         category: "Communication",
-        worksId: 39,
+        worksId: 38,
       },
       {
         work: WORKS.SERVICE,
@@ -1069,7 +1064,7 @@ export const DESIGNERS = [
       {
         work: WORKS.COMMUNICATION,
         category: "Communication",
-        worksId: 32,
+        worksId: 31,
       },
       {
         work: WORKS.SERVICE,
@@ -1090,7 +1085,7 @@ export const DESIGNERS = [
       {
         work: WORKS.COMMUNICATION,
         category: "Communication",
-        worksId: 33,
+        worksId: 32,
       },
       {
         work: WORKS.SERVICE,
@@ -1107,11 +1102,6 @@ export const DESIGNERS = [
     img: "images/designers/comm/heejinJang.webp",
     description: "사람과 사랑, 그리고 마침내 발견한 아름다움에 감탄합니다.",
     works: [
-      {
-        work: WORKS.COMMUNICATION,
-        category: "Communication",
-        worksId: 40,
-      },
       {
         work: WORKS.SERVICE,
         category: "Service",
@@ -1131,7 +1121,7 @@ export const DESIGNERS = [
       {
         work: WORKS.COMMUNICATION,
         category: "Communication",
-        worksId: 34,
+        worksId: 33,
       },
       {
         work: WORKS.SERVICE,
@@ -1152,7 +1142,7 @@ export const DESIGNERS = [
       {
         work: WORKS.COMMUNICATION,
         category: "Communication",
-        worksId: 35,
+        worksId: 34,
       },
       {
         work: WORKS.SERVICE,
@@ -1173,7 +1163,7 @@ export const DESIGNERS = [
       {
         work: WORKS.COMMUNICATION,
         category: "Communication",
-        worksId: 36,
+        worksId: 35,
       },
       {
         work: WORKS.SERVICE,
@@ -1195,7 +1185,7 @@ export const DESIGNERS = [
       {
         work: WORKS.COMMUNICATION,
         category: "Communication",
-        worksId: 20,
+        worksId: 19,
       },
       {
         work: WORKS.SERVICE,
@@ -1215,7 +1205,7 @@ export const DESIGNERS = [
       {
         work: WORKS.COMMUNICATION,
         category: "Communication",
-        worksId: 42,
+        worksId: 40,
       },
       {
         work: WORKS.SERVICE,
@@ -1257,7 +1247,7 @@ export const DESIGNERS = [
       {
         work: WORKS.COMMUNICATION,
         category: "Communication",
-        worksId: 21,
+        worksId: 20,
       },
       {
         work: WORKS.SERVICE,
@@ -1299,7 +1289,7 @@ export const DESIGNERS = [
       {
         work: WORKS.COMMUNICATION,
         category: "Communication",
-        worksId: 7,
+        worksId: 6,
       },
       {
         work: WORKS.SERVICE,
@@ -1340,7 +1330,7 @@ export const DESIGNERS = [
       {
         work: WORKS.COMMUNICATION,
         category: "Communication",
-        worksId: 41,
+        worksId: 39,
       },
       {
         work: WORKS.SERVICE,

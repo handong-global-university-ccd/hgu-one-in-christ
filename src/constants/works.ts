@@ -6,54 +6,6 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
     {
       id: 1,
       teamName: null,
-      designer: [{ id: 23, nameKo: "박승주", studentId: 21700271 }],
-      professor: "이진구",
-      title: "PARTY WAVE AGIT",
-      summary: "서핑 하우스 브랜딩",
-      description:
-        "파티웨이브 아지트는 서핑 스테이라는 새로운 경험을 제공합니다. 이곳은 서퍼들의 문화, 라이프스타일, 그리고 그들의 가치관을 다양한 활동을 통해 경험할 수 있는 공간입니다. 파티웨이브 아지트의 공간은 과 경험은 낡은 서핑 잡지, 판자집, 그리고 액자에서 영감을 받아 만들어졌습니다. 사람들은 음식, 서핑, 바다, 태양, 그리고 음악을 즐기며, 이를 통해 살아있음을 느낍니다. 우리는 다양한 맥락에서 모인 낯선 사람들에게 서핑이라는 연대 속에서 이뤄지는 모든 놀라움을 제공합니다.",
-      thumbnail: "images/creation/communication/SeungjuPark_A/thumbnail.webp",
-      creation: [
-        {
-          id: 1,
-          extension: "webp",
-          src: "images/creation/communication/SeungjuPark_A/pc_contents_01.webp",
-        },
-        {
-          id: 2,
-          extension: "gif",
-          src: "images/creation/communication/SeungjuPark_A/pc_contents_02.gif",
-        },
-        {
-          id: 3,
-          extension: "webp",
-          src: "images/creation/communication/SeungjuPark_A/pc_contents_03.webp",
-        },
-        {
-          id: 4,
-          extension: "gif",
-          src: "images/creation/communication/SeungjuPark_A/pc_contents_04.gif",
-        },
-        {
-          id: 5,
-          extension: "webp",
-          src: "images/creation/communication/SeungjuPark_A/pc_contents_05.webp",
-        },
-        {
-          id: 6,
-          extension: "youtube",
-          src: "wJpGLV84zOA",
-        },
-        {
-          id: 7,
-          extension: "webp",
-          src: "images/creation/communication/SeungjuPark_A/pc_contents_07.webp",
-        },
-      ],
-    },
-    {
-      id: 2,
-      teamName: null,
       designer: [{ id: 37, nameKo: "안희재", studentId: 21700427 }],
       professor: "이진구",
       title: "식(蝕) | 신성의 잔해",
@@ -80,7 +32,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       ],
     },
     {
-      id: 3,
+      id: 2,
       teamName: null,
       designer: [{ id: 24, nameKo: "박승주", studentId: 21800297 }],
       professor: "이진구",
@@ -113,7 +65,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       ],
     },
     {
-      id: 4,
+      id: 3,
       teamName: null,
       designer: [{ id: 27, nameKo: "박창조", studentId: 21800323 }],
       professor: "이진구",
@@ -141,7 +93,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       ],
     },
     {
-      id: 5,
+      id: 4,
       teamName: null,
       designer: [{ id: 31, nameKo: "송민준", studentId: 21800393 }],
       professor: "이중섭",
@@ -194,7 +146,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       ],
     },
     {
-      id: 6,
+      id: 5,
       teamName: null,
       designer: [{ id: 49, nameKo: "이하준", studentId: 21800595 }],
       professor: "이중섭",
@@ -212,7 +164,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       ],
     },
     {
-      id: 7,
+      id: 6,
       teamName: null,
       designer: [{ id: 64, nameKo: "최가흔", studentId: 21800722 }],
       professor: "이중섭",
@@ -260,7 +212,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       ],
     },
     {
-      id: 8,
+      id: 7,
       teamName: null,
       designer: [{ id: 2, nameKo: "강수빈", studentId: 21900006 }],
       professor: "이진구",
@@ -293,7 +245,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       ],
     },
     {
-      id: 9,
+      id: 8,
       teamName: null,
       designer: [{ id: 4, nameKo: "고수영", studentId: 21900025 }],
       professor: "이진구",
@@ -351,7 +303,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       ],
     },
     {
-      id: 10,
+      id: 9,
       teamName: null,
       designer: [{ id: 6, nameKo: "김가현", studentId: 21900061 }],
       professor: "이중섭",
@@ -369,7 +321,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       ],
     },
     {
-      id: 11,
+      id: 10,
       teamName: null,
       designer: [{ id: 7, nameKo: "김경진", studentId: 21900067 }],
       professor: "이진구",
@@ -392,7 +344,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       ],
     },
     {
-      id: 12,
+      id: 11,
       teamName: null,
       designer: [{ id: 8, nameKo: "김나경", studentId: 21900074 }],
       professor: "이진구",
@@ -420,7 +372,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       ],
     },
     {
-      id: 13,
+      id: 12,
       teamName: null,
       designer: [{ id: 12, nameKo: "김성순", studentId: 21900114 }],
       professor: "이중섭",
@@ -438,7 +390,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       ],
     },
     {
-      id: 14,
+      id: 13,
       teamName: null,
       designer: [{ id: 26, nameKo: "박은실", studentId: 21900299 }],
       professor: "이진구",
@@ -466,7 +418,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       ],
     },
     {
-      id: 15,
+      id: 14,
       teamName: null,
       designer: [{ id: 28, nameKo: "서유나", studentId: 21900365 }],
       professor: "이진구",
@@ -494,7 +446,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       ],
     },
     {
-      id: 16,
+      id: 15,
       teamName: null,
       designer: [{ id: 35, nameKo: "안다진", studentId: 21900417 }],
       professor: "이중섭",
@@ -512,7 +464,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       ],
     },
     {
-      id: 17,
+      id: 16,
       teamName: null,
       designer: [{ id: 40, nameKo: "이동연", studentId: 21900494 }],
       professor: "이진구",
@@ -555,7 +507,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       ],
     },
     {
-      id: 18,
+      id: 17,
       teamName: null,
       designer: [{ id: 47, nameKo: "이지향", studentId: 21900569 }],
       professor: "이진구",
@@ -588,7 +540,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       ],
     },
     {
-      id: 19,
+      id: 18,
       teamName: null,
       designer: [{ id: 50, nameKo: "이현화", studentId: 21900598 }],
       professor: "이진구",
@@ -636,7 +588,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       ],
     },
     {
-      id: 20,
+      id: 19,
       teamName: null,
       designer: [{ id: 59, nameKo: "정해인", studentId: 21900653 }],
       professor: "이진구",
@@ -694,7 +646,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       ],
     },
     {
-      id: 21,
+      id: 20,
       teamName: null,
       designer: [{ id: 62, nameKo: "조은비", studentId: 21900709 }],
       professor: "이중섭",
@@ -712,7 +664,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       ],
     },
     {
-      id: 22,
+      id: 21,
       teamName: null,
       designer: [{ id: 3, nameKo: "강지은", studentId: 21901003 }],
       professor: "이진구",
@@ -735,7 +687,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       ],
     },
     {
-      id: 23,
+      id: 22,
       teamName: null,
       designer: [{ id: 13, nameKo: "김수아", studentId: 22000110 }],
       professor: "이진구",
@@ -778,7 +730,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       ],
     },
     {
-      id: 24,
+      id: 23,
       teamName: null,
       designer: [{ id: 15, nameKo: "김은빈", studentId: 22000160 }],
       professor: "이진구",
@@ -816,7 +768,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       ],
     },
     {
-      id: 25,
+      id: 24,
       teamName: null,
       designer: [{ id: 18, nameKo: "노유원", studentId: 22000227 }],
       professor: "이증섭",
@@ -864,7 +816,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       ],
     },
     {
-      id: 26,
+      id: 25,
       teamName: null,
       designer: [{ id: 22, nameKo: "박보민", studentId: 22000260 }],
       professor: "이진구",
@@ -892,7 +844,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       ],
     },
     {
-      id: 27,
+      id: 26,
       teamName: null,
       designer: [{ id: 30, nameKo: "서하령", studentId: 22000353 }],
       professor: "이중섭",
@@ -910,7 +862,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       ],
     },
     {
-      id: 28,
+      id: 27,
       teamName: null,
       designer: [{ id: 34, nameKo: "안가현", studentId: 22000399 }],
       professor: "이진구",
@@ -953,7 +905,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       ],
     },
     {
-      id: 29,
+      id: 28,
       teamName: null,
       designer: [{ id: 39, nameKo: "유주희", studentId: 22000465 }],
       professor: "이진구",
@@ -981,7 +933,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       ],
     },
     {
-      id: 30,
+      id: 29,
       teamName: null,
       designer: [{ id: 44, nameKo: "이주아", studentId: 22000565 }],
       professor: "이진구",
@@ -1009,7 +961,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       ],
     },
     {
-      id: 31,
+      id: 30,
       teamName: null,
       designer: [{ id: 45, nameKo: "이주영", studentId: 22000566 }],
       professor: "이진구",
@@ -1047,7 +999,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       ],
     },
     {
-      id: 32,
+      id: 31,
       teamName: null,
       designer: [{ id: 53, nameKo: "임예담", studentId: 22000615 }],
       professor: "이진구",
@@ -1075,7 +1027,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       ],
     },
     {
-      id: 33,
+      id: 32,
       teamName: null,
       designer: [{ id: 54, nameKo: "장소윤", studentId: 22000622 }],
       professor: "이중섭",
@@ -1093,7 +1045,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       ],
     },
     {
-      id: 34,
+      id: 33,
       teamName: null,
       designer: [{ id: 56, nameKo: "전유은", studentId: 22000651 }],
       professor: "이진구",
@@ -1151,7 +1103,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       ],
     },
     {
-      id: 35,
+      id: 34,
       teamName: null,
       designer: [{ id: 57, nameKo: "정예은", studentId: 22000681 }],
       professor: "이진구",
@@ -1179,7 +1131,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       ],
     },
     {
-      id: 36,
+      id: 35,
       teamName: null,
       designer: [{ id: 58, nameKo: "정은서", studentId: 22000686 }],
       professor: "이진구",
@@ -1207,7 +1159,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       ],
     },
     {
-      id: 37,
+      id: 36,
       teamName: null,
       designer: [{ id: 16, nameKo: "김현지", studentId: 22001014 }],
       professor: "이진구",
@@ -1245,7 +1197,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       ],
     },
     {
-      id: 38,
+      id: 37,
       teamName: null,
       designer: [{ id: 19, nameKo: "류혜빈", studentId: 22001019 }],
       professor: "이진구",
@@ -1273,7 +1225,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       ],
     },
     {
-      id: 39,
+      id: 38,
       teamName: null,
       designer: [{ id: 51, nameKo: "임다솔", studentId: 22001057 }],
       professor: "이진구",
@@ -1301,50 +1253,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       ],
     },
     {
-      id: 40,
-      teamName: null,
-      designer: [{ id: 55, nameKo: "장희진", studentId: 22001058 }],
-      professor: "이진구",
-      title: "EDENIQUE",
-      summary: "크리스찬 웨딩 스타일링 브랜드 EDENIQUE",
-      description:
-        "에데니크〈EDENIQUE〉는 획일화된 현대 결혼 문화의 장식적 외형에서 벗어나, 결혼의 본질에 대해 성찰할 수 있는 여정을 제시합니다. 우리는 결혼이라는 신성한 결합이 지닌 내면적 의미와 영속적인 아름다움을 되새기고자 합니다. 에데니크〈EDENIQUE〉는 진정한 기쁨과 깊은 사랑이 피어나는 장을 마련하여, 결혼식이 단순한 의식이 아니라 인생에서 가장 의미 있는 성찰과 축복의 순간으로 거듭날 수 있도록 합니다. 자연의 숨결 속에서, 창조의 조화와 영원한 사랑의 약속이 어우러진 깊은 감동의 하루를 경험해보세요.",
-      thumbnail: "images/creation/communication/heejinJang/thumbnail.webp",
-      creation: [
-        {
-          id: 1,
-          extension: "webp",
-          src: "images/creation/communication/heejinJang/pc_contents_01.webp",
-        },
-        {
-          id: 2,
-          extension: "youtube",
-          src: "0Yd72LFdgPk",
-        },
-        {
-          id: 3,
-          extension: "gif",
-          src: "images/creation/communication/heejinJang/pc_contents_03.gif",
-        },
-        {
-          id: 4,
-          extension: "webp",
-          src: "images/creation/communication/heejinJang/pc_contents_04.webp",
-        },
-        {
-          id: 5,
-          extension: "gif",
-          src: "images/creation/communication/heejinJang/pc_contents_05.gif",
-        },
-        {
-          id: 6,
-          extension: "webp",
-          src: "images/creation/communication/heejinJang/pc_contents_06.webp",
-        },
-      ],
-    },
-    {
-      id: 41,
+      id: 39,
       teamName: null,
       designer: [{ id: 66, nameKo: "최예영", studentId: 22001069 }],
       professor: "이중섭",
@@ -1377,7 +1286,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       ],
     },
     {
-      id: 42,
+      id: 40,
       teamName: null,
       designer: [{ id: 60, nameKo: "정희주", studentId: 22100696 }],
       professor: "이진구",
