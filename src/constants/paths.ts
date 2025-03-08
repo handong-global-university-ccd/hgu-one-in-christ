@@ -7,4 +7,4 @@ export const PATHS = {
   DESIGNER_DETAIL: "/designers/:designerId",
 };
 
-export const DOMAIN = "https://hguccd2024.co.kr/";
+export const DOMAIN = "https://d1fj7b3vy8vimk.cloudfront.net/";
