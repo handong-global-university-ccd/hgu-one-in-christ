@@ -10,4 +10,5 @@
 - Github Actions
 
 ### Links
-https://hguccd2024.co.kr
+https://hguccd2024.co.kr -> deprecated
+https://hguccd2024.netlify.app/
