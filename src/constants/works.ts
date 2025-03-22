@@ -1926,7 +1926,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
         {
           id: 7,
           extension: "webp",
-          src: "images/creation/ux/Vivaz/Cuddy/pc_contents_07.webp",
+          src: "images/creation/ux/Vivaz/Cuddy/pc_contents_07.png",
         },
         {
           id: 8,
