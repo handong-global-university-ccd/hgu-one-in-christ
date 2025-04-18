@@ -1862,7 +1862,7 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
       description:
         "우리의 삶은 무수한 이벤트들의 짜임으로 이루어져 있습니다. 그러한 삶 속에서 차량은 단순히 이동수단에 그치거나 차량 안과 밖에서 독립적인 세계관을 이루어 '차량 안에서만 누릴 수 있는' 독립적인 서비스를 제공해왔습니다. 그러나 Life라는 거시적인 관점에서 본다면 차량 안에서 보내는 시간들도 Life의 이벤트로써 충분히 자리할 수 있다고 정의하게 되었습니다. Life Weaver는 차량의 안과 밖으로 단절되지 않고 우리 삶의 이벤트가 계속될 수 있도록, 차량 또한 하나의 날실로써 끌어들여와 Life를 더욱 풍성하게 만들어 줍니다.",
       teamImg: "images/designers/ux/team/Solti.webp",
-      thumbnail: "images/creation/ux/Solti/Carmmunity/thumnail.webp",
+      thumbnail: "images/creation/ux/Solti/Carmmunity/thumbnail.webp",
       creation: [
         {
           id: 1,
@@ -1871,8 +1871,23 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
         },
         {
           id: 2,
+          extension: "youtube",
+          src: "sH52DJX9cLA",
+        },
+        {
+          id: 3,
           extension: "webp",
-          src: "images/creation/ux/Solti/Carmmunity/pc_contents_02.webp",
+          src: "images/creation/ux/Solti/Carmmunity/pc_contents_03.webp",
+        },
+        {
+          id: 4,
+          extension: "youtube",
+          src: "HaF1eEB8oYg",
+        },
+        {
+          id: 5,
+          extension: "webp",
+          src: "images/creation/ux/Solti/Carmmunity/pc_contents_05.webp",
         },
       ],
     },
@@ -2107,16 +2122,26 @@ export const WORKS: { [key in WorkCategory]: Work[] } = {
         },
         {
           id: 2,
+          extension: "webp",
+          src: "images/creation/ux/Solti/SamplerWeek/pc_contents_02.webp",
+        },
+        {
+          id: 3,
           extension: "youtube",
           src: "1RVpKxGReeY",
         },
         {
-          id: 3,
+          id: 4,
           extension: "webp",
-          src: "images/creation/ux/Solti/SamplerWeek/pc_contents_03.webp",
+          src: "images/creation/ux/Solti/SamplerWeek/pc_contents_04.webp",
         },
         {
-          id: 4,
+          id: 5,
+          extension: "webp",
+          src: "images/creation/ux/Solti/SamplerWeek/pc_contents_05.webp",
+        },
+        {
+          id: 6,
           extension: "youtube",
           src: "FSstoNZLqqU",
         },
